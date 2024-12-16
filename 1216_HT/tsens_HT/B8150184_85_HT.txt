@@ -1,0 +1,14 @@
+Device ID                 : B8150184
+
+offset_val_0x1HTB8150184  : 1789
+slope_val_0x0HTB8150184   : 945
+status_done_0x1AHTB8150184 : 0
+fptat_reg_0x1CHTB8150184  : 5664
+fpref_reg_0x1DHTB8150184  : 4841
+temp_read_reg_0xAHTB8150184 : 1048
+anthr_temp_read_reg_0x22HTB8150184 : 81
+temp_rangeHTB8150184      : 6.86828e+07
+
+Target Temp               : 85
+Read out dec              : 1048
+tempC                     : 81

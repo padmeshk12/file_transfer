@@ -1,0 +1,14 @@
+Device ID                 : B8150200
+
+offset_val_0x1PCB8150200  : 1880
+slope_val_0x0PCB8150200   : 1054
+status_done_0x1APCB8150200 : 0
+fptat_reg_0x1CPCB8150200  : 4852
+fpref_reg_0x1DPCB8150200  : 4374
+temp_read_reg_0xAPCB8150200 : 1079
+anthr_temp_read_reg_0x22PCB8150200 : 84
+temp_rangePCB8150200      : 7.07144e+07
+
+Target Temp               : 85
+Read out dec              : 1079
+tempC                     : 84.875

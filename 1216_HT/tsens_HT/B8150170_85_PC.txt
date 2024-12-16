@@ -1,0 +1,14 @@
+Device ID                 : B8150170
+
+offset_val_0x1PCB8150170  : 1733
+slope_val_0x0PCB8150170   : 994
+status_done_0x1APCB8150170 : 0
+fptat_reg_0x1CPCB8150170  : 4856
+fpref_reg_0x1DPCB8150170  : 4346
+temp_read_reg_0xAPCB8150170 : 1078
+anthr_temp_read_reg_0x22PCB8150170 : 84
+temp_rangePCB8150170      : 7.06489e+07
+
+Target Temp               : 85
+Read out dec              : 1078
+tempC                     : 84.75
