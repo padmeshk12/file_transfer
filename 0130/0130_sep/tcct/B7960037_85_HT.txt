@@ -1,0 +1,14 @@
+Device ID                 : B7960037
+
+offset_val_0x1HTB7960037  : 1789
+slope_val_0x0HTB7960037   : 945
+status_done_0x1AHTB7960037 : 0
+fptat_reg_0x1CHTB7960037  : 4635
+fpref_reg_0x1DHTB7960037  : 4135
+temp_read_reg_0xAHTB7960037 : 894
+anthr_temp_read_reg_0x22HTB7960037 : 61
+temp_rangeHTB7960037      : 5.85901e+07
+
+Target Temp               : 85
+Read out dec              : 894
+tempC                     : 61.75

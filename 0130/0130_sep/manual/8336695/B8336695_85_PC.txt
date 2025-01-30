@@ -1,0 +1,14 @@
+Device ID                 : B8336695
+
+offset_val_0x1PCB8336695  : 1633
+slope_val_0x0PCB8336695   : 973
+status_done_0x1APCB8336695 : 0
+fptat_reg_0x1CPCB8336695  : 4716
+fpref_reg_0x1DPCB8336695  : 4266
+temp_read_reg_0xAPCB8336695 : 1082
+anthr_temp_read_reg_0x22PCB8336695 : 85
+temp_rangePCB8336695      : 7.0911e+07
+
+Target Temp               : 85
+Read out dec              : 1082
+tempC                     : 85.25
