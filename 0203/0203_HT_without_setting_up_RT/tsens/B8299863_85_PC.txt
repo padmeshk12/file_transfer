@@ -1,0 +1,14 @@
+Device ID                 : B8299863
+
+offset_val_0x1PCB8299863  : 2214
+slope_val_0x0PCB8299863   : 1118
+status_done_0x1APCB8299863 : 0
+fptat_reg_0x1CPCB8299863  : 5088
+fpref_reg_0x1DPCB8299863  : 4413
+temp_read_reg_0xAPCB8299863 : 1078
+anthr_temp_read_reg_0x22PCB8299863 : 84
+temp_rangePCB8299863      : 7.06489e+07
+
+Target Temp               : 85
+Read out dec              : 1078
+tempC                     : 84.75
