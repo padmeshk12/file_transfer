@@ -1,0 +1,3 @@
+Device ID    : B8203857
+Target Temp  : 25
+Read out     : 579.062
