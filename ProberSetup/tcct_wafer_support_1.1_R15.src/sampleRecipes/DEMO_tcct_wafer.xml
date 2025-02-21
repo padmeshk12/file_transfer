@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe xmlns="http://www.advantest.com/tcct/recipe">
+<!--
+**************************************************************************************
+* NOTICE: PLEASE READ CAREFULLY: ADVANTEST PROVIDES THIS SOFTWARE TO YOU ONLY UPON   *
+* YOUR ACCEPTANCE OF ADVANTEST'S TERMS OF USE. THE SOFTWARE IS PROVIDED "AS IS"      *
+* WITHOUT WARRANTY OF ANY KIND AND ADVANTEST'S LIABILITY FOR SUCH SOFTWARE LIMITED   *
+* TO THE FULLEST EXTENT PERMITTED UNDER THE LAW.                                     *
+**************************************************************************************
+-->
+	<smartest force_restart="false">
+		<version>soc64_7.3.4.5</version>
+		<startup_mode>offline</startup_mode>
+		<user_mode>engineer</user_mode>
+		<model_file>/etc/opt/hp93000/soc_common/model</model_file>
+		<env>
+			<HP83_DEFAULT_FILTER_DIR>/opt/hp93000/soc/formatter/LineFormatter/</HP83_DEFAULT_FILTER_DIR>
+		</env>
+	</smartest>
+	<testflow name="/home/demo/devicesSoc/74ACT299_demo_proj/74ACT299_demo/testflow/DemoFlow_for_TCCT" />
+	<equipment testtype="PROBER" vendor="TEL" model="P12_SIM" />
+	<datalog> 
+		<lot_variables> 
+			<!-- Variables for use with external scripts -->
+			<variable name="DEVICE_ROOT"        value="/home/demo/devicesSoc/74ACT299_demo_proj/74ACT299_demo" />
+			<variable name="WDF_FILE"           value="wafer5x5" />
+			<variable name="PARAM_SCRIPT"       value="/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh" />
+			<!-- Variables in the lot summary -->
+			<variable name="LOT_ID" value="Lot001" /> <!-- Lot -->
+			<variable name="SBLOT_ID" value="Sublot001" /> <!-- Sublot -->
+			<!-- Started at: START_T -->
+			<variable name="JOB_NAM" value="DEMO Test Program" /> <!-- Program -->
+			<variable name="JOB_REV" value="28 Sep 2016" /> <!-- Version -->
+			<variable name="PART_TYP" value="DEMO Type" /> <!-- Part type -->
+			<variable name="PRODUCT_ID" value="DEMO" /> <!-- Product ID -->
+			<variable name="PKG_TYP" value="LGA1144" /> <!-- Package Type -->
+			<variable name="OPER_NAM" value="Rick" /> <!-- Operator -->
+			<variable name="STAT_NUM" value="V93000_1" /> <!-- Station Number -->
+			<variable name="MODE_COD" value="Production" /> <!-- Station Mode -->
+			<!-- Tester Type: TSTR_TYP -->
+			<!-- Node Name: NODE_NAM -->
+			<!-- Tester: TESTER_NAM -->
+			<!-- Test Code: TEST_COD -->
+			<variable name="RTST_COD" value="NoRetest" /> <!-- Retest code -->
+			<!-- Test Temperature: TST_TEMP -->
+			<!-- Handler or Prober: HAND_TYP -->
+			<variable name="DEVICE_NAM" value="DEMO Device" /> <!-- Device Name: -->
+			<variable name="DSGN_REV" value="DEMO Revision" /> <!-- Device Revision -->
+			<variable name="USR_DESC" value="User Description" /> <!-- User Description --> 
+			<!-- Site Count: SITE_COUNT -->
+			<!-- Actie Sites: -->
+			<variable name="DIB_TYP" value="DEMO Wafer Test Board" /> <!-- DIB Type -->
+			<variable name="DIB_ID" value="1234" /> <!-- DIB ID -->
+			<!-- Executive Name: EXEC_TYP -->
+			<!-- Executive Version: EXEC_VER -->
+			<!-- Executive Release Date: -->
+			<!-- SmarTest Version: SMARTEST_VERSION -->
+			<!-- SmarTest Release Date: SMARTEST_RELEASE_DATE -->
+			<variable name="AUTO_TEMP" value="OFF" /> <!-- Auto cycle through list of temperatures. -->
+
+			<!-- Wafer Geometry variables -->
+			<!-- These must exist in order for the Wafermap display to work properly 
+			     AND should match the values that are programmed in the WDF file to be loaded
+			-->
+			<!-- MIN_X:    Minimum coordinate on the X axis [ -79..+79 ]     -->
+			<!-- MIN_Y:    Minimum coordinate on the Y axis [ -79..+79 ]   -->
+			<!-- MAX_X:    Maximum coordinate on the X axis [ -79..+79 ]   -->
+			<!-- MAX_Y:    Maximum coordinate on the Y axis [ -79..+79 ]  -->
+			<!-- POS_Y:    Positive X direction of wafer [ L=Left; R=Right ]               -->
+			<!-- POS_Y:    Positive Y direction of wafer [ U=Up; D=Down ]                  -->
+			<!-- WF_FLAT:  Orientation of the Wafer Flat [ U=Up; D=Down; L=Left; R=Right ] -->
+			<variable name="MIN_X"   value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MIN_X" />
+			<variable name="MIN_Y"   value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MIN_Y" />
+			<variable name="MAX_X"   value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MAX_X" />
+			<variable name="MAX_Y"   value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MAX_Y" />
+			<variable name="POS_X"   value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} POS_X" />
+			<variable name="POS_Y"   value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} POS_Y" />
+			<variable name="WF_FLAT" value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} WF_FLAT" />
+		</lot_variables> 
+		<!-- Specified path is created automatically. -->
+		<file perwafer="true" path="/home/{LOGNAME}/DATA_LOCAL/tcct/"
+			name="{PRODUCT_ID}_{LOT_ID}_{TIMESTAMP}">
+			<stdf enable="true" ext="stdf" />
+			<text enable="false" ext="txt" showpincolumn="true" screen="true" />
+			<summary enable="true" ext="sum" whichtest="All Tests" persite="false" screen="true" />
+			<edl enable="true" ext="edl" perwafer="false" /> 
+			<customdatalog enable="false" ext="asc" 
+			librarypath="/opt/hp93000/soc/formatter/LineFormatter/libfilter.so" perwafer="false" />
+		</file>
+	</datalog>
+	<states>
+		<state name="PROGRAM_LOAD"> 
+			<before>
+				<!-- Create a temporary 'TCCT' test program file for use with TFI WaferMap display. 
+				     syntax: setupTestProgForTFI.sh <DEVICE_DIR> <TestFlowName>
+				  -->
+				<exec program="/opt/hp93000/tcct_wafer_support/scripts/setupTestProgForTFI.sh /home/demo/devicesSoc/74ACT299_demo_proj/74ACT299_demo DemoFlow_for_TCCT"/>
+			</before> 
+			<after>
+				<!-- The tester is the master, so load the wafer description. 
+				     syntax: start_load_wafer_description.s <WDFfileName> 
+				  -->
+				<exec program="/opt/hp93000/tcct_wafer_support/scripts/start_load_wafer_description.sh wafer5x5"/>
+			</after> 
+		</state>
+		<state name="WAFER_CREATE"> 
+			<after>
+				<!-- script that will open a dialog window to ask for the next Wafer-ID and then 
+				     use a CI-CPI program to set the "WAFER_ID" app-model variable with the
+					 input value
+				  -->
+				<exec program="/opt/hp93000/tcct_wafer_support/scripts/start_getSetWaferID.sh" />
+			</after>
+		</state>
+		<state name="WAFER_REMOVE"> 
+			<after>
+				<!-- script that will bring the TFI WaferMap display to the top before using
+				     the 'xwd' system tool to capture a snapshot of the WaferMap
+				  -->
+				<exec program="/opt/hp93000/tcct_wafer_support/scripts/start_printWaferMap.sh" />
+			</after>
+		</state>
+	
+	</states>
+</recipe>
