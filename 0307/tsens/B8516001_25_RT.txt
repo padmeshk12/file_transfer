@@ -1,0 +1,3 @@
+Device ID    : B8516001
+Target Temp  : 25
+Read out     : 533.938
