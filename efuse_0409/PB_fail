@@ -1,0 +1,745 @@
+****** production report begin ******
+  Started at: 20250409 130934
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : IBM_NP_Master_WS_Rev001.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+Pat count value: 114
+
+Test Suite Name: PMBIST_PRE_FUNC_NoBWE_0p75V   
+All DPS connected
+
+Data logging for PMBIST_PRE_FUNC_NoBWE_0p75V
+Pat count value: 114
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row1_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row2_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row3_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row4_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row5_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row6_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row7_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row8_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row9_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row10_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row11_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row12_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row13_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row14_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row15_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_conn_noinit                    Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_conn_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_blif_noinit                  Func Result: 0
+PatName : chip_pmbist_400_core_row6_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_blif_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_blif_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_d2pf_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_d2pf_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_hamr8_noinit                 Func Result: 0
+PatName : chip_pmbist_400_core_row6_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_hamr8_noinit             Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_hamr8_noinit              Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_raw_noinit                   Func Result: 0
+PatName : chip_pmbist_400_core_row6_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_raw_noinit               Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_raw_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_wcgd_noinit                  Func Result: 0
+PatName : chip_pmbist_400_core_row6_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_wcgd_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_wcgd_noinit               Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: MACHINE_INIT_FUNC_Repaired_0p75V
+All DPS connected
+
+Data logging for MACHINE_INIT_FUNC_Repaired_0p75V
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_machine_init                                   Func Result: 1
+
+
+Test Suite Name: PMBIST_JTAG_Read_Repaired
+Device_ID:	W_0_0
+
+Pattern count: 32
+Measured Value vdd_core : 0.749599 V
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+ERROR:[1] Less error map results available than requested. Either the startCycle is after test end or the end cycle hasn't been recorded because the Error Map was too small to cover the requested range.
+
+Scan PortName: ppara_read_Port               
+Para PortName: pscan_read_Port               
+
+
+File opened  : W_0_0_read_col00_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col00_1_scan_emap.txt
+PatName: read_col00_1_para                                            Func Result: 0
+Fail Count : 11
+Fail Cycles : {	56,	74,	77,	164,	167,	182,	185,	362,	365,	380,	1352,	}
+
+File opened  : W_0_0_read_col01_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col01_1_scan_emap.txt
+PatName: read_col01_1_para                                            Func Result: 0
+Fail Count : 8
+Fail Cycles : {	164,	167,	362,	365,	380,	434,	659,	662,	}
+
+File opened  : W_0_0_read_col02_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col02_1_scan_emap.txt
+PatName: read_col02_1_para                                            Func Result: 0
+Fail Count : 13
+Fail Cycles : {	164,	167,	182,	185,	200,	203,	362,	365,	380,	569,	857,	5402,	5404,	}
+
+File opened  : W_0_0_read_col03_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col03_1_scan_emap.txt
+PatName: read_col03_1_para                                            Func Result: 0
+Fail Count : 12
+Fail Cycles : {	74,	164,	167,	182,	185,	362,	365,	380,	434,	452,	1154,	1157,	}
+
+File opened  : W_0_0_read_col04_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col04_1_scan_emap.txt
+PatName: read_col04_1_para                                            Func Result: 0
+Fail Count : 10
+Fail Cycles : {	38,	74,	164,	362,	380,	434,	439,	452,	659,	662,	}
+
+File opened  : W_0_0_read_col05_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col05_1_scan_emap.txt
+PatName: read_col05_1_para                                            Func Result: 0
+Fail Count : 11
+Fail Cycles : {	38,	56,	74,	164,	167,	362,	365,	380,	434,	659,	662,	}
+
+File opened  : W_0_0_read_col06_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col06_1_scan_emap.txt
+PatName: read_col06_1_para                                            Func Result: 0
+Fail Count : 17
+Fail Cycles : {	56,	59,	74,	146,	149,	164,	167,	362,	380,	398,	416,	434,	436,	437,	439,	452,	455,	}
+
+File opened  : W_0_0_read_col07_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col07_1_scan_emap.txt
+PatName: read_col07_1_para                                            Func Result: 0
+Fail Count : 12
+Fail Cycles : {	74,	146,	149,	164,	167,	182,	185,	362,	365,	366,	380,	1046,	}
+
+File opened  : W_0_0_read_col08_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col08_1_scan_emap.txt
+PatName: read_col08_1_para                                            Func Result: 0
+Fail Count : 8
+Fail Cycles : {	38,	74,	164,	182,	362,	365,	380,	434,	}
+
+File opened  : W_0_0_read_col09_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col09_1_scan_emap.txt
+PatName: read_col09_1_para                                            Func Result: 0
+Fail Count : 10
+Fail Cycles : {	74,	146,	149,	164,	167,	182,	185,	362,	365,	380,	}
+
+File opened  : W_0_0_read_col10_1_scan_emap.txt
+
+File copied to : ../report/emap_DB//W_0_0_read_col10_1_scan_emap.txt
+PatName: read_col10_1_para                                            Func Result: 0
+Fail Count : 5
+Fail Cycles : {	74,	164,	167,	362,	380,	}
+PatName: read_col11_1_para                                            Func Result: 0
+Fail Count : -999
+Fail Cycles : {	38,	-999,	}
+PatName: read_col12_1_para                                            Func Result: 0
+Fail Count : -999
+Fail Cycles : {	-999,	}
+PatName: read_col13_1_para                                            Func Result: 0
+Fail Count : -999
+Fail Cycles : {	-999,	}
+PatName: read_col14_1_para                                            Func Result: 0
+Fail Count : -999
+Fail Cycles : {	-999,	}
+PatName: read_col15_1_para                                            Func Result: 0
+Fail Count : -999
+Fail Cycles : {	-999,	}
+Pat count value: 1
+
+Test Suite Name: COLD_BOOT_FUNC_PM1            
+All DPS connected
+
+Data logging for COLD_BOOT_FUNC_PM1
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_modeinit                                       Func Result: 1
+
+Pat count value: 19
+
+Test Suite Name: PMBIST_SOFT_REPAIR_0p70V      
+All DPS connected
+
+Data logging for PMBIST_SOFT_REPAIR_0p70V
+Pat count value: 19
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row1_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row2_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row3_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row4_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row5_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row6_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row7_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row8_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row9_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row10_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row11_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row12_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row13_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row14_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row15_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_repair_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_repair_noinit                   Func Result: 1
+
+Pat count value: 114
+
+Test Suite Name: PMBIST_POST_REPAIR_0p72V      
+All DPS connected
+
+Data logging for PMBIST_POST_REPAIR_0p72V
+Pat count value: 114
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row1_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row2_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row3_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row4_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row5_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row6_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row7_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row8_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row9_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row10_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row11_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row12_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row13_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row14_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row15_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_conn_noinit                    Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_conn_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_blif_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_blif_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_d2pf_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_d2pf_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_hamr8_noinit             Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_hamr8_noinit              Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_raw_noinit                  Func Result: 0
+PatName : chip_pmbist_400_ctrl_data_top_march_raw_noinit               Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_raw_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_wcgd_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_wcgd_noinit               Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: COLD_BOOT_FUNC_PM2            
+All DPS connected
+
+Data logging for COLD_BOOT_FUNC_PM2
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_modeinit                                       Func Result: 1
+
+Pat count value: 19
+
+Test Suite Name: PMBIST_SOFT_REPAIR_0p72V      
+All DPS connected
+
+Data logging for PMBIST_SOFT_REPAIR_0p72V
+Pat count value: 19
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row1_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row2_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row3_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row4_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row5_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row6_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row7_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row8_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row9_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row10_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row11_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row12_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row13_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row14_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row15_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_repair_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_repair_noinit                   Func Result: 1
+
+Pat count value: 114
+
+Test Suite Name: PMBIST_POST_REPAIR_0p74V      
+All DPS connected
+
+Data logging for PMBIST_POST_REPAIR_0p74V
+Pat count value: 114
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row1_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row2_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row3_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row4_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row5_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row6_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row7_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row8_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row9_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row10_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row11_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row12_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row13_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row14_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row15_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_conn_noinit                    Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_conn_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_blif_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_blif_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_d2pf_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_d2pf_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_hamr8_noinit             Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_hamr8_noinit              Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_raw_noinit               Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_raw_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_wcgd_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_wcgd_noinit               Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: MACHINE_INIT_FUNC             
+All DPS connected
+
+Data logging for MACHINE_INIT_FUNC
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_machine_init                                   Func Result: 1
+
+Pat count value: 114
+
+Test Suite Name: PMBIST_POST_BURN              
+All DPS connected
+Measured Vdd Core at Post Burn : 0.749844 V
+
+Data logging for PMBIST_POST_BURN
+Pat count value: 114
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row1_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row2_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row3_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row4_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row5_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row6_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row7_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row8_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row9_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row10_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row11_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row12_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row13_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row14_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row15_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_conn_noinit                    Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_conn_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_blif_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_blif_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_d2pf_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_d2pf_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_hamr8_noinit             Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_hamr8_noinit              Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_raw_noinit               Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_raw_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_wcgd_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_wcgd_noinit               Func Result: 1
+vdd_core : vdd_core_post_burn :                                        0.749844
+PF_PMBIST_PB : 1
+
+Pat count value: 19
+
+Test Suite Name: PMBIST_PRE_FUNC_BWE_0p80V     
+All DPS connected
+
+Data logging for PMBIST_PRE_FUNC_BWE_0p80V
+Pat count value: 19
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row1_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row2_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row3_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row4_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row5_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row6_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row7_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row8_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row9_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row10_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row11_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row12_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row13_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row14_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row15_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_bwe_noinit                     Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_bwe_noinit                      Func Result: 1
+
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Apr_09_13h09m36s_STDF
+  Ended at: 20250409 130948
+******** end testflow report data  *******

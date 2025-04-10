@@ -1,0 +1,299 @@
+All DPS connected
+WARNING: Fail to get coordX and coordY! Set to -99
+WARNING: Fail to get coordX and coordY! Set to -99
+xCOORD 		: -99
+yCOORD 		: -99
+Could not get Application Model Variable: WAFER_ID
+Could not get Application Model Variable: PRODUCT_ID
+Could not get Application Model Variable: lotID
+Before burn the die id info, checking the efuse data 
+
+~~~~~Efuse read die info execution is started~~~~~
+
+Read info -->lot id : 0  | X : 0 | Y : 0 | waf_no : 0 | owner : 0
+
+
+*********************read_efuse*********************
+Efuse Address (hex) : 3 | dec: 3
+Efuse Data          : 0
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000011
+DR_data Sending : 110000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2c100008 || Actual : 2c100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow_0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	1,	0,	1,	1,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000110100001100000011000000110001
+hex : Expected addr : 2c100018 || Actual : 2c100018
+hex : Expected data : 0 || Actual : 34303031
+ERROR>>> bad JTAG Response - Bus miscompare
+Expected = 0 || Actual = 34303031
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 1
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh_0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	1,	0,	1,	1,	0,	0,	1,	0,	0,	1,	1,	0,	1,	0,	1,	0,	0,	0,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000010100010101100100110100
+hex : Expected addr : 2c10001c || Actual : 2c10001c
+hex : Expected data : 0 || Actual : c0515934
+ERROR>>> bad JTAG Response - Bus miscompare
+Expected = 0 || Actual = c0515934
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 1
+
+>>--> Read Error : 1
+
+>>>--> Read address : 0x3: C051593434303031 | CQY44001
+
+
+*********************read_efuse*********************
+Efuse Address (hex) : 4 | dec: 4
+Efuse Data          : 0
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000100
+DR_data Sending : 001000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2c100008 || Actual : 2c100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow_0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	1,	0,	0,	1,	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000000000000000000011100001001001
+hex : Expected addr : 2c100018 || Actual : 2c100018
+hex : Expected data : 0 || Actual : 3849
+ERROR>>> bad JTAG Response - Bus miscompare
+Expected = 0 || Actual = 3849
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 1
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh_0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000000000000000000000000000
+hex : Expected addr : 2c10001c || Actual : 2c10001c
+hex : Expected data : 0 || Actual : c0000000
+ERROR>>> bad JTAG Response - Bus miscompare
+Expected = 0 || Actual = c0000000
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 1
+
+>>--> Read Error : 1
+
+>>>--> Read address : 0x4: C000000000003849 | C000008I
+
+
+*********************read_efuse*********************
+Efuse Address (hex) : 5 | dec: 5
+Efuse Data          : 0
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000101
+DR_data Sending : 101000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2c100008 || Actual : 2c100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow_0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	1,	0,	0,	1,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000000100000001100000001001001001
+hex : Expected addr : 2c100018 || Actual : 2c100018
+hex : Expected data : 0 || Actual : 4060249
+ERROR>>> bad JTAG Response - Bus miscompare
+Expected = 0 || Actual = 4060249
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 1
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh_0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000000000000000000000000000
+hex : Expected addr : 2c10001c || Actual : 2c10001c
+hex : Expected data : 0 || Actual : c0000000
+ERROR>>> bad JTAG Response - Bus miscompare
+Expected = 0 || Actual = c0000000
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 1
+
+>>--> Read Error : 1
+
+>>>--> Read address : 0x5: C000000004060249 | C000040602I
+
+~~~~~die info read execution is completed~~~~~
+
+Expected data                      Read data
+>>> Lot_id  :  0          | 8IQY44001 --> nomatch
+>>> owner   :  0          | I         --> nomatch
+>>> waf_no  :  0          | 4         --> nomatch
+>>> xCOORD  :  0          | 6         --> nomatch
+>>> yCOORD  :  0          | 2         --> nomatch
+Testsuite: Efuse_WR_RD FAILED on site 1
