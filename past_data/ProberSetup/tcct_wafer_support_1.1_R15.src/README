@@ -1,0 +1,99 @@
+**************************************************************************************
+* NOTICE: PLEASE READ CAREFULLY: ADVANTEST PROVIDES THIS SOFTWARE TO YOU ONLY UPON   *
+* YOUR ACCEPTANCE OF ADVANTEST'S TERMS OF USE. THE SOFTWARE IS PROVIDED "AS IS"      *
+* WITHOUT WARRANTY OF ANY KIND AND ADVANTEST'S LIABILITY FOR SUCH SOFTWARE LIMITED   *
+* TO THE FULLEST EXTENT PERMITTED UNDER THE LAW.                                     *
+**************************************************************************************
+
+-- Feb.28, 2016 -- Version 1.1 SVN #15 --
+
+Added additional features:
+- New print-wafermap support:
+	o ./bin/show_win:  executable that provides a mean to raise the wafermap window to the top for xwd capture.
+	o ./scripts/start_printWaferMap.sh:  script that provides TCCT the functionality to do a xwd capture of the wafermap and save it in the current device's report dir.
+	o ./scripts/setupTestProgForTFI.sh:  script that provides TCCT the ability of creating a "TCCT" test program file in the current device 'testprog' directory
+	                                   in order for the TFI WaferMap tool to retrieve the current testflow file name so it can get the binning information from it.
+- Regrouping of all bash scripts in the ./scripts directory leaving only true executables in the bin directory
+- Added a TCCT sample recipe file and a directory to hold it:
+	o sampleRecipes
+	o sampleRecipes/DEMO_tcct_wafer.xml
+	
+Bug Fixes:
+- WAFER_ID variable not being set.
+	o src_waferID_cpi:  changed the getSetWaferID/getSetWaferID-64bit source to use ci-cpi lib instead of HVM-API as the WAFER_ID var was not being set ok.
+
+
+Here is an example extract of the sample TCCT recipe file using all of the new features introduced in this release.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe xmlns="http://www.advantest.com/tcct/recipe">
+.
+.
+.
+	</datalog>
+	<states>
+		<state name="PROGRAM_LOAD"> 
+			<before>
+				<!-- Create a temporary 'TCCT' test program file for use with TFI WaferMap display. -->
+				<exec program="/opt/hp93000/tcct_wafer_support/scripts/setupTestProgForTFI.sh /home/jlemaire/devicesSoc/74ACT299_demo_proj/74ACT299_demo DemoFlow_for_TCCT"/>
+			</before> 
+			<after>
+				<!-- The tester is the master, so load the wafer description. -->
+				<exec program="/opt/hp93000/tcct_wafer_support/scripts/start_load_wafer_description.sh wafer5x5"/>
+			</after> 
+		</state>
+		<state name="WAFER_CREATE"> 
+			<after>
+				<!-- script that will open a dialog window to get the next Wafer-ID and then 
+				     use a CI-CPI program to set the "WAFER_ID" app-model variable with the
+					 input value -->
+				<exec program="/opt/hp93000/tcct_wafer_support/scripts/start_getSetWaferID.sh" />
+			</after>
+		</state>
+		<state name="WAFER_REMOVE"> 
+			<after>
+				<!-- script that will bring the TFI WaferMap display to the top before using
+				     the 'xwd' system tool to capture a snapshot of the WaferMap -->
+				<exec program="/opt/hp93000/tcct_wafer_support/scripts/start_printWaferMap.sh" />
+			</after>
+		</state>
+	
+	</states>
+</recipe>
+
+
+-- Feb.09, 2016 -- Version 1.0 SVN #5 --
+
+This project provide executables that enable TCCT to instruct SmarTest to load a specified
+Wafer-Description-File (WDF) during wafer testing.
+
+The reason for this project is that TCCT does not have direct support for specifying and loading WDF.
+
+The executables provided are HVM-API based and require a run script to execute them using the
+SmarTest run environment command "/opt/hp93000/soc/system/bin/run -x"
+
+This execution script (./bin/start_load_wafer_description.sh) also provides automatic detection of
+the SmarTest bit-width version currently in use (32bit or 64bit) and automatic selection of the
+corresponding 'load_wafer_description' (32bit) or 'load_wafer_description-64bit' (64bit) executable.
+
+To use in TCCT Recipes, you must add a call to the execution script from within the 'states' section
+of the Recipe, more specifically, at the "PROGRAM_LOAD" state.  You MUST provide the script with the 
+name of the WDF that resides in the 'wafertyp' directory of the currently loaded Device.
+
+Here is an example:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe xmlns="http://www.advantest.com/tcct/recipe">
+.
+.
+.
+	<states>
+		<state name="PROGRAM_LOAD"> 
+			<after>
+				<!-- The tester is the master, so load the wafer description. -->
+				<exec program="/opt/hp93000/tcct_wafer_support/bin/start_load_wafer_description.sh wafer5x5"/>
+			</after> 
+		</state>
+	</states>
+</recipe>

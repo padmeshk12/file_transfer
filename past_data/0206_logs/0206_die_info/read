@@ -1,0 +1,279 @@
+RDI generates Configure template file :/home/ibm93k/ibm_test_programs/WS_REV1/ibm_np_dec/ibm_np/TP/testmethod/RDI_Configure.Template
+
+
+**************************
+SmartRDI version : 7.10.6.0
+**************************
+All DPS connected
+
+~~~~~Efuse read die info execution is started~~~~~
+
+Read info -->lot id : 8IQY44001  | X : 4 | Y : 7 | waf_no : 4 | owner : I
+
+C -> C0 |  Q -> 51 |  Y -> 59 |  4 -> 34 |  4 -> 34 |  0 -> 30 |  0 -> 30 |  1 -> 31 |  || CQY44001(BAAAAAAA) -> C051593434303031
+
+*********************read_efuse*********************
+Efuse Address (hex) : 3 | dec: 3
+Efuse Data          : C051593434303031
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000011
+DR_data Sending : 110000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	1,	0,	1,	1,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000110100001100000011000000110001
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 34303031 || Actual : 34303031
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	1,	0,	1,	1,	0,	0,	1,	0,	0,	1,	1,	0,	1,	0,	1,	0,	0,	0,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000010100010101100100110100
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : C0515934 || Actual : C0515934
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+>>>--> Read address : 0x3: C051593434303031 | CQY44001
+
+C -> C0 |  0 -> 00 |  0 -> 00 |  0 -> 00 |  0 -> 00 |  0 -> 00 |  8 -> 38 |  I -> 49 |  || C000008I(BFFFFFAA) -> C000000000003849
+
+*********************read_efuse*********************
+Efuse Address (hex) : 4 | dec: 4
+Efuse Data          : C000000000003849
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000100
+DR_data Sending : 001000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	1,	0,	0,	1,	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000000000000000000011100001001001
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 3849 || Actual : 3849
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000000000000000000000000000
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : C0000000 || Actual : C0000000
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+>>>--> Read address : 0x4: C000000000003849 | C000008I
+
+C -> C0 |  0 -> 00 |  0 -> 00 |  0 -> 00 |  0 -> 0 |  4 -> 4 |  0 -> 0 |  4 -> 4 |  0 -> 0 |  7 -> 7 |  I -> 49 |  || C000040407I(BFFFDDDDDDA) -> C000000004040749
+
+*********************read_efuse*********************
+Efuse Address (hex) : 5 | dec: 5
+Efuse Data          : C000000004040749
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000101
+DR_data Sending : 101000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	1,	0,	0,	1,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000000100000001000000011101001001
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 4040749 || Actual : 4040749
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000000000000000000000000000
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : C0000000 || Actual : C0000000
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+>>>--> Read address : 0x5: C000000004040749 | C000040407I
+
+~~~~~die info read execution is completed~~~~~
+
+Written data                       Read data
+>>> Lot_id  :  8IQY44001  | 8IQY44001 --> match
+>>> owner   :  I          | I         --> match
+>>> waf_no  :  4          | 4         --> match
+>>> xCOORD  :  4          | 4         --> match
+>>> yCOORD  :  7          | 7         --> match
+Testsuite: Efuse_WR_RD PASSED on site 1

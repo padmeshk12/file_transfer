@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+  <smartest force_restart="true">
+    <version>soc64_7.6.4.1</version>
+    <tml_version></tml_version>
+    <mtp_version></mtp_version>
+    <startup_mode>offline</startup_mode>
+    <user_mode>engineer</user_mode>
+    <env>
+     	<V93000_MODEL>/projects/ibm/padmesh/ibm_np/TP/license/model_wafer</V93000_MODEL>
+      <!-- here can specify the env variables for smartest using, for example -->
+      <!-- <LD_LIBRARY_PATH>/path/or/paths/to/3rd_party_libs</LD_LIBRARY_PATH> -->
+	<HP83_DEFAULT_FILTER_DIR>/opt/hp93000/soc/formatter/LineFormatter/</HP83_DEFAULT_FILTER_DIR>
+    </env>
+  </smartest>
+  <validate type="none"/>
+  <testflow name="/projects/ti/padmesh/git/git_Fusion_dev06/I3093500/I3093500/testflow/I3093500_100mbps" />
+  <equipment testtype="PROBER" vendor="TSK" model="UF300_2_SITE" />
+  <datalog>
+    <lot_variables>
+    <!--  Variables for use with external scripts  -->
+	<variable name="DEVICE_ROOT" value="/projects/ti/padmesh/git/git_Fusion_dev06/I3093500/I3093500"/>
+	<variable name="WDF_FILE" value="wafer5x5"/>
+	<variable name="PARAM_SCRIPT" value="/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/getWaferParam.sh"/>
+    	<variable name="LOT_ID" value="Lot001"/>
+	<variable name="SBLOT_ID" value="Sublot001"/>
+	<variable name="JOB_NAM" value="I3093500"/>
+	<variable name="JOB_REV" value="20 Feb 2025"/>
+	<variable name="PART_TYP" value="RD"/>
+	<variable name="PRODUCT_ID" value="DEMO"/>
+	<variable name="PKG_TYP" value="LGA1144"/>
+	<variable name="OPER_NAM" value="Rick"/>
+	<variable name="STAT_NUM" value="V93000_1"/>
+	<variable name="MODE_COD" value="Production"/>
+	<variable name="RTST_COD" value="NoRetest"/>
+	<variable name="DEVICE_NAM" value="I3093500"/>
+	<variable name="DSGN_REV" value="I30935001p1"/>
+	<variable name="USR_DESC" value="User Description"/>
+	<variable name="DIB_TYP" value="BRD1"/>
+	<variable name="DIB_ID" value="1234"/>
+	<variable name="AUTO_TEMP" value="OFF"/>
+	<variable name="MIN_X" value="script:/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MIN_X"/>
+	<variable name="MIN_Y" value="script:/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MIN_Y"/>
+	<variable name="MAX_X" value="script:/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MAX_X"/>
+	<variable name="MAX_Y" value="script:/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MAX_Y"/>
+	<variable name="POS_X" value="script:/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} POS_X"/>
+	<variable name="POS_Y" value="script:/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} POS_Y"/>
+	<variable name="WF_FLAT" value="script:/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} WF_FLAT"/>
+    </lot_variables>
+    <file perwafer="true" path="/tmp/datalog/"
+      name="datalog_trial.edl">
+      <stdf enable="true" ext="stdf" />
+      <text enable="true" ext="txt" screen="true" />
+      <summary enable="true" ext="sum" whichtest="All Tests"
+       persite="true" screen="true" />
+      <edl enable="true" ext="edl" name="edlfile" perwafer="false" /> 
+    </file>
+  </datalog>
+  <states>
+    <state name="PROGRAM_LOAD">
+      <before>
+      <exec program="/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/setupTestProgForTFI.sh I3093500"/>
+      </before>
+      <after>
+      <exec program="/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/start_load_wafer_description.sh wafer5x5"/>
+      </after>
+    </state>
+    <state name="WAFER_CREATE">
+      <after>
+      <exec program="/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/getWaferID.sh"/>
+      </after>
+    </state>
+    <state name="WAFER_REMOVE">
+      <after>
+      <exec program="/projects/ibm/padmesh/Prober_Setup/tcct_wafer_support_1.1_R15.src/scripts/start_printWaferMap.sh"/>
+      </after>
+    </state>
+  </states>
+</recipe>

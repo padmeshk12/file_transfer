@@ -1,0 +1,14 @@
+Device ID                 : B8150168
+
+offset_val_0x1HTB8150168  : 1789
+slope_val_0x0HTB8150168   : 945
+status_done_0x1AHTB8150168 : 0
+fptat_reg_0x1CHTB8150168  : 5230
+fpref_reg_0x1DHTB8150168  : 4464
+temp_read_reg_0xAHTB8150168 : 1050
+anthr_temp_read_reg_0x22HTB8150168 : 81
+temp_rangeHTB8150168      : 6.88138e+07
+
+Target Temp               : 85
+Read out dec              : 1050
+tempC                     : 81.25

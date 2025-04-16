@@ -1,0 +1,14 @@
+Device ID                 : B8150200
+
+offset_val_0x1HTB8150200  : 1789
+slope_val_0x0HTB8150200   : 945
+status_done_0x1AHTB8150200 : 0
+fptat_reg_0x1CHTB8150200  : 4858
+fpref_reg_0x1DHTB8150200  : 4376
+temp_read_reg_0xAHTB8150200 : 863
+anthr_temp_read_reg_0x22HTB8150200 : 57
+temp_rangeHTB8150200      : 5.65584e+07
+
+Target Temp               : 85
+Read out dec              : 863
+tempC                     : 57.875

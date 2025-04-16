@@ -1,0 +1,14 @@
+Device ID                 : B8299862
+
+offset_val_0x1RTB8299862  : 1789
+slope_val_0x0RTB8299862   : 945
+status_done_0x1ARTB8299862 : 0
+fptat_reg_0x1CRTB8299862  : 3793
+fpref_reg_0x1DRTB8299862  : 4092
+temp_read_reg_0xARTB8299862 : 336
+anthr_temp_read_reg_0x22RTB8299862 : 504
+temp_rangeRTB8299862      : 2.20204e+07
+
+Target Temp               : 25
+Read out dec              : 336
+tempC                     : -8

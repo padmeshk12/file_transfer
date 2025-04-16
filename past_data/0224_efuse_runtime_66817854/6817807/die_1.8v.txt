@@ -1,0 +1,3039 @@
+****** production report begin ******
+  Started at: 20250224 110741
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : jtag_access.ttf.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+Before burn the die id info, checking the efuse data 
+
+*********************read_efuse*********************
+Efuse Address (hex) : 3 | dec: 3
+Efuse Data          : 0
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000011
+DR_data Sending : 110000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000000000000000000000000000000000
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 0 || Actual : 0
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000000000000000000000000000000000000
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : 0 || Actual : 0
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+
+*********************read_efuse*********************
+Efuse Address (hex) : 4 | dec: 4
+Efuse Data          : 0
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000100
+DR_data Sending : 001000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000000000000000000000000000000000
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 0 || Actual : 0
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000000000000000000000000000000000000
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : 0 || Actual : 0
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+
+*********************read_efuse*********************
+Efuse Address (hex) : 5 | dec: 5
+Efuse Data          : 0
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000101
+DR_data Sending : 101000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000000000000000000000000000000000
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 0 || Actual : 0
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000000000000000000000000000000000000
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : 0 || Actual : 0
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+~~~~~Register's are empty, Efuse write die info Execution is started~~~~~
+
+Write info -->lot id : 8IPYH778002  | X : -1 | Y : 4 | waf_no : 5 | owner : G
+
+C -> C0 |  H -> 48 |  7 -> 37 |  7 -> 37 |  8 -> 38 |  0 -> 30 |  0 -> 30 |  2 -> 32 |  || CH778002(BAAAAAAA) -> C048373738303032
+
+**********************write_efuse********************
+Efuse Address (hex) : 3 | dec: 3
+Efuse Data          : C048373738303032
+*****************************************************
+
+Initial vdd_ef_1 value : 0
+
+Before writing vdd_ef_1 value : 1.8
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000011
+DR_data Sending : 110000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011110
+------------------->>>> id : WReadCtrl3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	1,	1,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000000000
+cap_data : 000000000001111101000000000000000011
+hex : Expected addr : 2C100000 || Actual : 2C100000
+hex : Expected data : 1F40003 || Actual : 1F40003
+>>--> Read efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000011
+DR_data Sending : 110000000000000000000000000000000010
+>>--> Write efuse addr reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> clear data high
+
+write_efuse I : 0 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 1 | sb_data: 00000000000000000000000000000010
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL13
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 2 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 3 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 4 | sb_data: 00000000000000000000000000010000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000010000
+DR_data Sending : 000010000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL43
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 5 | sb_data: 00000000000000000000000000100000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000100000
+DR_data Sending : 000001000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL53
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 6 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 7 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 8 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 9 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 10 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 11 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 12 | sb_data: 00000000000000000001000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000001000000000000
+DR_data Sending : 000000000000100000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL123
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 13 | sb_data: 00000000000000000010000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000010000000000000
+DR_data Sending : 000000000000010000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL133
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 14 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 15 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 16 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 17 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 18 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 19 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 20 | sb_data: 00000000000100000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000100000000000000000000
+DR_data Sending : 000000000000000000001000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL203
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 21 | sb_data: 00000000001000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000001000000000000000000000
+DR_data Sending : 000000000000000000000100000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL213
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 22 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 23 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 24 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 25 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 26 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 27 | sb_data: 00001000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000001000000000000000000000000000
+DR_data Sending : 000000000000000000000000000100000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL273
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 28 | sb_data: 00010000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000010000000000000000000000000000
+DR_data Sending : 000000000000000000000000000010000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL283
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 29 | sb_data: 00100000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000100000000000000000000000000000
+DR_data Sending : 000000000000000000000000000001000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL293
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 30 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 31 | sb_data: 00000000000000000000000000000000
+
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> Write efuse data low reg
+
+write_efuse I : 0 | sb_data: 00000000000000000000000000000001
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH03
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 1 | sb_data: 00000000000000000000000000000010
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH13
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 2 | sb_data: 00000000000000000000000000000100
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000100
+DR_data Sending : 001000000000000000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH23
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 3 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 4 | sb_data: 00000000000000000000000000010000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000010000
+DR_data Sending : 000010000000000000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH43
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 5 | sb_data: 00000000000000000000000000100000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000100000
+DR_data Sending : 000001000000000000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH53
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 6 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 7 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 8 | sb_data: 00000000000000000000000100000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000100000000
+DR_data Sending : 000000001000000000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH83
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 9 | sb_data: 00000000000000000000001000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000001000000000
+DR_data Sending : 000000000100000000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH93
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 10 | sb_data: 00000000000000000000010000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000010000000000
+DR_data Sending : 000000000010000000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH103
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 11 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 12 | sb_data: 00000000000000000001000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000001000000000000
+DR_data Sending : 000000000000100000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH123
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 13 | sb_data: 00000000000000000010000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000010000000000000
+DR_data Sending : 000000000000010000000000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH133
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 14 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 15 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 16 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 17 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 18 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 19 | sb_data: 00000000000010000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000010000000000000000000
+DR_data Sending : 000000000000000000010000000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH193
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 20 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 21 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 22 | sb_data: 00000000010000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000010000000000000000000000
+DR_data Sending : 000000000000000000000010000000000010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH223
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 23 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 24 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 25 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 26 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 27 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 28 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 29 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 30 | sb_data: 01000000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010001000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000100010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH303
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 31 | sb_data: 10000000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010010000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000010010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH313
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> clear data high
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000000
+DR_data Sending : 000000000000000000101111100000000010
+>>--> Write efuse ctrl reg with 0x****0000
+
+>>--> Write Error : 0
+
+After writing vdd_ef_1 value : 0
+
+C -> C0 |  0 -> 00 |  0 -> 00 |  0 -> 00 |  8 -> 38 |  I -> 49 |  P -> 50 |  Y -> 59 |  || C0008IPY(BFFFAAAA) -> C000000038495059
+
+**********************write_efuse********************
+Efuse Address (hex) : 4 | dec: 4
+Efuse Data          : C000000038495059
+*****************************************************
+
+Initial vdd_ef_1 value : 0
+
+Before writing vdd_ef_1 value : 1.8
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000011
+DR_data Sending : 110000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011110
+------------------->>>> id : WReadCtrl4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	1,	1,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000000000
+cap_data : 000000000001111101000000000000000011
+hex : Expected addr : 2C100000 || Actual : 2C100000
+hex : Expected data : 1F40003 || Actual : 1F40003
+>>--> Read efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000100
+DR_data Sending : 001000000000000000000000000000000010
+>>--> Write efuse addr reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> clear data high
+
+write_efuse I : 0 | sb_data: 00000000000000000000000000000001
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL04
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 1 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 2 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 3 | sb_data: 00000000000000000000000000001000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000001000
+DR_data Sending : 000100000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL34
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 4 | sb_data: 00000000000000000000000000010000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000010000
+DR_data Sending : 000010000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL44
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 5 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 6 | sb_data: 00000000000000000000000001000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000001000000
+DR_data Sending : 000000100000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL64
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 7 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 8 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 9 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 10 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 11 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 12 | sb_data: 00000000000000000001000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000001000000000000
+DR_data Sending : 000000000000100000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL124
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 13 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 14 | sb_data: 00000000000000000100000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000100000000000000
+DR_data Sending : 000000000000001000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL144
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 15 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 16 | sb_data: 00000000000000010000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000010000000000000000
+DR_data Sending : 000000000000000010000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL164
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 17 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 18 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 19 | sb_data: 00000000000010000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000010000000000000000000
+DR_data Sending : 000000000000000000010000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL194
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 20 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 21 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 22 | sb_data: 00000000010000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000010000000000000000000000
+DR_data Sending : 000000000000000000000010000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL224
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 23 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 24 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 25 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 26 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 27 | sb_data: 00001000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000001000000000000000000000000000
+DR_data Sending : 000000000000000000000000000100000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL274
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 28 | sb_data: 00010000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000010000000000000000000000000000
+DR_data Sending : 000000000000000000000000000010000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL284
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 29 | sb_data: 00100000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000100000000000000000000000000000
+DR_data Sending : 000000000000000000000000000001000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL294
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 30 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 31 | sb_data: 00000000000000000000000000000000
+
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> Write efuse data low reg
+
+write_efuse I : 0 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 1 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 2 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 3 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 4 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 5 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 6 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 7 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 8 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 9 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 10 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 11 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 12 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 13 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 14 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 15 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 16 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 17 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 18 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 19 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 20 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 21 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 22 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 23 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 24 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 25 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 26 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 27 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 28 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 29 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 30 | sb_data: 01000000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010001000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000100010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH304
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 31 | sb_data: 10000000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010010000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000010010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH314
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> clear data high
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000000
+DR_data Sending : 000000000000000000101111100000000010
+>>--> Write efuse ctrl reg with 0x****0000
+
+>>--> Write Error : 0
+
+After writing vdd_ef_1 value : 0
+
+C -> C0 |  0 -> 00 |  0 -> 00 |  0 -> 00 |  0 -> 0 |  5 -> 5 |  F -> F |  F -> F |  0 -> 0 |  4 -> 4 |  G -> 47 |  || C00005FF04G(BFFFDDDDDDA) -> C000000005FF0447
+
+**********************write_efuse********************
+Efuse Address (hex) : 5 | dec: 5
+Efuse Data          : C000000005FF0447
+*****************************************************
+
+Initial vdd_ef_1 value : 0
+
+Before writing vdd_ef_1 value : 1.8
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000011
+DR_data Sending : 110000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011110
+------------------->>>> id : WReadCtrl5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	1,	1,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000000000
+cap_data : 000000000001111101000000000000000011
+hex : Expected addr : 2C100000 || Actual : 2C100000
+hex : Expected data : 1F40003 || Actual : 1F40003
+>>--> Read efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000101
+DR_data Sending : 101000000000000000000000000000000010
+>>--> Write efuse addr reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> clear data high
+
+write_efuse I : 0 | sb_data: 00000000000000000000000000000001
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL05
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 1 | sb_data: 00000000000000000000000000000010
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL15
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 2 | sb_data: 00000000000000000000000000000100
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000100
+DR_data Sending : 001000000000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL25
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 3 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 4 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 5 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 6 | sb_data: 00000000000000000000000001000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000001000000
+DR_data Sending : 000000100000000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL65
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 7 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 8 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 9 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 10 | sb_data: 00000000000000000000010000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000010000000000
+DR_data Sending : 000000000010000000000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL105
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 11 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 12 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 13 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 14 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 15 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 16 | sb_data: 00000000000000010000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000010000000000000000
+DR_data Sending : 000000000000000010000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL165
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 17 | sb_data: 00000000000000100000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000100000000000000000
+DR_data Sending : 000000000000000001000000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL175
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 18 | sb_data: 00000000000001000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000001000000000000000000
+DR_data Sending : 000000000000000000100000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL185
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 19 | sb_data: 00000000000010000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000010000000000000000000
+DR_data Sending : 000000000000000000010000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL195
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 20 | sb_data: 00000000000100000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000100000000000000000000
+DR_data Sending : 000000000000000000001000000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL205
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 21 | sb_data: 00000000001000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000001000000000000000000000
+DR_data Sending : 000000000000000000000100000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL215
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 22 | sb_data: 00000000010000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000010000000000000000000000
+DR_data Sending : 000000000000000000000010000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL225
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 23 | sb_data: 00000000100000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000100000000000000000000000
+DR_data Sending : 000000000000000000000001000000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL235
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 24 | sb_data: 00000001000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001000000000000000000000000
+DR_data Sending : 000000000000000000000000100000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL245
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 25 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 26 | sb_data: 00000100000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000100000000000000000000000000
+DR_data Sending : 000000000000000000000000001000000010
+>>--> Write efuse data low reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg with write efuse
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionL265
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> check write completion bit
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 27 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 28 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 29 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 30 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 31 | sb_data: 00000000000000000000000000000000
+
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001000000
+DR_data Sending : 000000100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> Write efuse data low reg
+
+write_efuse I : 0 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 1 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 2 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 3 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 4 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 5 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 6 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 7 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 8 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 9 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 10 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 11 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 12 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 13 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 14 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 15 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 16 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 17 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 18 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 19 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 20 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 21 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 22 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 23 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 24 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 25 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 26 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 27 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 28 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 29 | sb_data: 00000000000000000000000000000000
+
+write_efuse I : 30 | sb_data: 01000000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010001000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000100010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH305
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+write_efuse I : 31 | sb_data: 10000000000000000000000000000000
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010010000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000010010
+>>--> Write efuse data high reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000001
+DR_data Sending : 100000000000000000000000000000000010
+>>--> Write efuse start reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : WCompletionH315
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000001
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 1 || Actual : 1
+>>--> Read efuse status reg
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000001010000
+DR_data Sending : 000010100000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000000
+DR_data Sending : 000000000000000000000000000000000010
+>>--> clear data high
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000000
+DR_data Sending : 000000000000000000101111100000000010
+>>--> Write efuse ctrl reg with 0x****0000
+
+>>--> Write Error : 0
+
+After writing vdd_ef_1 value : 0
+
+~~~~~die id burn is completed~~~~~
+
+~~~~~Efuse read die info execution is started~~~~~
+
+Read info -->lot id : 8IPYH778002  | X : -1 | Y : 4 | waf_no : 5 | owner : G
+
+C -> C0 |  H -> 48 |  7 -> 37 |  7 -> 37 |  8 -> 38 |  0 -> 30 |  0 -> 30 |  2 -> 32 |  || CH778002(BAAAAAAA) -> C048373738303032
+
+*********************read_efuse*********************
+Efuse Address (hex) : 3 | dec: 3
+Efuse Data          : C048373738303032
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000011
+DR_data Sending : 110000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000111000001100000011000000110010
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 38303032 || Actual : 38303032
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh0x3
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	1,	1,	0,	1,	1,	0,	0,	1,	1,	1,	0,	1,	1,	0,	0,	0,	0,	0,	1,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000010010000011011100110111
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : C0483737 || Actual : C0483737
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+>>>--> Read address : 0x3: C048373738303032 | CH778002
+
+C -> C0 |  0 -> 00 |  0 -> 00 |  0 -> 00 |  8 -> 38 |  I -> 49 |  P -> 50 |  Y -> 59 |  || C0008IPY(BFFFAAAA) -> C000000038495059
+
+*********************read_efuse*********************
+Efuse Address (hex) : 4 | dec: 4
+Efuse Data          : C000000038495059
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000100
+DR_data Sending : 001000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	0,	0,	1,	1,	0,	1,	0,	0,	0,	0,	0,	1,	0,	1,	0,	1,	0,	0,	1,	0,	0,	1,	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000111000010010010101000001011001
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 38495059 || Actual : 38495059
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh0x4
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000000000000000000000000000
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : C0000000 || Actual : C0000000
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+>>>--> Read address : 0x4: C000000038495059 | C0008IPY
+
+C -> C0 |  0 -> 00 |  0 -> 00 |  0 -> 00 |  0 -> 0 |  5 -> 5 |  F -> F |  F -> F |  0 -> 0 |  4 -> 4 |  G -> 47 |  || C00005FF04G(BFFFDDDDDDA) -> C000000005FF0447
+
+*********************read_efuse*********************
+Efuse Address (hex) : 5 | dec: 5
+Efuse Data          : C000000005FF0447
+****************************************************
+
+vdd_ef_1 value : 0
+
+>>--> Inital error 0
+
+
+ >>  SB to Efuse Read
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000000000
+DR_data Sending : 000000000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000001111101000000000000000010
+DR_data Sending : 010000000000000000101111100000000010
+>>--> Write efuse ctrl reg
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000001111111111111111
+DR_data Sending : 111111111111111100000000000000000010
+>>--> Clear status register
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000110000
+DR_data Sending : 000011000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000101
+DR_data Sending : 101000000000000000000000000000000010
+>>--> set address to read data
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010110110000010000000000000000010000
+DR_data Sending : 000010000000000000000010000011011010
+DR data size : 36 | Order :LSB
+DR_data Actual  : 010000000000000000000000000000000010
+DR_data Sending : 010000000000000000000000000000000010
+>>--> Write efuse start reg with read efuse
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000000100000
+DR_data Sending : 000001000000000000000010000011011110
+------------------->>>> id : ReadCompletion:0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000000100000
+cap_data : 000000000000000000000000000000000010
+hex : Expected addr : 2C100008 || Actual : 2C100008
+hex : Expected data : 2 || Actual : 2
+>>--> check read completion bit
+>>--> check read completion bit error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001100000
+DR_data Sending : 000001100000000000000010000011011110
+------------------->>>> id : ReadLow0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	1,	1,	1,	0,	0,	0,	1,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	1,	1,	1,	1,	1,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001100000
+cap_data : 000000000101111111110000010001000111
+hex : Expected addr : 2C100018 || Actual : 2C100018
+hex : Expected data : 5FF0447 || Actual : 5FF0447
+>>--> Read efuse data low reg
+>>--> Read efuse data low reg error 0
+
+DR data size : 36 | Order :LSB
+DR_data Actual  : 011110110000010000000000000001110000
+DR_data Sending : 000011100000000000000010000011011110
+------------------->>>> id : ReadHigh0x5
+Size : 36 | cap_addr : {	0,	0,	0,	0,	1,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	1,	1,	0,	1,	1,	0,	0,	0,	}
+Size : 36 | cap_data : {	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	}
+cap_addr : 000110110000010000000000000001110000
+cap_data : 000011000000000000000000000000000000
+hex : Expected addr : 2C10001C || Actual : 2C10001C
+hex : Expected data : C0000000 || Actual : C0000000
+>>--> Read efuse data high reg
+>>--> Read efuse data high reg error 0
+
+>>--> Read Error : 0
+
+>>>--> Read address : 0x5: C000000005FF0447 | C00005FF04G
+
+~~~~~die info read execution is completed~~~~~
+
+Written data                       Read data
+>>> Lot_id  :  8IPYH778002 | 8IPYH778002--> match
+>>> owner   :  G          | G         --> match
+>>> waf_no  :  5          | 5         --> match
+>>> xCOORD  :  -1         | -1        --> match
+>>> yCOORD  :  4          | 4         --> match
+
+EXECUTION INFORMATION
+
+   Total execution time:     1.967sec
+
+LEVEL INFORMATION
+
+   :    No measurement
+
+   device: ( #devices tested: 1, ave. time/device:   540.911ms  )
+                         # of measure.             sum       minimum       maximum       average 
+       total time      :        1            540.911ms     540.911ms     540.911ms     540.911ms 
+         preaction     :        1              0.035ms       0.035ms       0.035ms       0.035ms 
+         testflow level:        1            539.920ms     539.920ms     539.920ms     539.920ms 
+         postaction    :        1              0.001ms       0.001ms       0.001ms       0.001ms 
+
+
+
+TESTFLOW INFORMATION ( #devices tested: 1, ave. time/device:   529.541ms  )
+                         # of measure.             sum       minimum       maximum       average 
+       total time      :        1            529.541ms     529.541ms     529.541ms     529.541ms 
+
+TEST SUITES
+
+    Testsuite Efuse_wr_rd: ( #devices tested: 1, ave. time/device:   514.010ms  )
+                                     # of measure.             sum       minimum       maximum       average 
+       total time                  :        1            514.010ms     514.010ms     514.010ms     514.010ms 
+         seq setup                 :        1              0.295ms       0.295ms       0.295ms       0.295ms 
+         testmethod execution      :        1            511.391ms     511.391ms     511.391ms     511.391ms 
+
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Feb_24_11h07m42s_STDF
+  Ended at: 20250224 110745
+******** end testflow report data  *******

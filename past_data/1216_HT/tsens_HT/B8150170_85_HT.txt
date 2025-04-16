@@ -1,0 +1,14 @@
+Device ID                 : B8150170
+
+offset_val_0x1HTB8150170  : 1789
+slope_val_0x0HTB8150170   : 945
+status_done_0x1AHTB8150170 : 0
+fptat_reg_0x1CHTB8150170  : 4860
+fpref_reg_0x1DHTB8150170  : 4346
+temp_read_reg_0xAHTB8150170 : 884
+anthr_temp_read_reg_0x22HTB8150170 : 60
+temp_rangeHTB8150170      : 5.79347e+07
+
+Target Temp               : 85
+Read out dec              : 884
+tempC                     : 60.5

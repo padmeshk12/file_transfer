@@ -1,0 +1,14 @@
+Device ID                 : B8336801
+
+offset_val_0x1RTB8336801  : 1789
+slope_val_0x0RTB8336801   : 945
+status_done_0x1ARTB8336801 : 0
+fptat_reg_0x1CRTB8336801  : 4098
+fpref_reg_0x1DRTB8336801  : 4201
+temp_read_reg_0xARTB8336801 : 468
+anthr_temp_read_reg_0x22RTB8336801 : 8
+temp_rangeRTB8336801      : 3.06713e+07
+
+Target Temp               : 25
+Read out dec              : 468
+tempC                     : 8.5

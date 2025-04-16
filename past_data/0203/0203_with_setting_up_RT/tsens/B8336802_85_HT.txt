@@ -1,0 +1,14 @@
+Device ID                 : B8336802
+
+offset_val_0x1HTB8336802  : 1789
+slope_val_0x0HTB8336802   : 945
+status_done_0x1AHTB8336802 : 0
+fptat_reg_0x1CHTB8336802  : 5210
+fpref_reg_0x1DHTB8336802  : 4378
+temp_read_reg_0xAHTB8336802 : 1105
+anthr_temp_read_reg_0x22HTB8336802 : 88
+temp_rangeHTB8336802      : 7.24184e+07
+
+Target Temp               : 85
+Read out dec              : 1105
+tempC                     : 88.125

@@ -1,0 +1,72 @@
+FINAL LOT SUMMARY            Report run: Mon Apr 14 11:14:02 2025
+
+Lot:                	8IQY44001.04A0-TT-I
+Sublot:             	
+Program:            	IBM_NP_Master_WS_Rev001.ttf
+Version:            	
+Part Type:          	I
+Product ID:         	I
+Package Type:       	B6811850
+Operator:           	sitara
+Station Number:     	V93000_1
+Station Mode:       	Production
+Tester Type:        	V93000 SOC
+Node Name:          	smartscale00.anoralabs.com
+Tester:             	smartscale00.anoralabs.com
+Test Code:          	WP
+Retest Code:        	NoRetest
+Test Temperature:   	25C
+Handler or Prober:  	UF300_1_SITE
+Device Name:        	IBM_NP
+Device Revision:    	IBM_NP_REV1
+User Description:   	User Description
+Site Count:         	1
+Active Sites:       	1
+DIB Type:           	BRD1
+DIB ID:             	1234
+Executive Name:     	TCCT
+Executive Version:  	1.9.8
+Executive Release Date:	20200617
+SmarTest Version:   	7.10.6.0
+SmarTest Release Date:	Thu, 04 Aug 2022 08:14:36 +0200
+
+USER_TXT:           	SmarTest
+SITE_MASK:          	0
+DEVICE_ROOT:        	/home/ibm93k/ibm_test_programs/WS_REV1/ibm_np_dec/ibm_np/TP
+WDF_FILE:           	wafer1.wdf
+PARAM_SCRIPT:       	/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh
+AUTO_TEMP:          	OFF
+MIN_X:              	1
+MIN_Y:              	1
+MAX_X:              	10
+MAX_Y:              	8
+POS_X:              	R
+POS_Y:              	U
+WF_FLAT:            	D
+
+
+_________________________________________________________________________________________________
+
+
+                      SOFTWARE  BIN  TOTALS 
+               Bin           Bin Name             Total      %
+              ------   --------------------      -------   -----
+
+
+                      HARDWARE  BIN  TOTALS 
+               Bin           Bin Name             Total      %
+              ------   --------------------      -------   -----
+
+
+Total Number of devices binned      (all sites) = 0
+
+
+Minimum total number of tests executed for Passed device: 0
+Maximum total number of tests executed for Passed device: 0
+
+
+--------  Test  ----------------------                 Total  ---------- Failures ---------       Site
+Number          Name                                   Execs     Total     %/Part   %/Exec        Num
+-------------------------------------------------------------------------------------------------------
+
+*****No test records found*****

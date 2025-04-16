@@ -1,0 +1,14 @@
+Device ID                 : B8336696
+
+offset_val_0x1HTB8336696  : 1789
+slope_val_0x0HTB8336696   : 945
+status_done_0x1AHTB8336696 : 0
+fptat_reg_0x1CHTB8336696  : 4937
+fpref_reg_0x1DHTB8336696  : 4316
+temp_read_reg_0xAHTB8336696 : 964
+anthr_temp_read_reg_0x22HTB8336696 : 70
+temp_rangeHTB8336696      : 6.31777e+07
+
+Target Temp               : 85
+Read out dec              : 964
+tempC                     : 70.5

@@ -1,0 +1,14 @@
+Device ID                 : B8299864
+
+offset_val_0x1HTB8299864  : 1789
+slope_val_0x0HTB8299864   : 945
+status_done_0x1AHTB8299864 : 0
+fptat_reg_0x1CHTB8299864  : 5441
+fpref_reg_0x1DHTB8299864  : 4652
+temp_read_reg_0xAHTB8299864 : 1045
+anthr_temp_read_reg_0x22HTB8299864 : 80
+temp_rangeHTB8299864      : 6.84862e+07
+
+Target Temp               : 85
+Read out dec              : 1045
+tempC                     : 80.625

@@ -1,0 +1,8 @@
+git clone 
+git pull
+copy the file to git path
+git add file.name
+git commit -m "comment"
+git push
+git status
+gitk

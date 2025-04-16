@@ -1,0 +1,14 @@
+Device ID                 : B7960037
+
+offset_val_0x1PCB7960037  : 1813
+slope_val_0x0PCB7960037   : 1020
+status_done_0x1APCB7960037 : 0
+fptat_reg_0x1CPCB7960037  : 4631
+fpref_reg_0x1DPCB7960037  : 4133
+temp_read_reg_0xAPCB7960037 : 1079
+anthr_temp_read_reg_0x22PCB7960037 : 84
+temp_rangePCB7960037      : 7.07144e+07
+
+Target Temp               : 85
+Read out dec              : 1079
+tempC                     : 84.875

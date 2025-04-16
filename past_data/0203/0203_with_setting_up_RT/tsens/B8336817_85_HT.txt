@@ -1,0 +1,14 @@
+Device ID                 : B8336817
+
+offset_val_0x1HTB8336817  : 1789
+slope_val_0x0HTB8336817   : 945
+status_done_0x1AHTB8336817 : 0
+fptat_reg_0x1CHTB8336817  : 5006
+fpref_reg_0x1DHTB8336817  : 4309
+temp_read_reg_0xAHTB8336817 : 1018
+anthr_temp_read_reg_0x22HTB8336817 : 77
+temp_rangeHTB8336817      : 6.67167e+07
+
+Target Temp               : 85
+Read out dec              : 1018
+tempC                     : 77.25

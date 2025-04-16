@@ -1,0 +1,2454 @@
+****** production report begin ******
+  Started at: 20250130 120036
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : IBM_NP_Master_Rev004_HT.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+WARNING: PSST - DCS pin "vdd_core" has been disconnected.
+Disconnect/Connect sequence required.
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+RDI generates Configure template file :/home/ibm93k/ibm_test_programs/FT_REV2/ibm_np_sep/ibm_np/TP/testmethod/RDI_Configure.Template
+
+
+**************************
+SmartRDI version : 7.10.6.0
+**************************
+
+External Utility Supply powered On.
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+All DPS disconnected
+All DPS connected
+All DPS disconnected
+digital pins and mux pins all relays disconnected
+
+vdd_core            	:	0.0997767 	V
+
+Current Measured at power up for DPS Pins:
+
+Current - vdd_core 	:	 7.16312 	A
+All DPS connected
+All DPS disconnected
+
+Data logging for supply short test:
+
+supply_short_vcs_pll            :  Force 50 mV Meas Current : 0.158801  	mA
+supply_short_vcs_pm_1           :  Force 50 mV Meas Current : 0.183766  	mA
+supply_short_vcs_pm_2           :  Force 50 mV Meas Current : 0.196852  	mA
+supply_short_vcsio_pll          :  Force 50 mV Meas Current : 0.0246011  	mA
+supply_short_vcsio_ts           :  Force 50 mV Meas Current : 0.0243813  	mA
+supply_short_vcsio_vs_1         :  Force 50 mV Meas Current : 0.0142858  	mA
+supply_short_vcsio_vs_2         :  Force 50 mV Meas Current : 0.0258747  	mA
+supply_short_vdd_io_clk         :  Force 50 mV Meas Current : 0.127103  	mA
+supply_short_vdd_pll            :  Force 50 mV Meas Current : 0.122702  	mA
+supply_short_vddio_io_clk       :  Force 50 mV Meas Current : 0.0164455  	mA
+supply_short_vddio_pll          :  Force 50 mV Meas Current : 0.00731891  	mA
+supply_short_vddio_rx           :  Force 50 mV Meas Current : 1.00521  	mA
+supply_short_vddio_tx           :  Force 50 mV Meas Current : 0.942341  	mA
+
+supply_short_vdd_core           :  Force 50 mV Meas Current : 4755.6	mA
+All DPS connected
+All DPS disconnected
+
+
+Continuity_Direct_Pos Datalog : 
+
+cont_row_even_col_even_ : io_req_pad_size_0                    : Measured Value: 0.670898  V
+cont_row_even_col_even_ : io_req_pad_data_30                   : Measured Value: 0.671084  V
+cont_row_even_col_even_ : io_req_pad_data_13                   : Measured Value: 0.67199  V
+cont_row_even_col_even_ : io_req_pad_addr_5                    : Measured Value: 0.673014  V
+cont_row_even_col_even_ : io_req_pad_size_1                    : Measured Value: 0.670898  V
+cont_row_even_col_even_ : io_req_pad_addr_9                    : Measured Value: 0.672493  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_4            : Measured Value: 0.239008  V
+cont_row_even_col_even_ : io_req_pad_data_8                    : Measured Value: 0.672615  V
+cont_row_even_col_even_ : io_req_pad_data_4                    : Measured Value: 0.673128  V
+cont_row_even_col_even_ : io_rsp_pad_data_30                   : Measured Value: 0.241344  V
+cont_row_even_col_even_ : io_rsp_pad_data_26                   : Measured Value: 0.238336  V
+cont_row_even_col_even_ : io_req_pad_data_18                   : Measured Value: 0.67171  V
+cont_row_even_col_even_ : io_req_pad_addr_8                    : Measured Value: 0.672657  V
+cont_row_even_col_even_ : io_req_pad_addr_4                    : Measured Value: 0.672878  V
+cont_row_even_col_even_ : io_rsp_pad_data_21                   : Measured Value: 0.237539  V
+cont_row_even_col_even_ : io_req_pad_data_1                    : Measured Value: 0.673187  V
+cont_row_even_col_even_ : tap_tck_pad_i                        : Measured Value: 0.673625  V
+cont_row_even_col_even_ : io_rsp_pad_size_1                    : Measured Value: 0.238895  V
+cont_row_even_col_even_ : tap_tdi_pad_i                        : Measured Value: 0.673689  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_2            : Measured Value: 0.238642  V
+cont_row_even_col_even_ : io_rsp_pad_addr_valid                : Measured Value: 0.239584  V
+cont_row_even_col_even_ : io_rsp_pad_data_7                    : Measured Value: 0.238439  V
+cont_row_even_col_even_ : io_req_pad_addr_2                    : Measured Value: 0.673285  V
+cont_row_even_col_even_ : io_req_pad_addr_15                   : Measured Value: 0.67182  V
+cont_row_even_col_even_ : pmon_d_clk0_pad_o                    : Measured Value: 0.243072  V
+cont_row_even_col_even_ : io_rsp_pad_data_18                   : Measured Value: 0.238382  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_8            : Measured Value: 0.239394  V
+cont_row_even_col_even_ : io_rsp_pad_data_14                   : Measured Value: 0.23746  V
+cont_row_even_col_even_ : io_req_pad_data_20                   : Measured Value: 0.671225  V
+cont_row_even_col_even_ : tap_rstn_pad_i                       : Measured Value: 0.673233  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_12           : Measured Value: 0.239232  V
+cont_row_even_col_even_ : io_req_pad_addr_24                   : Measured Value: 0.671499  V
+cont_row_even_col_even_ : dft_1500_shiftwr_pad_i               : Measured Value: 0.673211  V
+cont_row_even_col_even_ : dft_1500_wrstn_pad_i                 : Measured Value: 0.673257  V
+cont_row_even_col_even_ : io_req_pad_addr_12                   : Measured Value: 0.672162  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_12            : Measured Value: 0.671933  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_1             : Measured Value: 0.671511  V
+cont_row_even_col_even_ : dft_scan_lpg2_pad_i                  : Measured Value: 0.670976  V
+cont_row_even_col_even_ : io_clk_pad_i                         : Measured Value: 0.670701  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_10           : Measured Value: 0.239616  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_14           : Measured Value: 0.239124  V
+cont_row_even_col_even_ : io_req_pad_data_27                   : Measured Value: 0.671085  V
+cont_row_even_col_even_ : dft_1500_selectwr_pad_i              : Measured Value: 0.672998  V
+cont_row_even_col_even_ : dft_pmbist_pmbist_mode_pad_i         : Measured Value: 0.672788  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_11            : Measured Value: 0.671834  V
+cont_row_even_col_even_ : io_req_pad_addr_21                   : Measured Value: 0.671293  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_0             : Measured Value: 0.671374  V
+cont_row_even_col_even_ : dft_scan_ss1_pad_i                   : Measured Value: 0.671066  V
+cont_row_even_col_even_ : io_ddr_enable_pad_i                  : Measured Value: 0.670707  V
+cont_row_even_col_even_ : io_rsp_pad_data_3                    : Measured Value: 0.240461  V
+cont_row_even_col_even_ : int_data_pad_4                       : Measured Value: 0.239944  V
+cont_row_even_col_even_ : int_data_pad_2                       : Measured Value: 0.239224  V
+cont_row_even_col_even_ : io_rsp_pad_data_19                   : Measured Value: 0.23808  V
+cont_row_even_col_even_ : io_rsp_pad_data_23                   : Measured Value: 0.238365  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tck_pad_i            : Measured Value: 0.672828  V
+cont_row_even_col_even_ : global_chip_reset_pad_i              : Measured Value: 0.670815  V
+cont_row_even_col_even_ : pll_d_clk_pad_o                      : Measured Value: 0.23918  V
+cont_row_even_col_even_ : dft_pmbist_pmda_ovfl_pad_o           : Measured Value: 0.239825  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_7            : Measured Value: 0.238366  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_3            : Measured Value: 0.238812  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tdo_pad_o            : Measured Value: 0.240186  V
+cont_row_even_col_even_ : io_req_pad_data_14                   : Measured Value: 0.671735  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_4             : Measured Value: 0.671483  V
+cont_row_even_col_even_ : dft_scan_cmle_pad_i                  : Measured Value: 0.671252  V
+cont_row_even_col_even_ : reserved_in_pad_i_0                  : Measured Value: 0.670653  V
+cont_row_even_col_even_ : dft_opcg_trigger_pad_i               : Measured Value: 0.670748  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_15           : Measured Value: 0.238439  V
+cont_row_even_col_even_ : machine_init_done_pad_o              : Measured Value: 0.240362  V
+cont_row_even_col_even_ : pll_a_out_pad_ao                     : Measured Value: 0.665502  V
+cont_row_even_col_even_ : io_req_pad_data_valid                : Measured Value: 0.670957  V
+cont_row_even_col_even_ : pllset_pad_i_3                       : Measured Value: 0.670597  V
+cont_row_even_col_even_ : vsen_test0_pad_o                     : Measured Value: 0.243824  V
+cont_row_even_col_even_ : drive_pad_i_0                        : Measured Value: 0.670572  V
+
+
+cont_row_even_col_odd_ : io_rsp_pad_rsp_type                  : Measured Value: 0.240798  V
+cont_row_even_col_odd_ : io_req_pad_data_25                   : Measured Value: 0.671353  V
+cont_row_even_col_odd_ : io_req_pad_addr_valid                : Measured Value: 0.670837  V
+cont_row_even_col_odd_ : io_req_pad_addr_18                   : Measured Value: 0.671633  V
+cont_row_even_col_odd_ : io_rsp_pad_data_24                   : Measured Value: 0.238466  V
+cont_row_even_col_odd_ : io_rsp_pad_bus_rd_error              : Measured Value: 0.239097  V
+cont_row_even_col_odd_ : io_rsp_pad_data_20                   : Measured Value: 0.239029  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_0            : Measured Value: 0.240237  V
+cont_row_even_col_odd_ : io_rsp_pad_data_0                    : Measured Value: 0.24038  V
+cont_row_even_col_odd_ : io_req_pad_data_12                   : Measured Value: 0.67219  V
+cont_row_even_col_odd_ : io_req_pad_addr_22                   : Measured Value: 0.671365  V
+cont_row_even_col_odd_ : io_req_pad_data_11                   : Measured Value: 0.672291  V
+cont_row_even_col_odd_ : io_req_pad_addr_1                    : Measured Value: 0.67329  V
+cont_row_even_col_odd_ : io_req_pad_data_10                   : Measured Value: 0.672307  V
+cont_row_even_col_odd_ : io_req_pad_data_21                   : Measured Value: 0.6714  V
+cont_row_even_col_odd_ : io_req_pad_data_19                   : Measured Value: 0.671509  V
+cont_row_even_col_odd_ : dft_1500_wrck_pad_i                  : Measured Value: 0.67351  V
+cont_row_even_col_odd_ : io_req_pad_addr_25                   : Measured Value: 0.671214  V
+cont_row_even_col_odd_ : io_rsp_pad_data_11                   : Measured Value: 0.238719  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_tdi_pad_i            : Measured Value: 0.672657  V
+cont_row_even_col_odd_ : dft_scan_scan_in_pad_i_7             : Measured Value: 0.671446  V
+cont_row_even_col_odd_ : ref_clk_pad_i                        : Measured Value: 0.670303  V
+cont_row_even_col_odd_ : io_rsp_pad_data_8                    : Measured Value: 0.239167  V
+cont_row_even_col_odd_ : pll_fail_pad_o                       : Measured Value: 0.239489  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_11           : Measured Value: 0.238398  V
+cont_row_even_col_odd_ : dft_scan_cme_pad_i                   : Measured Value: 0.671293  V
+cont_row_even_col_odd_ : dft_opcg_load_en_pad_i               : Measured Value: 0.670755  V
+cont_row_even_col_odd_ : pll_reg_async_reset_n_pad_i          : Measured Value: 0.670563  V
+cont_row_even_col_odd_ : int_data_pad_3                       : Measured Value: 0.240063  V
+cont_row_even_col_odd_ : int_data_pad_0                       : Measured Value: 0.23882  V
+cont_row_even_col_odd_ : dft_scan_rst_n_pad_i                 : Measured Value: 0.672517  V
+cont_row_even_col_odd_ : dft_scan_misr_select_pad_i           : Measured Value: 0.67091  V
+cont_row_even_col_odd_ : tap_tdo_pad_o                        : Measured Value: 0.240495  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_done_pad_o           : Measured Value: 0.239584  V
+cont_row_even_col_odd_ : io_rsp_pad_accept1                   : Measured Value: 0.670521  V
+cont_row_even_col_odd_ : interrupt_req_pad_o_ack              : Measured Value: 0.670629  V
+
+
+cont_row_odd_col_even_ : io_rsp_pad_data_25                   : Measured Value: 0.239671  V
+cont_row_odd_col_even_ : io_req_pad_addr_0                    : Measured Value: 0.673341  V
+cont_row_odd_col_even_ : io_req_pad_addr_19                   : Measured Value: 0.671637  V
+cont_row_odd_col_even_ : io_req_pad_addr_13                   : Measured Value: 0.671653  V
+cont_row_odd_col_even_ : io_req_pad_data_29                   : Measured Value: 0.671084  V
+cont_row_odd_col_even_ : io_req_pad_data_0                    : Measured Value: 0.673341  V
+cont_row_odd_col_even_ : io_rsp_pad_data_16                   : Measured Value: 0.238507  V
+cont_row_odd_col_even_ : io_req_pad_addr_11                   : Measured Value: 0.672372  V
+cont_row_odd_col_even_ : io_rsp_pad_data_28                   : Measured Value: 0.238775  V
+cont_row_odd_col_even_ : io_req_pad_addr_6                    : Measured Value: 0.672716  V
+cont_row_odd_col_even_ : tap_tms_pad_i                        : Measured Value: 0.673406  V
+cont_row_odd_col_even_ : io_rsp_pad_data_valid                : Measured Value: 0.240427  V
+cont_row_odd_col_even_ : io_req_pad_addr_26                   : Measured Value: 0.67138  V
+cont_row_odd_col_even_ : dft_1500_ws_pad_i                    : Measured Value: 0.673357  V
+cont_row_odd_col_even_ : io_req_pad_data_26                   : Measured Value: 0.67123  V
+cont_row_odd_col_even_ : io_req_pad_addr_23                   : Measured Value: 0.671526  V
+cont_row_odd_col_even_ : io_req_pad_addr_28                   : Measured Value: 0.670966  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_9             : Measured Value: 0.671856  V
+cont_row_odd_col_even_ : io_req_pad_data_31                   : Measured Value: 0.670578  V
+cont_row_odd_col_even_ : io_rsp_pad_data_6                    : Measured Value: 0.237833  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_9            : Measured Value: 0.238439  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_1            : Measured Value: 0.238873  V
+cont_row_odd_col_even_ : dft_pmbist_pmda_rst_pad_i            : Measured Value: 0.672574  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_8             : Measured Value: 0.671593  V
+cont_row_odd_col_even_ : io_rsp_pad_data_27                   : Measured Value: 0.238018  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_10            : Measured Value: 0.67172  V
+cont_row_odd_col_even_ : pll_async_reset_n_pad_i              : Measured Value: 0.670676  V
+cont_row_odd_col_even_ : io_rsp_pad_data_15                   : Measured Value: 0.237966  V
+cont_row_odd_col_even_ : io_req_pad_data_24                   : Measured Value: 0.671052  V
+cont_row_odd_col_even_ : machine_init_ctrl_pad_i_1            : Measured Value: 0.670312  V
+cont_row_odd_col_even_ : io_rsp_pad_data_2                    : Measured Value: 0.239351  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_13           : Measured Value: 0.239071  V
+cont_row_odd_col_even_ : tsen_test_o_pad_o                    : Measured Value: 0.240419  V
+cont_row_odd_col_even_ : dft_pmbist_ret_pause_active_pad_o    : Measured Value: 0.238334  V
+
+
+cont_row_odd_col_odd_ : io_rsp_pad_accept0                   : Measured Value: 0.67095  V
+cont_row_odd_col_odd_ : io_req_pad_data_17                   : Measured Value: 0.671633  V
+cont_row_odd_col_odd_ : io_req_pad_data_9                    : Measured Value: 0.672388  V
+cont_row_odd_col_odd_ : io_req_pad_accept0                   : Measured Value: 0.240002  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_0                 : Measured Value: 0.239241  V
+cont_row_odd_col_odd_ : io_req_pad_data_23                   : Measured Value: 0.671425  V
+cont_row_odd_col_odd_ : io_req_pad_addr_17                   : Measured Value: 0.67159  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_1                 : Measured Value: 0.239806  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_10                   : Measured Value: 0.239418  V
+cont_row_odd_col_odd_ : io_req_pad_data_3                    : Measured Value: 0.673174  V
+cont_row_odd_col_odd_ : io_req_pad_data_16                   : Measured Value: 0.671779  V
+cont_row_odd_col_odd_ : io_req_pad_addr_16                   : Measured Value: 0.67189  V
+cont_row_odd_col_odd_ : io_req_pad_data_7                    : Measured Value: 0.672745  V
+cont_row_odd_col_odd_ : io_rsp_pad_size_0                    : Measured Value: 0.239408  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_22                   : Measured Value: 0.240033  V
+cont_row_odd_col_odd_ : io_req_pad_data_22                   : Measured Value: 0.671282  V
+cont_row_odd_col_odd_ : io_req_pad_data_2                    : Measured Value: 0.673284  V
+cont_row_odd_col_odd_ : io_req_pad_addr_7                    : Measured Value: 0.672817  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_1                    : Measured Value: 0.238843  V
+cont_row_odd_col_odd_ : io_req_pad_data_15                   : Measured Value: 0.671761  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_12                   : Measured Value: 0.23816  V
+cont_row_odd_col_odd_ : io_req_pad_data_6                    : Measured Value: 0.672545  V
+cont_row_odd_col_odd_ : pmon_d_clk1_pad_o                    : Measured Value: 0.240086  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_6            : Measured Value: 0.238268  V
+cont_row_odd_col_odd_ : io_req_pad_addr_20                   : Measured Value: 0.67168  V
+cont_row_odd_col_odd_ : io_req_pad_addr_14                   : Measured Value: 0.672217  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_17                   : Measured Value: 0.238719  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_13                   : Measured Value: 0.239123  V
+cont_row_odd_col_odd_ : io_req_pad_addr_10                   : Measured Value: 0.672482  V
+cont_row_odd_col_odd_ : io_req_pad_addr_3                    : Measured Value: 0.673381  V
+cont_row_odd_col_odd_ : io_req_pad_addr_27                   : Measured Value: 0.671178  V
+cont_row_odd_col_odd_ : io_req_pad_data_5                    : Measured Value: 0.672885  V
+cont_row_odd_col_odd_ : dft_1500_updatewr_pad_i              : Measured Value: 0.673112  V
+cont_row_odd_col_odd_ : dft_scan_scan_en_pad_i               : Measured Value: 0.67212  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_6             : Measured Value: 0.671754  V
+cont_row_odd_col_odd_ : dft_scan_elastic_rst_pad_i           : Measured Value: 0.671241  V
+cont_row_odd_col_odd_ : dft_opcg_shift_clk_pad_i             : Measured Value: 0.670661  V
+cont_row_odd_col_odd_ : int_req_pad                          : Measured Value: 0.238592  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_31                   : Measured Value: 0.238484  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_5                    : Measured Value: 0.239229  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_4                    : Measured Value: 0.24002  V
+cont_row_odd_col_odd_ : io_req_pad_addr_29                   : Measured Value: 0.671044  V
+cont_row_odd_col_odd_ : io_req_pad_data_28                   : Measured Value: 0.671116  V
+cont_row_odd_col_odd_ : dft_1500_capturewr_pad_i             : Measured Value: 0.672718  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_15            : Measured Value: 0.672005  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_5             : Measured Value: 0.671624  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_3             : Measured Value: 0.671198  V
+cont_row_odd_col_odd_ : dft_scan_misr_rst_pad_i              : Measured Value: 0.671123  V
+cont_row_odd_col_odd_ : machine_init_ctrl_pad_i_0            : Measured Value: 0.670644  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_5            : Measured Value: 0.238295  V
+cont_row_odd_col_odd_ : dft_pmbist_pmda_fail_pad_o           : Measured Value: 0.241189  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_14            : Measured Value: 0.672053  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_13            : Measured Value: 0.671992  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_2             : Measured Value: 0.671609  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_1                   : Measured Value: 0.670483  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_0                   : Measured Value: 0.670569  V
+cont_row_odd_col_odd_ : pllset_pad_i_0                       : Measured Value: 0.670743  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_29                   : Measured Value: 0.238541  V
+cont_row_odd_col_odd_ : dft_1500_wso_ret_pad_o               : Measured Value: 0.240129  V
+cont_row_odd_col_odd_ : pllset_pad_i_2                       : Measured Value: 0.670524  V
+cont_row_odd_col_odd_ : pllset_pad_i_1                       : Measured Value: 0.670483  V
+cont_row_odd_col_odd_ : dft_scan_lpg1_pad_i                  : Measured Value: 0.671081  V
+cont_row_odd_col_odd_ : pll_ref_select_pad_i                 : Measured Value: 0.670524  V
+cont_row_odd_col_odd_ : pll_lock_pad_o                       : Measured Value: 0.240564  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_9                    : Measured Value: 0.237682  V
+cont_row_odd_col_odd_ : int_data_pad_1                       : Measured Value: 0.238749  V
+cont_row_odd_col_odd_ : tsen_iref_o_pad_ao                   : Measured Value: 0.629639  V
+cont_row_odd_col_odd_ : pll_config_select_pad_i              : Measured Value: 0.670812  V
+cont_row_odd_col_odd_ : vsen_test1_pad_o                     : Measured Value: 0.23995  V
+cont_row_odd_col_odd_ : drive_pad_i_1                        : Measured Value: 0.670693  V
+cont_row_odd_col_odd_ : dft_pmbist_ret_pause_continue_pad_i  : Measured Value: 0.672346  V
+
+
+-----------------------------------------------
+TOTAL NUMBER OF FAILING PINS ==== 0
+-----------------------------------------------
+All DPS connected
+All DPS disconnected
+
+
+Continuity_Direct_Neg Datalog : 
+
+cont_row_even_col_even_ : io_req_pad_size_0                    : Measured Value: -0.660528  V
+cont_row_even_col_even_ : io_req_pad_data_30                   : Measured Value: -0.660717  V
+cont_row_even_col_even_ : io_req_pad_data_13                   : Measured Value: -0.661609  V
+cont_row_even_col_even_ : io_req_pad_addr_5                    : Measured Value: -0.66288  V
+cont_row_even_col_even_ : io_req_pad_size_1                    : Measured Value: -0.66066  V
+cont_row_even_col_even_ : io_req_pad_addr_9                    : Measured Value: -0.662458  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_4            : Measured Value: -0.234727  V
+cont_row_even_col_even_ : io_req_pad_data_8                    : Measured Value: -0.662401  V
+cont_row_even_col_even_ : io_req_pad_data_4                    : Measured Value: -0.66297  V
+cont_row_even_col_even_ : io_rsp_pad_data_30                   : Measured Value: -0.234955  V
+cont_row_even_col_even_ : io_rsp_pad_data_26                   : Measured Value: -0.233659  V
+cont_row_even_col_even_ : io_req_pad_data_18                   : Measured Value: -0.661571  V
+cont_row_even_col_even_ : io_req_pad_addr_8                    : Measured Value: -0.662325  V
+cont_row_even_col_even_ : io_req_pad_addr_4                    : Measured Value: -0.662856  V
+cont_row_even_col_even_ : io_rsp_pad_data_21                   : Measured Value: -0.233994  V
+cont_row_even_col_even_ : io_req_pad_data_1                    : Measured Value: -0.662933  V
+cont_row_even_col_even_ : tap_tck_pad_i                        : Measured Value: -0.663445  V
+cont_row_even_col_even_ : io_rsp_pad_size_1                    : Measured Value: -0.236543  V
+cont_row_even_col_even_ : tap_tdi_pad_i                        : Measured Value: -0.66354  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_2            : Measured Value: -0.235096  V
+cont_row_even_col_even_ : io_rsp_pad_addr_valid                : Measured Value: -0.237967  V
+cont_row_even_col_even_ : io_rsp_pad_data_7                    : Measured Value: -0.234955  V
+cont_row_even_col_even_ : io_req_pad_addr_2                    : Measured Value: -0.663008  V
+cont_row_even_col_even_ : io_req_pad_addr_15                   : Measured Value: -0.661718  V
+cont_row_even_col_even_ : pmon_d_clk0_pad_o                    : Measured Value: -0.238237  V
+cont_row_even_col_even_ : io_rsp_pad_data_18                   : Measured Value: -0.234556  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_8            : Measured Value: -0.234653  V
+cont_row_even_col_even_ : io_rsp_pad_data_14                   : Measured Value: -0.235233  V
+cont_row_even_col_even_ : io_req_pad_data_20                   : Measured Value: -0.661073  V
+cont_row_even_col_even_ : tap_rstn_pad_i                       : Measured Value: -0.663104  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_12           : Measured Value: -0.233593  V
+cont_row_even_col_even_ : io_req_pad_addr_24                   : Measured Value: -0.660693  V
+cont_row_even_col_even_ : dft_1500_shiftwr_pad_i               : Measured Value: -0.662687  V
+cont_row_even_col_even_ : dft_1500_wrstn_pad_i                 : Measured Value: -0.662724  V
+cont_row_even_col_even_ : io_req_pad_addr_12                   : Measured Value: -0.661699  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_12            : Measured Value: -0.661302  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_1             : Measured Value: -0.660743  V
+cont_row_even_col_even_ : dft_scan_lpg2_pad_i                  : Measured Value: -0.660691  V
+cont_row_even_col_even_ : io_clk_pad_i                         : Measured Value: -0.660271  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_10           : Measured Value: -0.234255  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_14           : Measured Value: -0.235186  V
+cont_row_even_col_even_ : io_req_pad_data_27                   : Measured Value: -0.660218  V
+cont_row_even_col_even_ : dft_1500_selectwr_pad_i              : Measured Value: -0.662497  V
+cont_row_even_col_even_ : dft_pmbist_pmbist_mode_pad_i         : Measured Value: -0.662363  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_11            : Measured Value: -0.661375  V
+cont_row_even_col_even_ : io_req_pad_addr_21                   : Measured Value: -0.660656  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_0             : Measured Value: -0.660918  V
+cont_row_even_col_even_ : dft_scan_ss1_pad_i                   : Measured Value: -0.660371  V
+cont_row_even_col_even_ : io_ddr_enable_pad_i                  : Measured Value: -0.660539  V
+cont_row_even_col_even_ : io_rsp_pad_data_3                    : Measured Value: -0.234779  V
+cont_row_even_col_even_ : int_data_pad_4                       : Measured Value: -0.233925  V
+cont_row_even_col_even_ : int_data_pad_2                       : Measured Value: -0.233878  V
+cont_row_even_col_even_ : io_rsp_pad_data_19                   : Measured Value: -0.232797  V
+cont_row_even_col_even_ : io_rsp_pad_data_23                   : Measured Value: -0.233473  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tck_pad_i            : Measured Value: -0.662212  V
+cont_row_even_col_even_ : global_chip_reset_pad_i              : Measured Value: -0.660346  V
+cont_row_even_col_even_ : pll_d_clk_pad_o                      : Measured Value: -0.235034  V
+cont_row_even_col_even_ : dft_pmbist_pmda_ovfl_pad_o           : Measured Value: -0.23438  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_7            : Measured Value: -0.234301  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_3            : Measured Value: -0.234647  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tdo_pad_o            : Measured Value: -0.234119  V
+cont_row_even_col_even_ : io_req_pad_data_14                   : Measured Value: -0.661394  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_4             : Measured Value: -0.660858  V
+cont_row_even_col_even_ : dft_scan_cmle_pad_i                  : Measured Value: -0.660845  V
+cont_row_even_col_even_ : reserved_in_pad_i_0                  : Measured Value: -0.660179  V
+cont_row_even_col_even_ : dft_opcg_trigger_pad_i               : Measured Value: -0.660634  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_15           : Measured Value: -0.2341  V
+cont_row_even_col_even_ : machine_init_done_pad_o              : Measured Value: -0.234852  V
+cont_row_even_col_even_ : pll_a_out_pad_ao                     : Measured Value: -0.656653  V
+cont_row_even_col_even_ : io_req_pad_data_valid                : Measured Value: -0.660136  V
+cont_row_even_col_even_ : pllset_pad_i_3                       : Measured Value: -0.660255  V
+cont_row_even_col_even_ : vsen_test0_pad_o                     : Measured Value: -0.238904  V
+cont_row_even_col_even_ : drive_pad_i_0                        : Measured Value: -0.660233  V
+
+
+cont_row_even_col_odd_ : io_rsp_pad_rsp_type                  : Measured Value: -0.235956  V
+cont_row_even_col_odd_ : io_req_pad_data_25                   : Measured Value: -0.66121  V
+cont_row_even_col_odd_ : io_req_pad_addr_valid                : Measured Value: -0.660756  V
+cont_row_even_col_odd_ : io_req_pad_addr_18                   : Measured Value: -0.661211  V
+cont_row_even_col_odd_ : io_rsp_pad_data_24                   : Measured Value: -0.233503  V
+cont_row_even_col_odd_ : io_rsp_pad_bus_rd_error              : Measured Value: -0.237549  V
+cont_row_even_col_odd_ : io_rsp_pad_data_20                   : Measured Value: -0.234406  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_0            : Measured Value: -0.234754  V
+cont_row_even_col_odd_ : io_rsp_pad_data_0                    : Measured Value: -0.235297  V
+cont_row_even_col_odd_ : io_req_pad_data_12                   : Measured Value: -0.662135  V
+cont_row_even_col_odd_ : io_req_pad_addr_22                   : Measured Value: -0.661263  V
+cont_row_even_col_odd_ : io_req_pad_data_11                   : Measured Value: -0.662212  V
+cont_row_even_col_odd_ : io_req_pad_addr_1                    : Measured Value: -0.66337  V
+cont_row_even_col_odd_ : io_req_pad_data_10                   : Measured Value: -0.662212  V
+cont_row_even_col_odd_ : io_req_pad_data_21                   : Measured Value: -0.66075  V
+cont_row_even_col_odd_ : io_req_pad_data_19                   : Measured Value: -0.661319  V
+cont_row_even_col_odd_ : dft_1500_wrck_pad_i                  : Measured Value: -0.663104  V
+cont_row_even_col_odd_ : io_req_pad_addr_25                   : Measured Value: -0.660465  V
+cont_row_even_col_odd_ : io_rsp_pad_data_11                   : Measured Value: -0.2346  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_tdi_pad_i            : Measured Value: -0.662269  V
+cont_row_even_col_odd_ : dft_scan_scan_in_pad_i_7             : Measured Value: -0.661259  V
+cont_row_even_col_odd_ : ref_clk_pad_i                        : Measured Value: -0.660176  V
+cont_row_even_col_odd_ : io_rsp_pad_data_8                    : Measured Value: -0.235415  V
+cont_row_even_col_odd_ : pll_fail_pad_o                       : Measured Value: -0.235006  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_11           : Measured Value: -0.234848  V
+cont_row_even_col_odd_ : dft_scan_cme_pad_i                   : Measured Value: -0.660712  V
+cont_row_even_col_odd_ : dft_opcg_load_en_pad_i               : Measured Value: -0.660504  V
+cont_row_even_col_odd_ : pll_reg_async_reset_n_pad_i          : Measured Value: -0.660406  V
+cont_row_even_col_odd_ : int_data_pad_3                       : Measured Value: -0.235227  V
+cont_row_even_col_odd_ : int_data_pad_0                       : Measured Value: -0.233714  V
+cont_row_even_col_odd_ : dft_scan_rst_n_pad_i                 : Measured Value: -0.661947  V
+cont_row_even_col_odd_ : dft_scan_misr_select_pad_i           : Measured Value: -0.660485  V
+cont_row_even_col_odd_ : tap_tdo_pad_o                        : Measured Value: -0.235789  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_done_pad_o           : Measured Value: -0.234123  V
+cont_row_even_col_odd_ : io_rsp_pad_accept1                   : Measured Value: -0.660349  V
+cont_row_even_col_odd_ : interrupt_req_pad_o_ack              : Measured Value: -0.660214  V
+
+
+cont_row_odd_col_even_ : io_rsp_pad_data_25                   : Measured Value: -0.232713  V
+cont_row_odd_col_even_ : io_req_pad_addr_0                    : Measured Value: -0.663274  V
+cont_row_odd_col_even_ : io_req_pad_addr_19                   : Measured Value: -0.661627  V
+cont_row_odd_col_even_ : io_req_pad_addr_13                   : Measured Value: -0.661476  V
+cont_row_odd_col_even_ : io_req_pad_data_29                   : Measured Value: -0.660945  V
+cont_row_odd_col_even_ : io_req_pad_data_0                    : Measured Value: -0.663236  V
+cont_row_odd_col_even_ : io_rsp_pad_data_16                   : Measured Value: -0.23388  V
+cont_row_odd_col_even_ : io_req_pad_addr_11                   : Measured Value: -0.661945  V
+cont_row_odd_col_even_ : io_rsp_pad_data_28                   : Measured Value: -0.233403  V
+cont_row_odd_col_even_ : io_req_pad_addr_6                    : Measured Value: -0.662705  V
+cont_row_odd_col_even_ : tap_tms_pad_i                        : Measured Value: -0.663515  V
+cont_row_odd_col_even_ : io_rsp_pad_data_valid                : Measured Value: -0.236714  V
+cont_row_odd_col_even_ : io_req_pad_addr_26                   : Measured Value: -0.661319  V
+cont_row_odd_col_even_ : dft_1500_ws_pad_i                    : Measured Value: -0.662894  V
+cont_row_odd_col_even_ : io_req_pad_data_26                   : Measured Value: -0.660522  V
+cont_row_odd_col_even_ : io_req_pad_addr_23                   : Measured Value: -0.66061  V
+cont_row_odd_col_even_ : io_req_pad_addr_28                   : Measured Value: -0.660484  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_9             : Measured Value: -0.661167  V
+cont_row_odd_col_even_ : io_req_pad_data_31                   : Measured Value: -0.660274  V
+cont_row_odd_col_even_ : io_rsp_pad_data_6                    : Measured Value: -0.236144  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_9            : Measured Value: -0.234429  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_1            : Measured Value: -0.234187  V
+cont_row_odd_col_even_ : dft_pmbist_pmda_rst_pad_i            : Measured Value: -0.662099  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_8             : Measured Value: -0.661225  V
+cont_row_odd_col_even_ : io_rsp_pad_data_27                   : Measured Value: -0.234554  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_10            : Measured Value: -0.661356  V
+cont_row_odd_col_even_ : pll_async_reset_n_pad_i              : Measured Value: -0.660425  V
+cont_row_odd_col_even_ : io_rsp_pad_data_15                   : Measured Value: -0.233088  V
+cont_row_odd_col_even_ : io_req_pad_data_24                   : Measured Value: -0.660654  V
+cont_row_odd_col_even_ : machine_init_ctrl_pad_i_1            : Measured Value: -0.659952  V
+cont_row_odd_col_even_ : io_rsp_pad_data_2                    : Measured Value: -0.233725  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_13           : Measured Value: -0.234094  V
+cont_row_odd_col_even_ : tsen_test_o_pad_o                    : Measured Value: -0.235927  V
+cont_row_odd_col_even_ : dft_pmbist_ret_pause_active_pad_o    : Measured Value: -0.234936  V
+
+
+cont_row_odd_col_odd_ : io_rsp_pad_accept0                   : Measured Value: -0.660471  V
+cont_row_odd_col_odd_ : io_req_pad_data_17                   : Measured Value: -0.661097  V
+cont_row_odd_col_odd_ : io_req_pad_data_9                    : Measured Value: -0.662026  V
+cont_row_odd_col_odd_ : io_req_pad_accept0                   : Measured Value: -0.235949  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_0                 : Measured Value: -0.23593  V
+cont_row_odd_col_odd_ : io_req_pad_data_23                   : Measured Value: -0.66102  V
+cont_row_odd_col_odd_ : io_req_pad_addr_17                   : Measured Value: -0.661262  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_1                 : Measured Value: -0.235682  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_10                   : Measured Value: -0.23388  V
+cont_row_odd_col_odd_ : io_req_pad_data_3                    : Measured Value: -0.663069  V
+cont_row_odd_col_odd_ : io_req_pad_data_16                   : Measured Value: -0.661566  V
+cont_row_odd_col_odd_ : io_req_pad_addr_16                   : Measured Value: -0.661527  V
+cont_row_odd_col_odd_ : io_req_pad_data_7                    : Measured Value: -0.662818  V
+cont_row_odd_col_odd_ : io_rsp_pad_size_0                    : Measured Value: -0.235062  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_22                   : Measured Value: -0.235866  V
+cont_row_odd_col_odd_ : io_req_pad_data_22                   : Measured Value: -0.660959  V
+cont_row_odd_col_odd_ : io_req_pad_data_2                    : Measured Value: -0.663331  V
+cont_row_odd_col_odd_ : io_req_pad_addr_7                    : Measured Value: -0.66259  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_1                    : Measured Value: -0.234221  V
+cont_row_odd_col_odd_ : io_req_pad_data_15                   : Measured Value: -0.661451  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_12                   : Measured Value: -0.234051  V
+cont_row_odd_col_odd_ : io_req_pad_data_6                    : Measured Value: -0.662306  V
+cont_row_odd_col_odd_ : pmon_d_clk1_pad_o                    : Measured Value: -0.236315  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_6            : Measured Value: -0.23393  V
+cont_row_odd_col_odd_ : io_req_pad_addr_20                   : Measured Value: -0.661433  V
+cont_row_odd_col_odd_ : io_req_pad_addr_14                   : Measured Value: -0.661568  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_17                   : Measured Value: -0.234663  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_13                   : Measured Value: -0.234157  V
+cont_row_odd_col_odd_ : io_req_pad_addr_10                   : Measured Value: -0.662116  V
+cont_row_odd_col_odd_ : io_req_pad_addr_3                    : Measured Value: -0.662763  V
+cont_row_odd_col_odd_ : io_req_pad_addr_27                   : Measured Value: -0.660619  V
+cont_row_odd_col_odd_ : io_req_pad_data_5                    : Measured Value: -0.662497  V
+cont_row_odd_col_odd_ : dft_1500_updatewr_pad_i              : Measured Value: -0.662554  V
+cont_row_odd_col_odd_ : dft_scan_scan_en_pad_i               : Measured Value: -0.661794  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_6             : Measured Value: -0.660856  V
+cont_row_odd_col_odd_ : dft_scan_elastic_rst_pad_i           : Measured Value: -0.660724  V
+cont_row_odd_col_odd_ : dft_opcg_shift_clk_pad_i             : Measured Value: -0.660558  V
+cont_row_odd_col_odd_ : int_req_pad                          : Measured Value: -0.234397  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_31                   : Measured Value: -0.235877  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_5                    : Measured Value: -0.235769  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_4                    : Measured Value: -0.233372  V
+cont_row_odd_col_odd_ : io_req_pad_addr_29                   : Measured Value: -0.660332  V
+cont_row_odd_col_odd_ : io_req_pad_data_28                   : Measured Value: -0.660446  V
+cont_row_odd_col_odd_ : dft_1500_capturewr_pad_i             : Measured Value: -0.6624  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_15            : Measured Value: -0.661643  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_5             : Measured Value: -0.660876  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_3             : Measured Value: -0.660972  V
+cont_row_odd_col_odd_ : dft_scan_misr_rst_pad_i              : Measured Value: -0.660656  V
+cont_row_odd_col_odd_ : machine_init_ctrl_pad_i_0            : Measured Value: -0.660308  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_5            : Measured Value: -0.234129  V
+cont_row_odd_col_odd_ : dft_pmbist_pmda_fail_pad_o           : Measured Value: -0.234836  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_14            : Measured Value: -0.661585  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_13            : Measured Value: -0.661509  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_2             : Measured Value: -0.660534  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_1                   : Measured Value: -0.660084  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_0                   : Measured Value: -0.659991  V
+cont_row_odd_col_odd_ : pllset_pad_i_0                       : Measured Value: -0.660062  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_29                   : Measured Value: -0.23582  V
+cont_row_odd_col_odd_ : dft_1500_wso_ret_pad_o               : Measured Value: -0.234738  V
+cont_row_odd_col_odd_ : pllset_pad_i_2                       : Measured Value: -0.660179  V
+cont_row_odd_col_odd_ : pllset_pad_i_1                       : Measured Value: -0.660179  V
+cont_row_odd_col_odd_ : dft_scan_lpg1_pad_i                  : Measured Value: -0.660485  V
+cont_row_odd_col_odd_ : pll_ref_select_pad_i                 : Measured Value: -0.660065  V
+cont_row_odd_col_odd_ : pll_lock_pad_o                       : Measured Value: -0.235056  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_9                    : Measured Value: -0.234732  V
+cont_row_odd_col_odd_ : int_data_pad_1                       : Measured Value: -0.234544  V
+cont_row_odd_col_odd_ : tsen_iref_o_pad_ao                   : Measured Value: -0.659681  V
+cont_row_odd_col_odd_ : pll_config_select_pad_i              : Measured Value: -0.660079  V
+cont_row_odd_col_odd_ : vsen_test1_pad_o                     : Measured Value: -0.234982  V
+cont_row_odd_col_odd_ : drive_pad_i_1                        : Measured Value: -0.660751  V
+cont_row_odd_col_odd_ : dft_pmbist_ret_pause_continue_pad_i  : Measured Value: -0.661887  V
+
+
+-----------------------------------------------
+TOTAL NUMBER OF FAILING PINS ==== 0
+-----------------------------------------------
+All DPS connected
+All DPS disconnected
+
+
+idd_static of dps_core pin
+vdd_core 	: 12017.8	mA
+
+
+IDD_static of dps_0p8 pins
+vcs_pll  	: 0.139059	mA
+vcs_pm_1  	: 0.718931	mA
+vcs_pm_2  	: 0.708266	mA
+vdd_io_clk  	: 0.123126	mA
+vdd_pll  	: 0.123663	mA
+
+
+IDD_static of dps_1p8 pins
+vcsio_pll  	: 0.554117	mA
+vcsio_ts  	: 0.0243813	mA
+vcsio_vs_1  	: 0.0221898	mA
+vcsio_vs_2  	: 0.0219217	mA
+vddio_io_clk  	: 0.103399	mA
+vddio_pll  	: 0.102088	mA
+vddio_rx  	: 11.7222	mA
+vddio_tx  	: 18.791	mA
+
+All DPS connected
+All DPS disconnected
+
+
+IDD_dynamic of dps_core pin :
+vdd_core 	:  26183.6	mA
+
+
+IDD_dynamic of dps_0p8 pins
+vcs_pll  	:0.683703	mA
+vcs_pm_1  	:0.248229	mA
+vcs_pm_2  	:0.255333	mA
+vdd_io_clk  	:0.13606	mA
+vdd_pll  	:0.128216	mA
+
+
+IDD_dynamic of dps_1p8 pins
+vcsio_pll  	:1.7317	mA
+vcsio_ts  	:0.0125257	mA
+vcsio_vs_1  	:0.0142858	mA
+vcsio_vs_2  	:0.0100627	mA
+vddio_io_clk  	:0.135018	mA
+vddio_pll  	:0.106037	mA
+vddio_rx  	:7.54594	mA
+vddio_tx  	:16.7733	mA
+WARNING: PSST - DCS pin "vdd_core" is in constant current mode.
+All DPS connected
+WARNING: PSST - DCS pin "vdd_core" has been in constant current mode.
+WARNING: PSST - DCS pin "vss_mux" has been in constant current mode.
+All DPS disconnected
+
+
+Leakage_High_Dir Datalog : 
+
+leak_hi_r_eve_c_eve_io_req_pad_size_0         Meas Value:	-0.029  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_30        Meas Value:	-0.032  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_13        Meas Value:	-0.003  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_5         Meas Value:	0.008  uA
+leak_hi_r_eve_c_eve_io_req_pad_size_1         Meas Value:	-0.034  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_9         Meas Value:	-0.024  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_8         Meas Value:	-0.008  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_4         Meas Value:	-0.009  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_18        Meas Value:	-0.019  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_8         Meas Value:	-0.012  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_4         Meas Value:	0.001  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_1         Meas Value:	0.005  uA
+leak_hi_r_eve_c_eve_tap_tck_pad_i             Meas Value:	0.017  uA
+leak_hi_r_eve_c_eve_tap_tdi_pad_i             Meas Value:	-0.025  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_2         Meas Value:	-0.013  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_15        Meas Value:	0.011  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_20        Meas Value:	-0.014  uA
+leak_hi_r_eve_c_eve_tap_rstn_pad_i            Meas Value:	-0.02  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_24        Meas Value:	-0.009  uA
+leak_hi_r_eve_c_eve_dft_1500_shiftwr_pad_i    Meas Value:	-0.017  uA
+leak_hi_r_eve_c_eve_dft_1500_wrstn_pad_i      Meas Value:	-0.018  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_12        Meas Value:	-0.001  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_12 Meas Value:	-0.024  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_1  Meas Value:	0.022  uA
+leak_hi_r_eve_c_eve_dft_scan_lpg2_pad_i       Meas Value:	-0.026  uA
+leak_hi_r_eve_c_eve_io_clk_pad_i              Meas Value:	-0.012  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_27        Meas Value:	0.005  uA
+leak_hi_r_eve_c_eve_dft_1500_selectwr_pad_i   Meas Value:	-0.02  uA
+leak_hi_r_eve_c_eve_dft_pmbist_pmbist_mode_pad_iMeas Value:	-0.011  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_11 Meas Value:	-0.001  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_21        Meas Value:	0.004  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_0  Meas Value:	0.026  uA
+leak_hi_r_eve_c_eve_dft_scan_ss1_pad_i        Meas Value:	-0.017  uA
+leak_hi_r_eve_c_eve_io_ddr_enable_pad_i       Meas Value:	0.018  uA
+leak_hi_r_eve_c_eve_dft_pmbist_pmda_tck_pad_i Meas Value:	-0.023  uA
+leak_hi_r_eve_c_eve_global_chip_reset_pad_i   Meas Value:	0.009  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_14        Meas Value:	-0.007  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_4  Meas Value:	0.012  uA
+leak_hi_r_eve_c_eve_dft_scan_cmle_pad_i       Meas Value:	-0.005  uA
+leak_hi_r_eve_c_eve_reserved_in_pad_i_0       Meas Value:	-0.011  uA
+leak_hi_r_eve_c_eve_dft_opcg_trigger_pad_i    Meas Value:	-0.003  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_valid     Meas Value:	0.03  uA
+leak_hi_r_eve_c_eve_pllset_pad_i_3            Meas Value:	0  uA
+leak_hi_r_eve_c_eve_drive_pad_i_0             Meas Value:	0.041  uA
+
+
+leak_hi_r_eve_c_odd_io_req_pad_data_25        Meas Value:	-0.036  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_valid     Meas Value:	0.011  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_18        Meas Value:	0.007  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_12        Meas Value:	-0.013  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_22        Meas Value:	-0.007  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_11        Meas Value:	0.006  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_1         Meas Value:	-0.01  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_10        Meas Value:	-0.014  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_21        Meas Value:	0.009  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_19        Meas Value:	-0.015  uA
+leak_hi_r_eve_c_odd_dft_1500_wrck_pad_i       Meas Value:	-0.032  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_25        Meas Value:	-0.003  uA
+leak_hi_r_eve_c_odd_dft_pmbist_pmda_tdi_pad_i Meas Value:	-0.02  uA
+leak_hi_r_eve_c_odd_dft_scan_scan_in_pad_i_7  Meas Value:	-0.024  uA
+leak_hi_r_eve_c_odd_ref_clk_pad_i             Meas Value:	0.059  uA
+leak_hi_r_eve_c_odd_dft_scan_cme_pad_i        Meas Value:	0.038  uA
+leak_hi_r_eve_c_odd_dft_opcg_load_en_pad_i    Meas Value:	0.007  uA
+leak_hi_r_eve_c_odd_pll_reg_async_reset_n_pad_iMeas Value:	0.025  uA
+leak_hi_r_eve_c_odd_dft_scan_rst_n_pad_i      Meas Value:	-0.023  uA
+leak_hi_r_eve_c_odd_dft_scan_misr_select_pad_iMeas Value:	0.011  uA
+leak_hi_r_eve_c_odd_io_rsp_pad_accept1        Meas Value:	0.009  uA
+
+
+leak_hi_r_odd_c_eve_io_req_pad_addr_0         Meas Value:	-0.01  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_19        Meas Value:	-0.024  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_13        Meas Value:	-0.031  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_29        Meas Value:	-0.022  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_0         Meas Value:	-0.01  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_11        Meas Value:	-0.01  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_6         Meas Value:	0.02  uA
+leak_hi_r_odd_c_eve_tap_tms_pad_i             Meas Value:	-0.017  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_26        Meas Value:	-0.027  uA
+leak_hi_r_odd_c_eve_dft_1500_ws_pad_i         Meas Value:	-0.015  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_26        Meas Value:	0.025  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_23        Meas Value:	0.025  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_28        Meas Value:	-0.013  uA
+leak_hi_r_odd_c_eve_dft_scan_scan_in_pad_i_9  Meas Value:	0.014  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_31        Meas Value:	-0.017  uA
+leak_hi_r_odd_c_eve_dft_pmbist_pmda_rst_pad_i Meas Value:	-0.016  uA
+leak_hi_r_odd_c_eve_dft_scan_scan_in_pad_i_8  Meas Value:	0  uA
+leak_hi_r_odd_c_eve_dft_scan_scan_in_pad_i_10 Meas Value:	-0.006  uA
+leak_hi_r_odd_c_eve_pll_async_reset_n_pad_i   Meas Value:	-0.02  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_24        Meas Value:	-0.006  uA
+leak_hi_r_odd_c_eve_machine_init_ctrl_pad_i_1 Meas Value:	0.011  uA
+
+
+leak_hi_r_odd_c_odd_io_req_pad_data_17        Meas Value:	0.012  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_9         Meas Value:	0.008  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_23        Meas Value:	-0.043  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_17        Meas Value:	-0.004  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_3         Meas Value:	-0.034  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_16        Meas Value:	-0.008  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_16        Meas Value:	-0.021  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_7         Meas Value:	-0.003  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_22        Meas Value:	-0.001  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_2         Meas Value:	0.015  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_7         Meas Value:	0.004  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_15        Meas Value:	0  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_6         Meas Value:	-0.01  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_20        Meas Value:	-0.03  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_14        Meas Value:	-0.034  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_10        Meas Value:	0.019  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_3         Meas Value:	-0.014  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_27        Meas Value:	-0.002  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_5         Meas Value:	-0.026  uA
+leak_hi_r_odd_c_odd_dft_1500_updatewr_pad_i   Meas Value:	-0.03  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_en_pad_i    Meas Value:	0.012  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_6  Meas Value:	0.025  uA
+leak_hi_r_odd_c_odd_dft_scan_elastic_rst_pad_iMeas Value:	0.018  uA
+leak_hi_r_odd_c_odd_dft_opcg_shift_clk_pad_i  Meas Value:	0.008  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_29        Meas Value:	0.012  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_28        Meas Value:	0.01  uA
+leak_hi_r_odd_c_odd_dft_1500_capturewr_pad_i  Meas Value:	0.001  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_15 Meas Value:	-0.016  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_5  Meas Value:	0.002  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_3  Meas Value:	0.028  uA
+leak_hi_r_odd_c_odd_dft_scan_misr_rst_pad_i   Meas Value:	0.002  uA
+leak_hi_r_odd_c_odd_machine_init_ctrl_pad_i_0 Meas Value:	0.021  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_14 Meas Value:	0.015  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_13 Meas Value:	0  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_2  Meas Value:	-0.001  uA
+leak_hi_r_odd_c_odd_rxtx_width_pad_i_1        Meas Value:	0  uA
+leak_hi_r_odd_c_odd_rxtx_width_pad_i_0        Meas Value:	-0.017  uA
+leak_hi_r_odd_c_odd_pllset_pad_i_0            Meas Value:	-0.009  uA
+leak_hi_r_odd_c_odd_pllset_pad_i_2            Meas Value:	-0.008  uA
+leak_hi_r_odd_c_odd_pllset_pad_i_1            Meas Value:	-0.009  uA
+leak_hi_r_odd_c_odd_dft_scan_lpg1_pad_i       Meas Value:	-0.022  uA
+leak_hi_r_odd_c_odd_pll_ref_select_pad_i      Meas Value:	-0.003  uA
+leak_hi_r_odd_c_odd_pll_config_select_pad_i   Meas Value:	0.039  uA
+leak_hi_r_odd_c_odd_drive_pad_i_1             Meas Value:	-0.005  uA
+leak_hi_r_odd_c_odd_dft_pmbist_ret_pause_continue_pad_iMeas Value:	-0.016  uA
+
+
+WARNING: PSST - DCS pin "vdd_core" has been in constant current mode.
+WARNING: PSST - DCS pin "vdd_core" is in constant current mode.
+All DPS connected
+WARNING: PSST - DCS pin "vdd_core" has been in constant current mode.
+WARNING: PSST - DCS pin "vss_mux" has been in constant current mode.
+All DPS disconnected
+
+
+Leakage_Low_Dir Datalog : 
+
+leak_lo_r_eve_c_eve_io_req_pad_size_0         Meas Value:	-0.03  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_30        Meas Value:	-0.038  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_13        Meas Value:	-0.002  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_5         Meas Value:	-0.002  uA
+leak_lo_r_eve_c_eve_io_req_pad_size_1         Meas Value:	-0.039  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_9         Meas Value:	-0.028  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_8         Meas Value:	-0.015  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_4         Meas Value:	-0.007  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_18        Meas Value:	-0.023  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_8         Meas Value:	-0.014  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_4         Meas Value:	-0.005  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_1         Meas Value:	0.006  uA
+leak_lo_r_eve_c_eve_tap_tck_pad_i             Meas Value:	-0.021  uA
+leak_lo_r_eve_c_eve_tap_tdi_pad_i             Meas Value:	-0.034  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_2         Meas Value:	-0.014  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_15        Meas Value:	0.008  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_20        Meas Value:	-0.017  uA
+leak_lo_r_eve_c_eve_tap_rstn_pad_i            Meas Value:	-0.022  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_24        Meas Value:	-0.006  uA
+leak_lo_r_eve_c_eve_dft_1500_shiftwr_pad_i    Meas Value:	-0.017  uA
+leak_lo_r_eve_c_eve_dft_1500_wrstn_pad_i      Meas Value:	-0.022  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_12        Meas Value:	-0.009  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_12 Meas Value:	-0.024  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_1  Meas Value:	0.019  uA
+leak_lo_r_eve_c_eve_dft_scan_lpg2_pad_i       Meas Value:	-0.037  uA
+leak_lo_r_eve_c_eve_io_clk_pad_i              Meas Value:	-0.006  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_27        Meas Value:	0.005  uA
+leak_lo_r_eve_c_eve_dft_1500_selectwr_pad_i   Meas Value:	-0.02  uA
+leak_lo_r_eve_c_eve_dft_pmbist_pmbist_mode_pad_iMeas Value:	-0.014  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_11 Meas Value:	-0.001  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_21        Meas Value:	-0.012  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_0  Meas Value:	-0.023  uA
+leak_lo_r_eve_c_eve_dft_scan_ss1_pad_i        Meas Value:	-0.028  uA
+leak_lo_r_eve_c_eve_io_ddr_enable_pad_i       Meas Value:	-0.03  uA
+leak_lo_r_eve_c_eve_dft_pmbist_pmda_tck_pad_i Meas Value:	-0.024  uA
+leak_lo_r_eve_c_eve_global_chip_reset_pad_i   Meas Value:	0.003  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_14        Meas Value:	-0.01  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_4  Meas Value:	0.014  uA
+leak_lo_r_eve_c_eve_dft_scan_cmle_pad_i       Meas Value:	-0.006  uA
+leak_lo_r_eve_c_eve_reserved_in_pad_i_0       Meas Value:	-0.014  uA
+leak_lo_r_eve_c_eve_dft_opcg_trigger_pad_i    Meas Value:	-0.033  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_valid     Meas Value:	-0.015  uA
+leak_lo_r_eve_c_eve_pllset_pad_i_3            Meas Value:	-0.003  uA
+leak_lo_r_eve_c_eve_drive_pad_i_0             Meas Value:	-0.016  uA
+
+
+leak_lo_r_eve_c_odd_io_req_pad_data_25        Meas Value:	-0.039  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_valid     Meas Value:	0.008  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_18        Meas Value:	0.009  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_12        Meas Value:	-0.014  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_22        Meas Value:	-0.002  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_11        Meas Value:	0.009  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_1         Meas Value:	-0.014  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_10        Meas Value:	-0.023  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_21        Meas Value:	0.013  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_19        Meas Value:	-0.013  uA
+leak_lo_r_eve_c_odd_dft_1500_wrck_pad_i       Meas Value:	-0.031  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_25        Meas Value:	-0.01  uA
+leak_lo_r_eve_c_odd_dft_pmbist_pmda_tdi_pad_i Meas Value:	-0.019  uA
+leak_lo_r_eve_c_odd_dft_scan_scan_in_pad_i_7  Meas Value:	-0.03  uA
+leak_lo_r_eve_c_odd_ref_clk_pad_i             Meas Value:	-0.001  uA
+leak_lo_r_eve_c_odd_dft_scan_cme_pad_i        Meas Value:	-0.007  uA
+leak_lo_r_eve_c_odd_dft_opcg_load_en_pad_i    Meas Value:	-0.005  uA
+leak_lo_r_eve_c_odd_pll_reg_async_reset_n_pad_iMeas Value:	-0.047  uA
+leak_lo_r_eve_c_odd_dft_scan_rst_n_pad_i      Meas Value:	-0.025  uA
+leak_lo_r_eve_c_odd_dft_scan_misr_select_pad_iMeas Value:	-0.003  uA
+leak_lo_r_eve_c_odd_io_rsp_pad_accept1        Meas Value:	-0.021  uA
+
+
+leak_lo_r_odd_c_eve_io_req_pad_addr_0         Meas Value:	-0.016  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_19        Meas Value:	-0.028  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_13        Meas Value:	-0.028  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_29        Meas Value:	-0.025  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_0         Meas Value:	-0.014  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_11        Meas Value:	-0.009  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_6         Meas Value:	0.013  uA
+leak_lo_r_odd_c_eve_tap_tms_pad_i             Meas Value:	-0.017  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_26        Meas Value:	-0.025  uA
+leak_lo_r_odd_c_eve_dft_1500_ws_pad_i         Meas Value:	-0.014  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_26        Meas Value:	0.005  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_23        Meas Value:	0.004  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_28        Meas Value:	-0.007  uA
+leak_lo_r_odd_c_eve_dft_scan_scan_in_pad_i_9  Meas Value:	0.009  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_31        Meas Value:	-0.022  uA
+leak_lo_r_odd_c_eve_dft_pmbist_pmda_rst_pad_i Meas Value:	-0.04  uA
+leak_lo_r_odd_c_eve_dft_scan_scan_in_pad_i_8  Meas Value:	0  uA
+leak_lo_r_odd_c_eve_dft_scan_scan_in_pad_i_10 Meas Value:	-0.005  uA
+leak_lo_r_odd_c_eve_pll_async_reset_n_pad_i   Meas Value:	-0.023  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_24        Meas Value:	-0.002  uA
+leak_lo_r_odd_c_eve_machine_init_ctrl_pad_i_1 Meas Value:	0  uA
+
+
+leak_lo_r_odd_c_odd_io_req_pad_data_17        Meas Value:	-0.015  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_9         Meas Value:	0.004  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_23        Meas Value:	-0.05  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_17        Meas Value:	-0.003  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_3         Meas Value:	-0.035  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_16        Meas Value:	-0.004  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_16        Meas Value:	-0.025  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_7         Meas Value:	-0.006  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_22        Meas Value:	-0.002  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_2         Meas Value:	-0.009  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_7         Meas Value:	-0.012  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_15        Meas Value:	0.002  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_6         Meas Value:	-0.007  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_20        Meas Value:	-0.033  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_14        Meas Value:	-0.04  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_10        Meas Value:	0.006  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_3         Meas Value:	-0.038  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_27        Meas Value:	-0.011  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_5         Meas Value:	-0.031  uA
+leak_lo_r_odd_c_odd_dft_1500_updatewr_pad_i   Meas Value:	-0.03  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_en_pad_i    Meas Value:	0.01  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_6  Meas Value:	0.011  uA
+leak_lo_r_odd_c_odd_dft_scan_elastic_rst_pad_iMeas Value:	0.018  uA
+leak_lo_r_odd_c_odd_dft_opcg_shift_clk_pad_i  Meas Value:	-0.027  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_29        Meas Value:	0.008  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_28        Meas Value:	0.011  uA
+leak_lo_r_odd_c_odd_dft_1500_capturewr_pad_i  Meas Value:	-0.016  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_15 Meas Value:	-0.021  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_5  Meas Value:	0.006  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_3  Meas Value:	-0.001  uA
+leak_lo_r_odd_c_odd_dft_scan_misr_rst_pad_i   Meas Value:	-0.003  uA
+leak_lo_r_odd_c_odd_machine_init_ctrl_pad_i_0 Meas Value:	-0.018  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_14 Meas Value:	0.014  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_13 Meas Value:	0  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_2  Meas Value:	-0.005  uA
+leak_lo_r_odd_c_odd_rxtx_width_pad_i_1        Meas Value:	-0.004  uA
+leak_lo_r_odd_c_odd_rxtx_width_pad_i_0        Meas Value:	-0.016  uA
+leak_lo_r_odd_c_odd_pllset_pad_i_0            Meas Value:	-0.008  uA
+leak_lo_r_odd_c_odd_pllset_pad_i_2            Meas Value:	-0.006  uA
+leak_lo_r_odd_c_odd_pllset_pad_i_1            Meas Value:	-0.013  uA
+leak_lo_r_odd_c_odd_dft_scan_lpg1_pad_i       Meas Value:	-0.024  uA
+leak_lo_r_odd_c_odd_pll_ref_select_pad_i      Meas Value:	-0.007  uA
+leak_lo_r_odd_c_odd_pll_config_select_pad_i   Meas Value:	-0.016  uA
+leak_lo_r_odd_c_odd_drive_pad_i_1             Meas Value:	-0.004  uA
+leak_lo_r_odd_c_odd_dft_pmbist_ret_pause_continue_pad_iMeas Value:	-0.01  uA
+
+
+WARNING: PSST - DCS pin "vdd_core" has been in constant current mode.
+WARNING: PSST - DCS pin "vdd_core" is in constant current mode.
+All DPS connected
+WARNING: PSST - DCS pin "vdd_core" has been in constant current mode.
+All DPS disconnected
+
+
+Leakage_High_Mux Datalog : 
+
+MUX_OUT number :	mux1_out
+leak_hi_mux_io_req_pad_data_250      Meas Value: 17.965 uA
+leak_hi_mux_io_req_pad_data_174      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_200      Meas Value: 17.986 uA
+leak_hi_mux_io_req_pad_data_40       Meas Value: 17.999 uA
+leak_hi_mux_io_req_pad_data_52       Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_56       Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_202      Meas Value: 17.963 uA
+leak_hi_mux_io_req_pad_data_161      Meas Value: 17.999 uA
+leak_hi_mux_io_req_pad_data_42       Meas Value: 17.968 uA
+leak_hi_mux_io_req_pad_data_81       Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_47       Meas Value: 17.994 uA
+leak_hi_mux_io_req_pad_data_87       Meas Value: 17.999 uA
+leak_hi_mux_io_req_pad_data_122      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_131      Meas Value: 17.973 uA
+leak_hi_mux_io_req_pad_data_92       Meas Value: 18.035 uA
+leak_hi_mux_io_req_pad_data_248      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_184      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_103      Meas Value: 17.952 uA
+leak_hi_mux_io_req_pad_data_195      Meas Value: 17.97 uA
+leak_hi_mux_io_req_pad_data_119      Meas Value: 17.924 uA
+leak_hi_mux_io_req_pad_data_172      Meas Value: 17.986 uA
+leak_hi_mux_io_req_pad_data_123      Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_168      Meas Value: 17.965 uA
+leak_hi_mux_io_req_pad_data_44       Meas Value: -0.02 uA
+leak_hi_mux_io_req_pad_data_160      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_89       Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_213      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_249      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_204      Meas Value: 17.965 uA
+leak_hi_mux_io_req_pad_data_48       Meas Value: 18.006 uA
+leak_hi_mux_io_req_pad_data_163      Meas Value: 17.96 uA
+
+
+MUX_OUT number :	mux2_out
+leak_hi_mux_io_req_pad_data_69       Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_121      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_144      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_46       Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_data_155      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_126      Meas Value: 17.97 uA
+leak_hi_mux_io_req_pad_data_178      Meas Value: 18.014 uA
+leak_hi_mux_io_req_pad_data_162      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_36       Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_208      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_115      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_59       Meas Value: 17.986 uA
+leak_hi_mux_io_req_pad_data_88       Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_243      Meas Value: 17.937 uA
+leak_hi_mux_io_req_pad_data_176      Meas Value: 18.014 uA
+leak_hi_mux_io_req_pad_data_203      Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_166      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_51       Meas Value: 18.019 uA
+leak_hi_mux_io_req_pad_data_127      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_207      Meas Value: 18.006 uA
+leak_hi_mux_io_req_pad_data_90       Meas Value: 18.029 uA
+leak_hi_mux_io_req_pad_data_84       Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_83       Meas Value: 17.953 uA
+leak_hi_mux_io_req_pad_data_244      Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_93       Meas Value: 18.026 uA
+leak_hi_mux_io_req_pad_data_110      Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_data_129      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_224      Meas Value: 18.011 uA
+leak_hi_mux_io_req_pad_data_132      Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_57       Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_120      Meas Value: 18.029 uA
+
+
+MUX_OUT number :	mux3_out
+leak_hi_mux_io_req_pad_data_239      Meas Value: 18.014 uA
+leak_hi_mux_io_req_pad_data_191      Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_220      Meas Value: 18.094 uA
+leak_hi_mux_io_req_pad_parity_1      Meas Value: 17.977 uA
+leak_hi_mux_io_req_pad_data_108      Meas Value: 18.055 uA
+leak_hi_mux_io_req_pad_data_254      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_79       Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_parity_0      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_97       Meas Value: 17.987 uA
+leak_hi_mux_io_req_pad_data_99       Meas Value: 17.987 uA
+leak_hi_mux_io_req_pad_data_212      Meas Value: 17.994 uA
+leak_hi_mux_io_req_pad_data_253      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_216      Meas Value: 18.006 uA
+leak_hi_mux_io_req_pad_data_227      Meas Value: 18.009 uA
+leak_hi_mux_io_req_pad_data_62       Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_148      Meas Value: 18.035 uA
+leak_hi_mux_io_req_pad_data_180      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_219      Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_165      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_240      Meas Value: 17.994 uA
+leak_hi_mux_io_req_pad_data_80       Meas Value: 18.033 uA
+leak_hi_mux_io_req_pad_data_125      Meas Value: 17.972 uA
+leak_hi_mux_io_req_pad_data_138      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_53       Meas Value: 18.021 uA
+leak_hi_mux_io_req_pad_data_43       Meas Value: 18.031 uA
+leak_hi_mux_io_req_pad_data_167      Meas Value: 17.982 uA
+leak_hi_mux_io_req_pad_data_241      Meas Value: 18.011 uA
+leak_hi_mux_io_req_pad_data_251      Meas Value: 17.992 uA
+leak_hi_mux_io_req_pad_data_199      Meas Value: 18.021 uA
+leak_hi_mux_io_req_pad_data_153      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_38       Meas Value: 17.999 uA
+
+
+MUX_OUT number :	mux4_out
+leak_hi_mux_io_req_pad_data_63       Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_135      Meas Value: 18.025 uA
+leak_hi_mux_reserved_in_pad_i_11     Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_124      Meas Value: 18.025 uA
+leak_hi_mux_io_req_pad_data_171      Meas Value: 18.028 uA
+leak_hi_mux_io_req_pad_data_152      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_96       Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_211      Meas Value: 18.001 uA
+leak_hi_mux_reserved_in_pad_i_13     Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_177      Meas Value: 18.015 uA
+leak_hi_mux_io_req_pad_data_214      Meas Value: 18.04 uA
+leak_hi_mux_io_req_pad_data_255      Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_141      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_107      Meas Value: 17.991 uA
+leak_hi_mux_reserved_in_pad_i_12     Meas Value: 18.033 uA
+leak_hi_mux_io_req_pad_data_245      Meas Value: 18.033 uA
+leak_hi_mux_io_req_pad_data_77       Meas Value: 18.069 uA
+leak_hi_mux_io_req_pad_data_114      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_225      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_67       Meas Value: 17.971 uA
+leak_hi_mux_io_req_pad_parity_3      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_238      Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_237      Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_73       Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_252      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_234      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_137      Meas Value: 18.03 uA
+leak_hi_mux_io_req_pad_data_142      Meas Value: 18.025 uA
+leak_hi_mux_io_req_pad_data_118      Meas Value: 18.03 uA
+leak_hi_mux_io_req_pad_data_232      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_187      Meas Value: 18.003 uA
+
+
+MUX_OUT number :	mux5_out
+leak_hi_mux_io_req_pad_data_101      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_104      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_181      Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_102      Meas Value: 18.01 uA
+leak_hi_mux_io_req_pad_data_54       Meas Value: 18.023 uA
+leak_hi_mux_io_req_pad_data_170      Meas Value: 18.01 uA
+leak_hi_mux_io_req_pad_data_139      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_58       Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_182      Meas Value: 17.954 uA
+leak_hi_mux_io_req_pad_data_196      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_185      Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_130      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_parity_7      Meas Value: 17.986 uA
+leak_hi_mux_io_req_pad_data_231      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_60       Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_117      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_82       Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_41       Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_140      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_201      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_85       Meas Value: 17.969 uA
+leak_hi_mux_io_req_pad_data_55       Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_45       Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_175      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_218      Meas Value: 17.967 uA
+leak_hi_mux_io_req_pad_data_94       Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_134      Meas Value: 18.01 uA
+leak_hi_mux_io_req_pad_data_209      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_parity_8      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_66       Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_32       Meas Value: 18.027 uA
+
+
+MUX_OUT number :	mux6_out
+leak_hi_mux_io_req_pad_data_33       Meas Value: 18.102 uA
+leak_hi_mux_io_req_pad_data_197      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_154      Meas Value: 18.05 uA
+leak_hi_mux_io_req_pad_data_235      Meas Value: 18.006 uA
+leak_hi_mux_io_req_pad_data_186      Meas Value: 18.057 uA
+leak_hi_mux_io_req_pad_data_109      Meas Value: 17.944 uA
+leak_hi_mux_io_req_pad_data_143      Meas Value: 18.015 uA
+leak_hi_mux_io_req_pad_data_145      Meas Value: 18.052 uA
+leak_hi_mux_io_req_pad_data_100      Meas Value: 18.035 uA
+leak_hi_mux_io_req_pad_parity_9      Meas Value: 18.062 uA
+leak_hi_mux_io_req_pad_data_158      Meas Value: 18.057 uA
+leak_hi_mux_io_req_pad_data_236      Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_49       Meas Value: 17.998 uA
+leak_hi_mux_reserved_in_pad_i_8      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_223      Meas Value: 18.025 uA
+leak_hi_mux_io_req_pad_data_164      Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_246      Meas Value: 17.971 uA
+leak_hi_mux_io_req_pad_data_198      Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_242      Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_68       Meas Value: 18.038 uA
+leak_hi_mux_io_req_pad_data_116      Meas Value: 18.065 uA
+leak_hi_mux_io_req_pad_parity_2      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_233      Meas Value: 18.045 uA
+leak_hi_mux_io_req_pad_data_149      Meas Value: 18.025 uA
+leak_hi_mux_io_req_pad_data_221      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_78       Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_105      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_183      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_222      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_64       Meas Value: 18.015 uA
+
+
+MUX_OUT number :	mux7_out
+leak_hi_mux_reserved_in_pad_i_5      Meas Value: 18.033 uA
+leak_hi_mux_io_req_pad_data_226      Meas Value: 18.002 uA
+leak_hi_mux_io_req_pad_data_179      Meas Value: 17.971 uA
+leak_hi_mux_reserved_in_pad_i_1      Meas Value: 18.016 uA
+leak_hi_mux_reserved_in_pad_i_6      Meas Value: 17.963 uA
+leak_hi_mux_io_req_pad_data_95       Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_210      Meas Value: 18.009 uA
+leak_hi_mux_io_req_pad_data_133      Meas Value: 18.009 uA
+leak_hi_mux_io_req_pad_data_159      Meas Value: 18.048 uA
+leak_hi_mux_io_req_pad_data_151      Meas Value: 17.997 uA
+leak_hi_mux_io_req_pad_data_205      Meas Value: 18.038 uA
+leak_hi_mux_reserved_in_pad_i_3      Meas Value: 18 uA
+leak_hi_mux_io_req_pad_data_173      Meas Value: 18.024 uA
+leak_hi_mux_reserved_in_pad_i_9      Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_247      Meas Value: 18.009 uA
+leak_hi_mux_io_req_pad_data_50       Meas Value: 18.024 uA
+leak_hi_mux_io_req_pad_data_188      Meas Value: 18.002 uA
+leak_hi_mux_reserved_in_pad_i_7      Meas Value: 18.002 uA
+leak_hi_mux_io_req_pad_data_70       Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_215      Meas Value: 17.995 uA
+leak_hi_mux_reserved_in_pad_i_4      Meas Value: 18.012 uA
+leak_hi_mux_io_req_pad_data_98       Meas Value: 17.963 uA
+leak_hi_mux_io_req_pad_data_61       Meas Value: 17.98 uA
+leak_hi_mux_reserved_in_pad_i_2      Meas Value: 18.036 uA
+leak_hi_mux_io_req_pad_data_111      Meas Value: 17.992 uA
+leak_hi_mux_io_req_pad_data_192      Meas Value: 18.019 uA
+leak_hi_mux_io_req_pad_data_156      Meas Value: 18.057 uA
+leak_hi_mux_io_req_pad_parity_5      Meas Value: 17.971 uA
+leak_hi_mux_io_req_pad_data_146      Meas Value: 18.031 uA
+leak_hi_mux_io_req_pad_data_71       Meas Value: 17.975 uA
+leak_hi_mux_io_req_pad_parity_4      Meas Value: 18.009 uA
+
+
+MUX_OUT number :	mux8_out
+leak_hi_mux_io_req_pad_data_194      Meas Value: 18.023 uA
+leak_hi_mux_io_req_pad_data_113      Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_75       Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_74       Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_35       Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_112      Meas Value: 18.037 uA
+leak_hi_mux_io_req_pad_data_228      Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_data_230      Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_37       Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_229      Meas Value: 18.03 uA
+leak_hi_mux_io_req_pad_parity_6      Meas Value: 18.037 uA
+leak_hi_mux_io_req_pad_data_34       Meas Value: 17.964 uA
+leak_hi_mux_io_req_pad_data_193      Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_150      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_106      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_65       Meas Value: 18.05 uA
+leak_hi_mux_io_req_pad_data_76       Meas Value: 17.959 uA
+leak_hi_mux_io_req_pad_data_39       Meas Value: 18.04 uA
+leak_hi_mux_io_req_pad_data_169      Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_data_91       Meas Value: 17.969 uA
+leak_hi_mux_io_req_pad_data_157      Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_128      Meas Value: 17.961 uA
+leak_hi_mux_io_req_pad_data_72       Meas Value: 18.008 uA
+leak_hi_mux_reserved_in_pad_i_10     Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_86       Meas Value: 18.028 uA
+leak_hi_mux_io_req_pad_data_190      Meas Value: 18.01 uA
+leak_hi_mux_io_req_pad_data_189      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_206      Meas Value: 18.025 uA
+leak_hi_mux_io_req_pad_data_217      Meas Value: 18.054 uA
+leak_hi_mux_io_req_pad_data_136      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_147      Meas Value: 17.981 uA
+
+
+WARNING: PSST - DCS pin "vdd_core" has been in constant current mode.
+WARNING: PSST - DCS pin "vdd_core" is in constant current mode.
+All DPS connected
+WARNING: PSST - DCS pin "vdd_core" has been in constant current mode.
+All DPS disconnected
+
+
+Leakage_Low_Mux Datalog : 
+
+MUX_OUT number :	mux1_out
+leak_lo_mux_io_req_pad_data_250      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_174      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_200      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_40       Meas Value: -0.031 uA
+leak_lo_mux_io_req_pad_data_52       Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_56       Meas Value: -0.031 uA
+leak_lo_mux_io_req_pad_data_202      Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_161      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_42       Meas Value: -0.031 uA
+leak_lo_mux_io_req_pad_data_81       Meas Value: -0.033 uA
+leak_lo_mux_io_req_pad_data_47       Meas Value: -0.031 uA
+leak_lo_mux_io_req_pad_data_87       Meas Value: -0.033 uA
+leak_lo_mux_io_req_pad_data_122      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_131      Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_92       Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_248      Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_184      Meas Value: -0.031 uA
+leak_lo_mux_io_req_pad_data_103      Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_195      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_119      Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_172      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_123      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_168      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_44       Meas Value: -0.023 uA
+leak_lo_mux_io_req_pad_data_160      Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_89       Meas Value: -0.031 uA
+leak_lo_mux_io_req_pad_data_213      Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_249      Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_204      Meas Value: -0.025 uA
+leak_lo_mux_io_req_pad_data_48       Meas Value: -0.028 uA
+leak_lo_mux_io_req_pad_data_163      Meas Value: -0.025 uA
+
+
+MUX_OUT number :	mux2_out
+leak_lo_mux_io_req_pad_data_69       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_121      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_144      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_46       Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_155      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_126      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_178      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_162      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_36       Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_208      Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_115      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_59       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_88       Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_243      Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_176      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_203      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_166      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_51       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_127      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_207      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_90       Meas Value: -0.007 uA
+leak_lo_mux_io_req_pad_data_84       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_83       Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_244      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_93       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_110      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_129      Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_224      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_132      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_57       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_120      Meas Value: -0.002 uA
+
+
+MUX_OUT number :	mux3_out
+leak_lo_mux_io_req_pad_data_239      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_191      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_220      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_parity_1      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_108      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_254      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_79       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_parity_0      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_97       Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_99       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_212      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_253      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_216      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_227      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_62       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_148      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_180      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_219      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_165      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_240      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_80       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_125      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_138      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_53       Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_43       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_167      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_241      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_251      Meas Value: -0.013 uA
+leak_lo_mux_io_req_pad_data_199      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_153      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_38       Meas Value: -0.008 uA
+
+
+MUX_OUT number :	mux4_out
+leak_lo_mux_io_req_pad_data_63       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_135      Meas Value: -0.001 uA
+leak_lo_mux_reserved_in_pad_i_11     Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_124      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_171      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_152      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_96       Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_211      Meas Value: -0.001 uA
+leak_lo_mux_reserved_in_pad_i_13     Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_177      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_214      Meas Value: -0.003 uA
+leak_lo_mux_io_req_pad_data_255      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_141      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_107      Meas Value: -0.001 uA
+leak_lo_mux_reserved_in_pad_i_12     Meas Value: -0.003 uA
+leak_lo_mux_io_req_pad_data_245      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_77       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_114      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_225      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_67       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_parity_3      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_238      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_237      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_73       Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_252      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_234      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_137      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_142      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_118      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_232      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_187      Meas Value: -0.001 uA
+
+
+MUX_OUT number :	mux5_out
+leak_lo_mux_io_req_pad_data_101      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_104      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_181      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_102      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_54       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_170      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_139      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_58       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_182      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_196      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_185      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_130      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_parity_7      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_231      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_60       Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_117      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_82       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_41       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_140      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_201      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_85       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_55       Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_45       Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_175      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_218      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_94       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_134      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_209      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_parity_8      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_66       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_32       Meas Value: -0.004 uA
+
+
+MUX_OUT number :	mux6_out
+leak_lo_mux_io_req_pad_data_33       Meas Value: -0.013 uA
+leak_lo_mux_io_req_pad_data_197      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_154      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_235      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_186      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_109      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_143      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_145      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_100      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_parity_9      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_158      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_236      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_49       Meas Value: 0.007 uA
+leak_lo_mux_reserved_in_pad_i_8      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_223      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_164      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_246      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_198      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_242      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_68       Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_116      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_parity_2      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_233      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_149      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_221      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_78       Meas Value: 0.012 uA
+leak_lo_mux_io_req_pad_data_105      Meas Value: 0.012 uA
+leak_lo_mux_io_req_pad_data_183      Meas Value: 0.012 uA
+leak_lo_mux_io_req_pad_data_222      Meas Value: 0.012 uA
+leak_lo_mux_io_req_pad_data_64       Meas Value: 0.002 uA
+
+
+MUX_OUT number :	mux7_out
+leak_lo_mux_reserved_in_pad_i_5      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_226      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_179      Meas Value: 0.002 uA
+leak_lo_mux_reserved_in_pad_i_1      Meas Value: -0.001 uA
+leak_lo_mux_reserved_in_pad_i_6      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_95       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_210      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_133      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_159      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_151      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_205      Meas Value: -0.001 uA
+leak_lo_mux_reserved_in_pad_i_3      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_173      Meas Value: -0.001 uA
+leak_lo_mux_reserved_in_pad_i_9      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_247      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_50       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_188      Meas Value: -0.003 uA
+leak_lo_mux_reserved_in_pad_i_7      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_70       Meas Value: -0.003 uA
+leak_lo_mux_io_req_pad_data_215      Meas Value: -0.001 uA
+leak_lo_mux_reserved_in_pad_i_4      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_98       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_61       Meas Value: -0.006 uA
+leak_lo_mux_reserved_in_pad_i_2      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_111      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_192      Meas Value: -0.003 uA
+leak_lo_mux_io_req_pad_data_156      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_parity_5      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_146      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_71       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_parity_4      Meas Value: -0.001 uA
+
+
+MUX_OUT number :	mux8_out
+leak_lo_mux_io_req_pad_data_194      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_113      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_75       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_74       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_35       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_112      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_228      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_230      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_37       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_229      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_parity_6      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_34       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_193      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_150      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_106      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_65       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_76       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_39       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_169      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_91       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_157      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_128      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_72       Meas Value: -0.004 uA
+leak_lo_mux_reserved_in_pad_i_10     Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_86       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_190      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_189      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_206      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_217      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_136      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_147      Meas Value: -0.004 uA
+
+
+Pat count value: 1
+
+Test Suite Name: COLD_BOOT_FUNC                
+WARNING: PSST - DCS pin "vdd_core" has been in constant current mode.
+All DPS connected
+
+Data logging for COLD_BOOT_FUNC
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_modeinit                                       Func Result: 1
+
+
+Test Suite Name: TSENS_Temp_Measure_HT         
+Device_ID:	B8336697
+
+All DPS connected
+PLLSET_Pads set to 25 MHz
+String Offset Init:	0x40106fd
+String slope Init:	0x40003b1
+Checking Read out R2 at T2 = 85 C
+
+
+fn-check_temp  timing set :2
+fn-check_temp:	drive_pad_i_1,io_req_pad_accept0,1
+fn-check_temp:	io_rsp_pad_accept0,io_rsp_pad_accept1,1
+fn-check_temp:	dft_1500_wrstn_pad_i,dft_pmbist_pmbist_mode_pad_i,1
+fn-check_temp:	dft_scan_rst_n_pad_i,global_chip_reset_pad_i,1
+fn-check_temp:	pll_async_reset_n_pad_i,pll_reg_async_reset_n_pad_i,1
+fn-check_temp:	tap_rstn_pad_i,1
+fn-check_temp:	drive_pad_i_0,0
+fn-check_temp:	rxtx_width_pad_i_0,rxtx_width_pad_i_1,0
+fn-check_temp:	io_req_pad_size_0,io_req_pad_size_1,0
+fn-check_temp:	io_rsp_pad_size_0,io_rsp_pad_size_1,0
+fn-check_temp:	io_rsp_pad_rsp_type,io_rsp_pad_bus_rd_error,reserved_out_pad_o_0,0
+sos_vec_write:	1040
+sos_Offset:	0x040106fd
+sos_Slope:	0x040003b1
+sos_addr_write:	0x028030080
+fn-sos offset_datawrite:	0x040106fd	 addr:	0x028030080
+fn-sos slope_datawrite:	0x040003b1	 addr:	0x028030080
+fn-sos averaging_sampling_datawrite:	0x040301f0	 addr:	0x028030080
+fn-sos clk divider_datawrite:	0x0407ffff	 addr:	0x028030080
+fn-sos cal_clk to pmon_en_datawrite:	0x04200020	 addr:	0x028030080
+fn-sos cal_clk to 20us_datawrite:	0x0424007d	 addr:	0x028030080
+fn-sos cal_clk to 100us_datawrite:	0x04260271	 addr:	0x028030080
+fn-sos cal_clk to 5us_datawrite:	0x04280020	 addr:	0x028030080
+fn-sos cal_clk to 1us_datawrite:	0x04290007	 addr:	0x028030080
+fn-sos cal_clk to 1us_datawrite:	0x042a0007	 addr:	0x028030080
+fn-sos 50C as T trigger_datawrite:	0x04080032	 addr:	0x028030080
+fn-sos 45C as T interrupt off_datawrite:	0x04090005	 addr:	0x028030080
+fn-sos interrupt mode on_datawrite:	0x0404000a	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos clock divider_datawrite:	0x08070000	 addr:	0x028030080
+fn-sos initial waiting time_datawrite:	0x08200000	 addr:	0x028030080
+fn-sos FTSBJT cycles_datawrite:	0x08240000	 addr:	0x028030080
+fn-sos FTSBJT meas cycle_datawrite:	0x08260000	 addr:	0x028030080
+fn-sos FTSBJT_EN next cycle_datawrite:	0x08280000	 addr:	0x028030080
+fn-sos enable REF_SEL_datawrite:	0x08290000	 addr:	0x028030080
+fn-sos time to disable ref_datawrite:	0x082a0000	 addr:	0x028030080
+fn-sos offset value read_datawrite:	0x08010000	 addr:	0x028030080
+fn-sos slope value_read_datawrite:	0x08000000	 addr:	0x028030080
+fn-sos avg number read_datawrite:	0x08030000	 addr:	0x028030080
+fn-sos temp threshold_datawrite:	0x08080000	 addr:	0x028030080
+fn-sos ctrl_reg_datawrite:	0x08040000	 addr:	0x028030080
+fn-sos enable tsens_datawrite:	0x08060000	 addr:	0x028030080
+fn-sos read_status_reg_datawrite:	0x081a0000	 addr:	0x028030080
+fn-sos fptat_datawrite:	0x081c0000	 addr:	0x028030080
+fn-sos fpref_datawrite:	0x081d0000	 addr:	0x028030080
+fn-sos Temp reading reg_datawrite:	0x080a0000	 addr:	0x028030080
+fn-sos another Temp reading reg_datawrite:	0x08220000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-check_temp  offset and slope set up
+vdd core tsens: 0.799793
+Binary 	00000000000000001111111111111111	 Dec 	65535
+	 register name: clk_div_reg_0x7HTB8336697	dec_value: 65535	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: init_wait_time_0x20HTB8336697	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000001111101	 Dec 	125
+	 register name: FTSBJT_cyc_0x24HTB8336697	dec_value: 125	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000001001110001	 Dec 	625
+	 register name: FTSBJT_meas_cyc_0x26HTB8336697	dec_value: 625	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: FTSBJT_EN_cyc_0x28HTB8336697	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: enable_REF_SEL_0x29HTB8336697	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: disable_REF_0x2AHTB8336697	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000011011111101	 Dec 	1789
+	 register name: offset_val_0x1HTB8336697	dec_value: 1789	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.799793
+Binary 	00000000000000000000001110110001	 Dec 	945
+	 register name: slope_val_0x0HTB8336697	dec_value: 945	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000111110000	 Dec 	496
+	 register name: avg_number_0x3HTB8336697	dec_value: 496	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000110010	 Dec 	50
+	 register name: temp_thrshld_0x8HTB8336697	dec_value: 50	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000001010	 Dec 	10
+	 register name: ctrl_reg_0x4HTB8336697	dec_value: 10	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000000001	 Dec 	1
+	 register name: enable_tsens_0x6HTB8336697	dec_value: 1	 addr_read: 0x0280300a0
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000000000	 Dec 	0
+	 register name: status_done_0x1AHTB8336697	dec_value: 0	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.799793
+Binary 	00000000000000000001001010011011	 Dec 	4763
+	 register name: fptat_reg_0x1CHTB8336697	dec_value: 4763	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.799793
+Binary 	00000000000000000001000011011100	 Dec 	4316
+	 register name: fpref_reg_0x1DHTB8336697	dec_value: 4316	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.799793
+Binary 	00000000000000000000001101001011	 Dec 	843
+	 register name: temp_read_reg_0xAHTB8336697	dec_value: 843	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.799793
+Binary 	00000000000000000000000000110111	 Dec 	55
+	 register name: anthr_temp_read_reg_0x22HTB8336697	dec_value: 55	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.799793
+Binary 	00000011010010110000001101001011	 Dec 	55247691
+	 register name: temp_rangeHTB8336697	dec_value: 55247691	 addr_read: 0x0280300a0
+
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	1	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	2	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	3	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	4	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	5	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	6	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	7	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	8	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	9	dec_value : 	 843
+Binary 	00000000000000000000001101001011	 Dec 	843	 addr_read:	0x0280300c0
+itr : 	10	dec_value : 	 843
+Dec value for temp : 	55.375
+Dec value for R2 : 	843
+
+
+File opened  : B8336697_85_HT.txt
+File copied to : ../temperature_DB/B8336697_85_HT.txt
+
+All DPS disconnected
+
+Test Suite Name: TSENS_Calibration             
+Device_ID:	B8336697
+
+File Name: ../report/B8336697_25_RT.txt
+Read Out value:  388
+
+File Name: ../report/B8336697_85_HT.txt
+Read Out value:  843
+
+Calculation for SF and BF done ...
+T1	: 25		T2	: 85
+R1	: 388 		R2	: 843
+delta_T	: 60		delta_R	: 455
+S0	: 945		SF	: 996.923
+B0	: 1789		BF	: 1696.62
+
+Padding MSBs to SF and BF for passing to registers
+Initial offset		: 67176189	Initial Slope		: 67109809
+Calibrated offset	: 67176096	Calibarated Slope	: 67109860
+
+Calibrated offset ss1	: 0x40106A0	Calibarated Slope ss2	: 0x40003E4
+
+File opened  : B8336697_calib_data.txt
+
+File copied to : ../report/B8336697_calib_data.txt
+Calibration Data log: 
+Device ID:	B8336697	0x0000	1696.62	0xffff	
+Calibration Data log: 
+Device ID:	B8336697	0x0000	996.923	0xffff	
+
+
+Test Suite Name: TSENS_Temp_Measure_Post_Cal   
+Device_ID:	B8336697
+
+All DPS connected
+PLLSET_Pads set to 25 MHz
+String Offset Init:	0x40106fd
+String slope Init:	0x40003b1
+String Offset Cal:	0x40106A0
+String slope Cal:	0x40003E4
+
+Checking Post Cal Read out R2 at T2 = 85 C
+
+fn-check_temp  timing set :2
+fn-check_temp:	drive_pad_i_1,io_req_pad_accept0,1
+fn-check_temp:	io_rsp_pad_accept0,io_rsp_pad_accept1,1
+fn-check_temp:	dft_1500_wrstn_pad_i,dft_pmbist_pmbist_mode_pad_i,1
+fn-check_temp:	dft_scan_rst_n_pad_i,global_chip_reset_pad_i,1
+fn-check_temp:	pll_async_reset_n_pad_i,pll_reg_async_reset_n_pad_i,1
+fn-check_temp:	tap_rstn_pad_i,1
+fn-check_temp:	drive_pad_i_0,0
+fn-check_temp:	rxtx_width_pad_i_0,rxtx_width_pad_i_1,0
+fn-check_temp:	io_req_pad_size_0,io_req_pad_size_1,0
+fn-check_temp:	io_rsp_pad_size_0,io_rsp_pad_size_1,0
+fn-check_temp:	io_rsp_pad_rsp_type,io_rsp_pad_bus_rd_error,reserved_out_pad_o_0,0
+sos_vec_write:	1040
+sos_Offset:	0x040106a0
+sos_Slope:	0x040003e4
+sos_addr_write:	0x028030080
+fn-sos offset_datawrite:	0x040106a0	 addr:	0x028030080
+fn-sos slope_datawrite:	0x040003e4	 addr:	0x028030080
+fn-sos averaging_sampling_datawrite:	0x040301f0	 addr:	0x028030080
+fn-sos clk divider_datawrite:	0x0407ffff	 addr:	0x028030080
+fn-sos cal_clk to pmon_en_datawrite:	0x04200020	 addr:	0x028030080
+fn-sos cal_clk to 20us_datawrite:	0x0424007d	 addr:	0x028030080
+fn-sos cal_clk to 100us_datawrite:	0x04260271	 addr:	0x028030080
+fn-sos cal_clk to 5us_datawrite:	0x04280020	 addr:	0x028030080
+fn-sos cal_clk to 1us_datawrite:	0x04290007	 addr:	0x028030080
+fn-sos cal_clk to 1us_datawrite:	0x042a0007	 addr:	0x028030080
+fn-sos 50C as T trigger_datawrite:	0x04080032	 addr:	0x028030080
+fn-sos 45C as T interrupt off_datawrite:	0x04090005	 addr:	0x028030080
+fn-sos interrupt mode on_datawrite:	0x0404000a	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos clock divider_datawrite:	0x08070000	 addr:	0x028030080
+fn-sos initial waiting time_datawrite:	0x08200000	 addr:	0x028030080
+fn-sos FTSBJT cycles_datawrite:	0x08240000	 addr:	0x028030080
+fn-sos FTSBJT meas cycle_datawrite:	0x08260000	 addr:	0x028030080
+fn-sos FTSBJT_EN next cycle_datawrite:	0x08280000	 addr:	0x028030080
+fn-sos enable REF_SEL_datawrite:	0x08290000	 addr:	0x028030080
+fn-sos time to disable ref_datawrite:	0x082a0000	 addr:	0x028030080
+fn-sos offset value read_datawrite:	0x08010000	 addr:	0x028030080
+fn-sos slope value_read_datawrite:	0x08000000	 addr:	0x028030080
+fn-sos avg number read_datawrite:	0x08030000	 addr:	0x028030080
+fn-sos temp threshold_datawrite:	0x08080000	 addr:	0x028030080
+fn-sos ctrl_reg_datawrite:	0x08040000	 addr:	0x028030080
+fn-sos enable tsens_datawrite:	0x08060000	 addr:	0x028030080
+fn-sos read_status_reg_datawrite:	0x081a0000	 addr:	0x028030080
+fn-sos fptat_datawrite:	0x081c0000	 addr:	0x028030080
+fn-sos fpref_datawrite:	0x081d0000	 addr:	0x028030080
+fn-sos Temp reading reg_datawrite:	0x080a0000	 addr:	0x028030080
+fn-sos another Temp reading reg_datawrite:	0x08220000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-check_temp  offset and slope set up
+vdd core tsens: 0.800161
+Binary 	00000000000000001111111111111111	 Dec 	65535
+	 register name: clk_div_reg_0x7PCB8336697	dec_value: 65535	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: init_wait_time_0x20PCB8336697	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000001111101	 Dec 	125
+	 register name: FTSBJT_cyc_0x24PCB8336697	dec_value: 125	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000001001110001	 Dec 	625
+	 register name: FTSBJT_meas_cyc_0x26PCB8336697	dec_value: 625	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: FTSBJT_EN_cyc_0x28PCB8336697	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: enable_REF_SEL_0x29PCB8336697	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: disable_REF_0x2APCB8336697	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000011010100000	 Dec 	1696
+	 register name: offset_val_0x1PCB8336697	dec_value: 1696	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800161
+Binary 	00000000000000000000001111100100	 Dec 	996
+	 register name: slope_val_0x0PCB8336697	dec_value: 996	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000111110000	 Dec 	496
+	 register name: avg_number_0x3PCB8336697	dec_value: 496	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000000110010	 Dec 	50
+	 register name: temp_thrshld_0x8PCB8336697	dec_value: 50	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000000001010	 Dec 	10
+	 register name: ctrl_reg_0x4PCB8336697	dec_value: 10	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000000000001	 Dec 	1
+	 register name: enable_tsens_0x6PCB8336697	dec_value: 1	 addr_read: 0x0280300a0
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000000000000	 Dec 	0
+	 register name: status_done_0x1APCB8336697	dec_value: 0	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800161
+Binary 	00000000000000000001001010100100	 Dec 	4772
+	 register name: fptat_reg_0x1CPCB8336697	dec_value: 4772	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800161
+Binary 	00000000000000000001000011011101	 Dec 	4317
+	 register name: fpref_reg_0x1DPCB8336697	dec_value: 4317	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800161
+Binary 	00000000000000000000010000111010	 Dec 	1082
+	 register name: temp_read_reg_0xAPCB8336697	dec_value: 1082	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800161
+Binary 	00000000000000000000000001010101	 Dec 	85
+	 register name: anthr_temp_read_reg_0x22PCB8336697	dec_value: 85	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800161
+Binary 	00000100001110100000010000111010	 Dec 	70911034
+	 register name: temp_rangePCB8336697	dec_value: 70911034	 addr_read: 0x0280300a0
+
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	1	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	2	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	3	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	4	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	5	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	6	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	7	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	8	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	9	dec_value : 	 1082
+Binary 	00000000000000000000010000111010	 Dec 	1082	 addr_read:	0x0280300c0
+itr : 	10	dec_value : 	 1082
+Dec value for temp : 	85.25
+Dec value for R2 : 	1082
+
+All DPS disconnected
+Pat count value: 114
+
+Test Suite Name: PMBIST_PRE_FUNC_NoBWE_0p75V   
+All DPS connected
+
+Data logging for PMBIST_PRE_FUNC_NoBWE_0p75V
+Pat count value: 114
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row1_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row2_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row3_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row4_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row5_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row6_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row7_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row8_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row9_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row10_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row11_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row12_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row13_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row14_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row15_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_conn_noinit                    Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_conn_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_blif_noinit                 Func Result: 0
+PatName : chip_pmbist_400_core_row14_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_blif_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_blif_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_d2pf_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_d2pf_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_hamr8_noinit                Func Result: 0
+PatName : chip_pmbist_400_core_row14_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_hamr8_noinit             Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_hamr8_noinit              Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_raw_noinit                  Func Result: 0
+PatName : chip_pmbist_400_core_row14_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_raw_noinit               Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_raw_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_wcgd_noinit                 Func Result: 0
+PatName : chip_pmbist_400_core_row14_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_wcgd_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_wcgd_noinit               Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: MACHINE_INIT_FUNC_Repaired_0p75V
+All DPS connected
+
+Data logging for MACHINE_INIT_FUNC_Repaired_0p75V
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_machine_init                                   Func Result: 1
+
+
+Test Suite Name: PMBIST_JTAG_Read_Repaired
+Device_ID:	B8336697
+
+Pattern count: 32
+Measured Value vdd_core : 0.749844 V
+
+Scan PortName: pscan_read_Port               
+Para PortName: ppara_read_Port               
+
+PatName: read_col00_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col01_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col02_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col03_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col04_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col05_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col06_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col07_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col08_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col09_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+
+File opened  : B8336697_read_col10_1_scan_emap.txt
+
+File copied to : ../report/B8336697_read_col10_1_scan_emap.txt
+PatName: read_col10_1_scan                                            Func Result: 0
+Fail Count : 7
+Fail Cycles : {	1064,	1065,	1066,	1067,	1068,	1069,	1070,	}
+PatName: read_col11_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col12_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col13_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col14_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+PatName: read_col15_1_scan                                            Func Result: 1
+Fail Count : 0
+Fail Cycles : {	}
+Pat count value: 1
+
+Test Suite Name: COLD_BOOT_FUNC_PM1            
+All DPS connected
+
+Data logging for COLD_BOOT_FUNC_PM1
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_modeinit                                       Func Result: 1
+
+Pat count value: 19
+
+Test Suite Name: PMBIST_SOFT_REPAIR_0p70V      
+All DPS connected
+
+Data logging for PMBIST_SOFT_REPAIR_0p70V
+Pat count value: 19
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row1_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row2_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row3_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row4_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row5_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row6_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row7_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row8_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row9_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_core_row10_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row11_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row12_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row13_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row14_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row15_repair_noinit                     Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_repair_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_repair_noinit                      Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_repair_noinit                   Func Result: 1
+
+Pat count value: 114
+
+Test Suite Name: PMBIST_POST_REPAIR_0p72V      
+All DPS connected
+
+Data logging for PMBIST_POST_REPAIR_0p72V
+Pat count value: 114
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row1_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row2_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row3_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row4_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row5_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row6_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row7_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row8_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row9_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row10_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row11_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row12_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row13_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row14_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row15_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_conn_noinit                    Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_conn_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_blif_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_blif_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_d2pf_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_d2pf_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_hamr8_noinit             Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_hamr8_noinit              Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_raw_noinit               Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_raw_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_wcgd_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_wcgd_noinit               Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: MACHINE_INIT_FUNC             
+All DPS connected
+
+Data logging for MACHINE_INIT_FUNC
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_machine_init                                   Func Result: 1
+
+Pat count value: 114
+
+Test Suite Name: PMBIST_POST_BURN              
+All DPS connected
+Measured Vdd Core at Post Burn : 0.749967 V
+
+Data logging for PMBIST_POST_BURN
+Pat count value: 114
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row1_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row2_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row3_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row4_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row5_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row6_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row7_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row8_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row9_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row10_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row11_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row12_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row13_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row14_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_core_row15_conn_noinit                       Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_conn_noinit                    Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_conn_noinit                        Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_conn_noinit                     Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_blif_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_blif_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_blif_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_blif_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_d2pf_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_d2pf_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_d2pf_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_d2pf_noinit               Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_hamr8_noinit                Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_hamr8_noinit             Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_hamr8_noinit                 Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_hamr8_noinit              Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_raw_noinit                  Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_raw_noinit               Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_raw_noinit                   Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_raw_noinit                Func Result: 1
+PatName : chip_pmbist_400_core_row0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row1_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row2_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row3_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row4_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row5_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row6_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row7_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row8_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row9_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_core_row10_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row11_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row12_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row13_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row14_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_core_row15_march_wcgd_noinit                 Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_march_wcgd_noinit              Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_march_wcgd_noinit                  Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_march_wcgd_noinit               Func Result: 1
+vdd_core : vdd_core_post_burn :                                        0.749967
+PF_PMBIST_PB : 1
+
+Pat count value: 19
+
+Test Suite Name: PMBIST_PRE_FUNC_BWE_0p80V     
+All DPS connected
+
+Data logging for PMBIST_PRE_FUNC_BWE_0p80V
+Pat count value: 19
+PortName: p_PMBIST_Port                 
+PatName : chip_pmbist_400_core_row0_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row1_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row2_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row3_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row4_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row5_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row6_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row7_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row8_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row9_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_core_row10_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row11_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row12_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row13_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row14_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_core_row15_bwe_noinit                        Func Result: 1
+PatName : chip_pmbist_400_ctrl_data_top_bwe_noinit                     Func Result: 1
+PatName : chip_pmbist_400_fbuf_col0_bwe_noinit                         Func Result: 1
+PatName : chip_pmbist_400_fbuf_col_row_bwe_noinit                      Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: SAF4_CTRL_DATA_TOP_SCAN_FUNC  
+All DPS connected
+All DPS disconnected
+
+Data logging for SAF4_CTRL_DATA_TOP_SCAN_FUNC
+Pat count value: 1
+PatName: chip_saf4_ctrl_data_top_misr_nolpg_scan_1                    Func Result: 1
+
+Pat count value: 7
+
+Test Suite Name: SAF4_CTRL_DATA_TOP_LOGIC_FUNC 
+All DPS connected
+All DPS disconnected
+
+Data logging for SAF4_CTRL_DATA_TOP_LOGIC_FUNC
+Pat count value: 7
+PatName: chip_saf4_ctrl_data_top_misr_nolpg_logic_1                   Func Result: 1
+PatName: chip_saf4_ctrl_data_top_misr_nolpg_logic_2                   Func Result: 1
+PatName: chip_saf4_ctrl_data_top_misr_nolpg_logic_3                   Func Result: 1
+PatName: chip_saf4_ctrl_data_top_misr_nolpg_logic_4                   Func Result: 1
+PatName: chip_saf4_ctrl_data_top_misr_nolpg_logic_5                   Func Result: 1
+PatName: chip_saf4_ctrl_data_top_misr_nolpg_logic_6                   Func Result: 1
+PatName: chip_saf4_ctrl_data_top_misr_nolpg_logic_7                   Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: SAF4_COL0_SCAN_FUNC           
+All DPS connected
+All DPS disconnected
+
+Data logging for SAF4_COL0_SCAN_FUNC
+Pat count value: 1
+PatName: chip_saf4_fbuf_col0_misr_nolpg_scan_1                        Func Result: 1
+
+Pat count value: 4
+
+Test Suite Name: SAF4_COL0_LOGIC_FUNC          
+All DPS connected
+All DPS disconnected
+
+Data logging for SAF4_COL0_LOGIC_FUNC
+Pat count value: 4
+PatName: chip_saf4_fbuf_col0_misr_nolpg_logic_1                       Func Result: 1
+PatName: chip_saf4_fbuf_col0_misr_nolpg_logic_2                       Func Result: 1
+PatName: chip_saf4_fbuf_col0_misr_nolpg_logic_3                       Func Result: 1
+PatName: chip_saf4_fbuf_col0_misr_nolpg_logic_4                       Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: SAF4_EXT_IF_SCAN_FUNC         
+All DPS connected
+All DPS disconnected
+
+Data logging for SAF4_EXT_IF_SCAN_FUNC
+Pat count value: 1
+PatName: chip_saf4_ext_if_xor_lpg_scan_1                              Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: SAF4_EXT_IF_LOGIC_FUNC        
+All DPS connected
+All DPS disconnected
+
+Data logging for SAF4_EXT_IF_LOGIC_FUNC
+Pat count value: 1
+PatName: chip_saf4_ext_if_xor_lpg_logic_1                             Func Result: 1
+
+Pat count value: 1
+
+Test Suite Name: SAF4_COL_ROW_SCAN_FUNC        
+All DPS connected
+All DPS disconnected
+
+Data logging for SAF4_COL_ROW_SCAN_FUNC
+Pat count value: 1
+PatName: chip_saf4_fbuf_col_row_misr_nolpg_scan_1                     Func Result: 1
+
+Pat count value: 4
+
+Test Suite Name: SAF4_COL_ROW_LOGIC_FUNC       
+All DPS connected
+ERROR: During test program execution, testmethod "TM.Functional_Pattern_Scan" of testSuite "SAF4_COL_ROW_LOGIC_FUNC" terminated unexpectedly. Please debug your testmethod code for errors! (The testmethod server will be auto-restarted.)
+RDI generates Configure template file :/home/ibm93k/ibm_test_programs/FT_REV2/ibm_np_sep/ibm_np/TP/testmethod/RDI_Configure.Template
+
+
+**************************
+SmartRDI version : 7.10.6.0
+**************************
+ERROR: MEAS - Can't activate set 901001 for DCS pin vdd_core site 1.
+Changing the V or I range is only allowed for disconnected pins.
+ERROR: MEAS - Can't activate set 901001 for DCS pin vddio_tx site 1.
+Changing the V or I range is only allowed for disconnected pins.
+WARNING:: rdi Warn:[1] Some error causes the execute() function not be finished or Missing execute() function at the end of certain test command!. 
+Error: PPMU_RELAY::execute()
+E10010: FW command execution failed. (status = -2)
+        See ui_report window for details.
+ERROR: Exception occured during execution of testsuite "bin_disconnect". Please refer to TDC Topic 29710 for more information.
+WARNING:
+E10038: ON_FIRST_INVOCATION block was not properly terminated
+ERROR: Recoverable Exception in execution of testsuite "bin_disconnect": exception happened during testmethod execution.
+ERROR:[1] Some Changes are detected from last TM execution. If some testflow variable or testsuite parameter or other setup are changed in GUI, please "Build TM" or "Terminate TM" to enable the changed environments.In getLEGOStaticRLYObj().
+ERROR:[1] If this message still happen after "Build/Terminate TM", Please check if you missed RDI_UNIT_INIT() in your runtime branch or in loop.
+ERROR:[1] Error!      FILE:../Bin_Disconnect.cpp  LINE:49
+ERROR: Exception occured during execution of testsuite "bin_disconnect". Please refer to TDC Topic 29710 for more information.
+WARNING:
+E10038: ON_FIRST_INVOCATION block was not properly terminated
+ERROR: Recoverable Exception in execution of testsuite "bin_disconnect": exception happened during testmethod execution.
+Device test FAILED!
+******************************************
+******  @@@@@    @      @    @      ******
+******  @       @ @     @    @      ******
+******  @@@@@  @@@@@    @    @      ******
+******  @      @   @    @    @      ******
+******  @      @   @    @    @@@@@  ******
+******************************************
+BIN :  db ()
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Jan_30_12h00m38s_STDF
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+WARNING: PSST - DCS pin "vdd_core" has been disconnected.
+Disconnect/Connect sequence required.
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+  Ended at: 20250130 120109
+******** end testflow report data  *******

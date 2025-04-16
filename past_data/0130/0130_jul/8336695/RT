@@ -1,0 +1,2836 @@
+****** production report begin ******
+  Started at: 20250130 100640
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : tsense_dbg.ttf.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+WARNING: PSST - DCS pin "vdd_core" has been disconnected.
+Disconnect/Connect sequence required.
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+RDI generates Configure template file :/home/ibm93k/ibm_test_programs/FT_REV2/ibm_np_jul/ibm_np/TP/testmethod/RDI_Configure.Template
+
+
+**************************
+SmartRDI version : 7.10.6.0
+**************************
+
+External Utility Supply powered On.
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+All DPS disconnected
+All DPS connected
+All DPS disconnected
+digital pins and mux pins all relays disconnected
+
+vdd_core            	:	0.0998994 	V
+
+vcs_pll             	:	0.0499697 	V
+vcs_pm_1            	:	0.0500859 	V
+vcs_pm_2            	:	0.0500782 	V
+vdd_io_clk          	:	0.0500365 	V
+vdd_pll             	:	0.049893 	V
+
+vcsio_pll           	:	0.0499002  	V
+vcsio_ts            	:	0.0500844  	V
+vcsio_vs_1          	:	0.0499223  	V
+vcsio_vs_2          	:	0.0502374  	V
+vddio_io_clk        	:	0.0499632  	V
+vddio_pll           	:	0.050041  	V
+vddio_rx            	:	0.0500662  	V
+vddio_tx            	:	0.0499707  	V
+vdd_mux             	:	0.0500795 	V
+
+vss_mux             	:	3.8579e-05 	V
+vcsio_ef_1          	:	-9.4403e-05 	V
+vcsio_ef_2          	:	0.000139139 	V
+
+Current Measured at power up for DPS Pins:
+
+Current - vdd_core 	:	 0.809721 	A
+Current - vddio_tx 	:	 0.0341145 	mA
+Current - vddio_rx 	:	 0.20706 	mA
+Current - vdd_mux 	:	 0.0388334 	mA
+Current - vss_mux 	:	 0.0767103 	mA
+
+All DPS connected
+All DPS disconnected
+
+Data logging for supply short test:
+
+supply_short_vcs_pll            :  Force 50 mV Meas Current : 0.0125536  	mA
+supply_short_vcs_pm_1           :  Force 50 mV Meas Current : 0.0296024  	mA
+supply_short_vcs_pm_2           :  Force 50 mV Meas Current : 0.0268781  	mA
+supply_short_vcsio_pll          :  Force 50 mV Meas Current : 0.00879464  	mA
+supply_short_vcsio_ts           :  Force 50 mV Meas Current : 0.00462194  	mA
+supply_short_vcsio_vs_1         :  Force 50 mV Meas Current : -0.00152213  	mA
+supply_short_vcsio_vs_2         :  Force 50 mV Meas Current : -0.00179623  	mA
+supply_short_vdd_io_clk         :  Force 50 mV Meas Current : 0.0203683  	mA
+supply_short_vdd_pll            :  Force 50 mV Meas Current : 0.0120565  	mA
+supply_short_vddio_io_clk       :  Force 50 mV Meas Current : 0.00458819  	mA
+supply_short_vddio_pll          :  Force 50 mV Meas Current : -0.0124247  	mA
+supply_short_vddio_rx           :  Force 50 mV Meas Current : 0.0696959  	mA
+supply_short_vddio_tx           :  Force 50 mV Meas Current : 0.0736026  	mA
+
+supply_short_vdd_core           :  Force 50 mV Meas Current : 546.079	mA
+All DPS connected
+All DPS disconnected
+
+
+Continuity_Direct_Pos Datalog : 
+
+cont_row_even_col_even_ : io_req_pad_size_0                    : Measured Value: 0.760054  V
+cont_row_even_col_even_ : io_req_pad_data_30                   : Measured Value: 0.759957  V
+cont_row_even_col_even_ : io_req_pad_data_13                   : Measured Value: 0.759831  V
+cont_row_even_col_even_ : io_req_pad_addr_5                    : Measured Value: 0.759831  V
+cont_row_even_col_even_ : io_req_pad_size_1                    : Measured Value: 0.759997  V
+cont_row_even_col_even_ : io_req_pad_addr_9                    : Measured Value: 0.759625  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_4            : Measured Value: 0.28752  V
+cont_row_even_col_even_ : io_req_pad_data_8                    : Measured Value: 0.759764  V
+cont_row_even_col_even_ : io_req_pad_data_4                    : Measured Value: 0.759764  V
+cont_row_even_col_even_ : io_rsp_pad_data_30                   : Measured Value: 0.285949  V
+cont_row_even_col_even_ : io_rsp_pad_data_26                   : Measured Value: 0.286565  V
+cont_row_even_col_even_ : io_req_pad_data_18                   : Measured Value: 0.759787  V
+cont_row_even_col_even_ : io_req_pad_addr_8                    : Measured Value: 0.75986  V
+cont_row_even_col_even_ : io_req_pad_addr_4                    : Measured Value: 0.759754  V
+cont_row_even_col_even_ : io_rsp_pad_data_21                   : Measured Value: 0.285313  V
+cont_row_even_col_even_ : io_req_pad_data_1                    : Measured Value: 0.759345  V
+cont_row_even_col_even_ : tap_tck_pad_i                        : Measured Value: 0.759689  V
+cont_row_even_col_even_ : io_rsp_pad_size_1                    : Measured Value: 0.288228  V
+cont_row_even_col_even_ : tap_tdi_pad_i                        : Measured Value: 0.759511  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_2            : Measured Value: 0.287787  V
+cont_row_even_col_even_ : io_rsp_pad_addr_valid                : Measured Value: 0.288006  V
+cont_row_even_col_even_ : io_rsp_pad_data_7                    : Measured Value: 0.286495  V
+cont_row_even_col_even_ : io_req_pad_addr_2                    : Measured Value: 0.759676  V
+cont_row_even_col_even_ : io_req_pad_addr_15                   : Measured Value: 0.759687  V
+cont_row_even_col_even_ : pmon_d_clk0_pad_o                    : Measured Value: 0.293537  V
+cont_row_even_col_even_ : io_rsp_pad_data_18                   : Measured Value: 0.286519  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_8            : Measured Value: 0.287345  V
+cont_row_even_col_even_ : io_rsp_pad_data_14                   : Measured Value: 0.287018  V
+cont_row_even_col_even_ : io_req_pad_data_20                   : Measured Value: 0.759779  V
+cont_row_even_col_even_ : tap_rstn_pad_i                       : Measured Value: 0.759283  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_12           : Measured Value: 0.287368  V
+cont_row_even_col_even_ : io_req_pad_addr_24                   : Measured Value: 0.760065  V
+cont_row_even_col_even_ : dft_1500_shiftwr_pad_i               : Measured Value: 0.759855  V
+cont_row_even_col_even_ : dft_1500_wrstn_pad_i                 : Measured Value: 0.75985  V
+cont_row_even_col_even_ : io_req_pad_addr_12                   : Measured Value: 0.759921  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_12            : Measured Value: 0.759833  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_1             : Measured Value: 0.760007  V
+cont_row_even_col_even_ : dft_scan_lpg2_pad_i                  : Measured Value: 0.759913  V
+cont_row_even_col_even_ : io_clk_pad_i                         : Measured Value: 0.759913  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_10           : Measured Value: 0.287623  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_14           : Measured Value: 0.287943  V
+cont_row_even_col_even_ : io_req_pad_data_27                   : Measured Value: 0.759991  V
+cont_row_even_col_even_ : dft_1500_selectwr_pad_i              : Measured Value: 0.759929  V
+cont_row_even_col_even_ : dft_pmbist_pmbist_mode_pad_i         : Measured Value: 0.759751  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_11            : Measured Value: 0.759845  V
+cont_row_even_col_even_ : io_req_pad_addr_21                   : Measured Value: 0.759847  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_0             : Measured Value: 0.75997  V
+cont_row_even_col_even_ : dft_scan_ss1_pad_i                   : Measured Value: 0.760018  V
+cont_row_even_col_even_ : io_ddr_enable_pad_i                  : Measured Value: 0.75993  V
+cont_row_even_col_even_ : io_rsp_pad_data_3                    : Measured Value: 0.287798  V
+cont_row_even_col_even_ : int_data_pad_4                       : Measured Value: 0.289669  V
+cont_row_even_col_even_ : int_data_pad_2                       : Measured Value: 0.286745  V
+cont_row_even_col_even_ : io_rsp_pad_data_19                   : Measured Value: 0.285828  V
+cont_row_even_col_even_ : io_rsp_pad_data_23                   : Measured Value: 0.286112  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tck_pad_i            : Measured Value: 0.760043  V
+cont_row_even_col_even_ : global_chip_reset_pad_i              : Measured Value: 0.760027  V
+cont_row_even_col_even_ : pll_d_clk_pad_o                      : Measured Value: 0.289277  V
+cont_row_even_col_even_ : dft_pmbist_pmda_ovfl_pad_o           : Measured Value: 0.290174  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_7            : Measured Value: 0.288037  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_3            : Measured Value: 0.287341  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tdo_pad_o            : Measured Value: 0.289243  V
+cont_row_even_col_even_ : io_req_pad_data_14                   : Measured Value: 0.759691  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_4             : Measured Value: 0.759895  V
+cont_row_even_col_even_ : dft_scan_cmle_pad_i                  : Measured Value: 0.759978  V
+cont_row_even_col_even_ : reserved_in_pad_i_0                  : Measured Value: 0.759691  V
+cont_row_even_col_even_ : dft_opcg_trigger_pad_i               : Measured Value: 0.759856  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_15           : Measured Value: 0.287829  V
+cont_row_even_col_even_ : machine_init_done_pad_o              : Measured Value: 0.28703  V
+cont_row_even_col_even_ : pll_a_out_pad_ao                     : Measured Value: 0.755006  V
+cont_row_even_col_even_ : io_req_pad_data_valid                : Measured Value: 0.760195  V
+cont_row_even_col_even_ : pllset_pad_i_3                       : Measured Value: 0.759862  V
+cont_row_even_col_even_ : vsen_test0_pad_o                     : Measured Value: 0.293539  V
+cont_row_even_col_even_ : drive_pad_i_0                        : Measured Value: 0.759895  V
+
+
+cont_row_even_col_odd_ : io_rsp_pad_rsp_type                  : Measured Value: 0.287278  V
+cont_row_even_col_odd_ : io_req_pad_data_25                   : Measured Value: 0.759883  V
+cont_row_even_col_odd_ : io_req_pad_addr_valid                : Measured Value: 0.759928  V
+cont_row_even_col_odd_ : io_req_pad_addr_18                   : Measured Value: 0.759871  V
+cont_row_even_col_odd_ : io_rsp_pad_data_24                   : Measured Value: 0.286311  V
+cont_row_even_col_odd_ : io_rsp_pad_bus_rd_error              : Measured Value: 0.288365  V
+cont_row_even_col_odd_ : io_rsp_pad_data_20                   : Measured Value: 0.288011  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_0            : Measured Value: 0.287958  V
+cont_row_even_col_odd_ : io_rsp_pad_data_0                    : Measured Value: 0.287982  V
+cont_row_even_col_odd_ : io_req_pad_data_12                   : Measured Value: 0.759741  V
+cont_row_even_col_odd_ : io_req_pad_addr_22                   : Measured Value: 0.759744  V
+cont_row_even_col_odd_ : io_req_pad_data_11                   : Measured Value: 0.759704  V
+cont_row_even_col_odd_ : io_req_pad_addr_1                    : Measured Value: 0.75934  V
+cont_row_even_col_odd_ : io_req_pad_data_10                   : Measured Value: 0.759722  V
+cont_row_even_col_odd_ : io_req_pad_data_21                   : Measured Value: 0.759911  V
+cont_row_even_col_odd_ : io_req_pad_data_19                   : Measured Value: 0.759836  V
+cont_row_even_col_odd_ : dft_1500_wrck_pad_i                  : Measured Value: 0.759872  V
+cont_row_even_col_odd_ : io_req_pad_addr_25                   : Measured Value: 0.759894  V
+cont_row_even_col_odd_ : io_rsp_pad_data_11                   : Measured Value: 0.287651  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_tdi_pad_i            : Measured Value: 0.759986  V
+cont_row_even_col_odd_ : dft_scan_scan_in_pad_i_7             : Measured Value: 0.75976  V
+cont_row_even_col_odd_ : ref_clk_pad_i                        : Measured Value: 0.759514  V
+cont_row_even_col_odd_ : io_rsp_pad_data_8                    : Measured Value: 0.28629  V
+cont_row_even_col_odd_ : pll_fail_pad_o                       : Measured Value: 0.290181  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_11           : Measured Value: 0.286913  V
+cont_row_even_col_odd_ : dft_scan_cme_pad_i                   : Measured Value: 0.759904  V
+cont_row_even_col_odd_ : dft_opcg_load_en_pad_i               : Measured Value: 0.759996  V
+cont_row_even_col_odd_ : pll_reg_async_reset_n_pad_i          : Measured Value: 0.759953  V
+cont_row_even_col_odd_ : int_data_pad_3                       : Measured Value: 0.2874  V
+cont_row_even_col_odd_ : int_data_pad_0                       : Measured Value: 0.287649  V
+cont_row_even_col_odd_ : dft_scan_rst_n_pad_i                 : Measured Value: 0.760077  V
+cont_row_even_col_odd_ : dft_scan_misr_select_pad_i           : Measured Value: 0.759865  V
+cont_row_even_col_odd_ : tap_tdo_pad_o                        : Measured Value: 0.290079  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_done_pad_o           : Measured Value: 0.289625  V
+cont_row_even_col_odd_ : io_rsp_pad_accept1                   : Measured Value: 0.759799  V
+cont_row_even_col_odd_ : interrupt_req_pad_o_ack              : Measured Value: 0.759839  V
+
+
+cont_row_odd_col_even_ : io_rsp_pad_data_25                   : Measured Value: 0.288258  V
+cont_row_odd_col_even_ : io_req_pad_addr_0                    : Measured Value: 0.759234  V
+cont_row_odd_col_even_ : io_req_pad_addr_19                   : Measured Value: 0.759769  V
+cont_row_odd_col_even_ : io_req_pad_addr_13                   : Measured Value: 0.759616  V
+cont_row_odd_col_even_ : io_req_pad_data_29                   : Measured Value: 0.759787  V
+cont_row_odd_col_even_ : io_req_pad_data_0                    : Measured Value: 0.759405  V
+cont_row_odd_col_even_ : io_rsp_pad_data_16                   : Measured Value: 0.28816  V
+cont_row_odd_col_even_ : io_req_pad_addr_11                   : Measured Value: 0.759974  V
+cont_row_odd_col_even_ : io_rsp_pad_data_28                   : Measured Value: 0.286911  V
+cont_row_odd_col_even_ : io_req_pad_addr_6                    : Measured Value: 0.75967  V
+cont_row_odd_col_even_ : tap_tms_pad_i                        : Measured Value: 0.759441  V
+cont_row_odd_col_even_ : io_rsp_pad_data_valid                : Measured Value: 0.287253  V
+cont_row_odd_col_even_ : io_req_pad_addr_26                   : Measured Value: 0.759932  V
+cont_row_odd_col_even_ : dft_1500_ws_pad_i                    : Measured Value: 0.759751  V
+cont_row_odd_col_even_ : io_req_pad_data_26                   : Measured Value: 0.760025  V
+cont_row_odd_col_even_ : io_req_pad_addr_23                   : Measured Value: 0.760138  V
+cont_row_odd_col_even_ : io_req_pad_addr_28                   : Measured Value: 0.759801  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_9             : Measured Value: 0.759911  V
+cont_row_odd_col_even_ : io_req_pad_data_31                   : Measured Value: 0.759743  V
+cont_row_odd_col_even_ : io_rsp_pad_data_6                    : Measured Value: 0.287647  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_9            : Measured Value: 0.286689  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_1            : Measured Value: 0.287176  V
+cont_row_odd_col_even_ : dft_pmbist_pmda_rst_pad_i            : Measured Value: 0.760077  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_8             : Measured Value: 0.759751  V
+cont_row_odd_col_even_ : io_rsp_pad_data_27                   : Measured Value: 0.286163  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_10            : Measured Value: 0.759731  V
+cont_row_odd_col_even_ : pll_async_reset_n_pad_i              : Measured Value: 0.76001  V
+cont_row_odd_col_even_ : io_rsp_pad_data_15                   : Measured Value: 0.28634  V
+cont_row_odd_col_even_ : io_req_pad_data_24                   : Measured Value: 0.759805  V
+cont_row_odd_col_even_ : machine_init_ctrl_pad_i_1            : Measured Value: 0.759634  V
+cont_row_odd_col_even_ : io_rsp_pad_data_2                    : Measured Value: 0.288878  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_13           : Measured Value: 0.288438  V
+cont_row_odd_col_even_ : tsen_test_o_pad_o                    : Measured Value: 0.289932  V
+cont_row_odd_col_even_ : dft_pmbist_ret_pause_active_pad_o    : Measured Value: 0.289625  V
+
+
+cont_row_odd_col_odd_ : io_rsp_pad_accept0                   : Measured Value: 0.760098  V
+cont_row_odd_col_odd_ : io_req_pad_data_17                   : Measured Value: 0.759757  V
+cont_row_odd_col_odd_ : io_req_pad_data_9                    : Measured Value: 0.759888  V
+cont_row_odd_col_odd_ : io_req_pad_accept0                   : Measured Value: 0.29109  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_0                 : Measured Value: 0.28821  V
+cont_row_odd_col_odd_ : io_req_pad_data_23                   : Measured Value: 0.759957  V
+cont_row_odd_col_odd_ : io_req_pad_addr_17                   : Measured Value: 0.759935  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_1                 : Measured Value: 0.288228  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_10                   : Measured Value: 0.287704  V
+cont_row_odd_col_odd_ : io_req_pad_data_3                    : Measured Value: 0.759542  V
+cont_row_odd_col_odd_ : io_req_pad_data_16                   : Measured Value: 0.759761  V
+cont_row_odd_col_odd_ : io_req_pad_addr_16                   : Measured Value: 0.760009  V
+cont_row_odd_col_odd_ : io_req_pad_data_7                    : Measured Value: 0.759895  V
+cont_row_odd_col_odd_ : io_rsp_pad_size_0                    : Measured Value: 0.287088  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_22                   : Measured Value: 0.288317  V
+cont_row_odd_col_odd_ : io_req_pad_data_22                   : Measured Value: 0.759722  V
+cont_row_odd_col_odd_ : io_req_pad_data_2                    : Measured Value: 0.759462  V
+cont_row_odd_col_odd_ : io_req_pad_addr_7                    : Measured Value: 0.759969  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_1                    : Measured Value: 0.289406  V
+cont_row_odd_col_odd_ : io_req_pad_data_15                   : Measured Value: 0.759821  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_12                   : Measured Value: 0.286673  V
+cont_row_odd_col_odd_ : io_req_pad_data_6                    : Measured Value: 0.759733  V
+cont_row_odd_col_odd_ : pmon_d_clk1_pad_o                    : Measured Value: 0.287594  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_6            : Measured Value: 0.288602  V
+cont_row_odd_col_odd_ : io_req_pad_addr_20                   : Measured Value: 0.759893  V
+cont_row_odd_col_odd_ : io_req_pad_addr_14                   : Measured Value: 0.760003  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_17                   : Measured Value: 0.287253  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_13                   : Measured Value: 0.289253  V
+cont_row_odd_col_odd_ : io_req_pad_addr_10                   : Measured Value: 0.759855  V
+cont_row_odd_col_odd_ : io_req_pad_addr_3                    : Measured Value: 0.759912  V
+cont_row_odd_col_odd_ : io_req_pad_addr_27                   : Measured Value: 0.759929  V
+cont_row_odd_col_odd_ : io_req_pad_data_5                    : Measured Value: 0.759986  V
+cont_row_odd_col_odd_ : dft_1500_updatewr_pad_i              : Measured Value: 0.759872  V
+cont_row_odd_col_odd_ : dft_scan_scan_en_pad_i               : Measured Value: 0.759647  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_6             : Measured Value: 0.760024  V
+cont_row_odd_col_odd_ : dft_scan_elastic_rst_pad_i           : Measured Value: 0.760024  V
+cont_row_odd_col_odd_ : dft_opcg_shift_clk_pad_i             : Measured Value: 0.759765  V
+cont_row_odd_col_odd_ : int_req_pad                          : Measured Value: 0.286738  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_31                   : Measured Value: 0.286802  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_5                    : Measured Value: 0.288402  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_4                    : Measured Value: 0.28703  V
+cont_row_odd_col_odd_ : io_req_pad_addr_29                   : Measured Value: 0.759951  V
+cont_row_odd_col_odd_ : io_req_pad_data_28                   : Measured Value: 0.759968  V
+cont_row_odd_col_odd_ : dft_1500_capturewr_pad_i             : Measured Value: 0.759822  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_15            : Measured Value: 0.759907  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_5             : Measured Value: 0.760007  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_3             : Measured Value: 0.759839  V
+cont_row_odd_col_odd_ : dft_scan_misr_rst_pad_i              : Measured Value: 0.759904  V
+cont_row_odd_col_odd_ : machine_init_ctrl_pad_i_0            : Measured Value: 0.759856  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_5            : Measured Value: 0.286538  V
+cont_row_odd_col_odd_ : dft_pmbist_pmda_fail_pad_o           : Measured Value: 0.289922  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_14            : Measured Value: 0.759991  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_13            : Measured Value: 0.759808  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_2             : Measured Value: 0.760274  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_1                   : Measured Value: 0.759748  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_0                   : Measured Value: 0.759921  V
+cont_row_odd_col_odd_ : pllset_pad_i_0                       : Measured Value: 0.760123  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_29                   : Measured Value: 0.286745  V
+cont_row_odd_col_odd_ : dft_1500_wso_ret_pad_o               : Measured Value: 0.28873  V
+cont_row_odd_col_odd_ : pllset_pad_i_2                       : Measured Value: 0.759845  V
+cont_row_odd_col_odd_ : pllset_pad_i_1                       : Measured Value: 0.759748  V
+cont_row_odd_col_odd_ : dft_scan_lpg1_pad_i                  : Measured Value: 0.759978  V
+cont_row_odd_col_odd_ : pll_ref_select_pad_i                 : Measured Value: 0.759845  V
+cont_row_odd_col_odd_ : pll_lock_pad_o                       : Measured Value: 0.291028  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_9                    : Measured Value: 0.28634  V
+cont_row_odd_col_odd_ : int_data_pad_1                       : Measured Value: 0.286597  V
+cont_row_odd_col_odd_ : tsen_iref_o_pad_ao                   : Measured Value: 0.697079  V
+cont_row_odd_col_odd_ : pll_config_select_pad_i              : Measured Value: 0.760046  V
+cont_row_odd_col_odd_ : vsen_test1_pad_o                     : Measured Value: 0.28774  V
+cont_row_odd_col_odd_ : drive_pad_i_1                        : Measured Value: 0.759977  V
+cont_row_odd_col_odd_ : dft_pmbist_ret_pause_continue_pad_i  : Measured Value: 0.759731  V
+
+
+-----------------------------------------------
+TOTAL NUMBER OF FAILING PINS ==== 0
+-----------------------------------------------
+All DPS connected
+All DPS disconnected
+
+
+Continuity_Direct_Neg Datalog : 
+
+cont_row_even_col_even_ : io_req_pad_size_0                    : Measured Value: -0.752187  V
+cont_row_even_col_even_ : io_req_pad_data_30                   : Measured Value: -0.752038  V
+cont_row_even_col_even_ : io_req_pad_data_13                   : Measured Value: -0.751782  V
+cont_row_even_col_even_ : io_req_pad_addr_5                    : Measured Value: -0.751803  V
+cont_row_even_col_even_ : io_req_pad_size_1                    : Measured Value: -0.752265  V
+cont_row_even_col_even_ : io_req_pad_addr_9                    : Measured Value: -0.75204  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_4            : Measured Value: -0.271226  V
+cont_row_even_col_even_ : io_req_pad_data_8                    : Measured Value: -0.751884  V
+cont_row_even_col_even_ : io_req_pad_data_4                    : Measured Value: -0.751998  V
+cont_row_even_col_even_ : io_rsp_pad_data_30                   : Measured Value: -0.270161  V
+cont_row_even_col_even_ : io_rsp_pad_data_26                   : Measured Value: -0.268736  V
+cont_row_even_col_even_ : io_req_pad_data_18                   : Measured Value: -0.752095  V
+cont_row_even_col_even_ : io_req_pad_addr_8                    : Measured Value: -0.752033  V
+cont_row_even_col_even_ : io_req_pad_addr_4                    : Measured Value: -0.751891  V
+cont_row_even_col_even_ : io_rsp_pad_data_21                   : Measured Value: -0.268557  V
+cont_row_even_col_even_ : io_req_pad_data_1                    : Measured Value: -0.751485  V
+cont_row_even_col_even_ : tap_tck_pad_i                        : Measured Value: -0.751962  V
+cont_row_even_col_even_ : io_rsp_pad_size_1                    : Measured Value: -0.273514  V
+cont_row_even_col_even_ : tap_tdi_pad_i                        : Measured Value: -0.751926  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_2            : Measured Value: -0.270744  V
+cont_row_even_col_even_ : io_rsp_pad_addr_valid                : Measured Value: -0.272261  V
+cont_row_even_col_even_ : io_rsp_pad_data_7                    : Measured Value: -0.27077  V
+cont_row_even_col_even_ : io_req_pad_addr_2                    : Measured Value: -0.751621  V
+cont_row_even_col_even_ : io_req_pad_addr_15                   : Measured Value: -0.751976  V
+cont_row_even_col_even_ : pmon_d_clk0_pad_o                    : Measured Value: -0.269186  V
+cont_row_even_col_even_ : io_rsp_pad_data_18                   : Measured Value: -0.271015  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_8            : Measured Value: -0.270987  V
+cont_row_even_col_even_ : io_rsp_pad_data_14                   : Measured Value: -0.269925  V
+cont_row_even_col_even_ : io_req_pad_data_20                   : Measured Value: -0.752019  V
+cont_row_even_col_even_ : tap_rstn_pad_i                       : Measured Value: -0.75172  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_12           : Measured Value: -0.269724  V
+cont_row_even_col_even_ : io_req_pad_addr_24                   : Measured Value: -0.751649  V
+cont_row_even_col_even_ : dft_1500_shiftwr_pad_i               : Measured Value: -0.751833  V
+cont_row_even_col_even_ : dft_1500_wrstn_pad_i                 : Measured Value: -0.751706  V
+cont_row_even_col_even_ : io_req_pad_addr_12                   : Measured Value: -0.751735  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_12            : Measured Value: -0.751706  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_1             : Measured Value: -0.751747  V
+cont_row_even_col_even_ : dft_scan_lpg2_pad_i                  : Measured Value: -0.752073  V
+cont_row_even_col_even_ : io_clk_pad_i                         : Measured Value: -0.751924  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_10           : Measured Value: -0.271215  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_14           : Measured Value: -0.271146  V
+cont_row_even_col_even_ : io_req_pad_data_27                   : Measured Value: -0.751571  V
+cont_row_even_col_even_ : dft_1500_selectwr_pad_i              : Measured Value: -0.751819  V
+cont_row_even_col_even_ : dft_pmbist_pmbist_mode_pad_i         : Measured Value: -0.751941  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_11            : Measured Value: -0.751835  V
+cont_row_even_col_even_ : io_req_pad_addr_21                   : Measured Value: -0.751713  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_0             : Measured Value: -0.752073  V
+cont_row_even_col_even_ : dft_scan_ss1_pad_i                   : Measured Value: -0.751884  V
+cont_row_even_col_even_ : io_ddr_enable_pad_i                  : Measured Value: -0.752208  V
+cont_row_even_col_even_ : io_rsp_pad_data_3                    : Measured Value: -0.269313  V
+cont_row_even_col_even_ : int_data_pad_4                       : Measured Value: -0.269882  V
+cont_row_even_col_even_ : int_data_pad_2                       : Measured Value: -0.269618  V
+cont_row_even_col_even_ : io_rsp_pad_data_19                   : Measured Value: -0.269049  V
+cont_row_even_col_even_ : io_rsp_pad_data_23                   : Measured Value: -0.268927  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tck_pad_i            : Measured Value: -0.751819  V
+cont_row_even_col_even_ : global_chip_reset_pad_i              : Measured Value: -0.751946  V
+cont_row_even_col_even_ : pll_d_clk_pad_o                      : Measured Value: -0.269818  V
+cont_row_even_col_even_ : dft_pmbist_pmda_ovfl_pad_o           : Measured Value: -0.269769  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_7            : Measured Value: -0.270301  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_3            : Measured Value: -0.269978  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tdo_pad_o            : Measured Value: -0.270145  V
+cont_row_even_col_even_ : io_req_pad_data_14                   : Measured Value: -0.751799  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_4             : Measured Value: -0.751718  V
+cont_row_even_col_even_ : dft_scan_cmle_pad_i                  : Measured Value: -0.752019  V
+cont_row_even_col_even_ : reserved_in_pad_i_0                  : Measured Value: -0.751664  V
+cont_row_even_col_even_ : dft_opcg_trigger_pad_i               : Measured Value: -0.752186  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_15           : Measured Value: -0.26999  V
+cont_row_even_col_even_ : machine_init_done_pad_o              : Measured Value: -0.270593  V
+cont_row_even_col_even_ : pll_a_out_pad_ao                     : Measured Value: -0.748547  V
+cont_row_even_col_even_ : io_req_pad_data_valid                : Measured Value: -0.751704  V
+cont_row_even_col_even_ : pllset_pad_i_3                       : Measured Value: -0.75197  V
+cont_row_even_col_even_ : vsen_test0_pad_o                     : Measured Value: -0.270224  V
+cont_row_even_col_even_ : drive_pad_i_0                        : Measured Value: -0.751832  V
+
+
+cont_row_even_col_odd_ : io_rsp_pad_rsp_type                  : Measured Value: -0.271741  V
+cont_row_even_col_odd_ : io_req_pad_data_25                   : Measured Value: -0.75213  V
+cont_row_even_col_odd_ : io_req_pad_addr_valid                : Measured Value: -0.752294  V
+cont_row_even_col_odd_ : io_req_pad_addr_18                   : Measured Value: -0.751895  V
+cont_row_even_col_odd_ : io_rsp_pad_data_24                   : Measured Value: -0.269117  V
+cont_row_even_col_odd_ : io_rsp_pad_bus_rd_error              : Measured Value: -0.273448  V
+cont_row_even_col_odd_ : io_rsp_pad_data_20                   : Measured Value: -0.26928  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_0            : Measured Value: -0.269776  V
+cont_row_even_col_odd_ : io_rsp_pad_data_0                    : Measured Value: -0.270656  V
+cont_row_even_col_odd_ : io_req_pad_data_12                   : Measured Value: -0.752133  V
+cont_row_even_col_odd_ : io_req_pad_addr_22                   : Measured Value: -0.75209  V
+cont_row_even_col_odd_ : io_req_pad_data_11                   : Measured Value: -0.752075  V
+cont_row_even_col_odd_ : io_req_pad_addr_1                    : Measured Value: -0.751812  V
+cont_row_even_col_odd_ : io_req_pad_data_10                   : Measured Value: -0.752132  V
+cont_row_even_col_odd_ : io_req_pad_data_21                   : Measured Value: -0.751593  V
+cont_row_even_col_odd_ : io_req_pad_data_19                   : Measured Value: -0.752211  V
+cont_row_even_col_odd_ : dft_1500_wrck_pad_i                  : Measured Value: -0.751627  V
+cont_row_even_col_odd_ : io_req_pad_addr_25                   : Measured Value: -0.751593  V
+cont_row_even_col_odd_ : io_rsp_pad_data_11                   : Measured Value: -0.270601  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_tdi_pad_i            : Measured Value: -0.75199  V
+cont_row_even_col_odd_ : dft_scan_scan_in_pad_i_7             : Measured Value: -0.751959  V
+cont_row_even_col_odd_ : ref_clk_pad_i                        : Measured Value: -0.751718  V
+cont_row_even_col_odd_ : io_rsp_pad_data_8                    : Measured Value: -0.270187  V
+cont_row_even_col_odd_ : pll_fail_pad_o                       : Measured Value: -0.270394  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_11           : Measured Value: -0.269639  V
+cont_row_even_col_odd_ : dft_scan_cme_pad_i                   : Measured Value: -0.751998  V
+cont_row_even_col_odd_ : dft_opcg_load_en_pad_i               : Measured Value: -0.752133  V
+cont_row_even_col_odd_ : pll_reg_async_reset_n_pad_i          : Measured Value: -0.752243  V
+cont_row_even_col_odd_ : int_data_pad_3                       : Measured Value: -0.270671  V
+cont_row_even_col_odd_ : int_data_pad_0                       : Measured Value: -0.269455  V
+cont_row_even_col_odd_ : dft_scan_rst_n_pad_i                 : Measured Value: -0.752011  V
+cont_row_even_col_odd_ : dft_scan_misr_select_pad_i           : Measured Value: -0.751941  V
+cont_row_even_col_odd_ : tap_tdo_pad_o                        : Measured Value: -0.272068  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_done_pad_o           : Measured Value: -0.269704  V
+cont_row_even_col_odd_ : io_rsp_pad_accept1                   : Measured Value: -0.75213  V
+cont_row_even_col_odd_ : interrupt_req_pad_o_ack              : Measured Value: -0.751867  V
+
+
+cont_row_odd_col_even_ : io_rsp_pad_data_25                   : Measured Value: -0.269978  V
+cont_row_odd_col_even_ : io_req_pad_addr_0                    : Measured Value: -0.751449  V
+cont_row_odd_col_even_ : io_req_pad_addr_19                   : Measured Value: -0.752095  V
+cont_row_odd_col_even_ : io_req_pad_addr_13                   : Measured Value: -0.751775  V
+cont_row_odd_col_even_ : io_req_pad_data_29                   : Measured Value: -0.752152  V
+cont_row_odd_col_even_ : io_req_pad_data_0                    : Measured Value: -0.751634  V
+cont_row_odd_col_even_ : io_rsp_pad_data_16                   : Measured Value: -0.269013  V
+cont_row_odd_col_even_ : io_req_pad_addr_11                   : Measured Value: -0.751941  V
+cont_row_odd_col_even_ : io_rsp_pad_data_28                   : Measured Value: -0.268379  V
+cont_row_odd_col_even_ : io_req_pad_addr_6                    : Measured Value: -0.75194  V
+cont_row_odd_col_even_ : tap_tms_pad_i                        : Measured Value: -0.751938  V
+cont_row_odd_col_even_ : io_rsp_pad_data_valid                : Measured Value: -0.272488  V
+cont_row_odd_col_even_ : io_req_pad_addr_26                   : Measured Value: -0.752439  V
+cont_row_odd_col_even_ : dft_1500_ws_pad_i                    : Measured Value: -0.751735  V
+cont_row_odd_col_even_ : io_req_pad_data_26                   : Measured Value: -0.751706  V
+cont_row_odd_col_even_ : io_req_pad_addr_23                   : Measured Value: -0.751669  V
+cont_row_odd_col_even_ : io_req_pad_addr_28                   : Measured Value: -0.75194  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_9             : Measured Value: -0.751728  V
+cont_row_odd_col_even_ : io_req_pad_data_31                   : Measured Value: -0.751824  V
+cont_row_odd_col_even_ : io_rsp_pad_data_6                    : Measured Value: -0.270036  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_9            : Measured Value: -0.271114  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_1            : Measured Value: -0.270927  V
+cont_row_odd_col_even_ : dft_pmbist_pmda_rst_pad_i            : Measured Value: -0.751933  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_8             : Measured Value: -0.751941  V
+cont_row_odd_col_even_ : io_rsp_pad_data_27                   : Measured Value: -0.270691  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_10            : Measured Value: -0.751756  V
+cont_row_odd_col_even_ : pll_async_reset_n_pad_i              : Measured Value: -0.752151  V
+cont_row_odd_col_even_ : io_rsp_pad_data_15                   : Measured Value: -0.268715  V
+cont_row_odd_col_even_ : io_req_pad_data_24                   : Measured Value: -0.751799  V
+cont_row_odd_col_even_ : machine_init_ctrl_pad_i_1            : Measured Value: -0.751835  V
+cont_row_odd_col_even_ : io_rsp_pad_data_2                    : Measured Value: -0.268907  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_13           : Measured Value: -0.270421  V
+cont_row_odd_col_even_ : tsen_test_o_pad_o                    : Measured Value: -0.27013  V
+cont_row_odd_col_even_ : dft_pmbist_ret_pause_active_pad_o    : Measured Value: -0.270703  V
+
+
+cont_row_odd_col_odd_ : io_rsp_pad_accept0                   : Measured Value: -0.752123  V
+cont_row_odd_col_odd_ : io_req_pad_data_17                   : Measured Value: -0.751782  V
+cont_row_odd_col_odd_ : io_req_pad_data_9                    : Measured Value: -0.751746  V
+cont_row_odd_col_odd_ : io_req_pad_accept0                   : Measured Value: -0.271734  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_0                 : Measured Value: -0.271917  V
+cont_row_odd_col_odd_ : io_req_pad_data_23                   : Measured Value: -0.752116  V
+cont_row_odd_col_odd_ : io_req_pad_addr_17                   : Measured Value: -0.751941  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_1                 : Measured Value: -0.27231  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_10                   : Measured Value: -0.269753  V
+cont_row_odd_col_odd_ : io_req_pad_data_3                    : Measured Value: -0.751889  V
+cont_row_odd_col_odd_ : io_req_pad_data_16                   : Measured Value: -0.751997  V
+cont_row_odd_col_odd_ : io_req_pad_addr_16                   : Measured Value: -0.75209  V
+cont_row_odd_col_odd_ : io_req_pad_data_7                    : Measured Value: -0.752133  V
+cont_row_odd_col_odd_ : io_rsp_pad_size_0                    : Measured Value: -0.272545  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_22                   : Measured Value: -0.270884  V
+cont_row_odd_col_odd_ : io_req_pad_data_22                   : Measured Value: -0.751962  V
+cont_row_odd_col_odd_ : io_req_pad_data_2                    : Measured Value: -0.751791  V
+cont_row_odd_col_odd_ : io_req_pad_addr_7                    : Measured Value: -0.752076  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_1                    : Measured Value: -0.268842  V
+cont_row_odd_col_odd_ : io_req_pad_data_15                   : Measured Value: -0.752019  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_12                   : Measured Value: -0.271062  V
+cont_row_odd_col_odd_ : io_req_pad_data_6                    : Measured Value: -0.75177  V
+cont_row_odd_col_odd_ : pmon_d_clk1_pad_o                    : Measured Value: -0.270552  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_6            : Measured Value: -0.270371  V
+cont_row_odd_col_odd_ : io_req_pad_addr_20                   : Measured Value: -0.752211  V
+cont_row_odd_col_odd_ : io_req_pad_addr_14                   : Measured Value: -0.751855  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_17                   : Measured Value: -0.270836  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_13                   : Measured Value: -0.270787  V
+cont_row_odd_col_odd_ : io_req_pad_addr_10                   : Measured Value: -0.751877  V
+cont_row_odd_col_odd_ : io_req_pad_addr_3                    : Measured Value: -0.75157  V
+cont_row_odd_col_odd_ : io_req_pad_addr_27                   : Measured Value: -0.751819  V
+cont_row_odd_col_odd_ : io_req_pad_data_5                    : Measured Value: -0.751706  V
+cont_row_odd_col_odd_ : dft_1500_updatewr_pad_i              : Measured Value: -0.751762  V
+cont_row_odd_col_odd_ : dft_scan_scan_en_pad_i               : Measured Value: -0.75194  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_6             : Measured Value: -0.751577  V
+cont_row_odd_col_odd_ : dft_scan_elastic_rst_pad_i           : Measured Value: -0.75201  V
+cont_row_odd_col_odd_ : dft_opcg_shift_clk_pad_i             : Measured Value: -0.752051  V
+cont_row_odd_col_odd_ : int_req_pad                          : Measured Value: -0.270365  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_31                   : Measured Value: -0.270707  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_5                    : Measured Value: -0.269861  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_4                    : Measured Value: -0.268601  V
+cont_row_odd_col_odd_ : io_req_pad_addr_29                   : Measured Value: -0.751742  V
+cont_row_odd_col_odd_ : io_req_pad_data_28                   : Measured Value: -0.751685  V
+cont_row_odd_col_odd_ : dft_1500_capturewr_pad_i             : Measured Value: -0.751892  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_15            : Measured Value: -0.751876  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_5             : Measured Value: -0.751761  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_3             : Measured Value: -0.751889  V
+cont_row_odd_col_odd_ : dft_scan_misr_rst_pad_i              : Measured Value: -0.752055  V
+cont_row_odd_col_odd_ : machine_init_ctrl_pad_i_0            : Measured Value: -0.752024  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_5            : Measured Value: -0.270653  V
+cont_row_odd_col_odd_ : dft_pmbist_pmda_fail_pad_o           : Measured Value: -0.270491  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_14            : Measured Value: -0.751799  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_13            : Measured Value: -0.75177  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_2             : Measured Value: -0.751591  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_1                   : Measured Value: -0.751628  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_0                   : Measured Value: -0.751735  V
+cont_row_odd_col_odd_ : pllset_pad_i_0                       : Measured Value: -0.751832  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_29                   : Measured Value: -0.269853  V
+cont_row_odd_col_odd_ : dft_1500_wso_ret_pad_o               : Measured Value: -0.271048  V
+cont_row_odd_col_odd_ : pllset_pad_i_2                       : Measured Value: -0.751892  V
+cont_row_odd_col_odd_ : pllset_pad_i_1                       : Measured Value: -0.751892  V
+cont_row_odd_col_odd_ : dft_scan_lpg1_pad_i                  : Measured Value: -0.751998  V
+cont_row_odd_col_odd_ : pll_ref_select_pad_i                 : Measured Value: -0.751892  V
+cont_row_odd_col_odd_ : pll_lock_pad_o                       : Measured Value: -0.269647  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_9                    : Measured Value: -0.270187  V
+cont_row_odd_col_odd_ : int_data_pad_1                       : Measured Value: -0.271411  V
+cont_row_odd_col_odd_ : tsen_iref_o_pad_ao                   : Measured Value: -0.751534  V
+cont_row_odd_col_odd_ : pll_config_select_pad_i              : Measured Value: -0.751761  V
+cont_row_odd_col_odd_ : vsen_test1_pad_o                     : Measured Value: -0.270368  V
+cont_row_odd_col_odd_ : drive_pad_i_1                        : Measured Value: -0.75231  V
+cont_row_odd_col_odd_ : dft_pmbist_ret_pause_continue_pad_i  : Measured Value: -0.751721  V
+
+
+-----------------------------------------------
+TOTAL NUMBER OF FAILING PINS ==== 0
+-----------------------------------------------
+All DPS connected
+All DPS disconnected
+
+
+Continuity_Mux_Pos Datalog : 
+
+MUX_OUT number :	mux1_out
+Continuity_Mux_Pos : io_req_pad_data_250                  : Meas Value : 0.758184 V
+Continuity_Mux_Pos : io_req_pad_data_174                  : Meas Value : 0.758127 V
+Continuity_Mux_Pos : io_req_pad_data_200                  : Meas Value : 0.757899 V
+Continuity_Mux_Pos : io_req_pad_data_40                   : Meas Value : 0.757672 V
+Continuity_Mux_Pos : io_req_pad_data_52                   : Meas Value : 0.758241 V
+Continuity_Mux_Pos : io_req_pad_data_56                   : Meas Value : 0.758127 V
+Continuity_Mux_Pos : io_req_pad_data_202                  : Meas Value : 0.757956 V
+Continuity_Mux_Pos : io_req_pad_data_161                  : Meas Value : 0.757786 V
+Continuity_Mux_Pos : io_req_pad_data_42                   : Meas Value : 0.758241 V
+Continuity_Mux_Pos : io_req_pad_data_81                   : Meas Value : 0.757786 V
+Continuity_Mux_Pos : io_req_pad_data_47                   : Meas Value : 0.758013 V
+Continuity_Mux_Pos : io_req_pad_data_87                   : Meas Value : 0.758127 V
+Continuity_Mux_Pos : io_req_pad_data_122                  : Meas Value : 0.757899 V
+Continuity_Mux_Pos : io_req_pad_data_131                  : Meas Value : 0.758013 V
+Continuity_Mux_Pos : io_req_pad_data_92                   : Meas Value : 0.75807 V
+Continuity_Mux_Pos : io_req_pad_data_248                  : Meas Value : 0.758013 V
+Continuity_Mux_Pos : io_req_pad_data_184                  : Meas Value : 0.758241 V
+Continuity_Mux_Pos : io_req_pad_data_103                  : Meas Value : 0.758298 V
+Continuity_Mux_Pos : io_req_pad_data_195                  : Meas Value : 0.758184 V
+Continuity_Mux_Pos : io_req_pad_data_119                  : Meas Value : 0.758127 V
+Continuity_Mux_Pos : io_req_pad_data_172                  : Meas Value : 0.758127 V
+Continuity_Mux_Pos : io_req_pad_data_123                  : Meas Value : 0.757956 V
+Continuity_Mux_Pos : io_req_pad_data_168                  : Meas Value : 0.757956 V
+Continuity_Mux_Pos : io_req_pad_data_44                   : Meas Value : 0.760348 V
+Continuity_Mux_Pos : io_req_pad_data_160                  : Meas Value : 0.757558 V
+Continuity_Mux_Pos : io_req_pad_data_89                   : Meas Value : 0.758013 V
+Continuity_Mux_Pos : io_req_pad_data_213                  : Meas Value : 0.758013 V
+Continuity_Mux_Pos : io_req_pad_data_249                  : Meas Value : 0.758184 V
+Continuity_Mux_Pos : io_req_pad_data_204                  : Meas Value : 0.757956 V
+Continuity_Mux_Pos : io_req_pad_data_48                   : Meas Value : 0.75807 V
+Continuity_Mux_Pos : io_req_pad_data_163                  : Meas Value : 0.757956 V
+Continuity_Mux_Pos : 2k_mux1                              : Meas Value : 0.200094 V
+
+MUX_OUT number :	mux2_out
+Continuity_Mux_Pos : io_req_pad_data_69                   : Meas Value : 0.758338 V
+Continuity_Mux_Pos : io_req_pad_data_121                  : Meas Value : 0.757768 V
+Continuity_Mux_Pos : io_req_pad_data_144                  : Meas Value : 0.758281 V
+Continuity_Mux_Pos : io_req_pad_data_46                   : Meas Value : 0.758053 V
+Continuity_Mux_Pos : io_req_pad_data_155                  : Meas Value : 0.758281 V
+Continuity_Mux_Pos : io_req_pad_data_126                  : Meas Value : 0.758281 V
+Continuity_Mux_Pos : io_req_pad_data_178                  : Meas Value : 0.758338 V
+Continuity_Mux_Pos : io_req_pad_data_162                  : Meas Value : 0.75811 V
+Continuity_Mux_Pos : io_req_pad_data_36                   : Meas Value : 0.758395 V
+Continuity_Mux_Pos : io_req_pad_data_208                  : Meas Value : 0.758281 V
+Continuity_Mux_Pos : io_req_pad_data_115                  : Meas Value : 0.758395 V
+Continuity_Mux_Pos : io_req_pad_data_59                   : Meas Value : 0.758167 V
+Continuity_Mux_Pos : io_req_pad_data_88                   : Meas Value : 0.758167 V
+Continuity_Mux_Pos : io_req_pad_data_243                  : Meas Value : 0.757882 V
+Continuity_Mux_Pos : io_req_pad_data_176                  : Meas Value : 0.758053 V
+Continuity_Mux_Pos : io_req_pad_data_203                  : Meas Value : 0.757939 V
+Continuity_Mux_Pos : io_req_pad_data_166                  : Meas Value : 0.757882 V
+Continuity_Mux_Pos : io_req_pad_data_51                   : Meas Value : 0.758281 V
+Continuity_Mux_Pos : io_req_pad_data_127                  : Meas Value : 0.75811 V
+Continuity_Mux_Pos : io_req_pad_data_207                  : Meas Value : 0.758224 V
+Continuity_Mux_Pos : io_req_pad_data_90                   : Meas Value : 0.758053 V
+Continuity_Mux_Pos : io_req_pad_data_84                   : Meas Value : 0.758224 V
+Continuity_Mux_Pos : io_req_pad_data_83                   : Meas Value : 0.757939 V
+Continuity_Mux_Pos : io_req_pad_data_244                  : Meas Value : 0.758053 V
+Continuity_Mux_Pos : io_req_pad_data_93                   : Meas Value : 0.758281 V
+Continuity_Mux_Pos : io_req_pad_data_110                  : Meas Value : 0.758281 V
+Continuity_Mux_Pos : io_req_pad_data_129                  : Meas Value : 0.758167 V
+Continuity_Mux_Pos : io_req_pad_data_224                  : Meas Value : 0.758224 V
+Continuity_Mux_Pos : io_req_pad_data_132                  : Meas Value : 0.758053 V
+Continuity_Mux_Pos : io_req_pad_data_57                   : Meas Value : 0.758167 V
+Continuity_Mux_Pos : io_req_pad_data_120                  : Meas Value : 0.757939 V
+Continuity_Mux_Pos : 2k_mux2                              : Meas Value : 0.200431 V
+
+MUX_OUT number :	mux3_out
+Continuity_Mux_Pos : io_req_pad_data_239                  : Meas Value : 0.758568 V
+Continuity_Mux_Pos : io_req_pad_data_191                  : Meas Value : 0.758568 V
+Continuity_Mux_Pos : io_req_pad_data_220                  : Meas Value : 0.758511 V
+Continuity_Mux_Pos : io_req_pad_parity_1                  : Meas Value : 0.758625 V
+Continuity_Mux_Pos : io_req_pad_data_108                  : Meas Value : 0.758682 V
+Continuity_Mux_Pos : io_req_pad_data_254                  : Meas Value : 0.758454 V
+Continuity_Mux_Pos : io_req_pad_data_79                   : Meas Value : 0.758625 V
+Continuity_Mux_Pos : io_req_pad_parity_0                  : Meas Value : 0.758511 V
+Continuity_Mux_Pos : io_req_pad_data_97                   : Meas Value : 0.758454 V
+Continuity_Mux_Pos : io_req_pad_data_99                   : Meas Value : 0.758511 V
+Continuity_Mux_Pos : io_req_pad_data_212                  : Meas Value : 0.75834 V
+Continuity_Mux_Pos : io_req_pad_data_253                  : Meas Value : 0.758795 V
+Continuity_Mux_Pos : io_req_pad_data_216                  : Meas Value : 0.758397 V
+Continuity_Mux_Pos : io_req_pad_data_227                  : Meas Value : 0.758454 V
+Continuity_Mux_Pos : io_req_pad_data_62                   : Meas Value : 0.760275 V
+Continuity_Mux_Pos : io_req_pad_data_148                  : Meas Value : 0.758511 V
+Continuity_Mux_Pos : io_req_pad_data_180                  : Meas Value : 0.758397 V
+Continuity_Mux_Pos : io_req_pad_data_219                  : Meas Value : 0.75834 V
+Continuity_Mux_Pos : io_req_pad_data_165                  : Meas Value : 0.758226 V
+Continuity_Mux_Pos : io_req_pad_data_240                  : Meas Value : 0.757999 V
+Continuity_Mux_Pos : io_req_pad_data_80                   : Meas Value : 0.758169 V
+Continuity_Mux_Pos : io_req_pad_data_125                  : Meas Value : 0.758283 V
+Continuity_Mux_Pos : io_req_pad_data_138                  : Meas Value : 0.758511 V
+Continuity_Mux_Pos : io_req_pad_data_53                   : Meas Value : 0.758568 V
+Continuity_Mux_Pos : io_req_pad_data_43                   : Meas Value : 0.758397 V
+Continuity_Mux_Pos : io_req_pad_data_167                  : Meas Value : 0.75834 V
+Continuity_Mux_Pos : io_req_pad_data_241                  : Meas Value : 0.758226 V
+Continuity_Mux_Pos : io_req_pad_data_251                  : Meas Value : 0.758568 V
+Continuity_Mux_Pos : io_req_pad_data_199                  : Meas Value : 0.758625 V
+Continuity_Mux_Pos : io_req_pad_data_153                  : Meas Value : 0.75908 V
+Continuity_Mux_Pos : io_req_pad_data_38                   : Meas Value : 0.758738 V
+Continuity_Mux_Pos : 2k_mux3                              : Meas Value : 0.200546 V
+
+MUX_OUT number :	mux4_out
+Continuity_Mux_Pos : io_req_pad_data_63                   : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_135                  : Meas Value : 0.758528 V
+Continuity_Mux_Pos : reserved_in_pad_i_11                 : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_124                  : Meas Value : 0.758187 V
+Continuity_Mux_Pos : io_req_pad_data_171                  : Meas Value : 0.758528 V
+Continuity_Mux_Pos : io_req_pad_data_152                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_96                   : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_211                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : reserved_in_pad_i_13                 : Meas Value : 0.758187 V
+Continuity_Mux_Pos : io_req_pad_data_177                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_214                  : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_255                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_141                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_107                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : reserved_in_pad_i_12                 : Meas Value : 0.758187 V
+Continuity_Mux_Pos : io_req_pad_data_245                  : Meas Value : 0.758187 V
+Continuity_Mux_Pos : io_req_pad_data_77                   : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_114                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_data_225                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_data_67                   : Meas Value : 0.758528 V
+Continuity_Mux_Pos : io_req_pad_parity_3                  : Meas Value : 0.758528 V
+Continuity_Mux_Pos : io_req_pad_data_238                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_data_237                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_data_73                   : Meas Value : 0.758642 V
+Continuity_Mux_Pos : io_req_pad_data_252                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_234                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_data_137                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_142                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_data_118                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_data_232                  : Meas Value : 0.758642 V
+Continuity_Mux_Pos : io_req_pad_data_187                  : Meas Value : 0.758528 V
+Continuity_Mux_Pos : 2k_mux4                              : Meas Value : 0.200209 V
+
+MUX_OUT number :	mux5_out
+Continuity_Mux_Pos : io_req_pad_data_101                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_104                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_181                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_102                  : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_54                   : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_170                  : Meas Value : 0.758147 V
+Continuity_Mux_Pos : io_req_pad_data_139                  : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_58                   : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_182                  : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_data_196                  : Meas Value : 0.758545 V
+Continuity_Mux_Pos : io_req_pad_data_185                  : Meas Value : 0.758432 V
+Continuity_Mux_Pos : io_req_pad_data_130                  : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_parity_7                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_231                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_60                   : Meas Value : 0.758488 V
+Continuity_Mux_Pos : io_req_pad_data_117                  : Meas Value : 0.758432 V
+Continuity_Mux_Pos : io_req_pad_data_82                   : Meas Value : 0.758033 V
+Continuity_Mux_Pos : io_req_pad_data_41                   : Meas Value : 0.757862 V
+Continuity_Mux_Pos : io_req_pad_data_140                  : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_data_201                  : Meas Value : 0.758147 V
+Continuity_Mux_Pos : io_req_pad_data_85                   : Meas Value : 0.758147 V
+Continuity_Mux_Pos : io_req_pad_data_55                   : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_45                   : Meas Value : 0.758147 V
+Continuity_Mux_Pos : io_req_pad_data_175                  : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_data_218                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_94                   : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_data_134                  : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_209                  : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_parity_8                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_66                   : Meas Value : 0.758432 V
+Continuity_Mux_Pos : io_req_pad_data_32                   : Meas Value : 0.758432 V
+Continuity_Mux_Pos : 2k_mux5                              : Meas Value : 0.2001 V
+
+MUX_OUT number :	mux6_out
+Continuity_Mux_Pos : io_req_pad_data_33                   : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_197                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_154                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_235                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_186                  : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_109                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_143                  : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_145                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_100                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_parity_9                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_158                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_236                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_49                   : Meas Value : 0.758414 V
+Continuity_Mux_Pos : reserved_in_pad_i_8                  : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_223                  : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_164                  : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_246                  : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_198                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_242                  : Meas Value : 0.758187 V
+Continuity_Mux_Pos : io_rsp_pad_data_118                  : Meas Value : 0.288035 V
+Continuity_Mux_Pos : io_req_pad_data_68                   : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_116                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_parity_2                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_233                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_149                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_221                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_78                   : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_105                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_183                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_222                  : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_64                   : Meas Value : 0.7583 V
+Continuity_Mux_Pos : 2k_mux6                              : Meas Value : 0.200039 V
+
+MUX_OUT number :	mux7_out
+Continuity_Mux_Pos : reserved_in_pad_i_5                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_226                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_179                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : reserved_in_pad_i_1                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : reserved_in_pad_i_6                  : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_95                   : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_210                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_133                  : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_159                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_151                  : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_205                  : Meas Value : 0.75813 V
+Continuity_Mux_Pos : reserved_in_pad_i_3                  : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_173                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : reserved_in_pad_i_9                  : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_247                  : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_50                   : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_188                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : reserved_in_pad_i_7                  : Meas Value : 0.758243 V
+Continuity_Mux_Pos : io_req_pad_data_70                   : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_data_215                  : Meas Value : 0.758243 V
+Continuity_Mux_Pos : reserved_in_pad_i_4                  : Meas Value : 0.758357 V
+Continuity_Mux_Pos : io_req_pad_data_98                   : Meas Value : 0.7583 V
+Continuity_Mux_Pos : io_req_pad_data_61                   : Meas Value : 0.758357 V
+Continuity_Mux_Pos : reserved_in_pad_i_2                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_111                  : Meas Value : 0.758528 V
+Continuity_Mux_Pos : io_req_pad_data_192                  : Meas Value : 0.758414 V
+Continuity_Mux_Pos : io_req_pad_data_156                  : Meas Value : 0.758585 V
+Continuity_Mux_Pos : io_req_pad_parity_5                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_146                  : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_data_71                   : Meas Value : 0.758471 V
+Continuity_Mux_Pos : io_req_pad_parity_4                  : Meas Value : 0.758528 V
+Continuity_Mux_Pos : 2k_mux7                              : Meas Value : 0.200209 V
+
+MUX_OUT number :	mux8_out
+Continuity_Mux_Pos : io_req_pad_data_194                  : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_113                  : Meas Value : 0.758432 V
+Continuity_Mux_Pos : io_req_pad_data_75                   : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_74                   : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_35                   : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_data_112                  : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_228                  : Meas Value : 0.758432 V
+Continuity_Mux_Pos : io_req_pad_data_230                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_37                   : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_229                  : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_parity_6                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_34                   : Meas Value : 0.758432 V
+Continuity_Mux_Pos : io_req_pad_data_193                  : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_data_150                  : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_106                  : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_65                   : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_76                   : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_39                   : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_169                  : Meas Value : 0.758147 V
+Continuity_Mux_Pos : io_req_pad_data_91                   : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_157                  : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_128                  : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_72                   : Meas Value : 0.758261 V
+Continuity_Mux_Pos : reserved_in_pad_i_10                 : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_86                   : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_data_190                  : Meas Value : 0.758261 V
+Continuity_Mux_Pos : io_req_pad_data_189                  : Meas Value : 0.758432 V
+Continuity_Mux_Pos : io_req_pad_data_206                  : Meas Value : 0.758204 V
+Continuity_Mux_Pos : io_req_pad_data_217                  : Meas Value : 0.758375 V
+Continuity_Mux_Pos : io_req_pad_data_136                  : Meas Value : 0.758318 V
+Continuity_Mux_Pos : io_req_pad_data_147                  : Meas Value : 0.758261 V
+Continuity_Mux_Pos : 2k_mux8                              : Meas Value : 0.2001 V
+
+MUX_OUT number :	mux9_out
+Continuity_Mux_Pos : io_rsp_pad_addr_21                   : Meas Value : 0.289791 V
+Continuity_Mux_Pos : io_rsp_pad_data_129                  : Meas Value : 0.287457 V
+Continuity_Mux_Pos : io_rsp_pad_data_204                  : Meas Value : 0.289165 V
+Continuity_Mux_Pos : io_rsp_pad_data_94                   : Meas Value : 0.287571 V
+Continuity_Mux_Pos : io_rsp_pad_data_173                  : Meas Value : 0.285976 V
+Continuity_Mux_Pos : io_rsp_pad_addr_15                   : Meas Value : 0.287741 V
+Continuity_Mux_Pos : io_rsp_pad_data_248                  : Meas Value : 0.288197 V
+Continuity_Mux_Pos : io_rsp_pad_data_88                   : Meas Value : 0.287172 V
+Continuity_Mux_Pos : io_rsp_pad_data_65                   : Meas Value : 0.287684 V
+Continuity_Mux_Pos : io_rsp_pad_data_238                  : Meas Value : 0.2874 V
+Continuity_Mux_Pos : io_rsp_pad_data_32                   : Meas Value : 0.287514 V
+Continuity_Mux_Pos : io_rsp_pad_data_151                  : Meas Value : 0.286033 V
+Continuity_Mux_Pos : io_rsp_pad_data_139                  : Meas Value : 0.287684 V
+Continuity_Mux_Pos : io_rsp_pad_parity_7                  : Meas Value : 0.287571 V
+Continuity_Mux_Pos : io_rsp_pad_data_101                  : Meas Value : 0.287229 V
+Continuity_Mux_Pos : reserved_out_pad_o_17                : Meas Value : 0.288197 V
+Continuity_Mux_Pos : io_rsp_pad_data_141                  : Meas Value : 0.286489 V
+Continuity_Mux_Pos : io_rsp_pad_data_169                  : Meas Value : 0.288311 V
+Continuity_Mux_Pos : io_rsp_pad_data_152                  : Meas Value : 0.287628 V
+Continuity_Mux_Pos : io_rsp_pad_data_135                  : Meas Value : 0.287912 V
+Continuity_Mux_Pos : io_rsp_pad_data_180                  : Meas Value : 0.286546 V
+Continuity_Mux_Pos : io_rsp_pad_data_214                  : Meas Value : 0.287343 V
+Continuity_Mux_Pos : io_rsp_pad_data_66                   : Meas Value : 0.286603 V
+Continuity_Mux_Pos : io_rsp_pad_data_158                  : Meas Value : 0.288368 V
+Continuity_Mux_Pos : io_rsp_pad_data_219                  : Meas Value : 0.288937 V
+Continuity_Mux_Pos : io_rsp_pad_data_123                  : Meas Value : 0.287229 V
+Continuity_Mux_Pos : io_rsp_pad_data_213                  : Meas Value : 0.288254 V
+Continuity_Mux_Pos : io_rsp_pad_data_134                  : Meas Value : 0.287684 V
+Continuity_Mux_Pos : io_rsp_pad_data_43                   : Meas Value : 0.290361 V
+Continuity_Mux_Pos : io_rsp_pad_addr_3                    : Meas Value : 0.288425 V
+Continuity_Mux_Pos : io_rsp_pad_data_145                  : Meas Value : 0.28666 V
+Continuity_Mux_Pos : 2k_mux9                              : Meas Value : 0.199602 V
+
+MUX_OUT number :	mux10_out
+Continuity_Mux_Pos : io_rsp_pad_data_67                   : Meas Value : 0.287249 V
+Continuity_Mux_Pos : io_rsp_pad_data_199                  : Meas Value : 0.288729 V
+Continuity_Mux_Pos : io_rsp_pad_data_187                  : Meas Value : 0.287818 V
+Continuity_Mux_Pos : io_rsp_pad_data_209                  : Meas Value : 0.289128 V
+Continuity_Mux_Pos : io_rsp_pad_data_112                  : Meas Value : 0.285825 V
+Continuity_Mux_Pos : io_rsp_pad_parity_1                  : Meas Value : 0.286565 V
+Continuity_Mux_Pos : io_rsp_pad_data_78                   : Meas Value : 0.288558 V
+Continuity_Mux_Pos : io_rsp_pad_data_156                  : Meas Value : 0.28833 V
+Continuity_Mux_Pos : io_rsp_pad_data_230                  : Meas Value : 0.287249 V
+Continuity_Mux_Pos : io_rsp_pad_parity_8                  : Meas Value : 0.288786 V
+Continuity_Mux_Pos : io_rsp_pad_data_60                   : Meas Value : 0.287249 V
+Continuity_Mux_Pos : io_rsp_pad_data_77                   : Meas Value : 0.287306 V
+Continuity_Mux_Pos : io_rsp_pad_data_185                  : Meas Value : 0.286508 V
+Continuity_Mux_Pos : io_rsp_pad_data_116                  : Meas Value : 0.286736 V
+Continuity_Mux_Pos : io_rsp_pad_data_224                  : Meas Value : 0.286451 V
+Continuity_Mux_Pos : io_rsp_pad_data_186                  : Meas Value : 0.287704 V
+Continuity_Mux_Pos : io_rsp_pad_data_160                  : Meas Value : 0.289925 V
+Continuity_Mux_Pos : io_rsp_pad_addr_19                   : Meas Value : 0.288217 V
+Continuity_Mux_Pos : io_rsp_pad_data_84                   : Meas Value : 0.289526 V
+Continuity_Mux_Pos : io_rsp_pad_data_79                   : Meas Value : 0.287306 V
+Continuity_Mux_Pos : io_rsp_pad_data_191                  : Meas Value : 0.287419 V
+Continuity_Mux_Pos : io_rsp_pad_data_231                  : Meas Value : 0.287533 V
+Continuity_Mux_Pos : io_rsp_pad_data_71                   : Meas Value : 0.287306 V
+Continuity_Mux_Pos : io_rsp_pad_data_106                  : Meas Value : 0.287362 V
+Continuity_Mux_Pos : io_rsp_pad_addr_20                   : Meas Value : 0.287533 V
+Continuity_Mux_Pos : io_rsp_pad_addr_25                   : Meas Value : 0.28833 V
+Continuity_Mux_Pos : io_rsp_pad_data_157                  : Meas Value : 0.286622 V
+Continuity_Mux_Pos : io_rsp_pad_data_197                  : Meas Value : 0.288103 V
+Continuity_Mux_Pos : io_rsp_pad_data_70                   : Meas Value : 0.287647 V
+Continuity_Mux_Pos : io_rsp_pad_data_59                   : Meas Value : 0.287021 V
+Continuity_Mux_Pos : io_rsp_pad_data_37                   : Meas Value : 0.288729 V
+Continuity_Mux_Pos : 2k_mux10                             : Meas Value : 0.1999 V
+
+MUX_OUT number :	mux11_out
+Continuity_Mux_Pos : io_rsp_pad_data_50                   : Meas Value : 0.286723 V
+Continuity_Mux_Pos : io_rsp_pad_data_159                  : Meas Value : 0.290652 V
+Continuity_Mux_Pos : io_rsp_pad_data_210                  : Meas Value : 0.288147 V
+Continuity_Mux_Pos : io_rsp_pad_data_170                  : Meas Value : 0.288203 V
+Continuity_Mux_Pos : io_rsp_pad_data_85                   : Meas Value : 0.28957 V
+Continuity_Mux_Pos : io_rsp_pad_data_102                  : Meas Value : 0.28752 V
+Continuity_Mux_Pos : io_rsp_pad_data_227                  : Meas Value : 0.287862 V
+Continuity_Mux_Pos : io_rsp_pad_data_182                  : Meas Value : 0.287805 V
+Continuity_Mux_Pos : io_rsp_pad_parity_5                  : Meas Value : 0.287976 V
+Continuity_Mux_Pos : io_rsp_pad_data_150                  : Meas Value : 0.286552 V
+Continuity_Mux_Pos : io_rsp_pad_data_149                  : Meas Value : 0.287862 V
+Continuity_Mux_Pos : io_rsp_pad_data_109                  : Meas Value : 0.286495 V
+Continuity_Mux_Pos : io_rsp_pad_data_36                   : Meas Value : 0.287122 V
+Continuity_Mux_Pos : io_rsp_pad_data_75                   : Meas Value : 0.287634 V
+Continuity_Mux_Pos : io_rsp_pad_data_237                  : Meas Value : 0.288203 V
+Continuity_Mux_Pos : reserved_out_pad_o_4                 : Meas Value : 0.288773 V
+Continuity_Mux_Pos : io_rsp_pad_data_113                  : Meas Value : 0.289058 V
+Continuity_Mux_Pos : io_rsp_pad_data_218                  : Meas Value : 0.287179 V
+Continuity_Mux_Pos : io_rsp_pad_data_193                  : Meas Value : 0.289001 V
+Continuity_Mux_Pos : io_rsp_pad_data_226                  : Meas Value : 0.289399 V
+Continuity_Mux_Pos : io_rsp_pad_data_99                   : Meas Value : 0.287748 V
+Continuity_Mux_Pos : io_rsp_pad_data_69                   : Meas Value : 0.288602 V
+Continuity_Mux_Pos : io_rsp_pad_data_61                   : Meas Value : 0.289001 V
+Continuity_Mux_Pos : io_rsp_pad_data_220                  : Meas Value : 0.286894 V
+Continuity_Mux_Pos : reserved_out_pad_o_10                : Meas Value : 0.289001 V
+Continuity_Mux_Pos : io_rsp_pad_data_184                  : Meas Value : 0.286552 V
+Continuity_Mux_Pos : io_rsp_pad_data_105                  : Meas Value : 0.287577 V
+Continuity_Mux_Pos : io_rsp_pad_data_195                  : Meas Value : 0.287805 V
+Continuity_Mux_Pos : io_rsp_pad_data_34                   : Meas Value : 0.286894 V
+Continuity_Mux_Pos : io_rsp_pad_data_234                  : Meas Value : 0.287065 V
+Continuity_Mux_Pos : io_rsp_pad_parity_6                  : Meas Value : 0.287463 V
+Continuity_Mux_Pos : 2k_mux11                             : Meas Value : 0.199948 V
+
+MUX_OUT number :	mux12_out
+Continuity_Mux_Pos : io_rsp_pad_data_104                  : Meas Value : 0.288553 V
+Continuity_Mux_Pos : io_rsp_pad_data_133                  : Meas Value : 0.286504 V
+Continuity_Mux_Pos : io_rsp_pad_data_110                  : Meas Value : 0.288724 V
+Continuity_Mux_Pos : io_rsp_pad_data_143                  : Meas Value : 0.285764 V
+Continuity_Mux_Pos : io_rsp_pad_data_207                  : Meas Value : 0.290886 V
+Continuity_Mux_Pos : io_rsp_pad_data_63                   : Meas Value : 0.287756 V
+Continuity_Mux_Pos : io_rsp_pad_data_222                  : Meas Value : 0.286163 V
+Continuity_Mux_Pos : io_rsp_pad_addr_29                   : Meas Value : 0.287187 V
+Continuity_Mux_Pos : io_rsp_pad_addr_12                   : Meas Value : 0.289577 V
+Continuity_Mux_Pos : io_rsp_pad_data_235                  : Meas Value : 0.287813 V
+Continuity_Mux_Pos : io_rsp_pad_data_189                  : Meas Value : 0.289919 V
+Continuity_Mux_Pos : io_rsp_pad_data_114                  : Meas Value : 0.288382 V
+Continuity_Mux_Pos : io_rsp_pad_data_46                   : Meas Value : 0.289407 V
+Continuity_Mux_Pos : io_rsp_pad_data_56                   : Meas Value : 0.286675 V
+Continuity_Mux_Pos : io_rsp_pad_data_62                   : Meas Value : 0.287244 V
+Continuity_Mux_Pos : io_rsp_pad_data_147                  : Meas Value : 0.28696 V
+Continuity_Mux_Pos : io_rsp_pad_data_252                  : Meas Value : 0.289008 V
+Continuity_Mux_Pos : io_rsp_pad_data_239                  : Meas Value : 0.289008 V
+Continuity_Mux_Pos : io_rsp_pad_data_138                  : Meas Value : 0.286903 V
+Continuity_Mux_Pos : io_rsp_pad_data_33                   : Meas Value : 0.286163 V
+Continuity_Mux_Pos : io_rsp_pad_data_196                  : Meas Value : 0.289236 V
+Continuity_Mux_Pos : io_rsp_pad_data_247                  : Meas Value : 0.288781 V
+Continuity_Mux_Pos : io_rsp_pad_data_215                  : Meas Value : 0.286732 V
+Continuity_Mux_Pos : io_rsp_pad_addr_27                   : Meas Value : 0.288439 V
+Continuity_Mux_Pos : io_rsp_pad_data_97                   : Meas Value : 0.288439 V
+Continuity_Mux_Pos : io_rsp_pad_data_137                  : Meas Value : 0.288439 V
+Continuity_Mux_Pos : io_rsp_pad_data_132                  : Meas Value : 0.288838 V
+Continuity_Mux_Pos : io_rsp_pad_data_192                  : Meas Value : 0.286789 V
+Continuity_Mux_Pos : io_rsp_pad_data_103                  : Meas Value : 0.287927 V
+Continuity_Mux_Pos : io_rsp_pad_addr_23                   : Meas Value : 0.288382 V
+Continuity_Mux_Pos : io_rsp_pad_addr_24                   : Meas Value : 0.286789 V
+Continuity_Mux_Pos : 2k_mux12                             : Meas Value : 0.200344 V
+
+MUX_OUT number :	mux13_out
+Continuity_Mux_Pos : io_rsp_pad_addr_9                    : Meas Value : 0.286738 V
+Continuity_Mux_Pos : io_rsp_pad_data_38                   : Meas Value : 0.28708 V
+Continuity_Mux_Pos : io_rsp_pad_data_130                  : Meas Value : 0.287478 V
+Continuity_Mux_Pos : io_rsp_pad_data_211                  : Meas Value : 0.287478 V
+Continuity_Mux_Pos : io_rsp_pad_data_253                  : Meas Value : 0.286852 V
+Continuity_Mux_Pos : io_rsp_pad_data_178                  : Meas Value : 0.28708 V
+Continuity_Mux_Pos : io_rsp_pad_addr_13                   : Meas Value : 0.287877 V
+Continuity_Mux_Pos : io_rsp_pad_data_54                   : Meas Value : 0.287421 V
+Continuity_Mux_Pos : io_rsp_pad_data_194                  : Meas Value : 0.28873 V
+Continuity_Mux_Pos : io_rsp_pad_data_81                   : Meas Value : 0.290495 V
+Continuity_Mux_Pos : io_rsp_pad_data_58                   : Meas Value : 0.287592 V
+Continuity_Mux_Pos : io_rsp_pad_data_117                  : Meas Value : 0.28856 V
+Continuity_Mux_Pos : io_rsp_pad_data_255                  : Meas Value : 0.287649 V
+Continuity_Mux_Pos : io_rsp_pad_data_120                  : Meas Value : 0.288218 V
+Continuity_Mux_Pos : io_rsp_pad_data_119                  : Meas Value : 0.288332 V
+Continuity_Mux_Pos : io_rsp_pad_addr_16                   : Meas Value : 0.286738 V
+Continuity_Mux_Pos : io_rsp_pad_data_95                   : Meas Value : 0.288047 V
+Continuity_Mux_Pos : io_rsp_pad_data_233                  : Meas Value : 0.28708 V
+Continuity_Mux_Pos : io_rsp_pad_data_73                   : Meas Value : 0.286454 V
+Continuity_Mux_Pos : io_rsp_pad_data_108                  : Meas Value : 0.28873 V
+Continuity_Mux_Pos : io_rsp_pad_parity_9                  : Meas Value : 0.288332 V
+Continuity_Mux_Pos : io_rsp_pad_addr_17                   : Meas Value : 0.286625 V
+Continuity_Mux_Pos : io_rsp_pad_data_216                  : Meas Value : 0.287137 V
+Continuity_Mux_Pos : io_rsp_pad_addr_6                    : Meas Value : 0.288787 V
+Continuity_Mux_Pos : io_rsp_pad_addr_28                   : Meas Value : 0.287934 V
+Continuity_Mux_Pos : io_rsp_pad_data_177                  : Meas Value : 0.288275 V
+Continuity_Mux_Pos : io_rsp_pad_data_229                  : Meas Value : 0.288332 V
+Continuity_Mux_Pos : io_rsp_pad_data_251                  : Meas Value : 0.287877 V
+Continuity_Mux_Pos : io_rsp_pad_data_176                  : Meas Value : 0.28708 V
+Continuity_Mux_Pos : io_rsp_pad_data_35                   : Meas Value : 0.289982 V
+Continuity_Mux_Pos : io_rsp_pad_data_142                  : Meas Value : 0.287991 V
+Continuity_Mux_Pos : 2k_mux13                             : Meas Value : 0.200064 V
+
+MUX_OUT number :	mux14_out
+Continuity_Mux_Pos : io_rsp_pad_data_44                   : Meas Value : 0.289755 V
+Continuity_Mux_Pos : io_rsp_pad_data_122                  : Meas Value : 0.287706 V
+Continuity_Mux_Pos : io_rsp_pad_data_202                  : Meas Value : 0.28782 V
+Continuity_Mux_Pos : io_rsp_pad_data_82                   : Meas Value : 0.28856 V
+Continuity_Mux_Pos : io_rsp_pad_data_72                   : Meas Value : 0.286568 V
+Continuity_Mux_Pos : io_rsp_pad_data_53                   : Meas Value : 0.286056 V
+Continuity_Mux_Pos : io_rsp_pad_data_115                  : Meas Value : 0.287649 V
+Continuity_Mux_Pos : io_rsp_pad_data_155                  : Meas Value : 0.287364 V
+Continuity_Mux_Pos : reserved_out_pad_o_11                : Meas Value : 0.287934 V
+Continuity_Mux_Pos : io_rsp_pad_data_76                   : Meas Value : 0.287592 V
+Continuity_Mux_Pos : io_rsp_pad_data_225                  : Meas Value : 0.286909 V
+Continuity_Mux_Pos : io_rsp_pad_data_111                  : Meas Value : 0.286795 V
+Continuity_Mux_Pos : io_rsp_pad_data_126                  : Meas Value : 0.289413 V
+Continuity_Mux_Pos : io_rsp_pad_data_87                   : Meas Value : 0.288446 V
+Continuity_Mux_Pos : io_rsp_pad_addr_4                    : Meas Value : 0.287934 V
+Continuity_Mux_Pos : io_rsp_pad_data_205                  : Meas Value : 0.288218 V
+Continuity_Mux_Pos : io_rsp_pad_data_243                  : Meas Value : 0.288104 V
+Continuity_Mux_Pos : io_rsp_pad_data_40                   : Meas Value : 0.289186 V
+Continuity_Mux_Pos : io_rsp_pad_data_167                  : Meas Value : 0.287877 V
+Continuity_Mux_Pos : io_rsp_pad_data_171                  : Meas Value : 0.287478 V
+Continuity_Mux_Pos : io_rsp_pad_data_249                  : Meas Value : 0.287649 V
+Continuity_Mux_Pos : io_rsp_pad_data_92                   : Meas Value : 0.287991 V
+Continuity_Mux_Pos : io_rsp_pad_data_49                   : Meas Value : 0.288047 V
+Continuity_Mux_Pos : io_rsp_pad_data_172                  : Meas Value : 0.287763 V
+Continuity_Mux_Pos : reserved_out_pad_o_8                 : Meas Value : 0.288446 V
+Continuity_Mux_Pos : io_rsp_pad_data_245                  : Meas Value : 0.289129 V
+Continuity_Mux_Pos : io_rsp_pad_data_208                  : Meas Value : 0.287934 V
+Continuity_Mux_Pos : io_rsp_pad_data_166                  : Meas Value : 0.289072 V
+Continuity_Mux_Pos : io_rsp_pad_data_165                  : Meas Value : 0.290267 V
+Continuity_Mux_Pos : io_rsp_pad_addr_10                   : Meas Value : 0.288958 V
+Continuity_Mux_Pos : io_rsp_pad_addr_0                    : Meas Value : 0.290039 V
+Continuity_Mux_Pos : 2k_mux14                             : Meas Value : 0.200348 V
+
+MUX_OUT number :	mux15_out
+Continuity_Mux_Pos : io_rsp_pad_addr_22                   : Meas Value : 0.286909 V
+Continuity_Mux_Pos : io_rsp_pad_data_100                  : Meas Value : 0.28708 V
+Continuity_Mux_Pos : io_rsp_pad_data_223                  : Meas Value : 0.286966 V
+Continuity_Mux_Pos : reserved_out_pad_o_15                : Meas Value : 0.288389 V
+Continuity_Mux_Pos : io_rsp_pad_data_131                  : Meas Value : 0.287478 V
+Continuity_Mux_Pos : io_rsp_pad_data_179                  : Meas Value : 0.288332 V
+Continuity_Mux_Pos : io_rsp_pad_data_98                   : Meas Value : 0.287877 V
+Continuity_Mux_Pos : io_rsp_pad_addr_26                   : Meas Value : 0.288047 V
+Continuity_Mux_Pos : io_rsp_pad_data_201                  : Meas Value : 0.288901 V
+Continuity_Mux_Pos : io_rsp_pad_data_232                  : Meas Value : 0.288218 V
+Continuity_Mux_Pos : io_rsp_pad_data_107                  : Meas Value : 0.289015 V
+Continuity_Mux_Pos : reserved_out_pad_o_12                : Meas Value : 0.289015 V
+Continuity_Mux_Pos : io_rsp_pad_data_240                  : Meas Value : 0.289698 V
+Continuity_Mux_Pos : io_rsp_pad_data_121                  : Meas Value : 0.289243 V
+Continuity_Mux_Pos : io_rsp_pad_data_161                  : Meas Value : 0.289299 V
+Continuity_Mux_Pos : io_rsp_pad_data_80                   : Meas Value : 0.290779 V
+Continuity_Mux_Pos : io_rsp_pad_parity_0                  : Meas Value : 0.288332 V
+Continuity_Mux_Pos : io_rsp_pad_data_91                   : Meas Value : 0.288673 V
+Continuity_Mux_Pos : io_rsp_pad_data_64                   : Meas Value : 0.286511 V
+Continuity_Mux_Pos : io_rsp_pad_data_148                  : Meas Value : 0.286738 V
+Continuity_Mux_Pos : reserved_out_pad_o_6                 : Meas Value : 0.287763 V
+Continuity_Mux_Pos : reserved_out_pad_o_9                 : Meas Value : 0.289584 V
+Continuity_Mux_Pos : reserved_out_pad_o_14                : Meas Value : 0.28873 V
+Continuity_Mux_Pos : io_rsp_pad_data_190                  : Meas Value : 0.286625 V
+Continuity_Mux_Pos : io_rsp_pad_data_246                  : Meas Value : 0.288275 V
+Continuity_Mux_Pos : io_rsp_pad_data_254                  : Meas Value : 0.287535 V
+Continuity_Mux_Pos : io_rsp_pad_data_144                  : Meas Value : 0.286738 V
+Continuity_Mux_Pos : io_rsp_pad_data_74                   : Meas Value : 0.288275 V
+Continuity_Mux_Pos : io_rsp_pad_data_163                  : Meas Value : 0.292486 V
+Continuity_Mux_Pos : io_rsp_pad_addr_5                    : Meas Value : 0.288104 V
+Continuity_Mux_Pos : io_rsp_pad_data_47                   : Meas Value : 0.287535 V
+Continuity_Mux_Pos : 2k_mux15                             : Meas Value : 0.200576 V
+
+MUX_OUT number :	mux16_out
+Continuity_Mux_Pos : io_rsp_pad_data_250                  : Meas Value : 0.2872 V
+Continuity_Mux_Pos : io_rsp_pad_data_136                  : Meas Value : 0.288965 V
+Continuity_Mux_Pos : io_rsp_pad_data_93                   : Meas Value : 0.286688 V
+Continuity_Mux_Pos : io_rsp_pad_data_175                  : Meas Value : 0.288339 V
+Continuity_Mux_Pos : io_rsp_pad_data_51                   : Meas Value : 0.286631 V
+Continuity_Mux_Pos : io_rsp_pad_data_221                  : Meas Value : 0.2872 V
+Continuity_Mux_Pos : io_rsp_pad_data_212                  : Meas Value : 0.288225 V
+Continuity_Mux_Pos : io_rsp_pad_addr_14                   : Meas Value : 0.286631 V
+Continuity_Mux_Pos : io_rsp_pad_data_183                  : Meas Value : 0.28703 V
+Continuity_Mux_Pos : io_rsp_pad_data_68                   : Meas Value : 0.287086 V
+Continuity_Mux_Pos : io_rsp_pad_data_146                  : Meas Value : 0.286916 V
+Continuity_Mux_Pos : reserved_out_pad_o_2                 : Meas Value : 0.289648 V
+Continuity_Mux_Pos : io_rsp_pad_data_52                   : Meas Value : 0.287428 V
+Continuity_Mux_Pos : io_rsp_pad_data_174                  : Meas Value : 0.286233 V
+Continuity_Mux_Pos : io_rsp_pad_data_55                   : Meas Value : 0.286802 V
+Continuity_Mux_Pos : io_rsp_pad_parity_4                  : Meas Value : 0.2872 V
+Continuity_Mux_Pos : io_rsp_pad_data_57                   : Meas Value : 0.288225 V
+Continuity_Mux_Pos : io_rsp_pad_data_127                  : Meas Value : 0.287826 V
+Continuity_Mux_Pos : io_rsp_pad_data_164                  : Meas Value : 0.290046 V
+Continuity_Mux_Pos : io_rsp_pad_data_86                   : Meas Value : 0.287883 V
+Continuity_Mux_Pos : io_rsp_pad_data_217                  : Meas Value : 0.287143 V
+Continuity_Mux_Pos : io_rsp_pad_data_48                   : Meas Value : 0.288282 V
+Continuity_Mux_Pos : io_rsp_pad_parity_2                  : Meas Value : 0.287997 V
+Continuity_Mux_Pos : io_rsp_pad_data_181                  : Meas Value : 0.285778 V
+Continuity_Mux_Pos : io_rsp_pad_data_236                  : Meas Value : 0.287769 V
+Continuity_Mux_Pos : io_rsp_pad_addr_11                   : Meas Value : 0.28868 V
+Continuity_Mux_Pos : reserved_out_pad_o_5                 : Meas Value : 0.28794 V
+Continuity_Mux_Pos : io_rsp_pad_data_168                  : Meas Value : 0.289591 V
+Continuity_Mux_Pos : reserved_out_pad_o_16                : Meas Value : 0.289135 V
+Continuity_Mux_Pos : io_rsp_pad_data_140                  : Meas Value : 0.286688 V
+Continuity_Mux_Pos : io_rsp_pad_data_96                   : Meas Value : 0.285948 V
+Continuity_Mux_Pos : 2k_mux16                             : Meas Value : 0.200353 V
+
+MUX_OUT number :	mux17_out
+Continuity_Mux_Pos : io_rsp_pad_data_162                  : Meas Value : 0.289862 V
+Continuity_Mux_Pos : io_rsp_pad_data_206                  : Meas Value : 0.286789 V
+Continuity_Mux_Pos : io_rsp_pad_data_45                   : Meas Value : 0.287927 V
+Continuity_Mux_Pos : io_rsp_pad_data_244                  : Meas Value : 0.289976 V
+Continuity_Mux_Pos : io_rsp_pad_data_200                  : Meas Value : 0.289065 V
+Continuity_Mux_Pos : io_rsp_pad_data_125                  : Meas Value : 0.288269 V
+Continuity_Mux_Pos : io_rsp_pad_data_241                  : Meas Value : 0.289407 V
+Continuity_Mux_Pos : io_rsp_pad_data_203                  : Meas Value : 0.288781 V
+Continuity_Mux_Pos : reserved_out_pad_o_13                : Meas Value : 0.287586 V
+Continuity_Mux_Pos : io_rsp_pad_data_228                  : Meas Value : 0.287301 V
+Continuity_Mux_Pos : io_rsp_pad_data_188                  : Meas Value : 0.28787 V
+Continuity_Mux_Pos : io_rsp_pad_parity_3                  : Meas Value : 0.287187 V
+Continuity_Mux_Pos : io_rsp_pad_data_41                   : Meas Value : 0.290147 V
+Continuity_Mux_Pos : io_rsp_pad_addr_1                    : Meas Value : 0.288838 V
+Continuity_Mux_Pos : io_rsp_pad_data_83                   : Meas Value : 0.289008 V
+Continuity_Mux_Pos : io_rsp_pad_addr_18                   : Meas Value : 0.288155 V
+Continuity_Mux_Pos : io_rsp_pad_data_89                   : Meas Value : 0.287244 V
+Continuity_Mux_Pos : io_rsp_pad_data_42                   : Meas Value : 0.290147 V
+Continuity_Mux_Pos : io_rsp_pad_data_124                  : Meas Value : 0.288667 V
+Continuity_Mux_Pos : io_rsp_pad_data_128                  : Meas Value : 0.287813 V
+Continuity_Mux_Pos : io_rsp_pad_addr_8                    : Meas Value : 0.287699 V
+Continuity_Mux_Pos : reserved_out_pad_o_3                 : Meas Value : 0.289577 V
+Continuity_Mux_Pos : io_rsp_pad_data_39                   : Meas Value : 0.287927 V
+Continuity_Mux_Pos : io_rsp_pad_data_153                  : Meas Value : 0.287472 V
+Continuity_Mux_Pos : reserved_out_pad_o_7                 : Meas Value : 0.288553 V
+Continuity_Mux_Pos : io_rsp_pad_data_242                  : Meas Value : 0.289634 V
+Continuity_Mux_Pos : io_rsp_pad_addr_7                    : Meas Value : 0.288098 V
+Continuity_Mux_Pos : io_rsp_pad_data_90                   : Meas Value : 0.286504 V
+Continuity_Mux_Pos : io_rsp_pad_addr_2                    : Meas Value : 0.290033 V
+Continuity_Mux_Pos : io_rsp_pad_data_198                  : Meas Value : 0.287529 V
+Continuity_Mux_Pos : io_rsp_pad_data_154                  : Meas Value : 0.288041 V
+Continuity_Mux_Pos : 2k_mux17                             : Meas Value : 0.200344 V
+
+-----------------------------------------------
+TOTAL NUMBER OF FAILING PINS ==== 0
+-----------------------------------------------
+All DPS connected
+All DPS disconnected
+
+
+Continuity_Mux_Neg Datalog : 
+
+MUX_OUT number :	mux1_out
+Continuity_Mux_Neg : io_req_pad_data_250                  : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_174                  : Meas Value : -0.750517 V
+Continuity_Mux_Neg : io_req_pad_data_200                  : Meas Value : -0.750061 V
+Continuity_Mux_Neg : io_req_pad_data_40                   : Meas Value : -0.750061 V
+Continuity_Mux_Neg : io_req_pad_data_52                   : Meas Value : -0.750517 V
+Continuity_Mux_Neg : io_req_pad_data_56                   : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_202                  : Meas Value : -0.750289 V
+Continuity_Mux_Neg : io_req_pad_data_161                  : Meas Value : -0.750004 V
+Continuity_Mux_Neg : io_req_pad_data_42                   : Meas Value : -0.750517 V
+Continuity_Mux_Neg : io_req_pad_data_81                   : Meas Value : -0.750118 V
+Continuity_Mux_Neg : io_req_pad_data_47                   : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_87                   : Meas Value : -0.750573 V
+Continuity_Mux_Neg : io_req_pad_data_122                  : Meas Value : -0.750232 V
+Continuity_Mux_Neg : io_req_pad_data_131                  : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_92                   : Meas Value : -0.750289 V
+Continuity_Mux_Neg : io_req_pad_data_248                  : Meas Value : -0.750175 V
+Continuity_Mux_Neg : io_req_pad_data_184                  : Meas Value : -0.75063 V
+Continuity_Mux_Neg : io_req_pad_data_103                  : Meas Value : -0.75063 V
+Continuity_Mux_Neg : io_req_pad_data_195                  : Meas Value : -0.750517 V
+Continuity_Mux_Neg : io_req_pad_data_119                  : Meas Value : -0.750517 V
+Continuity_Mux_Neg : io_req_pad_data_172                  : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_123                  : Meas Value : -0.750232 V
+Continuity_Mux_Neg : io_req_pad_data_168                  : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_44                   : Meas Value : -0.752339 V
+Continuity_Mux_Neg : io_req_pad_data_160                  : Meas Value : -0.750175 V
+Continuity_Mux_Neg : io_req_pad_data_89                   : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_213                  : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_249                  : Meas Value : -0.75046 V
+Continuity_Mux_Neg : io_req_pad_data_204                  : Meas Value : -0.750289 V
+Continuity_Mux_Neg : io_req_pad_data_48                   : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_163                  : Meas Value : -0.750232 V
+Continuity_Mux_Neg : 2k_mux1                              : Meas Value : -0.199903 V
+
+MUX_OUT number :	mux2_out
+Continuity_Mux_Neg : io_req_pad_data_69                   : Meas Value : -0.750573 V
+Continuity_Mux_Neg : io_req_pad_data_121                  : Meas Value : -0.750061 V
+Continuity_Mux_Neg : io_req_pad_data_144                  : Meas Value : -0.750573 V
+Continuity_Mux_Neg : io_req_pad_data_46                   : Meas Value : -0.750232 V
+Continuity_Mux_Neg : io_req_pad_data_155                  : Meas Value : -0.75046 V
+Continuity_Mux_Neg : io_req_pad_data_126                  : Meas Value : -0.750289 V
+Continuity_Mux_Neg : io_req_pad_data_178                  : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_162                  : Meas Value : -0.750232 V
+Continuity_Mux_Neg : io_req_pad_data_36                   : Meas Value : -0.750573 V
+Continuity_Mux_Neg : io_req_pad_data_208                  : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_115                  : Meas Value : -0.750517 V
+Continuity_Mux_Neg : io_req_pad_data_59                   : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_88                   : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_243                  : Meas Value : -0.750004 V
+Continuity_Mux_Neg : io_req_pad_data_176                  : Meas Value : -0.750289 V
+Continuity_Mux_Neg : io_req_pad_data_203                  : Meas Value : -0.750118 V
+Continuity_Mux_Neg : io_req_pad_data_166                  : Meas Value : -0.750175 V
+Continuity_Mux_Neg : io_req_pad_data_51                   : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_127                  : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_207                  : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_90                   : Meas Value : -0.750175 V
+Continuity_Mux_Neg : io_req_pad_data_84                   : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_83                   : Meas Value : -0.750004 V
+Continuity_Mux_Neg : io_req_pad_data_244                  : Meas Value : -0.750289 V
+Continuity_Mux_Neg : io_req_pad_data_93                   : Meas Value : -0.75046 V
+Continuity_Mux_Neg : io_req_pad_data_110                  : Meas Value : -0.750517 V
+Continuity_Mux_Neg : io_req_pad_data_129                  : Meas Value : -0.750346 V
+Continuity_Mux_Neg : io_req_pad_data_224                  : Meas Value : -0.750403 V
+Continuity_Mux_Neg : io_req_pad_data_132                  : Meas Value : -0.750232 V
+Continuity_Mux_Neg : io_req_pad_data_57                   : Meas Value : -0.750175 V
+Continuity_Mux_Neg : io_req_pad_data_120                  : Meas Value : -0.750004 V
+Continuity_Mux_Neg : 2k_mux2                              : Meas Value : -0.199846 V
+
+MUX_OUT number :	mux3_out
+Continuity_Mux_Neg : io_req_pad_data_239                  : Meas Value : -0.750397 V
+Continuity_Mux_Neg : io_req_pad_data_191                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_220                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_parity_1                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_108                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_254                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_79                   : Meas Value : -0.750283 V
+Continuity_Mux_Neg : io_req_pad_parity_0                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_97                   : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_99                   : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_212                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_253                  : Meas Value : -0.750568 V
+Continuity_Mux_Neg : io_req_pad_data_216                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_227                  : Meas Value : -0.750283 V
+Continuity_Mux_Neg : io_req_pad_data_62                   : Meas Value : -0.752048 V
+Continuity_Mux_Neg : io_req_pad_data_148                  : Meas Value : -0.750283 V
+Continuity_Mux_Neg : io_req_pad_data_180                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_219                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_165                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_240                  : Meas Value : -0.749828 V
+Continuity_Mux_Neg : io_req_pad_data_80                   : Meas Value : -0.749828 V
+Continuity_Mux_Neg : io_req_pad_data_125                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_138                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_53                   : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_43                   : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_167                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_241                  : Meas Value : -0.749771 V
+Continuity_Mux_Neg : io_req_pad_data_251                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_199                  : Meas Value : -0.750397 V
+Continuity_Mux_Neg : io_req_pad_data_153                  : Meas Value : -0.750625 V
+Continuity_Mux_Neg : io_req_pad_data_38                   : Meas Value : -0.75034 V
+Continuity_Mux_Neg : 2k_mux3                              : Meas Value : -0.199477 V
+
+MUX_OUT number :	mux4_out
+Continuity_Mux_Neg : io_req_pad_data_63                   : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_135                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : reserved_in_pad_i_11                 : Meas Value : -0.749828 V
+Continuity_Mux_Neg : io_req_pad_data_124                  : Meas Value : -0.749771 V
+Continuity_Mux_Neg : io_req_pad_data_171                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_152                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_96                   : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_211                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : reserved_in_pad_i_13                 : Meas Value : -0.749714 V
+Continuity_Mux_Neg : io_req_pad_data_177                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_214                  : Meas Value : -0.749885 V
+Continuity_Mux_Neg : io_req_pad_data_255                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_141                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_107                  : Meas Value : -0.750283 V
+Continuity_Mux_Neg : reserved_in_pad_i_12                 : Meas Value : -0.749714 V
+Continuity_Mux_Neg : io_req_pad_data_245                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_77                   : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_114                  : Meas Value : -0.75034 V
+Continuity_Mux_Neg : io_req_pad_data_225                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_67                   : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_parity_3                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_238                  : Meas Value : -0.75034 V
+Continuity_Mux_Neg : io_req_pad_data_237                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_73                   : Meas Value : -0.750283 V
+Continuity_Mux_Neg : io_req_pad_data_252                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_234                  : Meas Value : -0.75034 V
+Continuity_Mux_Neg : io_req_pad_data_137                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_142                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_118                  : Meas Value : -0.750397 V
+Continuity_Mux_Neg : io_req_pad_data_232                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_187                  : Meas Value : -0.750283 V
+Continuity_Mux_Neg : 2k_mux4                              : Meas Value : -0.199306 V
+
+MUX_OUT number :	mux5_out
+Continuity_Mux_Neg : io_req_pad_data_101                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_104                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_181                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_102                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_54                   : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_170                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_139                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_58                   : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_182                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_196                  : Meas Value : -0.750283 V
+Continuity_Mux_Neg : io_req_pad_data_185                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_130                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_parity_7                  : Meas Value : -0.75034 V
+Continuity_Mux_Neg : io_req_pad_data_231                  : Meas Value : -0.750283 V
+Continuity_Mux_Neg : io_req_pad_data_60                   : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_117                  : Meas Value : -0.75034 V
+Continuity_Mux_Neg : io_req_pad_data_82                   : Meas Value : -0.749771 V
+Continuity_Mux_Neg : io_req_pad_data_41                   : Meas Value : -0.749714 V
+Continuity_Mux_Neg : io_req_pad_data_140                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_201                  : Meas Value : -0.749771 V
+Continuity_Mux_Neg : io_req_pad_data_85                   : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_55                   : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_45                   : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_175                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_218                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_94                   : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_134                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_209                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_parity_8                  : Meas Value : -0.75034 V
+Continuity_Mux_Neg : io_req_pad_data_66                   : Meas Value : -0.750397 V
+Continuity_Mux_Neg : io_req_pad_data_32                   : Meas Value : -0.750283 V
+Continuity_Mux_Neg : 2k_mux5                              : Meas Value : -0.199761 V
+
+MUX_OUT number :	mux6_out
+Continuity_Mux_Neg : io_req_pad_data_33                   : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_197                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_154                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_235                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_186                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_109                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_143                  : Meas Value : -0.749885 V
+Continuity_Mux_Neg : io_req_pad_data_145                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_100                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_parity_9                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_158                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_236                  : Meas Value : -0.750226 V
+Continuity_Mux_Neg : io_req_pad_data_49                   : Meas Value : -0.750056 V
+Continuity_Mux_Neg : reserved_in_pad_i_8                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_223                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_164                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_246                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_198                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_242                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_rsp_pad_data_118                  : Meas Value : -0.271707 V
+Continuity_Mux_Neg : io_req_pad_data_68                   : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_116                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_parity_2                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_233                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_149                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_221                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_78                   : Meas Value : -0.750283 V
+Continuity_Mux_Neg : io_req_pad_data_105                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_183                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_222                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_64                   : Meas Value : -0.749999 V
+Continuity_Mux_Neg : 2k_mux6                              : Meas Value : -0.199363 V
+
+MUX_OUT number :	mux7_out
+Continuity_Mux_Neg : reserved_in_pad_i_5                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_226                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_179                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : reserved_in_pad_i_1                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : reserved_in_pad_i_6                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_95                   : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_210                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_133                  : Meas Value : -0.749885 V
+Continuity_Mux_Neg : io_req_pad_data_159                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_151                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_205                  : Meas Value : -0.749885 V
+Continuity_Mux_Neg : reserved_in_pad_i_3                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_173                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : reserved_in_pad_i_9                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_247                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_50                   : Meas Value : -0.749885 V
+Continuity_Mux_Neg : io_req_pad_data_188                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : reserved_in_pad_i_7                  : Meas Value : -0.749885 V
+Continuity_Mux_Neg : io_req_pad_data_70                   : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_215                  : Meas Value : -0.749885 V
+Continuity_Mux_Neg : reserved_in_pad_i_4                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_98                   : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_61                   : Meas Value : -0.749999 V
+Continuity_Mux_Neg : reserved_in_pad_i_2                  : Meas Value : -0.749885 V
+Continuity_Mux_Neg : io_req_pad_data_111                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_192                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_156                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_parity_5                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_146                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_71                   : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_parity_4                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : 2k_mux7                              : Meas Value : -0.199534 V
+
+MUX_OUT number :	mux8_out
+Continuity_Mux_Neg : io_req_pad_data_194                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_113                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_75                   : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_74                   : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_35                   : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_112                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_228                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_230                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_37                   : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_229                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_parity_6                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_34                   : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_193                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_150                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_106                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_65                   : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_76                   : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_39                   : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_169                  : Meas Value : -0.749885 V
+Continuity_Mux_Neg : io_req_pad_data_91                   : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_157                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_128                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : io_req_pad_data_72                   : Meas Value : -0.750056 V
+Continuity_Mux_Neg : reserved_in_pad_i_10                 : Meas Value : -0.749885 V
+Continuity_Mux_Neg : io_req_pad_data_86                   : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_190                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_189                  : Meas Value : -0.75017 V
+Continuity_Mux_Neg : io_req_pad_data_206                  : Meas Value : -0.749942 V
+Continuity_Mux_Neg : io_req_pad_data_217                  : Meas Value : -0.749999 V
+Continuity_Mux_Neg : io_req_pad_data_136                  : Meas Value : -0.750113 V
+Continuity_Mux_Neg : io_req_pad_data_147                  : Meas Value : -0.750056 V
+Continuity_Mux_Neg : 2k_mux8                              : Meas Value : -0.199534 V
+
+MUX_OUT number :	mux9_out
+Continuity_Mux_Neg : io_rsp_pad_addr_21                   : Meas Value : -0.270607 V
+Continuity_Mux_Neg : io_rsp_pad_data_129                  : Meas Value : -0.269867 V
+Continuity_Mux_Neg : io_rsp_pad_data_204                  : Meas Value : -0.271689 V
+Continuity_Mux_Neg : io_rsp_pad_data_94                   : Meas Value : -0.271176 V
+Continuity_Mux_Neg : io_rsp_pad_data_173                  : Meas Value : -0.270379 V
+Continuity_Mux_Neg : io_rsp_pad_addr_15                   : Meas Value : -0.271518 V
+Continuity_Mux_Neg : io_rsp_pad_data_248                  : Meas Value : -0.271062 V
+Continuity_Mux_Neg : io_rsp_pad_data_88                   : Meas Value : -0.271689 V
+Continuity_Mux_Neg : io_rsp_pad_data_65                   : Meas Value : -0.269639 V
+Continuity_Mux_Neg : io_rsp_pad_data_238                  : Meas Value : -0.273169 V
+Continuity_Mux_Neg : io_rsp_pad_data_32                   : Meas Value : -0.271119 V
+Continuity_Mux_Neg : io_rsp_pad_data_151                  : Meas Value : -0.27129 V
+Continuity_Mux_Neg : io_rsp_pad_data_139                  : Meas Value : -0.270436 V
+Continuity_Mux_Neg : io_rsp_pad_parity_7                  : Meas Value : -0.271404 V
+Continuity_Mux_Neg : io_rsp_pad_data_101                  : Meas Value : -0.270493 V
+Continuity_Mux_Neg : reserved_out_pad_o_17                : Meas Value : -0.273397 V
+Continuity_Mux_Neg : io_rsp_pad_data_141                  : Meas Value : -0.269867 V
+Continuity_Mux_Neg : io_rsp_pad_data_169                  : Meas Value : -0.270892 V
+Continuity_Mux_Neg : io_rsp_pad_data_152                  : Meas Value : -0.270892 V
+Continuity_Mux_Neg : io_rsp_pad_data_135                  : Meas Value : -0.27186 V
+Continuity_Mux_Neg : io_rsp_pad_data_180                  : Meas Value : -0.270607 V
+Continuity_Mux_Neg : io_rsp_pad_data_214                  : Meas Value : -0.268899 V
+Continuity_Mux_Neg : io_rsp_pad_data_66                   : Meas Value : -0.269468 V
+Continuity_Mux_Neg : io_rsp_pad_data_158                  : Meas Value : -0.272258 V
+Continuity_Mux_Neg : io_rsp_pad_data_219                  : Meas Value : -0.27129 V
+Continuity_Mux_Neg : io_rsp_pad_data_123                  : Meas Value : -0.270094 V
+Continuity_Mux_Neg : io_rsp_pad_data_213                  : Meas Value : -0.271746 V
+Continuity_Mux_Neg : io_rsp_pad_data_134                  : Meas Value : -0.272087 V
+Continuity_Mux_Neg : io_rsp_pad_data_43                   : Meas Value : -0.271632 V
+Continuity_Mux_Neg : io_rsp_pad_addr_3                    : Meas Value : -0.268842 V
+Continuity_Mux_Neg : io_rsp_pad_data_145                  : Meas Value : -0.269582 V
+Continuity_Mux_Neg : 2k_mux9                              : Meas Value : -0.199829 V
+
+MUX_OUT number :	mux10_out
+Continuity_Mux_Neg : io_rsp_pad_data_67                   : Meas Value : -0.270615 V
+Continuity_Mux_Neg : io_rsp_pad_data_199                  : Meas Value : -0.272551 V
+Continuity_Mux_Neg : io_rsp_pad_data_187                  : Meas Value : -0.270672 V
+Continuity_Mux_Neg : io_rsp_pad_data_209                  : Meas Value : -0.270102 V
+Continuity_Mux_Neg : io_rsp_pad_data_112                  : Meas Value : -0.269419 V
+Continuity_Mux_Neg : io_rsp_pad_parity_1                  : Meas Value : -0.269988 V
+Continuity_Mux_Neg : io_rsp_pad_data_78                   : Meas Value : -0.271981 V
+Continuity_Mux_Neg : io_rsp_pad_data_156                  : Meas Value : -0.271412 V
+Continuity_Mux_Neg : io_rsp_pad_data_230                  : Meas Value : -0.271924 V
+Continuity_Mux_Neg : io_rsp_pad_parity_8                  : Meas Value : -0.272266 V
+Continuity_Mux_Neg : io_rsp_pad_data_60                   : Meas Value : -0.271298 V
+Continuity_Mux_Neg : io_rsp_pad_data_77                   : Meas Value : -0.270899 V
+Continuity_Mux_Neg : io_rsp_pad_data_185                  : Meas Value : -0.270102 V
+Continuity_Mux_Neg : io_rsp_pad_data_116                  : Meas Value : -0.269704 V
+Continuity_Mux_Neg : io_rsp_pad_data_224                  : Meas Value : -0.270102 V
+Continuity_Mux_Neg : io_rsp_pad_data_186                  : Meas Value : -0.269647 V
+Continuity_Mux_Neg : io_rsp_pad_data_160                  : Meas Value : -0.271526 V
+Continuity_Mux_Neg : io_rsp_pad_addr_19                   : Meas Value : -0.27107 V
+Continuity_Mux_Neg : io_rsp_pad_data_84                   : Meas Value : -0.271355 V
+Continuity_Mux_Neg : io_rsp_pad_data_79                   : Meas Value : -0.27164 V
+Continuity_Mux_Neg : io_rsp_pad_data_191                  : Meas Value : -0.270216 V
+Continuity_Mux_Neg : io_rsp_pad_data_231                  : Meas Value : -0.270216 V
+Continuity_Mux_Neg : io_rsp_pad_data_71                   : Meas Value : -0.270102 V
+Continuity_Mux_Neg : io_rsp_pad_data_106                  : Meas Value : -0.269817 V
+Continuity_Mux_Neg : io_rsp_pad_addr_20                   : Meas Value : -0.269476 V
+Continuity_Mux_Neg : io_rsp_pad_addr_25                   : Meas Value : -0.270102 V
+Continuity_Mux_Neg : io_rsp_pad_data_157                  : Meas Value : -0.271298 V
+Continuity_Mux_Neg : io_rsp_pad_data_197                  : Meas Value : -0.271241 V
+Continuity_Mux_Neg : io_rsp_pad_data_70                   : Meas Value : -0.271469 V
+Continuity_Mux_Neg : io_rsp_pad_data_59                   : Meas Value : -0.271867 V
+Continuity_Mux_Neg : io_rsp_pad_data_37                   : Meas Value : -0.272608 V
+Continuity_Mux_Neg : 2k_mux10                             : Meas Value : -0.199607 V
+
+MUX_OUT number :	mux11_out
+Continuity_Mux_Neg : io_rsp_pad_data_50                   : Meas Value : -0.271673 V
+Continuity_Mux_Neg : io_rsp_pad_data_159                  : Meas Value : -0.271389 V
+Continuity_Mux_Neg : io_rsp_pad_data_210                  : Meas Value : -0.271446 V
+Continuity_Mux_Neg : io_rsp_pad_data_170                  : Meas Value : -0.270933 V
+Continuity_Mux_Neg : io_rsp_pad_data_85                   : Meas Value : -0.27025 V
+Continuity_Mux_Neg : io_rsp_pad_data_102                  : Meas Value : -0.271047 V
+Continuity_Mux_Neg : io_rsp_pad_data_227                  : Meas Value : -0.270364 V
+Continuity_Mux_Neg : io_rsp_pad_data_182                  : Meas Value : -0.269624 V
+Continuity_Mux_Neg : io_rsp_pad_parity_5                  : Meas Value : -0.271218 V
+Continuity_Mux_Neg : io_rsp_pad_data_150                  : Meas Value : -0.271104 V
+Continuity_Mux_Neg : io_rsp_pad_data_149                  : Meas Value : -0.271047 V
+Continuity_Mux_Neg : io_rsp_pad_data_109                  : Meas Value : -0.270022 V
+Continuity_Mux_Neg : io_rsp_pad_data_36                   : Meas Value : -0.270933 V
+Continuity_Mux_Neg : io_rsp_pad_data_75                   : Meas Value : -0.271446 V
+Continuity_Mux_Neg : io_rsp_pad_data_237                  : Meas Value : -0.270364 V
+Continuity_Mux_Neg : reserved_out_pad_o_4                 : Meas Value : -0.271503 V
+Continuity_Mux_Neg : io_rsp_pad_data_113                  : Meas Value : -0.271787 V
+Continuity_Mux_Neg : io_rsp_pad_data_218                  : Meas Value : -0.269737 V
+Continuity_Mux_Neg : io_rsp_pad_data_193                  : Meas Value : -0.271161 V
+Continuity_Mux_Neg : io_rsp_pad_data_226                  : Meas Value : -0.270762 V
+Continuity_Mux_Neg : io_rsp_pad_data_99                   : Meas Value : -0.271161 V
+Continuity_Mux_Neg : io_rsp_pad_data_69                   : Meas Value : -0.26968 V
+Continuity_Mux_Neg : io_rsp_pad_data_61                   : Meas Value : -0.27099 V
+Continuity_Mux_Neg : io_rsp_pad_data_220                  : Meas Value : -0.270648 V
+Continuity_Mux_Neg : reserved_out_pad_o_10                : Meas Value : -0.270819 V
+Continuity_Mux_Neg : io_rsp_pad_data_184                  : Meas Value : -0.27173 V
+Continuity_Mux_Neg : io_rsp_pad_data_105                  : Meas Value : -0.269851 V
+Continuity_Mux_Neg : io_rsp_pad_data_195                  : Meas Value : -0.27099 V
+Continuity_Mux_Neg : io_rsp_pad_data_34                   : Meas Value : -0.271503 V
+Continuity_Mux_Neg : io_rsp_pad_data_234                  : Meas Value : -0.269965 V
+Continuity_Mux_Neg : io_rsp_pad_parity_6                  : Meas Value : -0.271446 V
+Continuity_Mux_Neg : 2k_mux11                             : Meas Value : -0.199874 V
+
+MUX_OUT number :	mux12_out
+Continuity_Mux_Neg : io_rsp_pad_data_104                  : Meas Value : -0.270138 V
+Continuity_Mux_Neg : io_rsp_pad_data_133                  : Meas Value : -0.270308 V
+Continuity_Mux_Neg : io_rsp_pad_data_110                  : Meas Value : -0.270593 V
+Continuity_Mux_Neg : io_rsp_pad_data_143                  : Meas Value : -0.270308 V
+Continuity_Mux_Neg : io_rsp_pad_data_207                  : Meas Value : -0.270024 V
+Continuity_Mux_Neg : io_rsp_pad_data_63                   : Meas Value : -0.271048 V
+Continuity_Mux_Neg : io_rsp_pad_data_222                  : Meas Value : -0.26917 V
+Continuity_Mux_Neg : io_rsp_pad_addr_29                   : Meas Value : -0.26991 V
+Continuity_Mux_Neg : io_rsp_pad_addr_12                   : Meas Value : -0.27139 V
+Continuity_Mux_Neg : io_rsp_pad_data_235                  : Meas Value : -0.2723 V
+Continuity_Mux_Neg : io_rsp_pad_data_189                  : Meas Value : -0.27065 V
+Continuity_Mux_Neg : io_rsp_pad_data_114                  : Meas Value : -0.270308 V
+Continuity_Mux_Neg : io_rsp_pad_data_46                   : Meas Value : -0.27082 V
+Continuity_Mux_Neg : io_rsp_pad_data_56                   : Meas Value : -0.271674 V
+Continuity_Mux_Neg : io_rsp_pad_data_62                   : Meas Value : -0.269796 V
+Continuity_Mux_Neg : io_rsp_pad_data_147                  : Meas Value : -0.270251 V
+Continuity_Mux_Neg : io_rsp_pad_data_252                  : Meas Value : -0.270024 V
+Continuity_Mux_Neg : io_rsp_pad_data_239                  : Meas Value : -0.271902 V
+Continuity_Mux_Neg : io_rsp_pad_data_138                  : Meas Value : -0.269511 V
+Continuity_Mux_Neg : io_rsp_pad_data_33                   : Meas Value : -0.269967 V
+Continuity_Mux_Neg : io_rsp_pad_data_196                  : Meas Value : -0.271105 V
+Continuity_Mux_Neg : io_rsp_pad_data_247                  : Meas Value : -0.27082 V
+Continuity_Mux_Neg : io_rsp_pad_data_215                  : Meas Value : -0.269511 V
+Continuity_Mux_Neg : io_rsp_pad_addr_27                   : Meas Value : -0.269284 V
+Continuity_Mux_Neg : io_rsp_pad_data_97                   : Meas Value : -0.269341 V
+Continuity_Mux_Neg : io_rsp_pad_data_137                  : Meas Value : -0.270081 V
+Continuity_Mux_Neg : io_rsp_pad_data_132                  : Meas Value : -0.269625 V
+Continuity_Mux_Neg : io_rsp_pad_data_192                  : Meas Value : -0.270422 V
+Continuity_Mux_Neg : io_rsp_pad_data_103                  : Meas Value : -0.269455 V
+Continuity_Mux_Neg : io_rsp_pad_addr_23                   : Meas Value : -0.269796 V
+Continuity_Mux_Neg : io_rsp_pad_addr_24                   : Meas Value : -0.270138 V
+Continuity_Mux_Neg : 2k_mux12                             : Meas Value : -0.199624 V
+
+MUX_OUT number :	mux13_out
+Continuity_Mux_Neg : io_rsp_pad_addr_9                    : Meas Value : -0.270479 V
+Continuity_Mux_Neg : io_rsp_pad_data_38                   : Meas Value : -0.271902 V
+Continuity_Mux_Neg : io_rsp_pad_data_130                  : Meas Value : -0.270365 V
+Continuity_Mux_Neg : io_rsp_pad_data_211                  : Meas Value : -0.26991 V
+Continuity_Mux_Neg : io_rsp_pad_data_253                  : Meas Value : -0.270479 V
+Continuity_Mux_Neg : io_rsp_pad_data_178                  : Meas Value : -0.26991 V
+Continuity_Mux_Neg : io_rsp_pad_addr_13                   : Meas Value : -0.271503 V
+Continuity_Mux_Neg : io_rsp_pad_data_54                   : Meas Value : -0.27139 V
+Continuity_Mux_Neg : io_rsp_pad_data_194                  : Meas Value : -0.268942 V
+Continuity_Mux_Neg : io_rsp_pad_data_81                   : Meas Value : -0.269284 V
+Continuity_Mux_Neg : io_rsp_pad_data_58                   : Meas Value : -0.271048 V
+Continuity_Mux_Neg : io_rsp_pad_data_117                  : Meas Value : -0.27065 V
+Continuity_Mux_Neg : io_rsp_pad_data_255                  : Meas Value : -0.270194 V
+Continuity_Mux_Neg : io_rsp_pad_data_120                  : Meas Value : -0.271105 V
+Continuity_Mux_Neg : io_rsp_pad_data_119                  : Meas Value : -0.271503 V
+Continuity_Mux_Neg : io_rsp_pad_addr_16                   : Meas Value : -0.270991 V
+Continuity_Mux_Neg : io_rsp_pad_data_95                   : Meas Value : -0.271674 V
+Continuity_Mux_Neg : io_rsp_pad_data_233                  : Meas Value : -0.270764 V
+Continuity_Mux_Neg : io_rsp_pad_data_73                   : Meas Value : -0.270194 V
+Continuity_Mux_Neg : io_rsp_pad_data_108                  : Meas Value : -0.270764 V
+Continuity_Mux_Neg : io_rsp_pad_parity_9                  : Meas Value : -0.269739 V
+Continuity_Mux_Neg : io_rsp_pad_addr_17                   : Meas Value : -0.270934 V
+Continuity_Mux_Neg : io_rsp_pad_data_216                  : Meas Value : -0.271219 V
+Continuity_Mux_Neg : io_rsp_pad_addr_6                    : Meas Value : -0.270707 V
+Continuity_Mux_Neg : io_rsp_pad_addr_28                   : Meas Value : -0.270081 V
+Continuity_Mux_Neg : io_rsp_pad_data_177                  : Meas Value : -0.270536 V
+Continuity_Mux_Neg : io_rsp_pad_data_229                  : Meas Value : -0.270707 V
+Continuity_Mux_Neg : io_rsp_pad_data_251                  : Meas Value : -0.270194 V
+Continuity_Mux_Neg : io_rsp_pad_data_176                  : Meas Value : -0.269455 V
+Continuity_Mux_Neg : io_rsp_pad_data_35                   : Meas Value : -0.270365 V
+Continuity_Mux_Neg : io_rsp_pad_data_142                  : Meas Value : -0.271503 V
+Continuity_Mux_Neg : 2k_mux13                             : Meas Value : -0.199738 V
+
+MUX_OUT number :	mux14_out
+Continuity_Mux_Neg : io_rsp_pad_data_44                   : Meas Value : -0.270927 V
+Continuity_Mux_Neg : io_rsp_pad_data_122                  : Meas Value : -0.271951 V
+Continuity_Mux_Neg : io_rsp_pad_data_202                  : Meas Value : -0.27013 V
+Continuity_Mux_Neg : io_rsp_pad_data_82                   : Meas Value : -0.270983 V
+Continuity_Mux_Neg : io_rsp_pad_data_72                   : Meas Value : -0.270813 V
+Continuity_Mux_Neg : io_rsp_pad_data_53                   : Meas Value : -0.27013 V
+Continuity_Mux_Neg : io_rsp_pad_data_115                  : Meas Value : -0.271382 V
+Continuity_Mux_Neg : io_rsp_pad_data_155                  : Meas Value : -0.270301 V
+Continuity_Mux_Neg : reserved_out_pad_o_11                : Meas Value : -0.270187 V
+Continuity_Mux_Neg : io_rsp_pad_data_76                   : Meas Value : -0.271268 V
+Continuity_Mux_Neg : io_rsp_pad_data_225                  : Meas Value : -0.270073 V
+Continuity_Mux_Neg : io_rsp_pad_data_111                  : Meas Value : -0.269276 V
+Continuity_Mux_Neg : io_rsp_pad_data_126                  : Meas Value : -0.269845 V
+Continuity_Mux_Neg : io_rsp_pad_data_87                   : Meas Value : -0.271154 V
+Continuity_Mux_Neg : io_rsp_pad_addr_4                    : Meas Value : -0.269333 V
+Continuity_Mux_Neg : io_rsp_pad_data_205                  : Meas Value : -0.270699 V
+Continuity_Mux_Neg : io_rsp_pad_data_243                  : Meas Value : -0.271211 V
+Continuity_Mux_Neg : io_rsp_pad_data_40                   : Meas Value : -0.270016 V
+Continuity_Mux_Neg : io_rsp_pad_data_167                  : Meas Value : -0.269333 V
+Continuity_Mux_Neg : io_rsp_pad_data_171                  : Meas Value : -0.269618 V
+Continuity_Mux_Neg : io_rsp_pad_data_249                  : Meas Value : -0.27104 V
+Continuity_Mux_Neg : io_rsp_pad_data_92                   : Meas Value : -0.271553 V
+Continuity_Mux_Neg : io_rsp_pad_data_49                   : Meas Value : -0.270244 V
+Continuity_Mux_Neg : io_rsp_pad_data_172                  : Meas Value : -0.271837 V
+Continuity_Mux_Neg : reserved_out_pad_o_8                 : Meas Value : -0.270642 V
+Continuity_Mux_Neg : io_rsp_pad_data_245                  : Meas Value : -0.270016 V
+Continuity_Mux_Neg : io_rsp_pad_data_208                  : Meas Value : -0.270471 V
+Continuity_Mux_Neg : io_rsp_pad_data_166                  : Meas Value : -0.270927 V
+Continuity_Mux_Neg : io_rsp_pad_data_165                  : Meas Value : -0.270983 V
+Continuity_Mux_Neg : io_rsp_pad_addr_10                   : Meas Value : -0.270927 V
+Continuity_Mux_Neg : io_rsp_pad_addr_0                    : Meas Value : -0.270357 V
+Continuity_Mux_Neg : 2k_mux14                             : Meas Value : -0.199789 V
+
+MUX_OUT number :	mux15_out
+Continuity_Mux_Neg : io_rsp_pad_addr_22                   : Meas Value : -0.269511 V
+Continuity_Mux_Neg : io_rsp_pad_data_100                  : Meas Value : -0.270422 V
+Continuity_Mux_Neg : io_rsp_pad_data_223                  : Meas Value : -0.270422 V
+Continuity_Mux_Neg : reserved_out_pad_o_15                : Meas Value : -0.269853 V
+Continuity_Mux_Neg : io_rsp_pad_data_131                  : Meas Value : -0.270877 V
+Continuity_Mux_Neg : io_rsp_pad_data_179                  : Meas Value : -0.271674 V
+Continuity_Mux_Neg : io_rsp_pad_data_98                   : Meas Value : -0.270877 V
+Continuity_Mux_Neg : io_rsp_pad_addr_26                   : Meas Value : -0.268373 V
+Continuity_Mux_Neg : io_rsp_pad_data_201                  : Meas Value : -0.268544 V
+Continuity_Mux_Neg : io_rsp_pad_data_232                  : Meas Value : -0.269455 V
+Continuity_Mux_Neg : io_rsp_pad_data_107                  : Meas Value : -0.268885 V
+Continuity_Mux_Neg : reserved_out_pad_o_12                : Meas Value : -0.270138 V
+Continuity_Mux_Neg : io_rsp_pad_data_240                  : Meas Value : -0.270081 V
+Continuity_Mux_Neg : io_rsp_pad_data_121                  : Meas Value : -0.269682 V
+Continuity_Mux_Neg : io_rsp_pad_data_161                  : Meas Value : -0.270877 V
+Continuity_Mux_Neg : io_rsp_pad_data_80                   : Meas Value : -0.270764 V
+Continuity_Mux_Neg : io_rsp_pad_parity_0                  : Meas Value : -0.270479 V
+Continuity_Mux_Neg : io_rsp_pad_data_91                   : Meas Value : -0.268772 V
+Continuity_Mux_Neg : io_rsp_pad_data_64                   : Meas Value : -0.269682 V
+Continuity_Mux_Neg : io_rsp_pad_data_148                  : Meas Value : -0.270081 V
+Continuity_Mux_Neg : reserved_out_pad_o_6                 : Meas Value : -0.270934 V
+Continuity_Mux_Neg : reserved_out_pad_o_9                 : Meas Value : -0.271276 V
+Continuity_Mux_Neg : reserved_out_pad_o_14                : Meas Value : -0.269796 V
+Continuity_Mux_Neg : io_rsp_pad_data_190                  : Meas Value : -0.269853 V
+Continuity_Mux_Neg : io_rsp_pad_data_246                  : Meas Value : -0.270308 V
+Continuity_Mux_Neg : io_rsp_pad_data_254                  : Meas Value : -0.269967 V
+Continuity_Mux_Neg : io_rsp_pad_data_144                  : Meas Value : -0.270365 V
+Continuity_Mux_Neg : io_rsp_pad_data_74                   : Meas Value : -0.271048 V
+Continuity_Mux_Neg : io_rsp_pad_data_163                  : Meas Value : -0.270138 V
+Continuity_Mux_Neg : io_rsp_pad_addr_5                    : Meas Value : -0.270251 V
+Continuity_Mux_Neg : io_rsp_pad_data_47                   : Meas Value : -0.270707 V
+Continuity_Mux_Neg : 2k_mux15                             : Meas Value : -0.199453 V
+
+MUX_OUT number :	mux16_out
+Continuity_Mux_Neg : io_rsp_pad_data_250                  : Meas Value : -0.269576 V
+Continuity_Mux_Neg : io_rsp_pad_data_136                  : Meas Value : -0.270088 V
+Continuity_Mux_Neg : io_rsp_pad_data_93                   : Meas Value : -0.271056 V
+Continuity_Mux_Neg : io_rsp_pad_data_175                  : Meas Value : -0.270942 V
+Continuity_Mux_Neg : io_rsp_pad_data_51                   : Meas Value : -0.270373 V
+Continuity_Mux_Neg : io_rsp_pad_data_221                  : Meas Value : -0.269462 V
+Continuity_Mux_Neg : io_rsp_pad_data_212                  : Meas Value : -0.269918 V
+Continuity_Mux_Neg : io_rsp_pad_addr_14                   : Meas Value : -0.271397 V
+Continuity_Mux_Neg : io_rsp_pad_data_183                  : Meas Value : -0.270601 V
+Continuity_Mux_Neg : io_rsp_pad_data_68                   : Meas Value : -0.268096 V
+Continuity_Mux_Neg : io_rsp_pad_data_146                  : Meas Value : -0.271511 V
+Continuity_Mux_Neg : reserved_out_pad_o_2                 : Meas Value : -0.272763 V
+Continuity_Mux_Neg : io_rsp_pad_data_52                   : Meas Value : -0.270999 V
+Continuity_Mux_Neg : io_rsp_pad_data_174                  : Meas Value : -0.269974 V
+Continuity_Mux_Neg : io_rsp_pad_data_55                   : Meas Value : -0.271739 V
+Continuity_Mux_Neg : io_rsp_pad_parity_4                  : Meas Value : -0.270316 V
+Continuity_Mux_Neg : io_rsp_pad_data_57                   : Meas Value : -0.270885 V
+Continuity_Mux_Neg : io_rsp_pad_data_127                  : Meas Value : -0.270373 V
+Continuity_Mux_Neg : io_rsp_pad_data_164                  : Meas Value : -0.271283 V
+Continuity_Mux_Neg : io_rsp_pad_data_86                   : Meas Value : -0.270202 V
+Continuity_Mux_Neg : io_rsp_pad_data_217                  : Meas Value : -0.270145 V
+Continuity_Mux_Neg : io_rsp_pad_data_48                   : Meas Value : -0.270316 V
+Continuity_Mux_Neg : io_rsp_pad_parity_2                  : Meas Value : -0.27117 V
+Continuity_Mux_Neg : io_rsp_pad_data_181                  : Meas Value : -0.270885 V
+Continuity_Mux_Neg : io_rsp_pad_data_236                  : Meas Value : -0.270714 V
+Continuity_Mux_Neg : io_rsp_pad_addr_11                   : Meas Value : -0.271113 V
+Continuity_Mux_Neg : reserved_out_pad_o_5                 : Meas Value : -0.270601 V
+Continuity_Mux_Neg : io_rsp_pad_data_168                  : Meas Value : -0.271682 V
+Continuity_Mux_Neg : reserved_out_pad_o_16                : Meas Value : -0.27043 V
+Continuity_Mux_Neg : io_rsp_pad_data_140                  : Meas Value : -0.270999 V
+Continuity_Mux_Neg : io_rsp_pad_data_96                   : Meas Value : -0.271454 V
+Continuity_Mux_Neg : 2k_mux16                             : Meas Value : -0.199231 V
+
+MUX_OUT number :	mux17_out
+Continuity_Mux_Neg : io_rsp_pad_data_162                  : Meas Value : -0.270877 V
+Continuity_Mux_Neg : io_rsp_pad_data_206                  : Meas Value : -0.271162 V
+Continuity_Mux_Neg : io_rsp_pad_data_45                   : Meas Value : -0.271048 V
+Continuity_Mux_Neg : io_rsp_pad_data_244                  : Meas Value : -0.27082 V
+Continuity_Mux_Neg : io_rsp_pad_data_200                  : Meas Value : -0.270877 V
+Continuity_Mux_Neg : io_rsp_pad_data_125                  : Meas Value : -0.271503 V
+Continuity_Mux_Neg : io_rsp_pad_data_241                  : Meas Value : -0.27139 V
+Continuity_Mux_Neg : io_rsp_pad_data_203                  : Meas Value : -0.271902 V
+Continuity_Mux_Neg : reserved_out_pad_o_13                : Meas Value : -0.27139 V
+Continuity_Mux_Neg : io_rsp_pad_data_228                  : Meas Value : -0.269853 V
+Continuity_Mux_Neg : io_rsp_pad_data_188                  : Meas Value : -0.26991 V
+Continuity_Mux_Neg : io_rsp_pad_parity_3                  : Meas Value : -0.270194 V
+Continuity_Mux_Neg : io_rsp_pad_data_41                   : Meas Value : -0.27082 V
+Continuity_Mux_Neg : io_rsp_pad_addr_1                    : Meas Value : -0.269739 V
+Continuity_Mux_Neg : io_rsp_pad_data_83                   : Meas Value : -0.269682 V
+Continuity_Mux_Neg : io_rsp_pad_addr_18                   : Meas Value : -0.271048 V
+Continuity_Mux_Neg : io_rsp_pad_data_89                   : Meas Value : -0.269796 V
+Continuity_Mux_Neg : io_rsp_pad_data_42                   : Meas Value : -0.27065 V
+Continuity_Mux_Neg : io_rsp_pad_data_124                  : Meas Value : -0.268885 V
+Continuity_Mux_Neg : io_rsp_pad_data_128                  : Meas Value : -0.270877 V
+Continuity_Mux_Neg : io_rsp_pad_addr_8                    : Meas Value : -0.27082 V
+Continuity_Mux_Neg : reserved_out_pad_o_3                 : Meas Value : -0.272016 V
+Continuity_Mux_Neg : io_rsp_pad_data_39                   : Meas Value : -0.270877 V
+Continuity_Mux_Neg : io_rsp_pad_data_153                  : Meas Value : -0.269796 V
+Continuity_Mux_Neg : reserved_out_pad_o_7                 : Meas Value : -0.270991 V
+Continuity_Mux_Neg : io_rsp_pad_data_242                  : Meas Value : -0.269739 V
+Continuity_Mux_Neg : io_rsp_pad_addr_7                    : Meas Value : -0.269967 V
+Continuity_Mux_Neg : io_rsp_pad_data_90                   : Meas Value : -0.270764 V
+Continuity_Mux_Neg : io_rsp_pad_addr_2                    : Meas Value : -0.269739 V
+Continuity_Mux_Neg : io_rsp_pad_data_198                  : Meas Value : -0.27065 V
+Continuity_Mux_Neg : io_rsp_pad_data_154                  : Meas Value : -0.270991 V
+Continuity_Mux_Neg : 2k_mux17                             : Meas Value : -0.200876 V
+
+-----------------------------------------------
+TOTAL NUMBER OF FAILING PINS ==== 0
+-----------------------------------------------
+All DPS connected
+All DPS disconnected
+
+
+idd_static of dps_core pin
+vdd_core 	: 1514.47	mA
+
+
+IDD_static of dps_0p8 pins
+vcs_pll  	: 0.0132754	mA
+vcs_pm_1  	: 0.0273066	mA
+vcs_pm_2  	: 0.0266047	mA
+vdd_io_clk  	: 0.0318398	mA
+vdd_pll  	: 0.0318422	mA
+
+
+IDD_static of dps_1p8 pins
+vcsio_pll  	: 0.510649	mA
+vcsio_ts  	: 0.00857382	mA
+vcsio_vs_1  	: 0.00638185	mA
+vcsio_vs_2  	: 0.00610976	mA
+vddio_io_clk  	: 0.0954941	mA
+vddio_pll  	: 0.0902419	mA
+vddio_rx  	: 5.3828	mA
+vddio_tx  	: 16.0268	mA
+
+All DPS connected
+All DPS disconnected
+
+
+IDD_dynamic of dps_core pin :
+vdd_core 	:  15288.3	mA
+
+
+IDD_dynamic of dps_0p8 pins
+vcs_pll  	:0.533141	mA
+vcs_pm_1  	:0.0427996	mA
+vcs_pm_2  	:0.0415517	mA
+vdd_io_clk  	:0.0438335	mA
+vdd_pll  	:0.0352869	mA
+
+
+IDD_dynamic of dps_1p8 pins
+vcsio_pll  	:1.76726	mA
+vcsio_ts  	:0.000670069	mA
+vcsio_vs_1  	:0.00242986	mA
+vcsio_vs_2  	:0.00610976	mA
+vddio_io_clk  	:0.127114	mA
+vddio_pll  	:0.106037	mA
+vddio_rx  	:6.92621	mA
+vddio_tx  	:16.0663	mA
+WARNING: PSST - DCS pin "vddio_tx" is in constant current mode.
+All DPS connected
+WARNING: PSST - DCS pin "vddio_tx" has been in constant current mode.
+All DPS disconnected
+
+
+Leakage_High_Dir Datalog : 
+
+leak_hi_r_eve_c_eve_io_req_pad_size_0         Meas Value:	-0.031  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_30        Meas Value:	-0.032  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_13        Meas Value:	-0.005  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_5         Meas Value:	-0.005  uA
+leak_hi_r_eve_c_eve_io_req_pad_size_1         Meas Value:	-0.037  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_9         Meas Value:	-0.027  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_8         Meas Value:	0.022  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_4         Meas Value:	-0.011  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_18        Meas Value:	-0.024  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_8         Meas Value:	-0.009  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_4         Meas Value:	-0.004  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_1         Meas Value:	0.014  uA
+leak_hi_r_eve_c_eve_tap_tck_pad_i             Meas Value:	-0.016  uA
+leak_hi_r_eve_c_eve_tap_tdi_pad_i             Meas Value:	-0.027  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_2         Meas Value:	-0.013  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_15        Meas Value:	0.013  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_20        Meas Value:	-0.017  uA
+leak_hi_r_eve_c_eve_tap_rstn_pad_i            Meas Value:	0  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_24        Meas Value:	0.008  uA
+leak_hi_r_eve_c_eve_dft_1500_shiftwr_pad_i    Meas Value:	-0.012  uA
+leak_hi_r_eve_c_eve_dft_1500_wrstn_pad_i      Meas Value:	-0.008  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_12        Meas Value:	-0.024  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_12 Meas Value:	-0.022  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_1  Meas Value:	0.042  uA
+leak_hi_r_eve_c_eve_dft_scan_lpg2_pad_i       Meas Value:	-0.031  uA
+leak_hi_r_eve_c_eve_io_clk_pad_i              Meas Value:	-0.01  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_27        Meas Value:	0.005  uA
+leak_hi_r_eve_c_eve_dft_1500_selectwr_pad_i   Meas Value:	-0.005  uA
+leak_hi_r_eve_c_eve_dft_pmbist_pmbist_mode_pad_iMeas Value:	-0.011  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_11 Meas Value:	0.03  uA
+leak_hi_r_eve_c_eve_io_req_pad_addr_21        Meas Value:	-0.006  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_0  Meas Value:	0.016  uA
+leak_hi_r_eve_c_eve_dft_scan_ss1_pad_i        Meas Value:	-0.024  uA
+leak_hi_r_eve_c_eve_io_ddr_enable_pad_i       Meas Value:	0.018  uA
+leak_hi_r_eve_c_eve_dft_pmbist_pmda_tck_pad_i Meas Value:	-0.023  uA
+leak_hi_r_eve_c_eve_global_chip_reset_pad_i   Meas Value:	0.014  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_14        Meas Value:	0.001  uA
+leak_hi_r_eve_c_eve_dft_scan_scan_in_pad_i_4  Meas Value:	0.007  uA
+leak_hi_r_eve_c_eve_dft_scan_cmle_pad_i       Meas Value:	-0.007  uA
+leak_hi_r_eve_c_eve_reserved_in_pad_i_0       Meas Value:	0.009  uA
+leak_hi_r_eve_c_eve_dft_opcg_trigger_pad_i    Meas Value:	-0.038  uA
+leak_hi_r_eve_c_eve_io_req_pad_data_valid     Meas Value:	0.017  uA
+leak_hi_r_eve_c_eve_pllset_pad_i_3            Meas Value:	-0.002  uA
+leak_hi_r_eve_c_eve_drive_pad_i_0             Meas Value:	-0.005  uA
+
+
+leak_hi_r_eve_c_odd_io_req_pad_data_25        Meas Value:	-0.028  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_valid     Meas Value:	0.008  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_18        Meas Value:	0.019  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_12        Meas Value:	-0.013  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_22        Meas Value:	0.001  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_11        Meas Value:	0.003  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_1         Meas Value:	-0.01  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_10        Meas Value:	-0.022  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_21        Meas Value:	0.009  uA
+leak_hi_r_eve_c_odd_io_req_pad_data_19        Meas Value:	-0.013  uA
+leak_hi_r_eve_c_odd_dft_1500_wrck_pad_i       Meas Value:	-0.03  uA
+leak_hi_r_eve_c_odd_io_req_pad_addr_25        Meas Value:	-0.008  uA
+leak_hi_r_eve_c_odd_dft_pmbist_pmda_tdi_pad_i Meas Value:	-0.015  uA
+leak_hi_r_eve_c_odd_dft_scan_scan_in_pad_i_7  Meas Value:	-0.024  uA
+leak_hi_r_eve_c_odd_ref_clk_pad_i             Meas Value:	0.041  uA
+leak_hi_r_eve_c_odd_dft_scan_cme_pad_i        Meas Value:	0.05  uA
+leak_hi_r_eve_c_odd_dft_opcg_load_en_pad_i    Meas Value:	0  uA
+leak_hi_r_eve_c_odd_pll_reg_async_reset_n_pad_iMeas Value:	-0.032  uA
+leak_hi_r_eve_c_odd_dft_scan_rst_n_pad_i      Meas Value:	0.01  uA
+leak_hi_r_eve_c_odd_dft_scan_misr_select_pad_iMeas Value:	-0.006  uA
+leak_hi_r_eve_c_odd_io_rsp_pad_accept1        Meas Value:	-0.011  uA
+
+
+leak_hi_r_odd_c_eve_io_req_pad_addr_0         Meas Value:	-0.015  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_19        Meas Value:	-0.024  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_13        Meas Value:	-0.031  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_29        Meas Value:	-0.027  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_0         Meas Value:	-0.01  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_11        Meas Value:	-0.002  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_6         Meas Value:	0.01  uA
+leak_hi_r_odd_c_eve_tap_tms_pad_i             Meas Value:	-0.017  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_26        Meas Value:	-0.025  uA
+leak_hi_r_odd_c_eve_dft_1500_ws_pad_i         Meas Value:	-0.013  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_26        Meas Value:	0.007  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_23        Meas Value:	0.02  uA
+leak_hi_r_odd_c_eve_io_req_pad_addr_28        Meas Value:	-0.011  uA
+leak_hi_r_odd_c_eve_dft_scan_scan_in_pad_i_9  Meas Value:	0.083  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_31        Meas Value:	-0.022  uA
+leak_hi_r_odd_c_eve_dft_pmbist_pmda_rst_pad_i Meas Value:	-0.016  uA
+leak_hi_r_odd_c_eve_dft_scan_scan_in_pad_i_8  Meas Value:	-0.007  uA
+leak_hi_r_odd_c_eve_dft_scan_scan_in_pad_i_10 Meas Value:	-0.003  uA
+leak_hi_r_odd_c_eve_pll_async_reset_n_pad_i   Meas Value:	-0.01  uA
+leak_hi_r_odd_c_eve_io_req_pad_data_24        Meas Value:	-0.011  uA
+leak_hi_r_odd_c_eve_machine_init_ctrl_pad_i_1 Meas Value:	0.014  uA
+
+
+leak_hi_r_odd_c_odd_io_req_pad_data_17        Meas Value:	-0.008  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_9         Meas Value:	0.006  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_23        Meas Value:	-0.032  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_17        Meas Value:	-0.001  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_3         Meas Value:	-0.029  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_16        Meas Value:	-0.006  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_16        Meas Value:	-0.021  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_7         Meas Value:	-0.001  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_22        Meas Value:	-0.006  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_2         Meas Value:	-0.008  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_7         Meas Value:	0.017  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_15        Meas Value:	0  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_6         Meas Value:	-0.007  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_20        Meas Value:	-0.025  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_14        Meas Value:	-0.026  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_10        Meas Value:	0.006  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_3         Meas Value:	-0.022  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_27        Meas Value:	-0.012  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_5         Meas Value:	-0.029  uA
+leak_hi_r_odd_c_odd_dft_1500_updatewr_pad_i   Meas Value:	-0.018  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_en_pad_i    Meas Value:	0.014  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_6  Meas Value:	0.033  uA
+leak_hi_r_odd_c_odd_dft_scan_elastic_rst_pad_iMeas Value:	0.02  uA
+leak_hi_r_odd_c_odd_dft_opcg_shift_clk_pad_i  Meas Value:	-0.008  uA
+leak_hi_r_odd_c_odd_io_req_pad_addr_29        Meas Value:	0.009  uA
+leak_hi_r_odd_c_odd_io_req_pad_data_28        Meas Value:	0.037  uA
+leak_hi_r_odd_c_odd_dft_1500_capturewr_pad_i  Meas Value:	-0.014  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_15 Meas Value:	0.008  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_5  Meas Value:	0.007  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_3  Meas Value:	0.005  uA
+leak_hi_r_odd_c_odd_dft_scan_misr_rst_pad_i   Meas Value:	-0.001  uA
+leak_hi_r_odd_c_odd_machine_init_ctrl_pad_i_0 Meas Value:	-0.005  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_14 Meas Value:	0.013  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_13 Meas Value:	0.002  uA
+leak_hi_r_odd_c_odd_dft_scan_scan_in_pad_i_2  Meas Value:	-0.015  uA
+leak_hi_r_odd_c_odd_rxtx_width_pad_i_1        Meas Value:	-0.005  uA
+leak_hi_r_odd_c_odd_rxtx_width_pad_i_0        Meas Value:	0.023  uA
+leak_hi_r_odd_c_odd_pllset_pad_i_0            Meas Value:	0.012  uA
+leak_hi_r_odd_c_odd_pllset_pad_i_2            Meas Value:	-0.008  uA
+leak_hi_r_odd_c_odd_pllset_pad_i_1            Meas Value:	0.006  uA
+leak_hi_r_odd_c_odd_dft_scan_lpg1_pad_i       Meas Value:	0.034  uA
+leak_hi_r_odd_c_odd_pll_ref_select_pad_i      Meas Value:	-0.008  uA
+leak_hi_r_odd_c_odd_pll_config_select_pad_i   Meas Value:	0.003  uA
+leak_hi_r_odd_c_odd_drive_pad_i_1             Meas Value:	-0.002  uA
+leak_hi_r_odd_c_odd_dft_pmbist_ret_pause_continue_pad_iMeas Value:	-0.011  uA
+
+
+WARNING: PSST - DCS pin "vddio_tx" is in constant current mode.
+All DPS connected
+WARNING: PSST - DCS pin "vddio_tx" has been in constant current mode.
+All DPS disconnected
+
+
+Leakage_Low_Dir Datalog : 
+
+leak_lo_r_eve_c_eve_io_req_pad_size_0         Meas Value:	-0.03  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_30        Meas Value:	-0.033  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_13        Meas Value:	-0.002  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_5         Meas Value:	-0.004  uA
+leak_lo_r_eve_c_eve_io_req_pad_size_1         Meas Value:	-0.039  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_9         Meas Value:	-0.028  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_8         Meas Value:	-0.015  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_4         Meas Value:	-0.019  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_18        Meas Value:	-0.025  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_8         Meas Value:	-0.011  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_4         Meas Value:	-0.005  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_1         Meas Value:	0.014  uA
+leak_lo_r_eve_c_eve_tap_tck_pad_i             Meas Value:	-0.016  uA
+leak_lo_r_eve_c_eve_tap_tdi_pad_i             Meas Value:	-0.031  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_2         Meas Value:	-0.016  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_15        Meas Value:	0.018  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_20        Meas Value:	-0.02  uA
+leak_lo_r_eve_c_eve_tap_rstn_pad_i            Meas Value:	-0.032  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_24        Meas Value:	-0.004  uA
+leak_lo_r_eve_c_eve_dft_1500_shiftwr_pad_i    Meas Value:	-0.017  uA
+leak_lo_r_eve_c_eve_dft_1500_wrstn_pad_i      Meas Value:	-0.012  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_12        Meas Value:	-0.019  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_12 Meas Value:	-0.032  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_1  Meas Value:	0.009  uA
+leak_lo_r_eve_c_eve_dft_scan_lpg2_pad_i       Meas Value:	-0.034  uA
+leak_lo_r_eve_c_eve_io_clk_pad_i              Meas Value:	-0.009  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_27        Meas Value:	0.01  uA
+leak_lo_r_eve_c_eve_dft_1500_selectwr_pad_i   Meas Value:	-0.015  uA
+leak_lo_r_eve_c_eve_dft_pmbist_pmbist_mode_pad_iMeas Value:	-0.009  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_11 Meas Value:	0.001  uA
+leak_lo_r_eve_c_eve_io_req_pad_addr_21        Meas Value:	-0.007  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_0  Meas Value:	-0.018  uA
+leak_lo_r_eve_c_eve_dft_scan_ss1_pad_i        Meas Value:	-0.028  uA
+leak_lo_r_eve_c_eve_io_ddr_enable_pad_i       Meas Value:	-0.025  uA
+leak_lo_r_eve_c_eve_dft_pmbist_pmda_tck_pad_i Meas Value:	-0.029  uA
+leak_lo_r_eve_c_eve_global_chip_reset_pad_i   Meas Value:	0.005  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_14        Meas Value:	-0.002  uA
+leak_lo_r_eve_c_eve_dft_scan_scan_in_pad_i_4  Meas Value:	0.009  uA
+leak_lo_r_eve_c_eve_dft_scan_cmle_pad_i       Meas Value:	-0.011  uA
+leak_lo_r_eve_c_eve_reserved_in_pad_i_0       Meas Value:	-0.014  uA
+leak_lo_r_eve_c_eve_dft_opcg_trigger_pad_i    Meas Value:	-0.04  uA
+leak_lo_r_eve_c_eve_io_req_pad_data_valid     Meas Value:	-0.01  uA
+leak_lo_r_eve_c_eve_pllset_pad_i_3            Meas Value:	0.002  uA
+leak_lo_r_eve_c_eve_drive_pad_i_0             Meas Value:	-0.011  uA
+
+
+leak_lo_r_eve_c_odd_io_req_pad_data_25        Meas Value:	-0.037  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_valid     Meas Value:	0.008  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_18        Meas Value:	0.019  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_12        Meas Value:	-0.016  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_22        Meas Value:	0  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_11        Meas Value:	0.004  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_1         Meas Value:	-0.007  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_10        Meas Value:	-0.028  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_21        Meas Value:	0.003  uA
+leak_lo_r_eve_c_odd_io_req_pad_data_19        Meas Value:	-0.02  uA
+leak_lo_r_eve_c_odd_dft_1500_wrck_pad_i       Meas Value:	-0.029  uA
+leak_lo_r_eve_c_odd_io_req_pad_addr_25        Meas Value:	0  uA
+leak_lo_r_eve_c_odd_dft_pmbist_pmda_tdi_pad_i Meas Value:	-0.019  uA
+leak_lo_r_eve_c_odd_dft_scan_scan_in_pad_i_7  Meas Value:	-0.025  uA
+leak_lo_r_eve_c_odd_ref_clk_pad_i             Meas Value:	-0.009  uA
+leak_lo_r_eve_c_odd_dft_scan_cme_pad_i        Meas Value:	-0.015  uA
+leak_lo_r_eve_c_odd_dft_opcg_load_en_pad_i    Meas Value:	-0.002  uA
+leak_lo_r_eve_c_odd_pll_reg_async_reset_n_pad_iMeas Value:	-0.037  uA
+leak_lo_r_eve_c_odd_dft_scan_rst_n_pad_i      Meas Value:	-0.028  uA
+leak_lo_r_eve_c_odd_dft_scan_misr_select_pad_iMeas Value:	-0.005  uA
+leak_lo_r_eve_c_odd_io_rsp_pad_accept1        Meas Value:	-0.021  uA
+
+
+leak_lo_r_odd_c_eve_io_req_pad_addr_0         Meas Value:	-0.021  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_19        Meas Value:	-0.028  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_13        Meas Value:	-0.028  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_29        Meas Value:	-0.035  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_0         Meas Value:	-0.006  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_11        Meas Value:	-0.001  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_6         Meas Value:	0.01  uA
+leak_lo_r_odd_c_eve_tap_tms_pad_i             Meas Value:	-0.022  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_26        Meas Value:	-0.028  uA
+leak_lo_r_odd_c_eve_dft_1500_ws_pad_i         Meas Value:	-0.019  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_26        Meas Value:	0.008  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_23        Meas Value:	0.007  uA
+leak_lo_r_odd_c_eve_io_req_pad_addr_28        Meas Value:	-0.009  uA
+leak_lo_r_odd_c_eve_dft_scan_scan_in_pad_i_9  Meas Value:	-0.005  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_31        Meas Value:	-0.03  uA
+leak_lo_r_odd_c_eve_dft_pmbist_pmda_rst_pad_i Meas Value:	-0.035  uA
+leak_lo_r_odd_c_eve_dft_scan_scan_in_pad_i_8  Meas Value:	-0.002  uA
+leak_lo_r_odd_c_eve_dft_scan_scan_in_pad_i_10 Meas Value:	-0.005  uA
+leak_lo_r_odd_c_eve_pll_async_reset_n_pad_i   Meas Value:	-0.028  uA
+leak_lo_r_odd_c_eve_io_req_pad_data_24        Meas Value:	-0.01  uA
+leak_lo_r_odd_c_eve_machine_init_ctrl_pad_i_1 Meas Value:	0.005  uA
+
+
+leak_lo_r_odd_c_odd_io_req_pad_data_17        Meas Value:	-0.008  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_9         Meas Value:	-0.006  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_23        Meas Value:	-0.055  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_17        Meas Value:	-0.001  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_3         Meas Value:	-0.038  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_16        Meas Value:	-0.002  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_16        Meas Value:	-0.015  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_7         Meas Value:	-0.004  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_22        Meas Value:	-0.007  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_2         Meas Value:	-0.004  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_7         Meas Value:	-0.009  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_15        Meas Value:	-0.003  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_6         Meas Value:	-0.005  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_20        Meas Value:	-0.021  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_14        Meas Value:	-0.037  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_10        Meas Value:	0.009  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_3         Meas Value:	-0.038  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_27        Meas Value:	-0.016  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_5         Meas Value:	-0.031  uA
+leak_lo_r_odd_c_odd_dft_1500_updatewr_pad_i   Meas Value:	-0.032  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_en_pad_i    Meas Value:	0.015  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_6  Meas Value:	0.008  uA
+leak_lo_r_odd_c_odd_dft_scan_elastic_rst_pad_iMeas Value:	0.011  uA
+leak_lo_r_odd_c_odd_dft_opcg_shift_clk_pad_i  Meas Value:	-0.035  uA
+leak_lo_r_odd_c_odd_io_req_pad_addr_29        Meas Value:	0.011  uA
+leak_lo_r_odd_c_odd_io_req_pad_data_28        Meas Value:	0.016  uA
+leak_lo_r_odd_c_odd_dft_1500_capturewr_pad_i  Meas Value:	-0.014  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_15 Meas Value:	-0.028  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_5  Meas Value:	0.008  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_3  Meas Value:	-0.004  uA
+leak_lo_r_odd_c_odd_dft_scan_misr_rst_pad_i   Meas Value:	-0.003  uA
+leak_lo_r_odd_c_odd_machine_init_ctrl_pad_i_0 Meas Value:	-0.015  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_14 Meas Value:	0.012  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_13 Meas Value:	-0.002  uA
+leak_lo_r_odd_c_odd_dft_scan_scan_in_pad_i_2  Meas Value:	-0.014  uA
+leak_lo_r_odd_c_odd_rxtx_width_pad_i_1        Meas Value:	-0.007  uA
+leak_lo_r_odd_c_odd_rxtx_width_pad_i_0        Meas Value:	-0.016  uA
+leak_lo_r_odd_c_odd_pllset_pad_i_0            Meas Value:	-0.008  uA
+leak_lo_r_odd_c_odd_pllset_pad_i_2            Meas Value:	-0.006  uA
+leak_lo_r_odd_c_odd_pllset_pad_i_1            Meas Value:	-0.015  uA
+leak_lo_r_odd_c_odd_dft_scan_lpg1_pad_i       Meas Value:	-0.033  uA
+leak_lo_r_odd_c_odd_pll_ref_select_pad_i      Meas Value:	-0.007  uA
+leak_lo_r_odd_c_odd_pll_config_select_pad_i   Meas Value:	-0.009  uA
+leak_lo_r_odd_c_odd_drive_pad_i_1             Meas Value:	-0.007  uA
+leak_lo_r_odd_c_odd_dft_pmbist_ret_pause_continue_pad_iMeas Value:	-0.01  uA
+
+
+All DPS connected
+All DPS disconnected
+
+
+Leakage_High_Mux Datalog : 
+
+MUX_OUT number :	mux1_out
+leak_hi_mux_io_req_pad_data_250      Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_174      Meas Value: 17.986 uA
+leak_hi_mux_io_req_pad_data_200      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_40       Meas Value: 18.006 uA
+leak_hi_mux_io_req_pad_data_52       Meas Value: 17.986 uA
+leak_hi_mux_io_req_pad_data_56       Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_202      Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_161      Meas Value: 18.009 uA
+leak_hi_mux_io_req_pad_data_42       Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_81       Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_47       Meas Value: 17.999 uA
+leak_hi_mux_io_req_pad_data_87       Meas Value: 17.95 uA
+leak_hi_mux_io_req_pad_data_122      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_131      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_92       Meas Value: 18.035 uA
+leak_hi_mux_io_req_pad_data_248      Meas Value: 18.009 uA
+leak_hi_mux_io_req_pad_data_184      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_103      Meas Value: 17.95 uA
+leak_hi_mux_io_req_pad_data_195      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_119      Meas Value: 17.934 uA
+leak_hi_mux_io_req_pad_data_172      Meas Value: 17.999 uA
+leak_hi_mux_io_req_pad_data_123      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_168      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_44       Meas Value: -0.012 uA
+leak_hi_mux_io_req_pad_data_160      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_89       Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_213      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_249      Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_data_204      Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_48       Meas Value: 18.014 uA
+leak_hi_mux_io_req_pad_data_163      Meas Value: 17.97 uA
+
+
+MUX_OUT number :	mux2_out
+leak_hi_mux_io_req_pad_data_69       Meas Value: 18.019 uA
+leak_hi_mux_io_req_pad_data_121      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_144      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_46       Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_155      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_126      Meas Value: 17.975 uA
+leak_hi_mux_io_req_pad_data_178      Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_162      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_36       Meas Value: 18.024 uA
+leak_hi_mux_io_req_pad_data_208      Meas Value: 17.973 uA
+leak_hi_mux_io_req_pad_data_115      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_59       Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_88       Meas Value: 17.986 uA
+leak_hi_mux_io_req_pad_data_243      Meas Value: 17.94 uA
+leak_hi_mux_io_req_pad_data_176      Meas Value: 18.021 uA
+leak_hi_mux_io_req_pad_data_203      Meas Value: 18.011 uA
+leak_hi_mux_io_req_pad_data_166      Meas Value: 17.975 uA
+leak_hi_mux_io_req_pad_data_51       Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_127      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_207      Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_90       Meas Value: 18.019 uA
+leak_hi_mux_io_req_pad_data_84       Meas Value: 18.011 uA
+leak_hi_mux_io_req_pad_data_83       Meas Value: 17.958 uA
+leak_hi_mux_io_req_pad_data_244      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_93       Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_110      Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_129      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_224      Meas Value: 18.011 uA
+leak_hi_mux_io_req_pad_data_132      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_57       Meas Value: 18.006 uA
+leak_hi_mux_io_req_pad_data_120      Meas Value: 18.026 uA
+
+
+MUX_OUT number :	mux3_out
+leak_hi_mux_io_req_pad_data_239      Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_191      Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_220      Meas Value: 18.021 uA
+leak_hi_mux_io_req_pad_parity_1      Meas Value: 17.999 uA
+leak_hi_mux_io_req_pad_data_108      Meas Value: 18.052 uA
+leak_hi_mux_io_req_pad_data_254      Meas Value: 17.992 uA
+leak_hi_mux_io_req_pad_data_79       Meas Value: 18.021 uA
+leak_hi_mux_io_req_pad_parity_0      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_97       Meas Value: 17.994 uA
+leak_hi_mux_io_req_pad_data_99       Meas Value: 17.987 uA
+leak_hi_mux_io_req_pad_data_212      Meas Value: 17.997 uA
+leak_hi_mux_io_req_pad_data_253      Meas Value: 17.992 uA
+leak_hi_mux_io_req_pad_data_216      Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_227      Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_62       Meas Value: 17.992 uA
+leak_hi_mux_io_req_pad_data_148      Meas Value: 17.984 uA
+leak_hi_mux_io_req_pad_data_180      Meas Value: 18.011 uA
+leak_hi_mux_io_req_pad_data_219      Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_165      Meas Value: 17.992 uA
+leak_hi_mux_io_req_pad_data_240      Meas Value: 17.997 uA
+leak_hi_mux_io_req_pad_data_80       Meas Value: 18.023 uA
+leak_hi_mux_io_req_pad_data_125      Meas Value: 17.972 uA
+leak_hi_mux_io_req_pad_data_138      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_53       Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_43       Meas Value: 18.035 uA
+leak_hi_mux_io_req_pad_data_167      Meas Value: 17.97 uA
+leak_hi_mux_io_req_pad_data_241      Meas Value: 18.009 uA
+leak_hi_mux_io_req_pad_data_251      Meas Value: 17.987 uA
+leak_hi_mux_io_req_pad_data_199      Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_153      Meas Value: 17.994 uA
+leak_hi_mux_io_req_pad_data_38       Meas Value: 17.999 uA
+
+
+MUX_OUT number :	mux4_out
+leak_hi_mux_io_req_pad_data_63       Meas Value: 18.025 uA
+leak_hi_mux_io_req_pad_data_135      Meas Value: 18.03 uA
+leak_hi_mux_reserved_in_pad_i_11     Meas Value: 18.005 uA
+leak_hi_mux_io_req_pad_data_124      Meas Value: 18.023 uA
+leak_hi_mux_io_req_pad_data_171      Meas Value: 18.033 uA
+leak_hi_mux_io_req_pad_data_152      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_96       Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_211      Meas Value: 18.001 uA
+leak_hi_mux_reserved_in_pad_i_13     Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_177      Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_214      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_255      Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_141      Meas Value: 18.01 uA
+leak_hi_mux_io_req_pad_data_107      Meas Value: 18.01 uA
+leak_hi_mux_reserved_in_pad_i_12     Meas Value: 18.037 uA
+leak_hi_mux_io_req_pad_data_245      Meas Value: 18.037 uA
+leak_hi_mux_io_req_pad_data_77       Meas Value: 18.04 uA
+leak_hi_mux_io_req_pad_data_114      Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_225      Meas Value: 17.981 uA
+leak_hi_mux_io_req_pad_data_67       Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_parity_3      Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_238      Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_237      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_73       Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_252      Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_data_234      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_137      Meas Value: 18.04 uA
+leak_hi_mux_io_req_pad_data_142      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_118      Meas Value: 18.065 uA
+leak_hi_mux_io_req_pad_data_232      Meas Value: 17.976 uA
+leak_hi_mux_io_req_pad_data_187      Meas Value: 18.003 uA
+
+
+MUX_OUT number :	mux5_out
+leak_hi_mux_io_req_pad_data_101      Meas Value: 18.035 uA
+leak_hi_mux_io_req_pad_data_104      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_181      Meas Value: 18.015 uA
+leak_hi_mux_io_req_pad_data_102      Meas Value: 18.015 uA
+leak_hi_mux_io_req_pad_data_54       Meas Value: 18.032 uA
+leak_hi_mux_io_req_pad_data_170      Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_139      Meas Value: 17.972 uA
+leak_hi_mux_io_req_pad_data_58       Meas Value: 18.066 uA
+leak_hi_mux_io_req_pad_data_182      Meas Value: 17.969 uA
+leak_hi_mux_io_req_pad_data_196      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_185      Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_130      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_parity_7      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_231      Meas Value: 17.991 uA
+leak_hi_mux_io_req_pad_data_60       Meas Value: 18.006 uA
+leak_hi_mux_io_req_pad_data_117      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_82       Meas Value: 17.998 uA
+leak_hi_mux_io_req_pad_data_41       Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_140      Meas Value: 18.064 uA
+leak_hi_mux_io_req_pad_data_201      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_85       Meas Value: 17.979 uA
+leak_hi_mux_io_req_pad_data_55       Meas Value: 17.984 uA
+leak_hi_mux_io_req_pad_data_45       Meas Value: 18.018 uA
+leak_hi_mux_io_req_pad_data_175      Meas Value: 17.989 uA
+leak_hi_mux_io_req_pad_data_218      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_94       Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_134      Meas Value: 18.01 uA
+leak_hi_mux_io_req_pad_data_209      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_parity_8      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_66       Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_32       Meas Value: 18.057 uA
+
+
+MUX_OUT number :	mux6_out
+leak_hi_mux_io_req_pad_data_33       Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_197      Meas Value: 18.062 uA
+leak_hi_mux_io_req_pad_data_154      Meas Value: 18.04 uA
+leak_hi_mux_io_req_pad_data_235      Meas Value: 18.006 uA
+leak_hi_mux_io_req_pad_data_186      Meas Value: 18.025 uA
+leak_hi_mux_io_req_pad_data_109      Meas Value: 17.936 uA
+leak_hi_mux_io_req_pad_data_143      Meas Value: 18.03 uA
+leak_hi_mux_io_req_pad_data_145      Meas Value: 18.04 uA
+leak_hi_mux_io_req_pad_data_100      Meas Value: 18.033 uA
+leak_hi_mux_io_req_pad_parity_9      Meas Value: 18.045 uA
+leak_hi_mux_io_req_pad_data_158      Meas Value: 18.03 uA
+leak_hi_mux_io_req_pad_data_236      Meas Value: 18.033 uA
+leak_hi_mux_io_req_pad_data_49       Meas Value: 17.996 uA
+leak_hi_mux_reserved_in_pad_i_8      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_223      Meas Value: 18.052 uA
+leak_hi_mux_io_req_pad_data_164      Meas Value: 18.072 uA
+leak_hi_mux_io_req_pad_data_246      Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_198      Meas Value: 18.057 uA
+leak_hi_mux_io_req_pad_data_242      Meas Value: 18.028 uA
+leak_hi_mux_io_req_pad_data_68       Meas Value: 18.052 uA
+leak_hi_mux_io_req_pad_data_116      Meas Value: 18.025 uA
+leak_hi_mux_io_req_pad_parity_2      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_233      Meas Value: 18.033 uA
+leak_hi_mux_io_req_pad_data_149      Meas Value: 18.028 uA
+leak_hi_mux_io_req_pad_data_221      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_78       Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_105      Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_183      Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_222      Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_64       Meas Value: 18.013 uA
+
+
+MUX_OUT number :	mux7_out
+leak_hi_mux_reserved_in_pad_i_5      Meas Value: 18.038 uA
+leak_hi_mux_io_req_pad_data_226      Meas Value: 18.074 uA
+leak_hi_mux_io_req_pad_data_179      Meas Value: 17.975 uA
+leak_hi_mux_reserved_in_pad_i_1      Meas Value: 18.019 uA
+leak_hi_mux_reserved_in_pad_i_6      Meas Value: 17.997 uA
+leak_hi_mux_io_req_pad_data_95       Meas Value: 18.021 uA
+leak_hi_mux_io_req_pad_data_210      Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_133      Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_159      Meas Value: 18.074 uA
+leak_hi_mux_io_req_pad_data_151      Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_205      Meas Value: 18.057 uA
+leak_hi_mux_reserved_in_pad_i_3      Meas Value: 18.002 uA
+leak_hi_mux_io_req_pad_data_173      Meas Value: 18.096 uA
+leak_hi_mux_reserved_in_pad_i_9      Meas Value: 18.019 uA
+leak_hi_mux_io_req_pad_data_247      Meas Value: 18.016 uA
+leak_hi_mux_io_req_pad_data_50       Meas Value: 18.036 uA
+leak_hi_mux_io_req_pad_data_188      Meas Value: 18.045 uA
+leak_hi_mux_reserved_in_pad_i_7      Meas Value: 18 uA
+leak_hi_mux_io_req_pad_data_70       Meas Value: 18.014 uA
+leak_hi_mux_io_req_pad_data_215      Meas Value: 18.031 uA
+leak_hi_mux_reserved_in_pad_i_4      Meas Value: 18.055 uA
+leak_hi_mux_io_req_pad_data_98       Meas Value: 17.963 uA
+leak_hi_mux_io_req_pad_data_61       Meas Value: 17.985 uA
+leak_hi_mux_reserved_in_pad_i_2      Meas Value: 18.031 uA
+leak_hi_mux_io_req_pad_data_111      Meas Value: 18.004 uA
+leak_hi_mux_io_req_pad_data_192      Meas Value: 18.019 uA
+leak_hi_mux_io_req_pad_data_156      Meas Value: 18.026 uA
+leak_hi_mux_io_req_pad_parity_5      Meas Value: 17.973 uA
+leak_hi_mux_io_req_pad_data_146      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_71       Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_parity_4      Meas Value: 18.014 uA
+
+
+MUX_OUT number :	mux8_out
+leak_hi_mux_io_req_pad_data_194      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_113      Meas Value: 17.961 uA
+leak_hi_mux_io_req_pad_data_75       Meas Value: 18.003 uA
+leak_hi_mux_io_req_pad_data_74       Meas Value: 18.023 uA
+leak_hi_mux_io_req_pad_data_35       Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_data_112      Meas Value: 18.03 uA
+leak_hi_mux_io_req_pad_data_228      Meas Value: 17.983 uA
+leak_hi_mux_io_req_pad_data_230      Meas Value: 18.005 uA
+leak_hi_mux_io_req_pad_data_37       Meas Value: 18.008 uA
+leak_hi_mux_io_req_pad_data_229      Meas Value: 18.054 uA
+leak_hi_mux_io_req_pad_parity_6      Meas Value: 18.001 uA
+leak_hi_mux_io_req_pad_data_34       Meas Value: 17.956 uA
+leak_hi_mux_io_req_pad_data_193      Meas Value: 18.013 uA
+leak_hi_mux_io_req_pad_data_150      Meas Value: 17.956 uA
+leak_hi_mux_io_req_pad_data_106      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_65       Meas Value: 18.03 uA
+leak_hi_mux_io_req_pad_data_76       Meas Value: 17.949 uA
+leak_hi_mux_io_req_pad_data_39       Meas Value: 18.059 uA
+leak_hi_mux_io_req_pad_data_169      Meas Value: 17.988 uA
+leak_hi_mux_io_req_pad_data_91       Meas Value: 17.961 uA
+leak_hi_mux_io_req_pad_data_157      Meas Value: 17.978 uA
+leak_hi_mux_io_req_pad_data_128      Meas Value: 17.952 uA
+leak_hi_mux_io_req_pad_data_72       Meas Value: 17.991 uA
+leak_hi_mux_reserved_in_pad_i_10     Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_86       Meas Value: 18.045 uA
+leak_hi_mux_io_req_pad_data_190      Meas Value: 18.005 uA
+leak_hi_mux_io_req_pad_data_189      Meas Value: 18.02 uA
+leak_hi_mux_io_req_pad_data_206      Meas Value: 18.037 uA
+leak_hi_mux_io_req_pad_data_217      Meas Value: 17.996 uA
+leak_hi_mux_io_req_pad_data_136      Meas Value: 17.993 uA
+leak_hi_mux_io_req_pad_data_147      Meas Value: 17.978 uA
+
+
+All DPS connected
+All DPS disconnected
+
+
+Leakage_Low_Mux Datalog : 
+
+MUX_OUT number :	mux1_out
+leak_lo_mux_io_req_pad_data_250      Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_174      Meas Value: -0.02 uA
+leak_lo_mux_io_req_pad_data_200      Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_40       Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_52       Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_56       Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_202      Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_161      Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_42       Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_81       Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_47       Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_87       Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_122      Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_131      Meas Value: -0.02 uA
+leak_lo_mux_io_req_pad_data_92       Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_248      Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_184      Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_103      Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_195      Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_119      Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_172      Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_123      Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_168      Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_44       Meas Value: -0.015 uA
+leak_lo_mux_io_req_pad_data_160      Meas Value: -0.02 uA
+leak_lo_mux_io_req_pad_data_89       Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_213      Meas Value: -0.02 uA
+leak_lo_mux_io_req_pad_data_249      Meas Value: -0.02 uA
+leak_lo_mux_io_req_pad_data_204      Meas Value: -0.018 uA
+leak_lo_mux_io_req_pad_data_48       Meas Value: -0.02 uA
+leak_lo_mux_io_req_pad_data_163      Meas Value: -0.018 uA
+
+
+MUX_OUT number :	mux2_out
+leak_lo_mux_io_req_pad_data_69       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_121      Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_144      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_46       Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_155      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_126      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_178      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_162      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_36       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_208      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_115      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_59       Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_88       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_243      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_176      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_203      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_166      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_51       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_127      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_207      Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_90       Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_84       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_83       Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_244      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_93       Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_110      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_129      Meas Value: 0.005 uA
+leak_lo_mux_io_req_pad_data_224      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_132      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_57       Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_120      Meas Value: 0 uA
+
+
+MUX_OUT number :	mux3_out
+leak_lo_mux_io_req_pad_data_239      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_191      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_220      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_parity_1      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_108      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_254      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_79       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_parity_0      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_97       Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_99       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_212      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_253      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_216      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_227      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_62       Meas Value: -0.013 uA
+leak_lo_mux_io_req_pad_data_148      Meas Value: -0.013 uA
+leak_lo_mux_io_req_pad_data_180      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_219      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_165      Meas Value: -0.013 uA
+leak_lo_mux_io_req_pad_data_240      Meas Value: -0.013 uA
+leak_lo_mux_io_req_pad_data_80       Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_125      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_138      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_53       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_43       Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_167      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_241      Meas Value: -0.01 uA
+leak_lo_mux_io_req_pad_data_251      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_199      Meas Value: -0.008 uA
+leak_lo_mux_io_req_pad_data_153      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_38       Meas Value: -0.006 uA
+
+
+MUX_OUT number :	mux4_out
+leak_lo_mux_io_req_pad_data_63       Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_135      Meas Value: 0.004 uA
+leak_lo_mux_reserved_in_pad_i_11     Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_124      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_171      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_152      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_96       Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_211      Meas Value: 0.002 uA
+leak_lo_mux_reserved_in_pad_i_13     Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_177      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_214      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_255      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_141      Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_data_107      Meas Value: 0.002 uA
+leak_lo_mux_reserved_in_pad_i_12     Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_245      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_77       Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_114      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_225      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_67       Meas Value: -0.001 uA
+leak_lo_mux_io_req_pad_parity_3      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_238      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_237      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_73       Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_252      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_234      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_137      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_142      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_118      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_232      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_187      Meas Value: 0.004 uA
+
+
+MUX_OUT number :	mux5_out
+leak_lo_mux_io_req_pad_data_101      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_104      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_181      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_102      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_54       Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_170      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_139      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_58       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_182      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_196      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_185      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_130      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_parity_7      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_231      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_60       Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_117      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_82       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_41       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_140      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_201      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_85       Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_55       Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_45       Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_175      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_218      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_94       Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_data_134      Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_209      Meas Value: 0.003 uA
+leak_lo_mux_io_req_pad_parity_8      Meas Value: -0.002 uA
+leak_lo_mux_io_req_pad_data_66       Meas Value: 0.001 uA
+leak_lo_mux_io_req_pad_data_32       Meas Value: -0.002 uA
+
+
+MUX_OUT number :	mux6_out
+leak_lo_mux_io_req_pad_data_33       Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_197      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_154      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_235      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_186      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_109      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_143      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_145      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_100      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_parity_9      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_158      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_236      Meas Value: 0.002 uA
+leak_lo_mux_io_req_pad_data_49       Meas Value: 0.009 uA
+leak_lo_mux_reserved_in_pad_i_8      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_223      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_164      Meas Value: -0.005 uA
+leak_lo_mux_io_req_pad_data_246      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_198      Meas Value: -0.003 uA
+leak_lo_mux_io_req_pad_data_242      Meas Value: 0 uA
+leak_lo_mux_io_req_pad_data_68       Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_116      Meas Value: 0.014 uA
+leak_lo_mux_io_req_pad_parity_2      Meas Value: 0.012 uA
+leak_lo_mux_io_req_pad_data_233      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_149      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_221      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_78       Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_105      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_183      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_222      Meas Value: 0.007 uA
+leak_lo_mux_io_req_pad_data_64       Meas Value: 0 uA
+
+
+MUX_OUT number :	mux7_out
+leak_lo_mux_reserved_in_pad_i_5      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_226      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_179      Meas Value: 0.006 uA
+leak_lo_mux_reserved_in_pad_i_1      Meas Value: 0.004 uA
+leak_lo_mux_reserved_in_pad_i_6      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_95       Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_210      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_133      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_159      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_151      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_205      Meas Value: 0.004 uA
+leak_lo_mux_reserved_in_pad_i_3      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_173      Meas Value: 0.004 uA
+leak_lo_mux_reserved_in_pad_i_9      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_247      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_50       Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_188      Meas Value: 0.002 uA
+leak_lo_mux_reserved_in_pad_i_7      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_70       Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_215      Meas Value: 0.009 uA
+leak_lo_mux_reserved_in_pad_i_4      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_98       Meas Value: 0.011 uA
+leak_lo_mux_io_req_pad_data_61       Meas Value: 0.009 uA
+leak_lo_mux_reserved_in_pad_i_2      Meas Value: 0.011 uA
+leak_lo_mux_io_req_pad_data_111      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_192      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_data_156      Meas Value: 0.006 uA
+leak_lo_mux_io_req_pad_parity_5      Meas Value: 0.004 uA
+leak_lo_mux_io_req_pad_data_146      Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_data_71       Meas Value: 0.009 uA
+leak_lo_mux_io_req_pad_parity_4      Meas Value: 0.004 uA
+
+
+MUX_OUT number :	mux8_out
+leak_lo_mux_io_req_pad_data_194      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_113      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_75       Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_74       Meas Value: -0.009 uA
+leak_lo_mux_io_req_pad_data_35       Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_112      Meas Value: -0.009 uA
+leak_lo_mux_io_req_pad_data_228      Meas Value: -0.011 uA
+leak_lo_mux_io_req_pad_data_230      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_37       Meas Value: -0.009 uA
+leak_lo_mux_io_req_pad_data_229      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_parity_6      Meas Value: -0.009 uA
+leak_lo_mux_io_req_pad_data_34       Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_193      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_150      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_106      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_65       Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_76       Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_39       Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_169      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_91       Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_157      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_128      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_72       Meas Value: -0.006 uA
+leak_lo_mux_reserved_in_pad_i_10     Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_86       Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_190      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_189      Meas Value: -0.004 uA
+leak_lo_mux_io_req_pad_data_206      Meas Value: -0.009 uA
+leak_lo_mux_io_req_pad_data_217      Meas Value: -0.006 uA
+leak_lo_mux_io_req_pad_data_136      Meas Value: -0.009 uA
+leak_lo_mux_io_req_pad_data_147      Meas Value: -0.006 uA
+
+
+Pat count value: 1
+
+Test Suite Name: COLD_BOOT_FUNC                
+All DPS connected
+
+Data logging for COLD_BOOT_FUNC
+Pat count value: 1
+PortName: pCOLD_BOOT_Port               
+PatName : cold_boot_400_modeinit                                       Func Result: 1
+
+
+Test Suite Name: TSENS_Temp_Measure_RT         
+Device_ID:	B8336695
+
+All DPS connected
+PLLSET_Pads set to 25 MHz
+String Offset Init:	0x40106fd
+String slope Init:	0x40003b1
+Checking Read out R1 at T1 = 25 C
+
+fn-check_temp  timing set :2
+fn-check_temp:	drive_pad_i_1,io_req_pad_accept0,1
+fn-check_temp:	io_rsp_pad_accept0,io_rsp_pad_accept1,1
+fn-check_temp:	dft_1500_wrstn_pad_i,dft_pmbist_pmbist_mode_pad_i,1
+fn-check_temp:	dft_scan_rst_n_pad_i,global_chip_reset_pad_i,1
+fn-check_temp:	pll_async_reset_n_pad_i,pll_reg_async_reset_n_pad_i,1
+fn-check_temp:	tap_rstn_pad_i,1
+fn-check_temp:	drive_pad_i_0,0
+fn-check_temp:	rxtx_width_pad_i_0,rxtx_width_pad_i_1,0
+fn-check_temp:	io_req_pad_size_0,io_req_pad_size_1,0
+fn-check_temp:	io_rsp_pad_size_0,io_rsp_pad_size_1,0
+fn-check_temp:	io_rsp_pad_rsp_type,io_rsp_pad_bus_rd_error,reserved_out_pad_o_0,0
+sos_vec_write:	1040
+sos_Offset:	0x040106fd
+sos_Slope:	0x040003b1
+sos_addr_write:	0x028030080
+fn-sos offset_datawrite:	0x040106fd	 addr:	0x028030080
+fn-sos slope_datawrite:	0x040003b1	 addr:	0x028030080
+fn-sos averaging_sampling_datawrite:	0x040301f0	 addr:	0x028030080
+fn-sos clk divider_datawrite:	0x0407ffff	 addr:	0x028030080
+fn-sos cal_clk to pmon_en_datawrite:	0x04200020	 addr:	0x028030080
+fn-sos cal_clk to 20us_datawrite:	0x0424007d	 addr:	0x028030080
+fn-sos cal_clk to 100us_datawrite:	0x04260271	 addr:	0x028030080
+fn-sos cal_clk to 5us_datawrite:	0x04280020	 addr:	0x028030080
+fn-sos cal_clk to 1us_datawrite:	0x04290007	 addr:	0x028030080
+fn-sos cal_clk to 1us_datawrite:	0x042a0007	 addr:	0x028030080
+fn-sos 50C as T trigger_datawrite:	0x04080032	 addr:	0x028030080
+fn-sos 45C as T interrupt off_datawrite:	0x04090005	 addr:	0x028030080
+fn-sos interrupt mode on_datawrite:	0x0404000a	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos clock divider_datawrite:	0x08070000	 addr:	0x028030080
+fn-sos initial waiting time_datawrite:	0x08200000	 addr:	0x028030080
+fn-sos FTSBJT cycles_datawrite:	0x08240000	 addr:	0x028030080
+fn-sos FTSBJT meas cycle_datawrite:	0x08260000	 addr:	0x028030080
+fn-sos FTSBJT_EN next cycle_datawrite:	0x08280000	 addr:	0x028030080
+fn-sos enable REF_SEL_datawrite:	0x08290000	 addr:	0x028030080
+fn-sos time to disable ref_datawrite:	0x082a0000	 addr:	0x028030080
+fn-sos offset value read_datawrite:	0x08010000	 addr:	0x028030080
+fn-sos slope value_read_datawrite:	0x08000000	 addr:	0x028030080
+fn-sos avg number read_datawrite:	0x08030000	 addr:	0x028030080
+fn-sos temp threshold_datawrite:	0x08080000	 addr:	0x028030080
+fn-sos ctrl_reg_datawrite:	0x08040000	 addr:	0x028030080
+fn-sos enable tsens_datawrite:	0x08060000	 addr:	0x028030080
+fn-sos read_status_reg_datawrite:	0x081a0000	 addr:	0x028030080
+fn-sos fptat_datawrite:	0x081c0000	 addr:	0x028030080
+fn-sos fpref_datawrite:	0x081d0000	 addr:	0x028030080
+fn-sos Temp reading reg_datawrite:	0x080a0000	 addr:	0x028030080
+fn-sos another Temp reading reg_datawrite:	0x08220000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	0x028030080
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	0x028030080
+fn-check_temp  offset and slope set up
+vdd core tsens: 0.800038
+Binary 	00000000000000001111111111111111	 Dec 	65535
+	 register name: clk_div_reg_0x7	dec_value: 65535	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: init_wait_time_0x20	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000001111101	 Dec 	125
+	 register name: FTSBJT_cyc_0x24	dec_value: 125	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000001001110001	 Dec 	625
+	 register name: FTSBJT_meas_cyc_0x26	dec_value: 625	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: FTSBJT_EN_cyc_0x28	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: enable_REF_SEL_0x29	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: disable_REF_0x2A	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000011011111101	 Dec 	1789
+	 register name: offset_val_0x1	dec_value: 1789	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000001110110001	 Dec 	945
+	 register name: slope_val_0x0	dec_value: 945	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000111110000	 Dec 	496
+	 register name: avg_number_0x3	dec_value: 496	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000110010	 Dec 	50
+	 register name: temp_thrshld_0x8	dec_value: 50	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000001010	 Dec 	10
+	 register name: ctrl_reg_0x4	dec_value: 10	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000000001	 Dec 	1
+	 register name: enable_tsens_0x6	dec_value: 1	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000000000	 Dec 	0
+	 register name: status_done_0x1A	dec_value: 0	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000111110111100	 Dec 	4028
+	 register name: fptat_reg_0x1C	dec_value: 4028	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000001000010000111	 Dec 	4231
+	 register name: fpref_reg_0x1D	dec_value: 4231	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000110010001	 Dec 	401
+	 register name: temp_read_reg_0xA	dec_value: 401	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000000000000000000000000000000	 Dec 	0
+	 register name: anthr_temp_read_reg_0x22	dec_value: 0	 addr_read: 0x0280300a0
+vdd core tsens: 0.800038
+Binary 	00000001100100010000000110010001	 Dec 	26280337
+	 register name: temp_range	dec_value: 26280337	 addr_read: 0x0280300a0
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	1	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	2	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	3	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	4	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	5	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	6	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	7	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	8	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	9	dec_value : 	 401
+Binary 	00000000000000000000000110010001	 Dec 	401	 addr_read:	0x0280300c0
+itr : 	10	dec_value : 	 401
+Dec value for temp : 	0.125
+Dec value for R1 : 	401
+
+File opened  : B8336695_25_RT.txt
+File copied to : ../report/B8336695_25_RT.txt
+
+All DPS disconnected
+All DPS connected
+All DPS disconnected
+Measurement done, ALL DPS disconnected
+All Pins and Relays disconnected
+
+vdd_core            	:	2.276e-06	V
+
+vcs_pll             	:	-7.158e-05	V
+vcs_pm_1            	:	5.1581e-05	V
+vcs_pm_2            	:	0.000186735	V
+vdd_io_clk          	:	-3.785e-06	V
+vdd_pll             	:	1.2542e-05	V
+
+vcsio_pll           	:	4.382e-06	V
+vcsio_ts            	:	3.5739e-05	V
+vcsio_vs_1          	:	0.000202651	V
+vcsio_vs_2          	:	0.000189337	V
+vddio_io_clk        	:	6.7341e-05	V
+vddio_pll           	:	-0.000163771	V
+vddio_rx            	:	2.816e-05	V
+vddio_tx            	:	-7.9878e-05	V
+vcsio_ef_1          	:	6.2938e-05	V
+vcsio_ef_2          	:	-1.8219e-05	V
+
+vdd_mux             	:	4.2474e-05	V
+vss_mux             	:	3.8579e-05	V
+
+
+Device powered down.
+External Utility Supply powered down.
+
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+WARNING: PSST - DCS pin "vdd_core" has been disconnected.
+Disconnect/Connect sequence required.
+Device test FAILED!
+******************************************
+******  @@@@@    @      @    @      ******
+******  @       @ @     @    @      ******
+******  @@@@@  @@@@@    @    @      ******
+******  @      @   @    @    @      ******
+******  @      @   @    @    @@@@@  ******
+******************************************
+BIN :  db ()
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Jan_30_10h06m41s_STDF
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+WARNING: PSST - DCS pin "vdd_core" has been detecting a DUT board disconnect.
+WARNING: PSST - DCS pin "vdd_core" has been disconnected.
+Disconnect/Connect sequence required.
+  Ended at: 20250130 100654
+******** end testflow report data  *******
