@@ -1,3 +1,0 @@
-Device ID    : B66
-Target Temp  : 25
-Read out     : 573

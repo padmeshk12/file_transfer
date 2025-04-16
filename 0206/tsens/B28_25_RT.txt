@@ -1,3 +1,0 @@
-Device ID    : B28
-Target Temp  : 25
-Read out     : 561

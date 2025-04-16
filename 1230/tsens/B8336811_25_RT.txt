@@ -1,3 +1,0 @@
-Device ID    : B8336811
-Target Temp  : 25
-Read out     : 329.375

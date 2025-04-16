@@ -1,3 +1,0 @@
-Device ID    : B4
-Target Temp  : 25
-Read out     : 478

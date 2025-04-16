@@ -1,3 +1,0 @@
-Device ID    : B14
-Target Temp  : 25
-Read out     : 640

@@ -1,3 +1,0 @@
-Device ID    : B49
-Target Temp  : 25
-Read out     : 571

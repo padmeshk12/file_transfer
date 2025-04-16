@@ -1,3 +1,0 @@
-Device ID    : B58
-Target Temp  : 25
-Read out     : 585

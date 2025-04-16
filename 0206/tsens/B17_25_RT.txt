@@ -1,3 +1,0 @@
-Device ID    : B17
-Target Temp  : 25
-Read out     : 499

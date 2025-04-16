@@ -1,3 +1,0 @@
-Device ID    : B6
-Target Temp  : 25
-Read out     : 700

@@ -1,3 +1,0 @@
-Device ID    : B42
-Target Temp  : 25
-Read out     : 619

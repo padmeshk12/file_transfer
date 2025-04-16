@@ -1,3 +1,0 @@
-Device ID    : B21
-Target Temp  : 25
-Read out     : 744

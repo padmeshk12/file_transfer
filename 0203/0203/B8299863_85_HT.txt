@@ -1,3 +1,0 @@
-Device ID    : B8299863
-Target Temp  : 85
-Read out     : 993

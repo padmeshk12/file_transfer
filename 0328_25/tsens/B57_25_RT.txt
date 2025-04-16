@@ -1,3 +1,0 @@
-Device ID    : B57
-Target Temp  : 25
-Read out     : 450

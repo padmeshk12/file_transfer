@@ -1,4 +1,0 @@
-Device ID    : BB22
-Fail Pattern Name : read_col12_1_scan
-Fail count : 2
-Fail Cycles : {	362,	4016,	}

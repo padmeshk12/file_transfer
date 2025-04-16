@@ -1,3 +1,0 @@
-Device ID    : B65
-Target Temp  : 25
-Read out     : 724

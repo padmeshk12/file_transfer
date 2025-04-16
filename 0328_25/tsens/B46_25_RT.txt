@@ -1,3 +1,0 @@
-Device ID    : B46
-Target Temp  : 25
-Read out     : 484

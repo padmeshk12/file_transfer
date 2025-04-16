@@ -1,3 +1,0 @@
-Device ID    : B8057092
-Target Temp  : 25
-Read out     : 632.188

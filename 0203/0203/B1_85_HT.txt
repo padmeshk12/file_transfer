@@ -1,3 +1,0 @@
-Device ID    : B1
-Target Temp  : 85
-Read out     : 841

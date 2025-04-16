@@ -1,3 +1,0 @@
-Device ID    : B44
-Target Temp  : 25
-Read out     : 691

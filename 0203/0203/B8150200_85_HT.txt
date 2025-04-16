@@ -1,3 +1,0 @@
-Device ID    : B8150200
-Target Temp  : 85
-Read out     : 863

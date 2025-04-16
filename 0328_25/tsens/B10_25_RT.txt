@@ -1,3 +1,0 @@
-Device ID    : B10
-Target Temp  : 25
-Read out     : 509
