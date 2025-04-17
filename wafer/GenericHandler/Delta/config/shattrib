@@ -1,0 +1,218 @@
+# -----------------------------------------------------------------------------
+#      This is a handler specific attributes file for handler drivers
+#         (c) Copyright Advantest, 2015
+# -----------------------------------------------------------------------------
+# The general syntax of this file is:
+#
+#       file           = definitionlist
+#
+#       definitionlist = definition [definitionlist]
+#
+#       definition     = key data
+#
+#       key            = string ':'
+#
+#       data           = array | simple_data
+#
+#       simple_data    = number_choice | string_choice
+#
+#       number_choice  = '(' number : number precision ')'
+#
+#       precision      = 'i' | 'I' | 'f' | 'F'
+#
+#       string_choice  = quoted_string [ '|' string_choice ]
+#
+#       quoted_string  = '"' string '"' | ''' string '''
+#
+#       array          = '[' data ']'
+#
+#       string         = alphanumeric string
+#
+#       number         = any floating point number
+#
+# Everything following a '#' character up to the end of the line, is
+# treated as a comment. A '#' within a string is handled correctly
+# as part of the string.
+#
+#           For a detailed description please refer to the document
+#                     "Prober/Handler Drivers"
+# -----------------------------------------------------------------------------
+
+
+
+# Parameters for Equipment Identification -------------------------------------
+
+
+handler_family:                         "Delta"
+
+model:                                  "Castle" | "Matrix" | "Summit" | "Flex" | "RFS" | "Orion" | "Eclipse"
+
+
+# Parameters for Log File Generation ------------------------------------------
+
+
+driver_message_log:                     "*"
+
+debug_level:                            (-1:9 i)
+
+driver_error_log:                       "*"
+
+enable_diagnose_window:                 "no" | "yes"
+
+log_files_to_keep:                      (0:99 i)
+
+log_configuration:                      "no" | "yes"
+
+trace_driver_calls:                     "no" | "yes"
+
+
+# Parameters for Driver Mode --------------------------------------------------
+
+
+communication_mode:                     "on-line" | "off-line"
+
+hand_test_mode:                         "off" | "on"
+
+single_step_mode:                       "off" | "on"
+
+
+# Parameters for Operator interventions ---------------------------------------
+
+
+ask_for_configuration_confirmation:     "no" | "yes"
+
+waiting_for_parts_timeout_action:       "continue" | "operator-help" | "skip"
+
+waiting_for_parts_timeout:              (1:3600 i)
+
+waiting_for_lot_timeout_action:         "continue" | "operator-help" | "skip"
+
+waiting_for_lot_timeout:                (1:3600 i)
+
+general_timeout_action:                 "continue" | "operator-help" | "skip"
+
+general_timeout:                        (1:3600 i)
+
+dialog_communication_start:             [ "*" 1-? ] 
+
+dialog_configuration_start:             [ "*" 1-? ]
+
+stop_handler_on_smartest_pause:         "no" | "yes"
+
+
+# Parameters for Interface Identification -------------------------------------
+
+
+interface_type:                         "gpib"
+
+symbolic_interface_name:                "*"
+
+gpib_port:                              (0:31 i)
+
+
+# Parameters for Site Management ----------------------------------------------
+
+
+handler_site_ids:                       [ "*" ]
+
+handler_site_mask:                      [ (0:1 i) ]
+
+smartest_site_to_handler_site_map:      [ (1:1024 i) ]
+
+
+# Bin management --------------------------------------------------------------
+
+
+bin_mapping:                            "default" | "mapped-hardbins" | "mapped-softbins"
+
+handler_bin_ids:                        [ "*" ]
+
+handler_retest_bins:                    [ (0:255 i) ]
+
+hardbin_to_handler_bin_map:             [ [ (-1:999 i) ] ]
+
+softbin_to_handler_bin_map:             [ [ "*" ] ]
+
+verify_bin_data:                        "no" | "yes"
+
+verify_retry_count:                     (0:99 i)
+
+delta_binning_command_format:           "16-bin" | "256-bin"
+
+
+# Parameters for Reprobe Activation -------------------------------------------
+
+
+auto_reprobe_on_retest_device:          "no" | "yes"
+
+auto_reprobe_on_check_device:           "no" | "yes"
+
+automatic_reprobe_mode:                 "per-site" | "all" | "off"
+
+
+# Parameters for Temperature Setup --------------------------------------------
+
+
+temp_control:                           "manual" | "ambient" | "active"
+
+temp_conf_unit:                         "celsius" | "fahrenheit" | "kelvin"
+
+temp_equipment_unit:                    "celsius" | "fahrenheit" | "kelvin"
+
+temp_chambers:                          [ "zone1" | "zone2" | "zone3" | "zone4" | "storage" | "st" | "testsite" | "ts" | "tcu" | "exit" | "ex" | "pickandplace" | "pp" | "inp_chamber" | "xfr_chamber" | "linp_shuttle" | "rinp_shuttle" | "ldsk_shuttle" | "rdsk_shuttle" | "lts_a1" | "lts_a2" | "lts_a3" | "lts_a4" | "lts_b1" | "lts_b2" | "lts_b3" | "lts_b4" | "lts_c1" | "lts_c2" | "lts_c3" | "lts_c4" | "lts_d1" | "lts_d2" | "lts_d3" | "lts_d4" | "rts_a1" | "rts_a2" | "rts_a3" | "rts_a4" | "rts_b1" | "rts_b2" | "rts_b3" | "rts_b4" | "rts_c1" | "rts_c2" | "rts_c3" | "rts_c4" | "rts_d1" | "rts_d2" | "rts_d3" | "rts_d4" | "contactor" | "ts_humidity" | "inp_shuttle" | "desoak" | "all" ]
+
+temp_default_testzone_for_setpoint:     "*"
+
+temp_setpoint:                          [ (-100:400 f) ]
+
+temp_soaktime:                          (0:1200 i)
+
+temp_desoaktime:                        (0:1200 i)
+
+temp_upper_guard_band:                  [ (0:50 f) ]
+
+temp_lower_guard_band:                  [ (0:50 f) ]
+
+temp_active_heating:                    [ "no" | "yes" ]
+
+temp_active_cooling:                    [ "no" | "yes" ]
+
+
+# Parameters for GPIO Waveform Setup ------------------------------------------
+
+
+
+# Plugin specific parameters --------------------------------------------------
+
+
+summit_recipe_file:                     "*"
+
+summit_workarounds:                     [ "no-multi-site-reprobe" | "no-stop-start" | "no-verify" ]
+
+# Equipment setup specific parameters --------------------------------------------------
+
+
+srq_mask:                               "*"
+
+
+# Parameters for Driver Internals ---------------------------------------------
+
+
+flag_check_interval:                    (0:60000 i)
+
+waiting_for_parts_method:               "interrupt" | "polling"
+
+polling_interval:                       (0:1E7 f)
+
+smartest_simulation:                    "no" | "yes"
+
+plugin_simulation:                      "no" | "yes"
+
+log_prefix_text:                        "*"
+
+waiting_for_reply_of_cmd:               "no" | "yes"
+
+delta_emulation_mode:                   (1:10 i)
+
+
+# End of File -----------------------------------------------------------------

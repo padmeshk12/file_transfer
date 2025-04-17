@@ -1,0 +1,212 @@
+Additional Information for Handler Drivers
+
+===============================================================================
+
+This file contains additional information about the generic handler
+driver. This is usually information that is not (yet) covered by the
+official user documentation and configuration guide. In all cases of
+questions you should first review the recommended documentation, which
+is:
+
+"Prober/Handler Drivers" (E7050-91036) and 
+"Prober/Handler Drivers Configuration Guide" (E2790-91004)
+
+===============================================================================
+
+-------------------------------------------------------------------------------
+Start of Delta Orion notes:
+
+As of October 2004, the Orion Strip Handler is supported by the generic handler
+driver.  
+
+Configurations provided:
+------------------------
+Orion-GPIB-32.cfg
+
+Important configuration settings for Orion:
+-------------------------------------------------------------------------------
+stop_handler_on_smartest_pause        |  Should be set to "no" since the Orion 
+				      |  does not have a pause mode.  It simply
+				      |  reacts to the next command after the
+				      |  pause is done.  Setting to "yes" will
+				      |  not change the behavior.
+				      |
+handler_site_ids                      |  Set this to reflect the number of sites
+				      |  per strip for the device type to be tested.
+				      |
+handler_site_mask                     |  Set this to reflect the number of sites
+				      |  per strip for the device type to be tested.
+				      |
+smartest_site_to_handler_site_map     |  Set this to reflect the number of sites
+				      |  per strip for the device type to be tested.
+				      |
+automatic_reprobe_mode                |  The Orion has no concept of reprobe.
+				      |  Instead, the strips that need to be 
+				      |  retested are sent to the retest magazine
+				      |  for testing at some later time.
+				      |  Set this parameter to "off".  The
+				      |  retest category is bin 0 on Orion.
+				      |
+-------------------------------------------------------------------------------
+The Orion handler does not have temperature controls, so all the temperature
+parameters in the configuration file are ignored.
+
+The Orion-configured driver will send "testpartsready?" query to the handler to 
+check if a strip is ready for test.  The handler can also send an SRQ to the
+driver to indicate that a strip is ready for test.  In that case, the
+driver will send the "testpartsready?" query to determine the strip population.
+When testing is done, the driver will send a "testresults" command to assign a
+bin number to each device on the strip.
+
+
+End Delta Orion notes.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Start of Tesec notes:
+
+* Tesec GPIB plugin
+------------------------
+
+Configurations provided:
+------------------------
+
+Tesec-9588-GPIB-1.cfg
+Tesec-9588-GPIB-2.cfg
+Tesec-9588-GPIB-1-of-2.cfg
+
+Supported handler models:
+-------------------------
+
+9588
+
+Configuration specific settings
+-------------------------------
+
+The configurations differ in the number of sites they provide (1,2 or
+1 of a dual site setup). The Tesec-9588-GPIB-1-of-2.cfg configuration
+is an example how to use a handler that is setup for two sites
+(mechanically) but only the second site is used for testing with a
+single site test setup at the tester (it uses a site remapping of site
+2). 
+
+Important settings for all configurations are:
+
+
+-------------------------------------------------------------------------------
+                              |
+Debug level                   | 0, will log only basic messages, may be
+                              | changed between -1 and 4
+                              |
+GPIB port used                | 14, must be changed to correct value based on
+                              | the handlers setup (available with DIP switches
+                              | on the handler's interface card)
+                              |
+bin mapping                   | default
+                              |
+number of bins                | 6 (SmarTest hardbins 0 through 5)
+                              | bin 0 represents the SmarTest retest bin but 
+                              | can not be send to the handler (the handler
+                              | does not accept bin signal 0). Therefore
+                              | there is no retest bin defined.
+                              | For best convenience by using the default
+                              | binning mode, SmarTest hard bins 1 to 4
+                              | are mapped to handler bins 1 to 4. SmarTest
+                              | hardbin 0 should not be used unless a 
+                              | retest bin definition is added to the handler
+                              | configuration file. The restest bin definition
+                              | should match the production site specific
+                              | usage of the handler.
+                              | SmarTest hardbin no. 5 should also not be used
+                              | since this is the sort signal usually used
+                              | for reprobing.
+                              |
+reprobe mode                  | automatic reprobe on a per site mode, if
+                              | devices fall into SmarTest reprobe bins.
+                              | The handler only allows reprobing one time.
+                              | If it receives two reprobe signals for the
+                              | same device, it will sort the device to 
+                              | a default location and present new devices.
+                              | To use reprobing, it must be activated
+                              | on the handler.
+                              |
+reprobe bin number            | 5, represents number sent to handler upon
+                              | receiving a SmarTest reprobe bin. Must be 
+                              | changed to correct value according to setup of 
+                              | handler. Note that the reprobe mechanism 
+                              | refers to the disconnection and reconnection 
+                              | of the device before a retest is performed.
+                              | To disable this setting remove the
+                              | "handler_reprobe_bin" parameter and set the
+                              | "automatic_reprobe_mode" to "off".
+                              |
+test start detection          | done by interrupt (SRQ)
+                              |
+end of line terminator        | driver sends CR+LF and EOI on the GPIB bus,
+                              | can not be changed through configuration file.
+                              | driver expects no special end of line code
+                              | from handler expect EOI.
+                              |
+-------------------------------------------------------------------------------
+
+Startup conditions
+------------------
+
+At start up of the driver, the driver resets the GPIB bus to ensure
+stable operation. If the handler receives the reset and has already
+devices pending for test, it will bin these devices to a default
+location. I.e. these devices are not tested. Therefore it is best
+practice to start the test program on the tester first, before
+handling of devices is activated at the handler.
+
+GPIB Protocols
+--------------
+
+The Tesec 9588 provides two different GPIB protocol modes: The LTX
+mode (GP-IB1 mode on the handler's menu) and the Theradyne mode
+(GP-IB2) on the handler's menu. The LTX mode is old. To run with the
+Tesec GPIB handler driver, the handler must be set to the Theradyne
+mode. The two modes are not compatible.
+
+GPIB communication flow
+-----------------------
+
+wait for devices: [<SRQ>]               The driver will wait for an SRQ.
+
+                                        Waiting for devices repeats, until
+                                        there is a device to test, performing
+                                        status queries inbetween.
+
+===============================================================================
+
+SRQ:
+
+-------------------------------------------------------------------------------
+                      |
+                      | <SRQ>           handler sends test start SRQ 0x4?
+                      |                 where '?' represents the present
+                      |                 devices in a bit field.
+                      |                 0x40 is ignored by the driver.
+===============================================================================
+
+
+bin and reprobe devices:
+
+-------------------------------------------------------------------------------
+                      |
+S<n><bins>Q           |                 driver sends bin information.
+                      |                 <n> is one of 'A', 'B', .... indicating
+                      |                 the number of bins (sites)
+                      |                 <bins> is a list of '@', 'A', 'B', ...
+                      |                 giving the bin results.
+                      |                 E.g. SBACQ sends two devices to bin
+                      |                 A (1) and B (2) respectively.
+                      |                 If configured at handler, a special
+                      |                 bin can be used to trigger a 
+                      |                 reprobe operation (e.g. 'E' (5)).
+                      |
+===============================================================================
+
+End Tesec notes.
+-------------------------------------------------------------------------------
