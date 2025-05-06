@@ -1,0 +1,4 @@
+SW Bin,Desc,Site,Site%,Device#,Bin%,Good Bin,Reprobe Bin
+"1","good",1,266.7,32,80,1,0
+"100","F_OS_OPEN",1,41.7,5,12.5,1,0
+"87","F_LEAK_IDDQ_BOXLO_PRE",2,25,3,7.5,1,0
