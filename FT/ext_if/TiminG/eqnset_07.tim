@@ -1,0 +1,24 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000247
+EQNSET 7 "tim_eqn_7_Rest_all_pins"
+DEFINES  p_Rest_all_pins
+
+SPECS
+Frequency_rest_pins [MHz]
+    
+EQUATIONS
+Tcyc = 1000/Frequency_rest_pins #ns
+
+period_res = 2.5
+
+TIMINGSET 1  "rest_all_pins"
+period = Tcyc #ns
+
+PINS Rest_all_pins
+d1 = 0.0*Tcyc
+
+@
+
+
+
+NOOP "7.10.6",,,

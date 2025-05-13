@@ -1,0 +1,13 @@
+hp93000,vector,0.1
+DMAS SQPG,SM,2,(pscan_SCAN_Port)
+SQLB "chip_saf4_ext_if_xor_lpg0_scan_1",MPBU,0,1,,(pscan_SCAN_Port)
+SQPG 0,CALL,,"chip_saf4_ext_if_xor_lpg0_scan_1_scan_para",,(pscan_SCAN_Port)
+SQPG 1,BEND,,,,(pscan_SCAN_Port)
+WSDM 1,2
+
+DMAS SQPG,SM,2,(ppara_SCAN_Port)
+SQLB "chip_saf4_ext_if_xor_lpg0_scan_1",MPBU,0,1,,(ppara_SCAN_Port)
+SQPG 0,CALL,,"chip_saf4_ext_if_xor_lpg0_scan_1_para",,(ppara_SCAN_Port)
+SQPG 1,BEND,,,,(ppara_SCAN_Port)
+WSDM 1,2
+NOOP "7.10.6",,,

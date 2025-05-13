@@ -1,0 +1,9 @@
+hp93000,timing_master_file,0.1
+
+testerfile: IBM
+WAVETABLE "chip_saf4_ext_if_xor_lpg1_scan.1_timing": wvt_chip_saf4_ext_if_xor_lpg1_scan.1_timing.tim
+WAVETABLE "WaveTable 2": wvt_WaveTable 2.tim
+EQNSET 1: eqnset_01.tim
+EQNSET 2: eqnset_2.tim
+MULTIPORT_SPEC "chip_saf4_ext_if_xor_lpg1_scan.1_timing_1": mport_chip_saf4_ext_if_xor_lpg1_scan.1_timing_1.tim
+MULTIPORT_SPEC "chip_saf4_ext_if_xor_lpg1_scan.1_timing_10": mport_chip_saf4_ext_if_xor_lpg1_scan.1_timing_10.tim

@@ -1,0 +1,25 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000249
+EQNSET 6 "tim_eqn_6_Free_run_io_clk"
+DEFINES  pIOCLK
+
+SPECS
+Frequency_io_clk [MHz]
+    
+EQUATIONS
+Tcyc = 1000/Frequency_io_clk #ns
+
+period_res = 2.5
+
+TIMINGSET 1  "free run io_clk"
+period = Tcyc #ns
+
+PINS io_clk_pad_i
+d1 = 0.0*Tcyc
+d2 = 0.5*Tcyc
+
+@
+
+
+
+NOOP "7.10.6",,,
