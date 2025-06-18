@@ -1,0 +1,14 @@
+Device ID                 : B8203773
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 0
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 0
+fpref_reg_0x1D            : 0
+temp_read_reg_0xA         : 0
+anthr_temp_read_reg_0x22  : 0
+temp_range                : 2.68046e+07
+
+Target Temp               : 25
+Read out dec              : 163.6
+tempC                     : -29.55
