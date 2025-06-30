@@ -1,0 +1,14 @@
+Device ID                 : W_4_5
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 945
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 4305
+fpref_reg_0x1D            : 4243
+temp_read_reg_0xA         : 581
+anthr_temp_read_reg_0x22  : 22
+temp_range                : 3.8077e+07
+
+Target Temp               : 25
+Read out dec              : 581
+tempC                     : 22.625
