@@ -1,0 +1,2 @@
+Test Suite,Test,Test#,Pattern,Wafer,Site,Pin,Device,Device ID,Value,Unit,P/F,Time,TS Time,Print To Data Log
+"Device_Power_Up","vdd_core",721101,"",0,1,"vdd_core",1,"P1",0.099776,"V","P",1004.44,1005.93,""
