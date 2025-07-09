@@ -1,0 +1,6 @@
+SW Bin,Desc,Device#,Bin%,Good Bin,Reprobe Bin
+"2","Medium",1,12.5,1,0
+"1580","PMBIST_Post_repair_Func_fail",4,50,1,0
+"1412","TOP_SAF4_CORE_ROW_0_7_LOGIC_Fail",1,12.5,1,0
+"1493","TOP_SAF4_COL_ROW_SCAN_Fail",1,12.5,1,0
+"4","TOP ONLY",1,12.5,1,0
