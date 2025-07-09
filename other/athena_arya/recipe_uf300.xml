@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+  <smartest force_restart="false">
+    <version>soc64_7.10.6.0</version>
+    <startup_mode>online</startup_mode>
+    <user_mode>engineer</user_mode>
+    <env>
+     <V93000_MODEL>/etc/opt/hp93000/soc/tester.model</V93000_MODEL>
+      <!-- here can specify the env variables for smartest using, for example -->
+      <!-- <LD_LIBRARY_PATH>/path/or/paths/to/3rd_party_libs</LD_LIBRARY_PATH> -->
+    </env>
+  </smartest>
+  <testflow name="/home/ibm93k/ibm_test_programs/WS_REV1/IBM_NP_WS_REV002/ibm_np/TP/testflow/IBM_NP_Master_WS_Rev002P01.ttf" />
+  <equipment testtype="PROBER" vendor="TSK" model="UF300_1_SITE" />
+ <datalog>
+    <profile name="datalog_ON.prf" />
+    <lot_variables>
+ 	<variable name="DEVICE_ROOT" value="/home/ibm93k/ibm_test_programs/WS_REV1/IBM_NP_WS_REV002/ibm_np/TP" />
+	<variable name="WDF_FILE" value="wafer1.wdf" />
+	<variable name="PARAM_SCRIPT" value="/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh" />
+	<variable name="LOT_ID" value="Lot001" />
+	<variable name="PRODUCT_ID" value="I" />
+	<variable name="OPER_NAM" value="sitara" />
+	<variable name="STAT_NUM" value="V93000_1" />
+	<variable name="MODE_COD" value="Production" />
+	<variable name="RTST_COD" value="NoRetest" />
+	<variable name="DEVICE_NAM" value="IBM_NP" />
+	<variable name="DSGN_REV" value="IBM_NP_REV1" />
+	<variable name="USR_DESC" value="User Description" />
+	<variable name="DIB_TYP" value="BRD1" />
+	<variable name="DIB_ID" value="1234" />
+	<variable name="AUTO_TEMP" value="OFF" />
+      	<variable name="MIN_X" value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MIN_X" />
+	<variable name="MIN_Y" value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MIN_Y" />
+	<variable name="MAX_X" value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MAX_X" />
+	<variable name="MAX_Y" value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} MAX_Y" />
+	<variable name="POS_X" value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} POS_X" />
+	<variable name="POS_Y" value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} POS_Y" />
+	<variable name="WF_FLAT" value="script:/opt/hp93000/tcct_wafer_support/scripts/getWaferParam.sh {DEVICE_ROOT}/wafertyp/{WDF_FILE} WF_FLAT" />
+
+    </lot_variables>
+    <file perwafer="false" path="/home/ibm93k/ibm_test_programs/WS_REV1/IBM_NP_WS_REV002/ibm_np/TP/report/"
+      name="datalog_{HOSTNAME}_{LOGNAME}{TEST_COD}_{LOT_ID}_{TST_TEMP}_{TIMESTAMP}">
+      <stdf enable="true" ext="stdf" />
+      <text enable="true" ext="txt" screen="true" />
+      <summary enable="true" ext="sum" whichtest="All Tests"
+       persite="true" screen="true" />
+      <edl enable="true" ext="edl" name="edlfile" perwafer="false" /> 
+    </file>
+  </datalog>
+  <states>
+    <state name="PROGRAM_LOAD">
+	<before>
+	<exec program="/opt/hp93000/tcct_wafer_support/scripts/setupTestProgForTFI.sh /home/ibm93k/ibm_test_programs/WS_REV1/IBM_NP_WS_REV002/ibm_np/TP testprog_WS_0324.tp"/>
+	</before> 
+	<after>
+	<exec program="/opt/hp93000/tcct_wafer_support/scripts/start_load_wafer_description.sh wafer1.wdf" />
+	</after>
+
+    </state>
+        <state name="WAFER_CREATE">
+      <after>
+      <exec program="/opt/hp93000/tcct_wafer_support/scripts/start_getSetWaferID.sh" />
+      </after>
+ </state>
+
+  </states>
+</recipe>

@@ -1,0 +1,62 @@
+#! /bin/sh
+if [ "$SHIPMENT_ROOT" == "" ]
+then
+  SHIPMENT_ROOT=/opt/hp93000/soc
+fi
+
+export HP83000_ROOT=$SHIPMENT_ROOT
+
+#----------------------------------------------------------------------#
+#  Copyright (c) by Agilent Technologies SSTD-R&D, July 1993                 #
+#======================================================================#
+#  Author : Eric Furmanek                              Date: 27.07.93  #
+#                                                                      #
+#  Script : sc_templ                                                   #
+#                                                                      #
+#  This script is an example of how a command-set call as specified    #
+#  in the application model file can be realized as a script           #
+#  implementation. The script itself is a trivial example of string    #
+#  manipulation, but it does demontrate usage of all the input and     #
+#  output parameters provided                                          #
+#                                                                      #
+#  Valid Exit Codes:                                                   #
+#                                                                      #
+#  $CI_CALL_PASS   = 0  function completed successfully                #
+#  $CI_TEST_PASS   = 0  test passed                                    #
+#  $CI_TEST_FAIL   = 1  test failed                                    #
+#  $CI_CALL_ERROR  = 2  function call failed                           #
+#  $CI_CALL_BREAKD = 3  break                                          #
+#                                                                      #
+#  $CI_MAX_COMMENT_LEN  must not be exceeded !                         #
+#                                                                      #
+#----------------------------------------------------------------------#
+#  Prints out input parameter list and returns the result as the value #
+#  to be assigned to the application model file variable               #
+#----------------------------------------------------------------------#
+
+CI_CALL_PASS=0
+CI_TEST_PASS=0
+CI_TEST_FAIL=1
+CI_CALL_ERROR=2
+CI_CALL_BREAKD=3
+
+# do not change the value of this variable !
+CI_MAX_COMMENT_LEN=45000
+
+# The maximum length of all parameters is 78 bytes, so it is safe
+# to make a direct echo of them without fear of exceeding
+# CI_MAX_COMMENT_LEN bytes
+
+if test $# -eq 0
+then
+    echo "no parameters"
+else
+        for i in $*
+    do
+        echo $i
+    done
+fi
+
+echo "SCRIPT: report window msg" >&2
+
+exit $CI_CALL_PASS
