@@ -1,0 +1,11 @@
+SW Bin,Desc,Site,Site%,Device#,Bin%,Good Bin,Reprobe Bin
+"1580","PMBIST_Post_repair_Func_fail",1,30.4,21,30.4,1,0
+"2411","BOT_SAF4_CORE_ROW_8_15_SCAN_Fail",1,7.2,5,7.2,1,0
+"1431","PDF4_Func_fail",1,8.7,6,8.7,1,0
+"65535","",1,21.7,15,21.7,1,0
+"2412","BOT_SAF4_CORE_ROW_8_15_LOGIC_Fail",1,10.1,7,10.1,1,0
+"1113","Continuity_Mux_Pos",1,8.7,6,8.7,1,0
+"2416","BOT_SAF4_EXTEST_LOGIC_2_Fail",1,4.3,3,4.3,1,0
+"2426","BOT_TDF4_OPCG_EXTEST_SCAN_2_Fail",1,4.3,3,4.3,1,0
+"2414","BOT_SAF4_EXTEST_SCAN_2_Fail",1,2.9,2,2.9,1,0
+"1131","IDD_static_fail",1,1.4,1,1.4,1,0
