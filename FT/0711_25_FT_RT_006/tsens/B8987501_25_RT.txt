@@ -1,0 +1,14 @@
+Device ID                 : B8987501
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 945
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 4207
+fpref_reg_0x1D            : 4286
+temp_read_reg_0xA         : 479
+anthr_temp_read_reg_0x22  : 9
+temp_range                : 3.13922e+07
+
+Target Temp               : 25
+Read out dec              : 479
+tempC                     : 9.875

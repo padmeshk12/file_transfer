@@ -1,0 +1,4 @@
+Device ID    : BB8987490
+Fail Pattern Name : read_col01_1_scan
+Fail count : 3
+Fail Cycles : {	5729,	5734,	5738,	}
