@@ -1,0 +1,340 @@
+STIL 1.0; 
+
+//***************************************************************************//
+//                             STIL SIGNALS FILE                             //
+//Cadence(R) Modus(TM) DFT Software Solution, Version 21.12-s001_1, built Jul//
+//***************************************************************************//
+//                                                                           //
+//  FILE CREATED..............April 03, 2025 at 17:57:22                     //
+//                                                                           //
+//  PROJECT NAME..............xor_opcg                                       //
+//                                                                           //
+//  TESTMODE..................ELASTIC_OPCG0                                  //
+//                                                                           //
+//  TDR.......................dummy.tdr                                      //
+//                                                                           //
+//  TEST PERIOD...............100.000  TEST TIME UNITS...........ns          //
+//  TEST PULSE WIDTH..........50.000                                         //
+//  TEST STROBE OFFSET........29.000   TEST STROBE TYPE..........edge        //
+//  TEST BIDI OFFSET..........0.000                                          //
+//  TEST PI OFFSET............0.000    X VALUE...................Z           //
+//                                                                           //
+//                                     SCAN OVERLAP..............yes         //
+//  SCAN PERIOD...............100.000  SCAN TIME UNITS...........ns          //
+//  SCAN PULSE WIDTH..........50.000                                         //
+//  SCAN STROBE OFFSET........29.000   SCAN STROBE TYPE..........edge        //
+//  SCAN BIDI OFFSET..........0.000                                          //
+//  SCAN PI OFFSET............0.000    X VALUE...................Z           //
+//                                                                           //
+//                                                                           //
+//   Individually set PIs                                                    //
+//  "dft_1500_wrck_pad_i" (PI # 7)                                           //
+//  TEST OFFSET...............30.000   PULSE WIDTH...............50.000      //
+//  SCAN OFFSET...............0.000                                          //
+//                                                                           //
+//  "dft_opcg_shift_clk_pad_i" (PI # 12)                                     //
+//  TEST OFFSET...............30.000                                         //
+//  SCAN OFFSET...............30.000   PULSE WIDTH...............50.000      //
+//                                                                           //
+//  "dft_scan_elastic_rst_pad_i" (PI # 26)                                   //
+//  TEST OFFSET...............0.000                                          //
+//  SCAN OFFSET...............0.000    PULSE WIDTH...............50.000      //
+//                                                                           //
+//  "dft_scan_misr_rst_pad_i" (PI # 29)                                      //
+//  TEST OFFSET...............0.000                                          //
+//  SCAN OFFSET...............0.000                                          //
+//                                                                           //
+//  "tap_tck_pad_i" (PI # 429)                                               //
+//  TEST OFFSET...............50.000   PULSE WIDTH...............50.000      //
+//  SCAN OFFSET...............0.000                                          //
+//                                                                           //
+//  Active TESTMODEs TM = 1 ..ELASTIC_OPCG0                                  //
+//                                                                           //
+//***************************************************************************//
+
+//***************************************************************************//
+//                              DEFINE SIGNALS                               //
+//***************************************************************************//
+
+  Signals { 
+    "ref_clk_pad_i" In;      // pinName = ref_clk_pad_i;  tf = -OSC  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "io_clk_pad_i" In;      // pinName = io_clk_pad_i;  tf = -OSC  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_1500_capturewr_pad_i" In;      // pinName = dft_1500_capturewr_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_1500_selectwr_pad_i" In;      // pinName = dft_1500_selectwr_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_1500_shiftwr_pad_i" In;      // pinName = dft_1500_shiftwr_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_1500_updatewr_pad_i" In;      // pinName = dft_1500_updatewr_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_1500_wrck_pad_i" In;      // pinName = dft_1500_wrck_pad_i;  tf = -SC  ; testOffset = 30.000000;  scanOffset = 0.000000;  
+    "dft_1500_wrstn_pad_i" In;      // pinName = dft_1500_wrstn_pad_i;  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_1500_wso_ret_pad_o" InOut;      // pinName = dft_1500_wso_ret_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_1500_ws_pad_i" In;      // pinName = dft_1500_ws_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_opcg_load_en_pad_i" In;      // pinName = dft_opcg_load_en_pad_i;  tf = -TC  -SE  +OLE  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_opcg_shift_clk_pad_i" In;      // pinName = dft_opcg_shift_clk_pad_i;  tf = -ES  -CML  -OLC  ; testOffset = 30.000000;  scanOffset = 30.000000;  
+    "dft_opcg_trigger_pad_i" In;      // pinName = dft_opcg_trigger_pad_i;  tf = -GO  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_pmbist_mode_pad_i" In;      // pinName = dft_pmbist_pmbist_mode_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_pmda_done_pad_o" InOut;      // pinName = dft_pmbist_pmda_done_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_pmda_fail_pad_o" InOut;      // pinName = dft_pmbist_pmda_fail_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_pmda_ovfl_pad_o" InOut;      // pinName = dft_pmbist_pmda_ovfl_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_pmda_rst_pad_i" In;      // pinName = dft_pmbist_pmda_rst_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_pmda_tck_pad_i" In;      // pinName = dft_pmbist_pmda_tck_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_pmda_tdi_pad_i" In;      // pinName = dft_pmbist_pmda_tdi_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_pmda_tdo_pad_o" InOut;      // pinName = dft_pmbist_pmda_tdo_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_ret_pause_active_pad_o" InOut;      // pinName = dft_pmbist_ret_pause_active_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_pmbist_ret_pause_continue_pad_i" In;      // pinName = dft_pmbist_ret_pause_continue_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_cme_pad_i" In;      // pinName = dft_scan_cme_pad_i;  tf = -TC  -CME  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_cmle_pad_i" In;      // pinName = dft_scan_cmle_pad_i;  tf = -TC  -SE  +CMLE  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_elastic_rst_pad_i" In;      // pinName = dft_scan_elastic_rst_pad_i;  tf = -PRST  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_lpg1_pad_i" In;      // pinName = dft_scan_lpg1_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_lpg2_pad_i" In;      // pinName = dft_scan_lpg2_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_misr_rst_pad_i" In;      // pinName = dft_scan_misr_rst_pad_i;  tf = -SE  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_misr_select_pad_i" In;      // pinName = dft_scan_misr_select_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_rst_n_pad_i" In;      // pinName = dft_scan_rst_n_pad_i;  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_en_pad_i" In;      // pinName = dft_scan_scan_en_pad_i;  tf = -TC  +SE  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[0]" In;      // pinName = dft_scan_scan_in_pad_i[0];  tf =  SI   CMI   OLI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[1]" In;      // pinName = dft_scan_scan_in_pad_i[1];  tf =  SI   CMI   OLI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[2]" In;      // pinName = dft_scan_scan_in_pad_i[2];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[3]" In;      // pinName = dft_scan_scan_in_pad_i[3];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[4]" In;      // pinName = dft_scan_scan_in_pad_i[4];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[5]" In;      // pinName = dft_scan_scan_in_pad_i[5];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[6]" In;      // pinName = dft_scan_scan_in_pad_i[6];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[7]" In;      // pinName = dft_scan_scan_in_pad_i[7];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[8]" In;      // pinName = dft_scan_scan_in_pad_i[8];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[9]" In;      // pinName = dft_scan_scan_in_pad_i[9];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[10]" In;      // pinName = dft_scan_scan_in_pad_i[10];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[11]" In;      // pinName = dft_scan_scan_in_pad_i[11];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[12]" In;      // pinName = dft_scan_scan_in_pad_i[12];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[13]" In;      // pinName = dft_scan_scan_in_pad_i[13];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[14]" In;      // pinName = dft_scan_scan_in_pad_i[14];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_in_pad_i[15]" In;      // pinName = dft_scan_scan_in_pad_i[15];  tf =  SI   CMI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[0]" InOut;      // pinName = dft_scan_scan_out_pad_o[0];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[1]" InOut;      // pinName = dft_scan_scan_out_pad_o[1];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[2]" InOut;      // pinName = dft_scan_scan_out_pad_o[2];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[3]" InOut;      // pinName = dft_scan_scan_out_pad_o[3];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[4]" InOut;      // pinName = dft_scan_scan_out_pad_o[4];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[5]" InOut;      // pinName = dft_scan_scan_out_pad_o[5];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[6]" InOut;      // pinName = dft_scan_scan_out_pad_o[6];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[7]" InOut;      // pinName = dft_scan_scan_out_pad_o[7];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[8]" InOut;      // pinName = dft_scan_scan_out_pad_o[8];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[9]" InOut;      // pinName = dft_scan_scan_out_pad_o[9];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[10]" InOut;      // pinName = dft_scan_scan_out_pad_o[10];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[11]" InOut;      // pinName = dft_scan_scan_out_pad_o[11];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[12]" InOut;      // pinName = dft_scan_scan_out_pad_o[12];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[13]" InOut;      // pinName = dft_scan_scan_out_pad_o[13];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[14]" InOut;      // pinName = dft_scan_scan_out_pad_o[14];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_scan_out_pad_o[15]" InOut;      // pinName = dft_scan_scan_out_pad_o[15];  tf = ZSE   SO  BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "dft_scan_ss1_pad_i" In;      // pinName = dft_scan_ss1_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "global_chip_reset_pad_i" In;      // pinName = global_chip_reset_pad_i;  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "interrupt_req_pad_o_ack" In;      // pinName = interrupt_req_pad_o_ack; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "io_ddr_enable_pad_i" In;      // pinName = io_ddr_enable_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "machine_init_ctrl_pad_i[0]" In;      // pinName = machine_init_ctrl_pad_i[0]; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "machine_init_ctrl_pad_i[1]" In;      // pinName = machine_init_ctrl_pad_i[1]; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "machine_init_done_pad_o" InOut;      // pinName = machine_init_done_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pllset_pad_i[0]" In;      // pinName = pllset_pad_i[0];  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pllset_pad_i[1]" In;      // pinName = pllset_pad_i[1];  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pllset_pad_i[2]" In;      // pinName = pllset_pad_i[2];  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pllset_pad_i[3]" In;      // pinName = pllset_pad_i[3];  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pll_async_reset_n_pad_i" In;      // pinName = pll_async_reset_n_pad_i;  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pll_config_select_pad_i" In;      // pinName = pll_config_select_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pll_d_clk_pad_o" InOut;      // pinName = pll_d_clk_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pll_fail_pad_o" InOut;      // pinName = pll_fail_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pll_lock_pad_o" InOut;      // pinName = pll_lock_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pll_ref_select_pad_i" In;      // pinName = pll_ref_select_pad_i;  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pll_reg_async_reset_n_pad_i" In;      // pinName = pll_reg_async_reset_n_pad_i;  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "tap_rstn_pad_i" In;      // pinName = tap_rstn_pad_i;  tf = +TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "tap_tck_pad_i" In;      // pinName = tap_tck_pad_i;  tf = -SC  ; testOffset = 50.000000;  scanOffset = 0.000000;  
+    "tap_tdi_pad_i" In;      // pinName = tap_tdi_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "tap_tdo_pad_o" InOut;      // pinName = tap_tdo_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "tap_tms_pad_i" In;      // pinName = tap_tms_pad_i; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "tsen_test_o_pad_o" InOut;      // pinName = tsen_test_o_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "drive_pad_i[0]" In;      // pinName = drive_pad_i[0]; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "drive_pad_i[1]" In;      // pinName = drive_pad_i[1]; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "vsen_test0_pad_o" InOut;      // pinName = vsen_test0_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "vsen_test1_pad_o" InOut;      // pinName = vsen_test1_pad_o;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "pll_a_out_pad_ao" InOut;      // pinName = pll_a_out_pad_ao;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "tsen_iref_o_pad_ao" InOut;      // pinName = tsen_iref_o_pad_ao;  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "reserved_in_pad_i[0]" In;      // pinName = reserved_in_pad_i[0];  tf = -TI  ; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "reserved_out_pad_o[0]" InOut;      // pinName = reserved_out_pad_o[0];  tf = BIDI ; testOffset = 0.000000;  scanOffset = 0.000000;  
+  } 
+
+//***************************************************************************//
+//                           DEFINE SIGNAL GROUPS                            //
+//***************************************************************************//
+
+  SignalGroups { 
+
+    "ALLPIs" = '"ref_clk_pad_i"+"io_clk_pad_i"+"dft_1500_capturewr_pad_i"
+               +"dft_1500_selectwr_pad_i"+"dft_1500_shiftwr_pad_i"
+               +"dft_1500_updatewr_pad_i"+"dft_1500_wrck_pad_i"
+               +"dft_1500_wrstn_pad_i"+"dft_1500_ws_pad_i"
+               +"dft_opcg_load_en_pad_i"+"dft_opcg_shift_clk_pad_i"
+               +"dft_opcg_trigger_pad_i"+"dft_pmbist_pmbist_mode_pad_i"
+               +"dft_pmbist_pmda_rst_pad_i"+"dft_pmbist_pmda_tck_pad_i"
+               +"dft_pmbist_pmda_tdi_pad_i"
+               +"dft_pmbist_ret_pause_continue_pad_i"+"dft_scan_cme_pad_i"
+               +"dft_scan_cmle_pad_i"+"dft_scan_elastic_rst_pad_i"
+               +"dft_scan_lpg1_pad_i"+"dft_scan_lpg2_pad_i"
+               +"dft_scan_misr_rst_pad_i"+"dft_scan_misr_select_pad_i"
+               +"dft_scan_rst_n_pad_i"+"dft_scan_scan_en_pad_i"
+               +"dft_scan_scan_in_pad_i[0]"+"dft_scan_scan_in_pad_i[1]"
+               +"dft_scan_scan_in_pad_i[2]"+"dft_scan_scan_in_pad_i[3]"
+               +"dft_scan_scan_in_pad_i[4]"+"dft_scan_scan_in_pad_i[5]"
+               +"dft_scan_scan_in_pad_i[6]"+"dft_scan_scan_in_pad_i[7]"
+               +"dft_scan_scan_in_pad_i[8]"+"dft_scan_scan_in_pad_i[9]"
+               +"dft_scan_scan_in_pad_i[10]"+"dft_scan_scan_in_pad_i[11]"
+               +"dft_scan_scan_in_pad_i[12]"+"dft_scan_scan_in_pad_i[13]"
+               +"dft_scan_scan_in_pad_i[14]"+"dft_scan_scan_in_pad_i[15]"
+               +"dft_scan_ss1_pad_i"+"global_chip_reset_pad_i"
+               +"interrupt_req_pad_o_ack"+"io_ddr_enable_pad_i"
+               +"machine_init_ctrl_pad_i[0]"+"machine_init_ctrl_pad_i[1]"
+               +"pllset_pad_i[0]"+"pllset_pad_i[1]"+"pllset_pad_i[2]"
+               +"pllset_pad_i[3]"+"pll_async_reset_n_pad_i"
+               +"pll_config_select_pad_i"+"pll_ref_select_pad_i"
+               +"pll_reg_async_reset_n_pad_i"+"tap_rstn_pad_i"
+               +"tap_tck_pad_i"+"tap_tdi_pad_i"+"tap_tms_pad_i"
+               +"drive_pad_i[0]"+"drive_pad_i[1]"+"reserved_in_pad_i[0]"'; 
+
+    "ALLCIOs" = '"dft_1500_wso_ret_pad_o"+"dft_pmbist_pmda_done_pad_o"
+                +"dft_pmbist_pmda_fail_pad_o"+"dft_pmbist_pmda_ovfl_pad_o"
+                +"dft_pmbist_pmda_tdo_pad_o"
+                +"dft_pmbist_ret_pause_active_pad_o"
+                +"dft_scan_scan_out_pad_o[0]"+"dft_scan_scan_out_pad_o[1]"
+                +"dft_scan_scan_out_pad_o[2]"+"dft_scan_scan_out_pad_o[3]"
+                +"dft_scan_scan_out_pad_o[4]"+"dft_scan_scan_out_pad_o[5]"
+                +"dft_scan_scan_out_pad_o[6]"+"dft_scan_scan_out_pad_o[7]"
+                +"dft_scan_scan_out_pad_o[8]"+"dft_scan_scan_out_pad_o[9]"
+                +"dft_scan_scan_out_pad_o[10]"+"dft_scan_scan_out_pad_o[11]"
+                +"dft_scan_scan_out_pad_o[12]"+"dft_scan_scan_out_pad_o[13]"
+                +"dft_scan_scan_out_pad_o[14]"+"dft_scan_scan_out_pad_o[15]"
+                +"machine_init_done_pad_o"+"pll_d_clk_pad_o"
+                +"pll_fail_pad_o"+"pll_lock_pad_o"+"tap_tdo_pad_o"
+                +"tsen_test_o_pad_o"+"vsen_test0_pad_o"+"vsen_test1_pad_o"
+                +"pll_a_out_pad_ao"+"tsen_iref_o_pad_ao"
+                +"reserved_out_pad_o[0]"'; 
+
+    "CIS_1_TM_1" = '"dft_scan_scan_in_pad_i[0]"' { ScanIn 75; } 
+    "CIS_2_TM_1" = '"dft_scan_scan_in_pad_i[10]"' { ScanIn 75; } 
+    "CIS_3_TM_1" = '"dft_scan_scan_in_pad_i[11]"' { ScanIn 75; } 
+    "CIS_4_TM_1" = '"dft_scan_scan_in_pad_i[12]"' { ScanIn 75; } 
+    "CIS_5_TM_1" = '"dft_scan_scan_in_pad_i[13]"' { ScanIn 75; } 
+    "CIS_6_TM_1" = '"dft_scan_scan_in_pad_i[14]"' { ScanIn 75; } 
+    "CIS_7_TM_1" = '"dft_scan_scan_in_pad_i[15]"' { ScanIn 75; } 
+    "CIS_8_TM_1" = '"dft_scan_scan_in_pad_i[1]"' { ScanIn 75; } 
+    "CIS_9_TM_1" = '"dft_scan_scan_in_pad_i[2]"' { ScanIn 75; } 
+    "CIS_10_TM_1" = '"dft_scan_scan_in_pad_i[3]"' { ScanIn 75; } 
+    "CIS_11_TM_1" = '"dft_scan_scan_in_pad_i[4]"' { ScanIn 75; } 
+    "CIS_12_TM_1" = '"dft_scan_scan_in_pad_i[5]"' { ScanIn 75; } 
+    "CIS_13_TM_1" = '"dft_scan_scan_in_pad_i[6]"' { ScanIn 75; } 
+    "CIS_14_TM_1" = '"dft_scan_scan_in_pad_i[7]"' { ScanIn 75; } 
+    "CIS_15_TM_1" = '"dft_scan_scan_in_pad_i[8]"' { ScanIn 75; } 
+    "CIS_16_TM_1" = '"dft_scan_scan_in_pad_i[9]"' { ScanIn 75; } 
+
+    "CMSR_1_TM_1" = '"dft_scan_scan_in_pad_i[0]"' { ScanIn 11; } 
+    "CMSR_2_TM_1" = '"dft_scan_scan_in_pad_i[10]"' { ScanIn 10; } 
+    "CMSR_3_TM_1" = '"dft_scan_scan_in_pad_i[11]"' { ScanIn 10; } 
+    "CMSR_4_TM_1" = '"dft_scan_scan_in_pad_i[12]"' { ScanIn 10; } 
+    "CMSR_5_TM_1" = '"dft_scan_scan_in_pad_i[13]"' { ScanIn 10; } 
+    "CMSR_6_TM_1" = '"dft_scan_scan_in_pad_i[14]"' { ScanIn 10; } 
+    "CMSR_7_TM_1" = '"dft_scan_scan_in_pad_i[15]"' { ScanIn 10; } 
+    "CMSR_8_TM_1" = '"dft_scan_scan_in_pad_i[1]"' { ScanIn 11; } 
+    "CMSR_9_TM_1" = '"dft_scan_scan_in_pad_i[2]"' { ScanIn 11; } 
+    "CMSR_10_TM_1" = '"dft_scan_scan_in_pad_i[3]"' { ScanIn 11; } 
+    "CMSR_11_TM_1" = '"dft_scan_scan_in_pad_i[4]"' { ScanIn 11; } 
+    "CMSR_12_TM_1" = '"dft_scan_scan_in_pad_i[5]"' { ScanIn 11; } 
+    "CMSR_13_TM_1" = '"dft_scan_scan_in_pad_i[6]"' { ScanIn 11; } 
+    "CMSR_14_TM_1" = '"dft_scan_scan_in_pad_i[7]"' { ScanIn 11; } 
+    "CMSR_15_TM_1" = '"dft_scan_scan_in_pad_i[8]"' { ScanIn 10; } 
+    "CMSR_16_TM_1" = '"dft_scan_scan_in_pad_i[9]"' { ScanIn 10; } 
+
+    "CME_CMSR_0_TM_1" = '"dft_scan_cme_pad_i"' { ScanIn 11; } 
+
+    "CME_0_TM_1" = '"dft_scan_cme_pad_i"' { ScanIn 75; } 
+
+    "COS_1_TM_1" = '"dft_scan_scan_out_pad_o[0]"' { ScanOut 75; } 
+    "COS_2_TM_1" = '"dft_scan_scan_out_pad_o[10]"' { ScanOut 75; } 
+    "COS_3_TM_1" = '"dft_scan_scan_out_pad_o[11]"' { ScanOut 75; } 
+    "COS_4_TM_1" = '"dft_scan_scan_out_pad_o[12]"' { ScanOut 75; } 
+    "COS_5_TM_1" = '"dft_scan_scan_out_pad_o[13]"' { ScanOut 75; } 
+    "COS_6_TM_1" = '"dft_scan_scan_out_pad_o[14]"' { ScanOut 75; } 
+    "COS_7_TM_1" = '"dft_scan_scan_out_pad_o[15]"' { ScanOut 75; } 
+    "COS_8_TM_1" = '"dft_scan_scan_out_pad_o[1]"' { ScanOut 75; } 
+    "COS_9_TM_1" = '"dft_scan_scan_out_pad_o[2]"' { ScanOut 75; } 
+    "COS_10_TM_1" = '"dft_scan_scan_out_pad_o[3]"' { ScanOut 75; } 
+    "COS_11_TM_1" = '"dft_scan_scan_out_pad_o[4]"' { ScanOut 75; } 
+    "COS_12_TM_1" = '"dft_scan_scan_out_pad_o[5]"' { ScanOut 75; } 
+    "COS_13_TM_1" = '"dft_scan_scan_out_pad_o[6]"' { ScanOut 75; } 
+    "COS_14_TM_1" = '"dft_scan_scan_out_pad_o[7]"' { ScanOut 75; } 
+    "COS_15_TM_1" = '"dft_scan_scan_out_pad_o[8]"' { ScanOut 75; } 
+    "COS_16_TM_1" = '"dft_scan_scan_out_pad_o[9]"' { ScanOut 75; } 
+
+    "ALLCLKs_TM_1" = '"dft_1500_wrck_pad_i"+"dft_opcg_shift_clk_pad_i"
+                     +"dft_scan_elastic_rst_pad_i"+"tap_tck_pad_i"'; 
+
+    "ALLECs_TM_1" = '"dft_opcg_shift_clk_pad_i"'; 
+
+    "ALLOLCs_OPCG_TM_1" = '"dft_opcg_shift_clk_pad_i"'; 
+
+    "ALLCMLs_CMSR_TM_1" = '"dft_opcg_shift_clk_pad_i"'; 
+
+    "ALLSIs_CIS_TM_1" = '"CIS_1_TM_1"+"CIS_2_TM_1"+"CIS_3_TM_1"+"CIS_4_TM_1"+
+                        "CIS_5_TM_1"+"CIS_6_TM_1"+"CIS_7_TM_1"+"CIS_8_TM_1"+
+                        "CIS_9_TM_1"+"CIS_10_TM_1"+"CIS_11_TM_1"+
+                        "CIS_12_TM_1"+"CIS_13_TM_1"+"CIS_14_TM_1"+
+                        "CIS_15_TM_1"+"CIS_16_TM_1"'; 
+
+    "ALLSIs_CMSR_TM_1" = '"CMSR_1_TM_1"+"CMSR_2_TM_1"+"CMSR_3_TM_1"+
+                         "CMSR_4_TM_1"+"CMSR_5_TM_1"+"CMSR_6_TM_1"+
+                         "CMSR_7_TM_1"+"CMSR_8_TM_1"+"CMSR_9_TM_1"+
+                         "CMSR_10_TM_1"+"CMSR_11_TM_1"+"CMSR_12_TM_1"+
+                         "CMSR_13_TM_1"+"CMSR_14_TM_1"+"CMSR_15_TM_1"+
+                         "CMSR_16_TM_1"'; 
+
+    "ALLSIs_CME_CMSR_TM_1" = '"CME_CMSR_0_TM_1"'; 
+
+    "ALLSIs_CME_TM_1" = '"CME_0_TM_1"'; 
+
+    "ALLSOs_COS_TM_1" = '"COS_1_TM_1"+"COS_2_TM_1"+"COS_3_TM_1"+"COS_4_TM_1"+
+                        "COS_5_TM_1"+"COS_6_TM_1"+"COS_7_TM_1"+"COS_8_TM_1"+
+                        "COS_9_TM_1"+"COS_10_TM_1"+"COS_11_TM_1"+
+                        "COS_12_TM_1"+"COS_13_TM_1"+"COS_14_TM_1"+
+                        "COS_15_TM_1"+"COS_16_TM_1"'; 
+
+  } 
+
+//***************************************************************************//
+//                               DEFINE MACROS                               //
+//***************************************************************************//
+
+  MacroDefs { 
+
+    "TEST" { WaveformTable "test_cycle"; 
+      Vector { 
+        "ALLCIOs" = %; 
+        "ALLPIs" = %; } } 
+
+    "SCAN_CYCLE_TM_1" { WaveformTable "scan_cycle_TM_1"; 
+      Vector { 
+        "ALLCIOs" = %; 
+        "ALLPIs" = %; } } 
+
+    "SCAN_TM_1" { WaveformTable "scan_cycle_TM_1"; 
+      Condition { 
+        "ALLSIs_CIS_TM_1" = \r16 0 ; 
+        "ALLSIs_CME_TM_1" = 0; 
+        "ALLCLKs_TM_1" = 0000; 
+        } 
+      Shift { Vector { 
+        "ALLSOs_COS_TM_1" = #; 
+        "ALLSIs_CIS_TM_1" = #; 
+        "ALLSIs_CME_TM_1" = #; 
+        "ALLECs_TM_1" = P; } } } 
+
+    "SCAN_CMSR_TM_1" { WaveformTable "scan_cycle_TM_1"; 
+      Condition { 
+        "ALLSIs_CMSR_TM_1" = 0000000000000000; 
+        "ALLSIs_CME_CMSR_TM_1" = 0; 
+        "ALLCLKs_TM_1" = 0000; 
+        } 
+      Shift { Vector { 
+        "ALLSIs_CMSR_TM_1" = #; 
+        "ALLSIs_CME_CMSR_TM_1" = #; 
+        "ALLCMLs_CMSR_TM_1" = P; } } } 
+} 
