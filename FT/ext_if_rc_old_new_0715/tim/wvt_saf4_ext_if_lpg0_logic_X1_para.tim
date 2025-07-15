@@ -1,0 +1,48 @@
+hp93000,timing,0.1
+EQSP TIM,WVT,#900003780
+WAVETBL "saf4_ext_if_lpg0_logic_X1_para"
+
+DEFINES ppara_LOGIC_Port
+
+PINS dft_1500_capturewr_pad_i dft_scan_lpg1_pad_i dft_scan_lpg2_pad_i dft_scan_misr_select_pad_i dft_scan_ss1_pad_i drive_pad_i_0  io_ddr_enable_pad_i pll_config_select_pad_i pll_ref_select_pad_i pllset_pad_i_1  reserved_in_pad_i_0
+0 "" .
+1 "d1:0" 0
+PINS dft_1500_selectwr_pad_i dft_1500_shiftwr_pad_i dft_1500_updatewr_pad_i dft_1500_wrstn_pad_i dft_opcg_load_en_pad_i dft_opcg_trigger_pad_i dft_pmbist_pmbist_mode_pad_i dft_pmbist_pmda_rst_pad_i dft_pmbist_pmda_tck_pad_i dft_pmbist_pmda_tdi_pad_i dft_pmbist_ret_pause_continue_pad_i dft_scan_cmle_pad_i dft_scan_misr_rst_pad_i dft_scan_rst_n_pad_i dft_scan_scan_en_pad_i global_chip_reset_pad_i interrupt_req_pad_o_ack machine_init_ctrl_pad_i_0 machine_init_ctrl_pad_i_1 pll_async_reset_n_pad_i pll_reg_async_reset_n_pad_i tap_rstn_pad_i tap_tms_pad_i
+0 "" .
+1 "d1:0" 0
+2 "d1:1" 1
+PINS dft_1500_wrck_pad_i tap_tck_pad_i
+0 "" .
+1 "d1:0 d2:0" 0
+2 "d1:1 d2:0" a
+3 "d3:0" b
+PINS dft_1500_wso_ret_pad_o pll_a_out_pad_ao pll_d_clk_pad_o pll_fail_pad_o tap_tdo_pad_o tsen_iref_o_pad_ao tsen_test_o_pad_o vsen_test0_pad_o vsen_test1_pad_o
+0 "" .
+1 "d1:Z" Z
+PINS dft_1500_ws_pad_i tap_tdi_pad_i
+0 "" .
+1 "d1:0" 0
+2 "d1:1" 1
+3 "d1:Z" Z
+PINS dft_opcg_shift_clk_pad_i
+0 "" .
+1 "d1:0" 0
+2 "d1:1 d2:0" a
+3 "d1:0 d2:0" b
+PINS dft_pmbist_pmda_done_pad_o dft_pmbist_ret_pause_active_pad_o machine_init_done_pad_o pll_lock_pad_o reserved_out_pad_o_0
+0 "" .
+1 "d1:Z r1:E1" H
+2 "d1:Z" Z
+PINS dft_pmbist_pmda_fail_pad_o dft_pmbist_pmda_ovfl_pad_o dft_pmbist_pmda_tdo_pad_o
+0 "" .
+1 "d1:Z r1:E0" L
+2 "d1:Z" Z
+PINS dft_scan_elastic_rst_pad_i
+0 "" .
+1 "d1:0" 0
+2 "d1:0 d2:0" a
+3 "d1:1 d2:0" b
+PINS drive_pad_i_1 pllset_pad_i_0 pllset_pad_i_2 pllset_pad_i_3
+0 "" .
+1 "d1:1" 1
+@

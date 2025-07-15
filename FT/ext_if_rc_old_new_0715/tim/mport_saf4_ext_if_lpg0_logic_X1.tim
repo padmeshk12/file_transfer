@@ -1,0 +1,60 @@
+hp93000,timing,0.1
+EQSP TIM,SPS,#900003780
+SPECIFICATION "saf4_ext_if_lpg0_logic_X1"
+{
+
+CHECK all
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+
+EQNSET 6 "tim_eqn_6_Free_run_io_clk"
+WAVETBL "Free_Run_IO_CLK"
+PORT pIOCLK
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+Frequency_io_clk 50                                                 [MHz] 
+
+EQNSET 5 "tim_eqn_5_Free_run_ref_clk"
+WAVETBL "Free_Run_REF_CLK"
+PORT pREFCLK
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+Frequency_ref_clk 25                                                 [MHz] 
+
+EQNSET 7 "tim_eqn_7_Rest_all_pins"
+WAVETBL "REST_Pins"
+PORT p_Rest_all_pins
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+Frequency_rest_pins 10                                                 [MHz] 
+
+EQNSET 70 "saf4_ext_if_lpg0_logic_X1_para"
+WAVETBL "saf4_ext_if_lpg0_logic_X1_para"
+PORT ppara_LOGIC_Port
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+
+EQNSET 72 "saf4_ext_if_lpg0_logic_X1_scan"
+WAVETBL "saf4_ext_if_lpg0_logic_X1_scan"
+PORT pscan_LOGIC_Port
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+}
+@
+
+NOOP "7.10.6",,,
