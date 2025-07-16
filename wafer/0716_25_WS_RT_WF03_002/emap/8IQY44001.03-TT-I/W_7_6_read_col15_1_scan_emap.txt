@@ -1,0 +1,4 @@
+Device ID    : BW_7_6
+Fail Pattern Name : read_col15_1_scan
+Fail count : 20
+Fail Cycles : {	38,	74,	164,	167,	168,	182,	200,	203,	272,	362,	365,	380,	398,	416,	434,	452,	659,	662,	875,	2144,	}
