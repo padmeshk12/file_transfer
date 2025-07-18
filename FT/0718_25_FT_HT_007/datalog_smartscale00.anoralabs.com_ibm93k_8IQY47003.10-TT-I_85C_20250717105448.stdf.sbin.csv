@@ -1,0 +1,6 @@
+SW Bin,Desc,Site,Site%,Device#,Bin%,Good Bin,Reprobe Bin
+"1441","TOP_SAF4_EXTEST_LOGIC_0000fce_Fail",1,5.3,1,5.3,1,0
+"1428","TOP_TDF4_OPCG_EXTEST_LOGIC_1_Fail",1,10.5,2,10.5,1,0
+"2","Medium",1,68.4,13,68.4,1,0
+"1113","Continuity_Mux_Pos",1,10.5,2,10.5,1,0
+"4","TOP ONLY",1,5.3,1,5.3,1,0
