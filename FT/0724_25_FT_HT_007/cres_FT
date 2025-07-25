@@ -1,0 +1,255 @@
+External Utility Supply powered On.
+All DPS disconnected
+All DPS connected
+digital pins and mux pins all relays disconnected
+
+vdd_core            	:	0.099776 	V
+
+bFirstRun Value 	: 1
+board ID read from EEPROM 	: 061324001
+All DPS connected
+All DPS disconnected
+
+Data logging for supply short test:
+
+supply_short_vcs_pll            :  Force 50 mV Meas Current : 0.0170444  	mA
+supply_short_vcs_pm_1           :  Force 50 mV Meas Current : 0.0290311  	mA
+supply_short_vcs_pm_2           :  Force 50 mV Meas Current : 0.0190046  	mA
+supply_short_vcsio_pll          :  Force 50 mV Meas Current : 0.000374525  	mA
+supply_short_vcsio_ts           :  Force 50 mV Meas Current : 0.0154456  	mA
+supply_short_vcsio_vs_1         :  Force 50 mV Meas Current : 0.00526719  	mA
+supply_short_vcsio_vs_2         :  Force 50 mV Meas Current : 0.00377748  	mA
+supply_short_vdd_io_clk         :  Force 50 mV Meas Current : 0.0059932  	mA
+supply_short_vdd_pll            :  Force 50 mV Meas Current : 0.0120864  	mA
+supply_short_vddio_io_clk       :  Force 50 mV Meas Current : 0.00855237  	mA
+supply_short_vddio_pll          :  Force 50 mV Meas Current : 0.00179043  	mA
+supply_short_vddio_rx           :  Force 50 mV Meas Current : 0.0751517  	mA
+supply_short_vddio_tx           :  Force 50 mV Meas Current : 0.106603  	mA
+
+supply_short_vdd_core           :  Force 50 mV Meas Current : 368.552	mA
+All DPS connected
+All DPS disconnected
+
+
+CRES_Direct Datalog : 
+
+CRES_row_even_col_even_ : io_req_pad_size_0                    : Meas1 : 1.05159 V |  Meas2 : 1.15042 V | CRES : 9.88284  ohm
+CRES_row_even_col_even_ : io_req_pad_data_30                   : Meas1 : 1.04479 V |  Meas2 : 1.13929 V | CRES : 9.45064  ohm
+CRES_row_even_col_even_ : io_req_pad_data_13                   : Meas1 : 1.03917 V |  Meas2 : 1.131 V | CRES : 9.18238  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_5                    : Meas1 : 1.02933 V |  Meas2 : 1.11433 V | CRES : 8.49968  ohm
+CRES_row_even_col_even_ : io_req_pad_size_1                    : Meas1 : 1.05566 V |  Meas2 : 1.1546 V | CRES : 9.89444  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_9                    : Meas1 : 1.03535 V |  Meas2 : 1.12413 V | CRES : 8.87817  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_4            : Meas1 : 0.867807 V |  Meas2 : 1.03755 V | CRES : 16.9738  ohm
+CRES_row_even_col_even_ : io_req_pad_data_8                    : Meas1 : 1.03591 V |  Meas2 : 1.12624 V | CRES : 9.03379  ohm
+CRES_row_even_col_even_ : io_req_pad_data_4                    : Meas1 : 1.06783 V |  Meas2 : 1.17902 V | CRES : 11.1188  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_30                   : Meas1 : 0.865012 V |  Meas2 : 1.0244 V | CRES : 15.9391  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_26                   : Meas1 : 0.844253 V |  Meas2 : 0.995375 V | CRES : 15.1122  ohm
+CRES_row_even_col_even_ : io_req_pad_data_18                   : Meas1 : 1.05127 V |  Meas2 : 1.14954 V | CRES : 9.82616  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_8                    : Meas1 : 1.0573 V |  Meas2 : 1.16119 V | CRES : 10.3892  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_4                    : Meas1 : 1.08456 V |  Meas2 : 1.20692 V | CRES : 12.2363  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_21                   : Meas1 : 0.842374 V |  Meas2 : 0.993268 V | CRES : 15.0895  ohm
+CRES_row_even_col_even_ : io_req_pad_data_1                    : Meas1 : 1.0422 V |  Meas2 : 1.13627 V | CRES : 9.40737  ohm
+CRES_row_even_col_even_ : tap_tck_pad_i                        : Meas1 : 1.07564 V |  Meas2 : 1.19109 V | CRES : 11.5454  ohm
+CRES_row_even_col_even_ : io_rsp_pad_size_1                    : Meas1 : 0.854644 V |  Meas2 : 1.01193 V | CRES : 15.7283  ohm
+CRES_row_even_col_even_ : tap_tdi_pad_i                        : Meas1 : 1.08506 V |  Meas2 : 1.20739 V | CRES : 12.233  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_2            : Meas1 : 0.856821 V |  Meas2 : 1.01684 V | CRES : 16.0024  ohm
+CRES_row_even_col_even_ : io_rsp_pad_addr_valid                : Meas1 : 0.856506 V |  Meas2 : 1.01306 V | CRES : 15.655  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_7                    : Meas1 : 0.850895 V |  Meas2 : 1.00947 V | CRES : 15.8578  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_2                    : Meas1 : 1.03948 V |  Meas2 : 1.13151 V | CRES : 9.20275  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_15                   : Meas1 : 1.03792 V |  Meas2 : 1.12875 V | CRES : 9.08277  ohm
+CRES_row_even_col_even_ : pmon_d_clk0_pad_o                    : Meas1 : 0.851206 V |  Meas2 : 1.00675 V | CRES : 15.5546  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_18                   : Meas1 : 0.862734 V |  Meas2 : 1.02856 V | CRES : 16.5828  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_8            : Meas1 : 0.874153 V |  Meas2 : 1.04819 V | CRES : 17.4037  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_14                   : Meas1 : 0.882595 V |  Meas2 : 1.05759 V | CRES : 17.4996  ohm
+CRES_row_even_col_even_ : io_req_pad_data_20                   : Meas1 : 1.06687 V |  Meas2 : 1.17707 V | CRES : 11.0197  ohm
+CRES_row_even_col_even_ : tap_rstn_pad_i                       : Meas1 : 1.0606 V |  Meas2 : 1.16681 V | CRES : 10.621  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_12           : Meas1 : 0.860005 V |  Meas2 : 1.02421 V | CRES : 16.4209  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_24                   : Meas1 : 1.03057 V |  Meas2 : 1.11498 V | CRES : 8.44128  ohm
+CRES_row_even_col_even_ : dft_1500_shiftwr_pad_i               : Meas1 : 1.06157 V |  Meas2 : 1.16733 V | CRES : 10.5762  ohm
+CRES_row_even_col_even_ : dft_1500_wrstn_pad_i                 : Meas1 : 1.06822 V |  Meas2 : 1.17916 V | CRES : 11.0944  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_12                   : Meas1 : 1.04377 V |  Meas2 : 1.13808 V | CRES : 9.43063  ohm
+CRES_row_even_col_even_ : dft_scan_scan_in_pad_i_12            : Meas1 : 1.05807 V |  Meas2 : 1.16116 V | CRES : 10.309  ohm
+CRES_row_even_col_even_ : dft_scan_scan_in_pad_i_1             : Meas1 : 1.04668 V |  Meas2 : 1.14195 V | CRES : 9.52694  ohm
+CRES_row_even_col_even_ : dft_scan_lpg2_pad_i                  : Meas1 : 1.06664 V |  Meas2 : 1.17502 V | CRES : 10.8384  ohm
+CRES_row_even_col_even_ : io_clk_pad_i                         : Meas1 : 1.03251 V |  Meas2 : 1.11985 V | CRES : 8.73349  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_10           : Meas1 : 0.850803 V |  Meas2 : 1.00912 V | CRES : 15.8319  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_14           : Meas1 : 0.854733 V |  Meas2 : 1.01451 V | CRES : 15.9775  ohm
+CRES_row_even_col_even_ : io_req_pad_data_27                   : Meas1 : 1.03043 V |  Meas2 : 1.1161 V | CRES : 8.56632  ohm
+CRES_row_even_col_even_ : dft_1500_selectwr_pad_i              : Meas1 : 1.07059 V |  Meas2 : 1.18295 V | CRES : 11.2364  ohm
+CRES_row_even_col_even_ : dft_pmbist_pmbist_mode_pad_i         : Meas1 : 1.05424 V |  Meas2 : 1.15623 V | CRES : 10.199  ohm
+CRES_row_even_col_even_ : dft_scan_scan_in_pad_i_11            : Meas1 : 1.04516 V |  Meas2 : 1.13967 V | CRES : 9.45051  ohm
+CRES_row_even_col_even_ : io_req_pad_addr_21                   : Meas1 : 1.04401 V |  Meas2 : 1.1382 V | CRES : 9.41881  ohm
+CRES_row_even_col_even_ : dft_scan_scan_in_pad_i_0             : Meas1 : 1.07422 V |  Meas2 : 1.18744 V | CRES : 11.322  ohm
+CRES_row_even_col_even_ : dft_scan_ss1_pad_i                   : Meas1 : 1.05849 V |  Meas2 : 1.16008 V | CRES : 10.1589  ohm
+CRES_row_even_col_even_ : io_ddr_enable_pad_i                  : Meas1 : 1.06953 V |  Meas2 : 1.17888 V | CRES : 10.9356  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_3                    : Meas1 : 0.858469 V |  Meas2 : 1.01704 V | CRES : 15.8568  ohm
+CRES_row_even_col_even_ : int_data_pad_4                       : Meas1 : 0.891241 V |  Meas2 : 1.07666 V | CRES : 18.5423  ohm
+CRES_row_even_col_even_ : int_data_pad_2                       : Meas1 : 0.842275 V |  Meas2 : 0.995598 V | CRES : 15.3322  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_19                   : Meas1 : 0.834934 V |  Meas2 : 0.981654 V | CRES : 14.672  ohm
+CRES_row_even_col_even_ : io_rsp_pad_data_23                   : Meas1 : 0.839354 V |  Meas2 : 0.987664 V | CRES : 14.8311  ohm
+CRES_row_even_col_even_ : dft_pmbist_pmda_tck_pad_i            : Meas1 : 1.06968 V |  Meas2 : 1.18181 V | CRES : 11.2136  ohm
+CRES_row_even_col_even_ : global_chip_reset_pad_i              : Meas1 : 1.06628 V |  Meas2 : 1.17205 V | CRES : 10.5771  ohm
+CRES_row_even_col_even_ : pll_d_clk_pad_o                      : Meas1 : 0.842583 V |  Meas2 : 0.997261 V | CRES : 15.4677  ohm
+CRES_row_even_col_even_ : dft_pmbist_pmda_ovfl_pad_o           : Meas1 : 0.85111 V |  Meas2 : 1.01161 V | CRES : 16.0499  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_7            : Meas1 : 0.846554 V |  Meas2 : 1.00178 V | CRES : 15.5222  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_3            : Meas1 : 0.850406 V |  Meas2 : 1.00709 V | CRES : 15.6681  ohm
+CRES_row_even_col_even_ : dft_pmbist_pmda_tdo_pad_o            : Meas1 : 0.864357 V |  Meas2 : 1.03219 V | CRES : 16.7835  ohm
+CRES_row_even_col_even_ : io_req_pad_data_14                   : Meas1 : 1.03138 V |  Meas2 : 1.11729 V | CRES : 8.59084  ohm
+CRES_row_even_col_even_ : dft_scan_scan_in_pad_i_4             : Meas1 : 1.05499 V |  Meas2 : 1.15655 V | CRES : 10.1559  ohm
+CRES_row_even_col_even_ : dft_scan_cmle_pad_i                  : Meas1 : 1.05868 V |  Meas2 : 1.16187 V | CRES : 10.3185  ohm
+CRES_row_even_col_even_ : reserved_in_pad_i_0                  : Meas1 : 1.03387 V |  Meas2 : 1.12029 V | CRES : 8.64189  ohm
+CRES_row_even_col_even_ : dft_opcg_trigger_pad_i               : Meas1 : 1.06817 V |  Meas2 : 1.17604 V | CRES : 10.7872  ohm
+CRES_row_even_col_even_ : dft_scan_scan_out_pad_o_15           : Meas1 : 0.857532 V |  Meas2 : 1.01984 V | CRES : 16.2304  ohm
+CRES_row_even_col_even_ : machine_init_done_pad_o              : Meas1 : 0.844286 V |  Meas2 : 0.997442 V | CRES : 15.3155  ohm
+CRES_row_even_col_even_ : pll_a_out_pad_ao                     : Meas1 : 1.07539 V |  Meas2 : 1.18941 V | CRES : 11.4014  ohm
+CRES_row_even_col_even_ : io_req_pad_data_valid                : Meas1 : 1.03771 V |  Meas2 : 1.12718 V | CRES : 8.94665  ohm
+CRES_row_even_col_even_ : pllset_pad_i_3                       : Meas1 : 1.04376 V |  Meas2 : 1.13531 V | CRES : 9.15467  ohm
+CRES_row_even_col_even_ : vsen_test0_pad_o                     : Meas1 : 0.860978 V |  Meas2 : 1.02277 V | CRES : 16.1789  ohm
+CRES_row_even_col_even_ : drive_pad_i_0                        : Meas1 : 1.04626 V |  Meas2 : 1.14173 V | CRES : 9.54688  ohm
+
+
+CRES_row_even_col_odd_ : io_rsp_pad_rsp_type                  : Meas1 : 0.848491 V |  Meas2 : 0.995561 V | CRES : 14.7069  ohm
+CRES_row_even_col_odd_ : io_req_pad_data_25                   : Meas1 : 1.04203 V |  Meas2 : 1.1354 V | CRES : 9.33663  ohm
+CRES_row_even_col_odd_ : io_req_pad_addr_valid                : Meas1 : 1.05641 V |  Meas2 : 1.15654 V | CRES : 10.013  ohm
+CRES_row_even_col_odd_ : io_req_pad_addr_18                   : Meas1 : 1.04643 V |  Meas2 : 1.14275 V | CRES : 9.63162  ohm
+CRES_row_even_col_odd_ : io_rsp_pad_data_24                   : Meas1 : 0.841626 V |  Meas2 : 0.991533 V | CRES : 14.9907  ohm
+CRES_row_even_col_odd_ : io_rsp_pad_bus_rd_error              : Meas1 : 0.84978 V |  Meas2 : 0.998439 V | CRES : 14.8659  ohm
+CRES_row_even_col_odd_ : io_rsp_pad_data_20                   : Meas1 : 0.839805 V |  Meas2 : 0.988404 V | CRES : 14.8599  ohm
+CRES_row_even_col_odd_ : dft_scan_scan_out_pad_o_0            : Meas1 : 0.922994 V |  Meas2 : 1.12943 V | CRES : 20.6436  ohm
+CRES_row_even_col_odd_ : io_rsp_pad_data_0                    : Meas1 : 0.843095 V |  Meas2 : 0.9982 V | CRES : 15.5105  ohm
+CRES_row_even_col_odd_ : io_req_pad_data_12                   : Meas1 : 1.08551 V |  Meas2 : 1.20787 V | CRES : 12.2355  ohm
+CRES_row_even_col_odd_ : io_req_pad_addr_22                   : Meas1 : 1.03764 V |  Meas2 : 1.12739 V | CRES : 8.97458  ohm
+CRES_row_even_col_odd_ : io_req_pad_data_11                   : Meas1 : 1.03547 V |  Meas2 : 1.12436 V | CRES : 8.88956  ohm
+CRES_row_even_col_odd_ : io_req_pad_addr_1                    : Meas1 : 1.0495 V |  Meas2 : 1.14802 V | CRES : 9.85221  ohm
+CRES_row_even_col_odd_ : io_req_pad_data_10                   : Meas1 : 1.05747 V |  Meas2 : 1.16135 V | CRES : 10.3875  ohm
+CRES_row_even_col_odd_ : io_req_pad_data_21                   : Meas1 : 1.03558 V |  Meas2 : 1.12563 V | CRES : 9.0048  ohm
+CRES_row_even_col_odd_ : io_req_pad_data_19                   : Meas1 : 1.06872 V |  Meas2 : 1.18063 V | CRES : 11.1903  ohm
+CRES_row_even_col_odd_ : dft_1500_wrck_pad_i                  : Meas1 : 1.07096 V |  Meas2 : 1.18395 V | CRES : 11.2987  ohm
+CRES_row_even_col_odd_ : io_req_pad_addr_25                   : Meas1 : 1.02943 V |  Meas2 : 1.11533 V | CRES : 8.58928  ohm
+CRES_row_even_col_odd_ : io_rsp_pad_data_11                   : Meas1 : 0.874469 V |  Meas2 : 1.04223 V | CRES : 16.7765  ohm
+CRES_row_even_col_odd_ : dft_pmbist_pmda_tdi_pad_i            : Meas1 : 1.06521 V |  Meas2 : 1.17353 V | CRES : 10.8327  ohm
+CRES_row_even_col_odd_ : dft_scan_scan_in_pad_i_7             : Meas1 : 1.05415 V |  Meas2 : 1.15531 V | CRES : 10.1164  ohm
+CRES_row_even_col_odd_ : ref_clk_pad_i                        : Meas1 : 1.02034 V |  Meas2 : 1.10124 V | CRES : 8.09057  ohm
+CRES_row_even_col_odd_ : io_rsp_pad_data_8                    : Meas1 : 0.840283 V |  Meas2 : 0.987061 V | CRES : 14.6777  ohm
+CRES_row_even_col_odd_ : pll_fail_pad_o                       : Meas1 : 0.858051 V |  Meas2 : 1.02196 V | CRES : 16.3913  ohm
+CRES_row_even_col_odd_ : dft_scan_scan_out_pad_o_11           : Meas1 : 0.851902 V |  Meas2 : 1.01094 V | CRES : 15.9041  ohm
+CRES_row_even_col_odd_ : dft_scan_cme_pad_i                   : Meas1 : 1.0615 V |  Meas2 : 1.166 V | CRES : 10.4491  ohm
+CRES_row_even_col_odd_ : dft_opcg_load_en_pad_i               : Meas1 : 1.05996 V |  Meas2 : 1.16258 V | CRES : 10.2618  ohm
+CRES_row_even_col_odd_ : pll_reg_async_reset_n_pad_i          : Meas1 : 1.06536 V |  Meas2 : 1.17204 V | CRES : 10.6676  ohm
+CRES_row_even_col_odd_ : int_data_pad_3                       : Meas1 : 0.860062 V |  Meas2 : 1.02586 V | CRES : 16.5794  ohm
+CRES_row_even_col_odd_ : int_data_pad_0                       : Meas1 : 0.837438 V |  Meas2 : 0.987004 V | CRES : 14.9566  ohm
+CRES_row_even_col_odd_ : dft_scan_rst_n_pad_i                 : Meas1 : 1.07359 V |  Meas2 : 1.18812 V | CRES : 11.4531  ohm
+CRES_row_even_col_odd_ : dft_scan_misr_select_pad_i           : Meas1 : 1.0551 V |  Meas2 : 1.15521 V | CRES : 10.0111  ohm
+CRES_row_even_col_odd_ : tap_tdo_pad_o                        : Meas1 : 0.870832 V |  Meas2 : 1.0425 V | CRES : 17.167  ohm
+CRES_row_even_col_odd_ : dft_pmbist_pmda_done_pad_o           : Meas1 : 0.838484 V |  Meas2 : 0.987981 V | CRES : 14.9497  ohm
+CRES_row_even_col_odd_ : io_rsp_pad_accept1                   : Meas1 : 1.06154 V |  Meas2 : 1.1651 V | CRES : 10.3553  ohm
+CRES_row_even_col_odd_ : interrupt_req_pad_o_ack              : Meas1 : 1.05013 V |  Meas2 : 1.14645 V | CRES : 9.63222  ohm
+
+
+CRES_row_odd_col_even_ : io_rsp_pad_data_25                   : Meas1 : 0.8366 V |  Meas2 : 0.984694 V | CRES : 14.8094  ohm
+CRES_row_odd_col_even_ : io_req_pad_addr_0                    : Meas1 : 1.03095 V |  Meas2 : 1.11969 V | CRES : 8.87431  ohm
+CRES_row_odd_col_even_ : io_req_pad_addr_19                   : Meas1 : 1.04095 V |  Meas2 : 1.13284 V | CRES : 9.18871  ohm
+CRES_row_odd_col_even_ : io_req_pad_addr_13                   : Meas1 : 1.04214 V |  Meas2 : 1.13585 V | CRES : 9.3712  ohm
+CRES_row_odd_col_even_ : io_req_pad_data_29                   : Meas1 : 1.04422 V |  Meas2 : 1.13713 V | CRES : 9.29133  ohm
+CRES_row_odd_col_even_ : io_req_pad_data_0                    : Meas1 : 1.054 V |  Meas2 : 1.15703 V | CRES : 10.3038  ohm
+CRES_row_odd_col_even_ : io_rsp_pad_data_16                   : Meas1 : 0.836053 V |  Meas2 : 0.984499 V | CRES : 14.8446  ohm
+CRES_row_odd_col_even_ : io_req_pad_addr_11                   : Meas1 : 1.05371 V |  Meas2 : 1.15498 V | CRES : 10.1272  ohm
+CRES_row_odd_col_even_ : io_rsp_pad_data_28                   : Meas1 : 0.854872 V |  Meas2 : 1.01142 V | CRES : 15.6543  ohm
+CRES_row_odd_col_even_ : io_req_pad_addr_6                    : Meas1 : 1.02876 V |  Meas2 : 1.11417 V | CRES : 8.54179  ohm
+CRES_row_odd_col_even_ : tap_tms_pad_i                        : Meas1 : 1.06661 V |  Meas2 : 1.17602 V | CRES : 10.9405  ohm
+CRES_row_odd_col_even_ : io_rsp_pad_data_valid                : Meas1 : 0.86524 V |  Meas2 : 1.02725 V | CRES : 16.2011  ohm
+CRES_row_odd_col_even_ : io_req_pad_addr_26                   : Meas1 : 1.06445 V |  Meas2 : 1.17106 V | CRES : 10.6606  ohm
+CRES_row_odd_col_even_ : dft_1500_ws_pad_i                    : Meas1 : 1.05914 V |  Meas2 : 1.16426 V | CRES : 10.512  ohm
+CRES_row_odd_col_even_ : io_req_pad_data_26                   : Meas1 : 1.03617 V |  Meas2 : 1.12389 V | CRES : 8.77162  ohm
+CRES_row_odd_col_even_ : io_req_pad_addr_23                   : Meas1 : 1.04813 V |  Meas2 : 1.14459 V | CRES : 9.64667  ohm
+CRES_row_odd_col_even_ : io_req_pad_addr_28                   : Meas1 : 1.06173 V |  Meas2 : 1.16725 V | CRES : 10.552  ohm
+CRES_row_odd_col_even_ : dft_scan_scan_in_pad_i_9             : Meas1 : 1.04955 V |  Meas2 : 1.1478 V | CRES : 9.82467  ohm
+CRES_row_odd_col_even_ : io_req_pad_data_31                   : Meas1 : 1.0481 V |  Meas2 : 1.14369 V | CRES : 9.55894  ohm
+CRES_row_odd_col_even_ : io_rsp_pad_data_6                    : Meas1 : 0.857451 V |  Meas2 : 1.01554 V | CRES : 15.8087  ohm
+CRES_row_odd_col_even_ : dft_scan_scan_out_pad_o_9            : Meas1 : 0.847011 V |  Meas2 : 1.00293 V | CRES : 15.5916  ohm
+CRES_row_odd_col_even_ : dft_scan_scan_out_pad_o_1            : Meas1 : 0.84306 V |  Meas2 : 0.994975 V | CRES : 15.1915  ohm
+CRES_row_odd_col_even_ : dft_pmbist_pmda_rst_pad_i            : Meas1 : 1.06139 V |  Meas2 : 1.16682 V | CRES : 10.5425  ohm
+CRES_row_odd_col_even_ : dft_scan_scan_in_pad_i_8             : Meas1 : 1.07524 V |  Meas2 : 1.19078 V | CRES : 11.5535  ohm
+CRES_row_odd_col_even_ : io_rsp_pad_data_27                   : Meas1 : 0.838785 V |  Meas2 : 0.982485 V | CRES : 14.3701  ohm
+CRES_row_odd_col_even_ : dft_scan_scan_in_pad_i_10            : Meas1 : 1.03865 V |  Meas2 : 1.129 V | CRES : 9.03469  ohm
+CRES_row_odd_col_even_ : pll_async_reset_n_pad_i              : Meas1 : 1.0709 V |  Meas2 : 1.18088 V | CRES : 10.9976  ohm
+CRES_row_odd_col_even_ : io_rsp_pad_data_15                   : Meas1 : 0.833283 V |  Meas2 : 0.978865 V | CRES : 14.5582  ohm
+CRES_row_odd_col_even_ : io_req_pad_data_24                   : Meas1 : 1.0377 V |  Meas2 : 1.12703 V | CRES : 8.93242  ohm
+CRES_row_odd_col_even_ : machine_init_ctrl_pad_i_1            : Meas1 : 1.03509 V |  Meas2 : 1.12156 V | CRES : 8.64778  ohm
+CRES_row_odd_col_even_ : io_rsp_pad_data_2                    : Meas1 : 0.831141 V |  Meas2 : 0.974375 V | CRES : 14.3234  ohm
+CRES_row_odd_col_even_ : dft_scan_scan_out_pad_o_13           : Meas1 : 0.854141 V |  Meas2 : 1.01534 V | CRES : 16.1197  ohm
+CRES_row_odd_col_even_ : tsen_test_o_pad_o                    : Meas1 : 0.832543 V |  Meas2 : 0.971751 V | CRES : 13.9208  ohm
+CRES_row_odd_col_even_ : dft_pmbist_ret_pause_active_pad_o    : Meas1 : 0.874548 V |  Meas2 : 1.04844 V | CRES : 17.3892  ohm
+
+
+CRES_row_odd_col_odd_ : io_rsp_pad_accept0                   : Meas1 : 1.05386 V |  Meas2 : 1.15325 V | CRES : 9.9386  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_17                   : Meas1 : 1.03804 V |  Meas2 : 1.13049 V | CRES : 9.24497  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_9                    : Meas1 : 1.03519 V |  Meas2 : 1.12332 V | CRES : 8.81259  ohm
+CRES_row_odd_col_odd_ : io_req_pad_accept0                   : Meas1 : 0.846006 V |  Meas2 : 1.00132 V | CRES : 15.5312  ohm
+CRES_row_odd_col_odd_ : reserved_out_pad_o_0                 : Meas1 : 0.851408 V |  Meas2 : 1.00628 V | CRES : 15.4877  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_23                   : Meas1 : 1.04197 V |  Meas2 : 1.13483 V | CRES : 9.28586  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_17                   : Meas1 : 1.05635 V |  Meas2 : 1.15979 V | CRES : 10.3439  ohm
+CRES_row_odd_col_odd_ : reserved_out_pad_o_1                 : Meas1 : 0.873691 V |  Meas2 : 1.0426 V | CRES : 16.8908  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_10                   : Meas1 : 0.849207 V |  Meas2 : 1.00545 V | CRES : 15.6247  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_3                    : Meas1 : 1.03517 V |  Meas2 : 1.12399 V | CRES : 8.88166  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_16                   : Meas1 : 1.03442 V |  Meas2 : 1.12274 V | CRES : 8.83242  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_16                   : Meas1 : 1.06963 V |  Meas2 : 1.18104 V | CRES : 11.1413  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_7                    : Meas1 : 1.05342 V |  Meas2 : 1.15481 V | CRES : 10.139  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_size_0                    : Meas1 : 0.870196 V |  Meas2 : 1.03454 V | CRES : 16.4347  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_22                   : Meas1 : 0.840798 V |  Meas2 : 0.991572 V | CRES : 15.0774  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_22                   : Meas1 : 1.03894 V |  Meas2 : 1.13011 V | CRES : 9.11735  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_2                    : Meas1 : 1.05823 V |  Meas2 : 1.1631 V | CRES : 10.4863  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_7                    : Meas1 : 1.05367 V |  Meas2 : 1.15455 V | CRES : 10.088  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_1                    : Meas1 : 0.842544 V |  Meas2 : 0.99509 V | CRES : 15.2546  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_15                   : Meas1 : 1.07088 V |  Meas2 : 1.18417 V | CRES : 11.3293  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_12                   : Meas1 : 0.841406 V |  Meas2 : 0.993098 V | CRES : 15.1692  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_6                    : Meas1 : 1.04164 V |  Meas2 : 1.13617 V | CRES : 9.45318  ohm
+CRES_row_odd_col_odd_ : pmon_d_clk1_pad_o                    : Meas1 : 0.870025 V |  Meas2 : 1.03033 V | CRES : 16.0303  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_out_pad_o_6            : Meas1 : 0.861315 V |  Meas2 : 1.02564 V | CRES : 16.4329  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_20                   : Meas1 : 1.05969 V |  Meas2 : 1.16516 V | CRES : 10.547  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_14                   : Meas1 : 1.04199 V |  Meas2 : 1.13524 V | CRES : 9.32499  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_17                   : Meas1 : 0.864024 V |  Meas2 : 1.02466 V | CRES : 16.0641  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_13                   : Meas1 : 0.858025 V |  Meas2 : 1.02107 V | CRES : 16.3041  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_10                   : Meas1 : 1.02835 V |  Meas2 : 1.11271 V | CRES : 8.4356  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_3                    : Meas1 : 1.04638 V |  Meas2 : 1.14333 V | CRES : 9.69436  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_27                   : Meas1 : 1.04789 V |  Meas2 : 1.14443 V | CRES : 9.65476  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_5                    : Meas1 : 1.05036 V |  Meas2 : 1.14964 V | CRES : 9.92807  ohm
+CRES_row_odd_col_odd_ : dft_1500_updatewr_pad_i              : Meas1 : 1.06128 V |  Meas2 : 1.16733 V | CRES : 10.6051  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_en_pad_i               : Meas1 : 1.04873 V |  Meas2 : 1.14663 V | CRES : 9.78934  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_in_pad_i_6             : Meas1 : 1.04756 V |  Meas2 : 1.14471 V | CRES : 9.71496  ohm
+CRES_row_odd_col_odd_ : dft_scan_elastic_rst_pad_i           : Meas1 : 1.06771 V |  Meas2 : 1.17738 V | CRES : 10.9671  ohm
+CRES_row_odd_col_odd_ : dft_opcg_shift_clk_pad_i             : Meas1 : 1.0593 V |  Meas2 : 1.16177 V | CRES : 10.247  ohm
+CRES_row_odd_col_odd_ : int_req_pad                          : Meas1 : 0.848441 V |  Meas2 : 1.0041 V | CRES : 15.5659  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_31                   : Meas1 : 0.856617 V |  Meas2 : 1.01085 V | CRES : 15.4233  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_5                    : Meas1 : 0.835863 V |  Meas2 : 0.978546 V | CRES : 14.2683  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_4                    : Meas1 : 0.841555 V |  Meas2 : 0.993344 V | CRES : 15.1789  ohm
+CRES_row_odd_col_odd_ : io_req_pad_addr_29                   : Meas1 : 1.02656 V |  Meas2 : 1.11006 V | CRES : 8.35003  ohm
+CRES_row_odd_col_odd_ : io_req_pad_data_28                   : Meas1 : 1.03228 V |  Meas2 : 1.11863 V | CRES : 8.63482  ohm
+CRES_row_odd_col_odd_ : dft_1500_capturewr_pad_i             : Meas1 : 1.04442 V |  Meas2 : 1.13864 V | CRES : 9.42203  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_in_pad_i_15            : Meas1 : 1.04819 V |  Meas2 : 1.14543 V | CRES : 9.72325  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_in_pad_i_5             : Meas1 : 1.05223 V |  Meas2 : 1.15142 V | CRES : 9.91985  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_in_pad_i_3             : Meas1 : 1.05152 V |  Meas2 : 1.15051 V | CRES : 9.89984  ohm
+CRES_row_odd_col_odd_ : dft_scan_misr_rst_pad_i              : Meas1 : 1.06281 V |  Meas2 : 1.16787 V | CRES : 10.5061  ohm
+CRES_row_odd_col_odd_ : machine_init_ctrl_pad_i_0            : Meas1 : 1.05248 V |  Meas2 : 1.15 V | CRES : 9.75192  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_out_pad_o_5            : Meas1 : 0.853137 V |  Meas2 : 1.01289 V | CRES : 15.9753  ohm
+CRES_row_odd_col_odd_ : dft_pmbist_pmda_fail_pad_o           : Meas1 : 0.880177 V |  Meas2 : 1.05794 V | CRES : 17.7759  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_in_pad_i_14            : Meas1 : 1.04546 V |  Meas2 : 1.14029 V | CRES : 9.48272  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_in_pad_i_13            : Meas1 : 1.0432 V |  Meas2 : 1.13683 V | CRES : 9.36233  ohm
+CRES_row_odd_col_odd_ : dft_scan_scan_in_pad_i_2             : Meas1 : 1.04574 V |  Meas2 : 1.14044 V | CRES : 9.47025  ohm
+CRES_row_odd_col_odd_ : rxtx_width_pad_i_1                   : Meas1 : 1.03452 V |  Meas2 : 1.12179 V | CRES : 8.72748  ohm
+CRES_row_odd_col_odd_ : rxtx_width_pad_i_0                   : Meas1 : 1.07132 V |  Meas2 : 1.18264 V | CRES : 11.1323  ohm
+CRES_row_odd_col_odd_ : pllset_pad_i_0                       : Meas1 : 1.04835 V |  Meas2 : 1.14326 V | CRES : 9.49041  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_29                   : Meas1 : 0.86138 V |  Meas2 : 1.02006 V | CRES : 15.8679  ohm
+CRES_row_odd_col_odd_ : dft_1500_wso_ret_pad_o               : Meas1 : 0.850414 V |  Meas2 : 1.00954 V | CRES : 15.9127  ohm
+CRES_row_odd_col_odd_ : pllset_pad_i_2                       : Meas1 : 1.04559 V |  Meas2 : 1.13896 V | CRES : 9.33642  ohm
+CRES_row_odd_col_odd_ : pllset_pad_i_1                       : Meas1 : 1.0389 V |  Meas2 : 1.128 V | CRES : 8.90965  ohm
+CRES_row_odd_col_odd_ : dft_scan_lpg1_pad_i                  : Meas1 : 1.05302 V |  Meas2 : 1.15262 V | CRES : 9.9597  ohm
+CRES_row_odd_col_odd_ : pll_ref_select_pad_i                 : Meas1 : 1.03774 V |  Meas2 : 1.12541 V | CRES : 8.76713  ohm
+CRES_row_odd_col_odd_ : pll_lock_pad_o                       : Meas1 : 0.853253 V |  Meas2 : 1.01437 V | CRES : 16.1121  ohm
+CRES_row_odd_col_odd_ : io_rsp_pad_data_9                    : Meas1 : 0.842332 V |  Meas2 : 0.992126 V | CRES : 14.9794  ohm
+CRES_row_odd_col_odd_ : int_data_pad_1                       : Meas1 : 0.861996 V |  Meas2 : 1.02796 V | CRES : 16.5965  ohm
+CRES_row_odd_col_odd_ : tsen_iref_o_pad_ao                   : Meas1 : 1.03009 V |  Meas2 : 1.11557 V | CRES : 8.54826  ohm
+CRES_row_odd_col_odd_ : pll_config_select_pad_i              : Meas1 : 1.04856 V |  Meas2 : 1.14377 V | CRES : 9.52125  ohm
+CRES_row_odd_col_odd_ : vsen_test1_pad_o                     : Meas1 : 0.838023 V |  Meas2 : 0.976843 V | CRES : 13.882  ohm
+CRES_row_odd_col_odd_ : drive_pad_i_1                        : Meas1 : 1.05508 V |  Meas2 : 1.1557 V | CRES : 10.0613  ohm
+CRES_row_odd_col_odd_ : dft_pmbist_ret_pause_continue_pad_i  : Meas1 : 1.05006 V |  Meas2 : 1.14883 V | CRES : 9.87748  ohm
