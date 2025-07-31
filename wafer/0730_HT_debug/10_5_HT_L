@@ -1,0 +1,1229 @@
+****** production report begin ******
+  Started at: 20250730 113612
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : IBM_NP_Master_WS_Rev002_HT.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+
+Test Suite Name: TSENS_Temp_Measure_HT         
+Device_ID:	W_10_5
+
+All DPS connected
+PLLSET_Pads set to 25 MHz
+String Offset Init:	0x40106fd
+String slope Init:	0x40003b1
+Checking Read out R2 at T2 = 85 C
+
+
+
+runtime
+sos_Offset:	0x040106fd
+sos_Slope:	0x040003b1
+vdd core tsens: 0.800011
+Binary 	00000000000000001111111111111111	 Dec 	65535
+	 register name: clk_div_reg_0x7	dec_value: 65535	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: init_wait_time_0x20	dec_value: 32	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000001111101	 Dec 	125
+	 register name: FTSBJT_cyc_0x24	dec_value: 125	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000001001110001	 Dec 	625
+	 register name: FTSBJT_meas_cyc_0x26	dec_value: 625	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: FTSBJT_EN_cyc_0x28	dec_value: 32	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: enable_REF_SEL_0x29	dec_value: 7	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: disable_REF_0x2A	dec_value: 7	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000011011111101	 Dec 	1789
+	 register name: offset_val_0x1	dec_value: 1789	 addr_read: 0x00
+
+vdd core tsens: 0.800011
+Binary 	00000000000000000000001110110001	 Dec 	945
+	 register name: slope_val_0x0	dec_value: 945	 addr_read: 0x00
+
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000111110000	 Dec 	496
+	 register name: avg_number_0x3	dec_value: 496	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000110010	 Dec 	50
+	 register name: temp_thrshld_0x8	dec_value: 50	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000001010	 Dec 	10
+	 register name: ctrl_reg_0x4	dec_value: 10	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000000001	 Dec 	1
+	 register name: enable_tsens_0x6	dec_value: 1	 addr_read: 0x00
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000000000	 Dec 	0
+	 register name: status_done_0x1A	dec_value: 0	 addr_read: 0x00
+
+vdd core tsens: 0.800011
+Binary 	00000000000000000001001011100100	 Dec 	4836
+	 register name: fptat_reg_0x1C	dec_value: 4836	 addr_read: 0x00
+
+vdd core tsens: 0.800011
+Binary 	00000000000000000001000011001001	 Dec 	4297
+	 register name: fpref_reg_0x1D	dec_value: 4297	 addr_read: 0x00
+
+vdd core tsens: 0.800011
+Binary 	00000000000000000000001110001000	 Dec 	904
+	 register name: temp_read_reg_0xA	dec_value: 904	 addr_read: 0x00
+
+vdd core tsens: 0.800011
+Binary 	00000000000000000000000000111111	 Dec 	63
+	 register name: anthr_temp_read_reg_0x22	dec_value: 63	 addr_read: 0x00
+
+vdd core tsens: 0.800011
+Binary 	00000011100010000000001110001000	 Dec 	59245448
+	 register name: temp_range	dec_value: 59245448	 addr_read: 0x00
+
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	1	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	2	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	3	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	4	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	5	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	6	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	7	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	8	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	9	dec_value : 	 904
+Binary 	00000000000000000000001110001000	 Dec 	904	 addr_read:	0x00
+itr : 	10	dec_value : 	 904
+Dec value for temp : 	63
+Dec value for R2 : 	904
+
+File copied from ../report/tsens_DB//W_10_5_85_HT.txt to ../temperature_DB//W_10_5_85_HT.txt
+All DPS disconnected
+
+Test Suite Name: TSENS_Calibration             
+Device_ID:	W_10_5
+
+File Name: ../report/tsens_DB//W_10_5_25_RT.txt
+Read Out value:  513
+
+File Name: ../report/tsens_DB//W_10_5_85_HT.txt
+Read Out value:  904
+
+Calculation for SF and BF done ...
+T1	: 25		T2	: 85
+R1	: 513 		R2	: 904
+delta_T	: 60		delta_R	: 391
+S0	: 945		SF	: 1160.1
+B0	: 1789		BF	: 2225.98
+
+Padding MSBs to SF and BF for passing to registers
+Initial offset		: 67176189	Initial Slope		: 67109809
+Calibrated offset	: 67176625	Calibarated Slope	: 67110024
+
+Calibrated offset ss1	: 0x40108B1	Calibarated Slope ss2	: 0x4000488
+
+File opened  : W_10_5_calib_data.txt
+
+File copied to : ../report/tsens_DB//W_10_5_calib_data.txt
+Calibration Data log: 
+Device ID:	W_10_5	0x0000	2225.98	0xffff	
+Calibration Data log: 
+Device ID:	W_10_5	0x0000	1160.1	0xffff	
+
+
+Test Suite Name: TSENS_Temp_Measure_Post_Cal   
+Device_ID:	W_10_5
+
+All DPS connected
+PLLSET_Pads set to 25 MHz
+String Offset Init:	0x40106fd
+String slope Init:	0x40003b1
+String Offset Cal:	0x40108B1
+String slope Cal:	0x4000488
+
+Checking Post Cal Read out R2 at T2 = 85 C
+
+
+runtime
+sos_Offset:	0x040108b1
+sos_Slope:	0x04000488
+vdd core tsens: 0.800133
+Binary 	00000000000000001111111111111111	 Dec 	65535
+	 register name: clk_div_reg_0x7	dec_value: 65535	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: init_wait_time_0x20	dec_value: 32	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000001111101	 Dec 	125
+	 register name: FTSBJT_cyc_0x24	dec_value: 125	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000001001110001	 Dec 	625
+	 register name: FTSBJT_meas_cyc_0x26	dec_value: 625	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: FTSBJT_EN_cyc_0x28	dec_value: 32	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: enable_REF_SEL_0x29	dec_value: 7	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: disable_REF_0x2A	dec_value: 7	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000100010110001	 Dec 	2225
+	 register name: offset_val_0x1	dec_value: 2225	 addr_read: 0x00
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000000010010001000	 Dec 	1160
+	 register name: slope_val_0x0	dec_value: 1160	 addr_read: 0x00
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000111110000	 Dec 	496
+	 register name: avg_number_0x3	dec_value: 496	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000110010	 Dec 	50
+	 register name: temp_thrshld_0x8	dec_value: 50	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000001010	 Dec 	10
+	 register name: ctrl_reg_0x4	dec_value: 10	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000000001	 Dec 	1
+	 register name: enable_tsens_0x6	dec_value: 1	 addr_read: 0x00
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000000000	 Dec 	0
+	 register name: status_done_0x1A	dec_value: 0	 addr_read: 0x00
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000001001011011011	 Dec 	4827
+	 register name: fptat_reg_0x1C	dec_value: 4827	 addr_read: 0x00
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000001000011000110	 Dec 	4294
+	 register name: fpref_reg_0x1D	dec_value: 4294	 addr_read: 0x00
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000000010000111000	 Dec 	1080
+	 register name: temp_read_reg_0xA	dec_value: 1080	 addr_read: 0x00
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000001010101	 Dec 	85
+	 register name: anthr_temp_read_reg_0x22	dec_value: 85	 addr_read: 0x00
+
+vdd core tsens: 0.800133
+Binary 	00000100001110000000010000111000	 Dec 	70779960
+	 register name: temp_range	dec_value: 70779960	 addr_read: 0x00
+
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	1	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	2	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	3	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	4	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	5	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	6	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	7	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	8	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	9	dec_value : 	 1080
+Binary 	00000000000000000000010000111000	 Dec 	1080	 addr_read:	0x00
+itr : 	10	dec_value : 	 1080
+Dec value for temp : 	85
+Dec value for R2 : 	1080
+
+All DPS disconnected
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Jul_30_11h36m13s_STDF
+  Ended at: 20250730 113617
+******** end testflow report data  *******
+****** production report begin ******
+  Started at: 20250730 113622
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : IBM_NP_Master_WS_Rev002_HT.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+RDI generates Configure template file :/home/ibm93k/ibm_test_programs/WS_REV1/IBM_NP_WS_REV002/ibm_np/TP/testmethod/RDI_Configure.Template
+
+
+**************************
+SmartRDI version : 7.10.6.0
+**************************
+
+Test Suite Name: TSENS_Temp_Measure_HT         
+Device_ID:	W_10_5
+
+All DPS connected
+PLLSET_Pads set to 25 MHz
+String Offset Init:	0x40106fd
+String slope Init:	0x40003b1
+Checking Read out R2 at T2 = 85 C
+
+
+
+runtime
+sos_Offset:	0x040106fd
+sos_Slope:	0x040003b1
+fn-check_temp  timing set :2
+fn-check_temp:	drive_pad_i_1,io_req_pad_accept0,1
+fn-check_temp:	io_rsp_pad_accept0,io_rsp_pad_accept1,1
+fn-check_temp:	dft_1500_wrstn_pad_i,dft_pmbist_pmbist_mode_pad_i,1
+fn-check_temp:	dft_scan_rst_n_pad_i,global_chip_reset_pad_i,1
+fn-check_temp:	pll_async_reset_n_pad_i,pll_reg_async_reset_n_pad_i,1
+fn-check_temp:	tap_rstn_pad_i,1
+fn-check_temp:	drive_pad_i_0,0
+fn-check_temp:	rxtx_width_pad_i_0,rxtx_width_pad_i_1,0
+fn-check_temp:	io_req_pad_size_0,io_req_pad_size_1,0
+fn-check_temp:	io_rsp_pad_size_0,io_rsp_pad_size_1,0
+fn-check_temp:	io_rsp_pad_rsp_type,io_rsp_pad_bus_rd_error,reserved_out_pad_o_0,0
+sos_vec_write:	1040
+sos_addr_write:	
+fn-sos averaging_sampling_datawrite:	0x040301f0	 addr:	
+fn-sos clk divider_datawrite:	0x0407ffff	 addr:	
+fn-sos cal_clk to pmon_en_datawrite:	0x04200020	 addr:	
+fn-sos cal_clk to 20us_datawrite:	0x0424007d	 addr:	
+fn-sos cal_clk to 100us_datawrite:	0x04260271	 addr:	
+fn-sos cal_clk to 5us_datawrite:	0x04280020	 addr:	
+fn-sos cal_clk to 1us_datawrite:	0x04290007	 addr:	
+fn-sos cal_clk to 1us_datawrite:	0x042a0007	 addr:	
+fn-sos 50C as T trigger_datawrite:	0x04080032	 addr:	
+fn-sos 45C as T interrupt off_datawrite:	0x04090005	 addr:	
+fn-sos interrupt mode on_datawrite:	0x0404000a	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos clock divider_datawrite:	0x08070000	 addr:	
+fn-sos initial waiting time_datawrite:	0x08200000	 addr:	
+fn-sos FTSBJT cycles_datawrite:	0x08240000	 addr:	
+fn-sos FTSBJT meas cycle_datawrite:	0x08260000	 addr:	
+fn-sos FTSBJT_EN next cycle_datawrite:	0x08280000	 addr:	
+fn-sos enable REF_SEL_datawrite:	0x08290000	 addr:	
+fn-sos time to disable ref_datawrite:	0x082a0000	 addr:	
+fn-sos offset value read_datawrite:	0x08010000	 addr:	
+fn-sos slope value_read_datawrite:	0x08000000	 addr:	
+fn-sos avg number read_datawrite:	0x08030000	 addr:	
+fn-sos temp threshold_datawrite:	0x08080000	 addr:	
+fn-sos ctrl_reg_datawrite:	0x08040000	 addr:	
+fn-sos enable tsens_datawrite:	0x08060000	 addr:	
+fn-sos read_status_reg_datawrite:	0x081a0000	 addr:	
+fn-sos fptat_datawrite:	0x081c0000	 addr:	
+fn-sos fpref_datawrite:	0x081d0000	 addr:	
+fn-sos Temp reading reg_datawrite:	0x080a0000	 addr:	
+fn-sos another Temp reading reg_datawrite:	0x08220000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-check_temp  offset and slope set up
+vdd core tsens: 0.800133
+Binary 	00000000000000001111111111111111	 Dec 	65535
+	 register name: clk_div_reg_0x7	dec_value: 65535	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: init_wait_time_0x20	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000001111101	 Dec 	125
+	 register name: FTSBJT_cyc_0x24	dec_value: 125	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000001001110001	 Dec 	625
+	 register name: FTSBJT_meas_cyc_0x26	dec_value: 625	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: FTSBJT_EN_cyc_0x28	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: enable_REF_SEL_0x29	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: disable_REF_0x2A	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000011011111101	 Dec 	1789
+	 register name: offset_val_0x1	dec_value: 1789	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000000001110110001	 Dec 	945
+	 register name: slope_val_0x0	dec_value: 945	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000111110000	 Dec 	496
+	 register name: avg_number_0x3	dec_value: 496	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000110010	 Dec 	50
+	 register name: temp_thrshld_0x8	dec_value: 50	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000001010	 Dec 	10
+	 register name: ctrl_reg_0x4	dec_value: 10	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000000001	 Dec 	1
+	 register name: enable_tsens_0x6	dec_value: 1	 addr_read: 0x0280300a0
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000000000	 Dec 	0
+	 register name: status_done_0x1A	dec_value: 0	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000001001011011001	 Dec 	4825
+	 register name: fptat_reg_0x1C	dec_value: 4825	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000001000011000101	 Dec 	4293
+	 register name: fpref_reg_0x1D	dec_value: 4293	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000000001110000101	 Dec 	901
+	 register name: temp_read_reg_0xA	dec_value: 901	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800133
+Binary 	00000000000000000000000000111110	 Dec 	62
+	 register name: anthr_temp_read_reg_0x22	dec_value: 62	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800133
+Binary 	00000011100001010000001110000101	 Dec 	59048837
+	 register name: temp_range	dec_value: 59048837	 addr_read: 0x0280300a0
+
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	1	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	2	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	3	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	4	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	5	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	6	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	7	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	8	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	9	dec_value : 	 901
+Binary 	00000000000000000000001110000101	 Dec 	901	 addr_read:	0x0280300c0
+itr : 	10	dec_value : 	 901
+Dec value for temp : 	62.625
+Dec value for R2 : 	901
+
+File copied from ../report/tsens_DB//W_10_5_85_HT.txt to ../temperature_DB//W_10_5_85_HT.txt
+All DPS disconnected
+
+Test Suite Name: TSENS_Calibration             
+Device_ID:	W_10_5
+
+File Name: ../report/tsens_DB//W_10_5_25_RT.txt
+Read Out value:  513
+
+File Name: ../report/tsens_DB//W_10_5_85_HT.txt
+Read Out value:  901
+
+Calculation for SF and BF done ...
+T1	: 25		T2	: 85
+R1	: 513 		R2	: 901
+delta_T	: 60		delta_R	: 388
+S0	: 945		SF	: 1169.07
+B0	: 1789		BF	: 2247.84
+
+Padding MSBs to SF and BF for passing to registers
+Initial offset		: 67176189	Initial Slope		: 67109809
+Calibrated offset	: 67176647	Calibarated Slope	: 67110033
+
+Calibrated offset ss1	: 0x40108C7	Calibarated Slope ss2	: 0x4000491
+
+File opened  : W_10_5_calib_data.txt
+
+File copied to : ../report/tsens_DB//W_10_5_calib_data.txt
+Calibration Data log: 
+Device ID:	W_10_5	0x0000	2247.84	0xffff	
+Calibration Data log: 
+Device ID:	W_10_5	0x0000	1169.07	0xffff	
+
+
+Test Suite Name: TSENS_Temp_Measure_Post_Cal   
+Device_ID:	W_10_5
+
+All DPS connected
+PLLSET_Pads set to 25 MHz
+String Offset Init:	0x40106fd
+String slope Init:	0x40003b1
+String Offset Cal:	0x40108C7
+String slope Cal:	0x4000491
+
+Checking Post Cal Read out R2 at T2 = 85 C
+
+
+runtime
+sos_Offset:	0x040108c7
+sos_Slope:	0x04000491
+fn-check_temp  timing set :2
+fn-check_temp:	drive_pad_i_1,io_req_pad_accept0,1
+fn-check_temp:	io_rsp_pad_accept0,io_rsp_pad_accept1,1
+fn-check_temp:	dft_1500_wrstn_pad_i,dft_pmbist_pmbist_mode_pad_i,1
+fn-check_temp:	dft_scan_rst_n_pad_i,global_chip_reset_pad_i,1
+fn-check_temp:	pll_async_reset_n_pad_i,pll_reg_async_reset_n_pad_i,1
+fn-check_temp:	tap_rstn_pad_i,1
+fn-check_temp:	drive_pad_i_0,0
+fn-check_temp:	rxtx_width_pad_i_0,rxtx_width_pad_i_1,0
+fn-check_temp:	io_req_pad_size_0,io_req_pad_size_1,0
+fn-check_temp:	io_rsp_pad_size_0,io_rsp_pad_size_1,0
+fn-check_temp:	io_rsp_pad_rsp_type,io_rsp_pad_bus_rd_error,reserved_out_pad_o_0,0
+sos_vec_write:	1040
+sos_addr_write:	
+fn-sos averaging_sampling_datawrite:	0x040301f0	 addr:	
+fn-sos clk divider_datawrite:	0x0407ffff	 addr:	
+fn-sos cal_clk to pmon_en_datawrite:	0x04200020	 addr:	
+fn-sos cal_clk to 20us_datawrite:	0x0424007d	 addr:	
+fn-sos cal_clk to 100us_datawrite:	0x04260271	 addr:	
+fn-sos cal_clk to 5us_datawrite:	0x04280020	 addr:	
+fn-sos cal_clk to 1us_datawrite:	0x04290007	 addr:	
+fn-sos cal_clk to 1us_datawrite:	0x042a0007	 addr:	
+fn-sos 50C as T trigger_datawrite:	0x04080032	 addr:	
+fn-sos 45C as T interrupt off_datawrite:	0x04090005	 addr:	
+fn-sos interrupt mode on_datawrite:	0x0404000a	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos clock divider_datawrite:	0x08070000	 addr:	
+fn-sos initial waiting time_datawrite:	0x08200000	 addr:	
+fn-sos FTSBJT cycles_datawrite:	0x08240000	 addr:	
+fn-sos FTSBJT meas cycle_datawrite:	0x08260000	 addr:	
+fn-sos FTSBJT_EN next cycle_datawrite:	0x08280000	 addr:	
+fn-sos enable REF_SEL_datawrite:	0x08290000	 addr:	
+fn-sos time to disable ref_datawrite:	0x082a0000	 addr:	
+fn-sos offset value read_datawrite:	0x08010000	 addr:	
+fn-sos slope value_read_datawrite:	0x08000000	 addr:	
+fn-sos avg number read_datawrite:	0x08030000	 addr:	
+fn-sos temp threshold_datawrite:	0x08080000	 addr:	
+fn-sos ctrl_reg_datawrite:	0x08040000	 addr:	
+fn-sos enable tsens_datawrite:	0x08060000	 addr:	
+fn-sos read_status_reg_datawrite:	0x081a0000	 addr:	
+fn-sos fptat_datawrite:	0x081c0000	 addr:	
+fn-sos fpref_datawrite:	0x081d0000	 addr:	
+fn-sos Temp reading reg_datawrite:	0x080a0000	 addr:	
+fn-sos another Temp reading reg_datawrite:	0x08220000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-sos Switch TSEN on_datawrite:	0x04060001	 addr:	
+fn-sos Switch TSEN off_datawrite:	0x04060000	 addr:	
+fn-check_temp  offset and slope set up
+vdd core tsens: 0.800256
+Binary 	00000000000000001111111111111111	 Dec 	65535
+	 register name: clk_div_reg_0x7	dec_value: 65535	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: init_wait_time_0x20	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000001111101	 Dec 	125
+	 register name: FTSBJT_cyc_0x24	dec_value: 125	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000001001110001	 Dec 	625
+	 register name: FTSBJT_meas_cyc_0x26	dec_value: 625	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000000100000	 Dec 	32
+	 register name: FTSBJT_EN_cyc_0x28	dec_value: 32	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: enable_REF_SEL_0x29	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000000000111	 Dec 	7
+	 register name: disable_REF_0x2A	dec_value: 7	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000100011000111	 Dec 	2247
+	 register name: offset_val_0x1	dec_value: 2247	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800256
+Binary 	00000000000000000000010010010001	 Dec 	1169
+	 register name: slope_val_0x0	dec_value: 1169	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000111110000	 Dec 	496
+	 register name: avg_number_0x3	dec_value: 496	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000000110010	 Dec 	50
+	 register name: temp_thrshld_0x8	dec_value: 50	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000000001010	 Dec 	10
+	 register name: ctrl_reg_0x4	dec_value: 10	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000000000001	 Dec 	1
+	 register name: enable_tsens_0x6	dec_value: 1	 addr_read: 0x0280300a0
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000000000000	 Dec 	0
+	 register name: status_done_0x1A	dec_value: 0	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800256
+Binary 	00000000000000000001001011010111	 Dec 	4823
+	 register name: fptat_reg_0x1C	dec_value: 4823	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800256
+Binary 	00000000000000000001000011000101	 Dec 	4293
+	 register name: fpref_reg_0x1D	dec_value: 4293	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800256
+Binary 	00000000000000000000010000111100	 Dec 	1084
+	 register name: temp_read_reg_0xA	dec_value: 1084	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800256
+Binary 	00000000000000000000000001010101	 Dec 	85
+	 register name: anthr_temp_read_reg_0x22	dec_value: 85	 addr_read: 0x0280300a0
+
+vdd core tsens: 0.800256
+Binary 	00000100001111000000010000111100	 Dec 	71042108
+	 register name: temp_range	dec_value: 71042108	 addr_read: 0x0280300a0
+
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	1	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	2	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	3	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	4	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	5	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	6	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	7	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	8	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	9	dec_value : 	 1084
+Binary 	00000000000000000000010000111100	 Dec 	1084	 addr_read:	0x0280300c0
+itr : 	10	dec_value : 	 1084
+Dec value for temp : 	85.5
+Dec value for R2 : 	1084
+
+All DPS disconnected
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Jul_30_11h36m24s_STDF
+  Ended at: 20250730 113628
+******** end testflow report data  *******
+****** production report begin ******
+  Started at: 20250730 113630
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : IBM_NP_Master_WS_Rev002_HT.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+All DPS connected
+All DPS disconnected
+
+
+idd_static of dps_core pin
+vdd_core 	: 10802.7	mA
+
+
+IDD_static of dps_0p8 pins
+vcs_pll  	: 0.120366	mA
+vcs_pm_1  	: 0.205372	mA
+vcs_pm_2  	: 0.210085	mA
+vdd_io_clk  	: 0.114279	mA
+vdd_pll  	: 0.115914	mA
+
+
+IDD_static of dps_1p8 pins
+vcsio_pll  	: 0.604983	mA
+vcsio_ts  	: 0.00754197	mA
+vcsio_vs_1  	: 0.0132195	mA
+vcsio_vs_2  	: 0.0116836	mA
+vddio_io_clk  	: 0.0875993	mA
+vddio_pll  	: 0.0926109	mA
+vddio_rx  	: 5.98032	mA
+vddio_tx  	: 16.9286	mA
+
+All DPS connected
+All DPS disconnected
+
+
+IDD_dynamic of dps_core pin :
+vdd_core 	:  24892.2	mA
+
+
+IDD_dynamic of dps_0p8 pins
+vcs_pll  	:0.659547	mA
+vcs_pm_1  	:0.221479	mA
+vcs_pm_2  	:0.226212	mA
+vdd_io_clk  	:0.127134	mA
+vdd_pll  	:0.119873	mA
+
+
+IDD_dynamic of dps_1p8 pins
+vcsio_pll  	:1.86162	mA
+vcsio_ts  	:0.0193974	mA
+vcsio_vs_1  	:0.0211253	mA
+vcsio_vs_2  	:0.0156367	mA
+vddio_io_clk  	:0.127123	mA
+vddio_pll  	:0.112354	mA
+vddio_rx  	:29.751	mA
+vddio_tx  	:16.8891	mA
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Jul_30_11h36m32s_STDF
+  Ended at: 20250730 113635
+******** end testflow report data  *******
+****** production report begin ******
+  Started at: 20250730 113639
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : IBM_NP_Master_WS_Rev002_HT.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+All DPS connected
+All DPS disconnected
+
+Data logging for supply short test:
+
+supply_short_vcs_pll            :  Force 50 mV Meas Current : 0.135621  	mA
+supply_short_vcs_pm_1           :  Force 50 mV Meas Current : 0.183104  	mA
+supply_short_vcs_pm_2           :  Force 50 mV Meas Current : 0.177119  	mA
+supply_short_vcsio_pll          :  Force 50 mV Meas Current : 0.0280364  	mA
+supply_short_vcsio_ts           :  Force 50 mV Meas Current : 0.0391564  	mA
+supply_short_vcsio_vs_1         :  Force 50 mV Meas Current : 0.0369369  	mA
+supply_short_vcsio_vs_2         :  Force 50 mV Meas Current : 0.0274959  	mA
+supply_short_vdd_io_clk         :  Force 50 mV Meas Current : 0.104823  	mA
+supply_short_vdd_pll            :  Force 50 mV Meas Current : 0.102976  	mA
+supply_short_vddio_io_clk       :  Force 50 mV Meas Current : 0.0164571  	mA
+supply_short_vddio_pll          :  Force 50 mV Meas Current : 0.00968786  	mA
+supply_short_vddio_rx           :  Force 50 mV Meas Current : 1.16461  	mA
+supply_short_vddio_tx           :  Force 50 mV Meas Current : 1.09381  	mA
+
+supply_short_vdd_core           :  Force 50 mV Meas Current : 4097.36	mA
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Jul_30_11h36m41s_STDF
+  Ended at: 20250730 113643
+******** end testflow report data  *******
+****** production report begin ******
+  Started at: 20250730 113646
+  Testflow execution   
+  device           : TP
+  DUT_path         :  /tmp
+  testflow         : IBM_NP_Master_WS_Rev002_HT.ttf
+  userprocedure    : 
+******* begin testflow report data : *******
+
+INFO: (dataformatter) Using STDF config file:  /etc/opt/hp93000/soc/datalog/formatter.stdf.main.conf
+
+All DPS connected
+All DPS disconnected
+
+
+Continuity_Direct_Pos Datalog : 
+
+cont_row_even_col_even_ : io_req_pad_size_0                    : Measured Value: 0.666878  V
+cont_row_even_col_even_ : io_req_pad_data_30                   : Measured Value: 0.666916  V
+cont_row_even_col_even_ : io_req_pad_data_13                   : Measured Value: 0.666709  V
+cont_row_even_col_even_ : io_req_pad_addr_5                    : Measured Value: 0.667172  V
+cont_row_even_col_even_ : io_req_pad_size_1                    : Measured Value: 0.666446  V
+cont_row_even_col_even_ : io_req_pad_addr_9                    : Measured Value: 0.666601  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_4            : Measured Value: 0.230736  V
+cont_row_even_col_even_ : io_req_pad_data_8                    : Measured Value: 0.6671  V
+cont_row_even_col_even_ : io_req_pad_data_4                    : Measured Value: 0.667042  V
+cont_row_even_col_even_ : io_rsp_pad_data_30                   : Measured Value: 0.231159  V
+cont_row_even_col_even_ : io_rsp_pad_data_26                   : Measured Value: 0.231073  V
+cont_row_even_col_even_ : io_req_pad_data_18                   : Measured Value: 0.666601  V
+cont_row_even_col_even_ : io_req_pad_addr_8                    : Measured Value: 0.666717  V
+cont_row_even_col_even_ : io_req_pad_addr_4                    : Measured Value: 0.66707  V
+cont_row_even_col_even_ : io_rsp_pad_data_21                   : Measured Value: 0.230752  V
+cont_row_even_col_even_ : io_req_pad_data_1                    : Measured Value: 0.666622  V
+cont_row_even_col_even_ : tap_tck_pad_i                        : Measured Value: 0.66658  V
+cont_row_even_col_even_ : io_rsp_pad_size_1                    : Measured Value: 0.230701  V
+cont_row_even_col_even_ : tap_tdi_pad_i                        : Measured Value: 0.666245  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_2            : Measured Value: 0.230658  V
+cont_row_even_col_even_ : io_rsp_pad_addr_valid                : Measured Value: 0.230327  V
+cont_row_even_col_even_ : io_rsp_pad_data_7                    : Measured Value: 0.232247  V
+cont_row_even_col_even_ : io_req_pad_addr_2                    : Measured Value: 0.667097  V
+cont_row_even_col_even_ : io_req_pad_addr_15                   : Measured Value: 0.666816  V
+cont_row_even_col_even_ : pmon_d_clk0_pad_o                    : Measured Value: 0.233914  V
+cont_row_even_col_even_ : io_rsp_pad_data_18                   : Measured Value: 0.231392  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_8            : Measured Value: 0.232518  V
+cont_row_even_col_even_ : io_rsp_pad_data_14                   : Measured Value: 0.232138  V
+cont_row_even_col_even_ : io_req_pad_data_20                   : Measured Value: 0.666596  V
+cont_row_even_col_even_ : tap_rstn_pad_i                       : Measured Value: 0.666728  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_12           : Measured Value: 0.232729  V
+cont_row_even_col_even_ : io_req_pad_addr_24                   : Measured Value: 0.666846  V
+cont_row_even_col_even_ : dft_1500_shiftwr_pad_i               : Measured Value: 0.666971  V
+cont_row_even_col_even_ : dft_1500_wrstn_pad_i                 : Measured Value: 0.669183  V
+cont_row_even_col_even_ : io_req_pad_addr_12                   : Measured Value: 0.667042  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_12            : Measured Value: 0.666721  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_1             : Measured Value: 0.66673  V
+cont_row_even_col_even_ : dft_scan_lpg2_pad_i                  : Measured Value: 0.666615  V
+cont_row_even_col_even_ : io_clk_pad_i                         : Measured Value: 0.666503  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_10           : Measured Value: 0.231273  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_14           : Measured Value: 0.233013  V
+cont_row_even_col_even_ : io_req_pad_data_27                   : Measured Value: 0.666459  V
+cont_row_even_col_even_ : dft_1500_selectwr_pad_i              : Measured Value: 0.666948  V
+cont_row_even_col_even_ : dft_pmbist_pmbist_mode_pad_i         : Measured Value: 0.666914  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_11            : Measured Value: 0.667668  V
+cont_row_even_col_even_ : io_req_pad_addr_21                   : Measured Value: 0.666913  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_0             : Measured Value: 0.666728  V
+cont_row_even_col_even_ : dft_scan_ss1_pad_i                   : Measured Value: 0.666451  V
+cont_row_even_col_even_ : io_ddr_enable_pad_i                  : Measured Value: 0.666728  V
+cont_row_even_col_even_ : io_rsp_pad_data_3                    : Measured Value: 0.234264  V
+cont_row_even_col_even_ : int_data_pad_4                       : Measured Value: 0.233633  V
+cont_row_even_col_even_ : int_data_pad_2                       : Measured Value: 0.232791  V
+cont_row_even_col_even_ : io_rsp_pad_data_19                   : Measured Value: 0.231347  V
+cont_row_even_col_even_ : io_rsp_pad_data_23                   : Measured Value: 0.23217  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tck_pad_i            : Measured Value: 0.667001  V
+cont_row_even_col_even_ : global_chip_reset_pad_i              : Measured Value: 0.666941  V
+cont_row_even_col_even_ : pll_d_clk_pad_o                      : Measured Value: 0.234007  V
+cont_row_even_col_even_ : dft_pmbist_pmda_ovfl_pad_o           : Measured Value: 0.233975  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_7            : Measured Value: 0.232905  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_3            : Measured Value: 0.231135  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tdo_pad_o            : Measured Value: 0.233816  V
+cont_row_even_col_even_ : io_req_pad_data_14                   : Measured Value: 0.666887  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_4             : Measured Value: 0.666586  V
+cont_row_even_col_even_ : dft_scan_cmle_pad_i                  : Measured Value: 0.666758  V
+cont_row_even_col_even_ : reserved_in_pad_i_0                  : Measured Value: 0.667058  V
+cont_row_even_col_even_ : dft_opcg_trigger_pad_i               : Measured Value: 0.666687  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_15           : Measured Value: 0.232812  V
+cont_row_even_col_even_ : machine_init_done_pad_o              : Measured Value: 0.230479  V
+cont_row_even_col_even_ : pll_a_out_pad_ao                     : Measured Value: 0.661581  V
+cont_row_even_col_even_ : io_req_pad_data_valid                : Measured Value: 0.666878  V
+cont_row_even_col_even_ : pllset_pad_i_3                       : Measured Value: 0.666353  V
+cont_row_even_col_even_ : vsen_test0_pad_o                     : Measured Value: 0.23378  V
+cont_row_even_col_even_ : drive_pad_i_0                        : Measured Value: 0.666876  V
+
+
+cont_row_even_col_odd_ : io_rsp_pad_rsp_type                  : Measured Value: 0.229962  V
+cont_row_even_col_odd_ : io_req_pad_data_25                   : Measured Value: 0.666489  V
+cont_row_even_col_odd_ : io_req_pad_addr_valid                : Measured Value: 0.666609  V
+cont_row_even_col_odd_ : io_req_pad_addr_18                   : Measured Value: 0.666523  V
+cont_row_even_col_odd_ : io_rsp_pad_data_24                   : Measured Value: 0.230721  V
+cont_row_even_col_odd_ : io_rsp_pad_bus_rd_error              : Measured Value: 0.23007  V
+cont_row_even_col_odd_ : io_rsp_pad_data_20                   : Measured Value: 0.231699  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_0            : Measured Value: 0.231729  V
+cont_row_even_col_odd_ : io_rsp_pad_data_0                    : Measured Value: 0.233027  V
+cont_row_even_col_odd_ : io_req_pad_data_12                   : Measured Value: 0.666529  V
+cont_row_even_col_odd_ : io_req_pad_addr_22                   : Measured Value: 0.666425  V
+cont_row_even_col_odd_ : io_req_pad_data_11                   : Measured Value: 0.666529  V
+cont_row_even_col_odd_ : io_req_pad_addr_1                    : Measured Value: 0.666501  V
+cont_row_even_col_odd_ : io_req_pad_data_10                   : Measured Value: 0.66663  V
+cont_row_even_col_odd_ : io_req_pad_data_21                   : Measured Value: 0.66673  V
+cont_row_even_col_odd_ : io_req_pad_data_19                   : Measured Value: 0.666658  V
+cont_row_even_col_odd_ : dft_1500_wrck_pad_i                  : Measured Value: 0.666793  V
+cont_row_even_col_odd_ : io_req_pad_addr_25                   : Measured Value: 0.66673  V
+cont_row_even_col_odd_ : io_rsp_pad_data_11                   : Measured Value: 0.233021  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_tdi_pad_i            : Measured Value: 0.6667  V
+cont_row_even_col_odd_ : dft_scan_scan_in_pad_i_7             : Measured Value: 0.66678  V
+cont_row_even_col_odd_ : ref_clk_pad_i                        : Measured Value: 0.666601  V
+cont_row_even_col_odd_ : io_rsp_pad_data_8                    : Measured Value: 0.232429  V
+cont_row_even_col_odd_ : pll_fail_pad_o                       : Measured Value: 0.232832  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_11           : Measured Value: 0.232051  V
+cont_row_even_col_odd_ : dft_scan_cme_pad_i                   : Measured Value: 0.666645  V
+cont_row_even_col_odd_ : dft_opcg_load_en_pad_i               : Measured Value: 0.666721  V
+cont_row_even_col_odd_ : pll_reg_async_reset_n_pad_i          : Measured Value: 0.666744  V
+cont_row_even_col_odd_ : int_data_pad_3                       : Measured Value: 0.231937  V
+cont_row_even_col_odd_ : int_data_pad_0                       : Measured Value: 0.231424  V
+cont_row_even_col_odd_ : dft_scan_rst_n_pad_i                 : Measured Value: 0.666856  V
+cont_row_even_col_odd_ : dft_scan_misr_select_pad_i           : Measured Value: 0.66663  V
+cont_row_even_col_odd_ : tap_tdo_pad_o                        : Measured Value: 0.234551  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_done_pad_o           : Measured Value: 0.232449  V
+cont_row_even_col_odd_ : io_rsp_pad_accept1                   : Measured Value: 0.666922  V
+cont_row_even_col_odd_ : interrupt_req_pad_o_ack              : Measured Value: 0.666815  V
+
+
+cont_row_odd_col_even_ : io_rsp_pad_data_25                   : Measured Value: 0.231322  V
+cont_row_odd_col_even_ : io_req_pad_addr_0                    : Measured Value: 0.666273  V
+cont_row_odd_col_even_ : io_req_pad_addr_19                   : Measured Value: 0.666489  V
+cont_row_odd_col_even_ : io_req_pad_addr_13                   : Measured Value: 0.666857  V
+cont_row_odd_col_even_ : io_req_pad_data_29                   : Measured Value: 0.666432  V
+cont_row_odd_col_even_ : io_req_pad_data_0                    : Measured Value: 0.666501  V
+cont_row_odd_col_even_ : io_rsp_pad_data_16                   : Measured Value: 0.232119  V
+cont_row_odd_col_even_ : io_req_pad_addr_11                   : Measured Value: 0.666814  V
+cont_row_odd_col_even_ : io_rsp_pad_data_28                   : Measured Value: 0.231295  V
+cont_row_odd_col_even_ : io_req_pad_addr_6                    : Measured Value: 0.667058  V
+cont_row_odd_col_even_ : tap_tms_pad_i                        : Measured Value: 0.666565  V
+cont_row_odd_col_even_ : io_rsp_pad_data_valid                : Measured Value: 0.229815  V
+cont_row_odd_col_even_ : io_req_pad_addr_26                   : Measured Value: 0.666617  V
+cont_row_odd_col_even_ : dft_1500_ws_pad_i                    : Measured Value: 0.666856  V
+cont_row_odd_col_even_ : io_req_pad_data_26                   : Measured Value: 0.666757  V
+cont_row_odd_col_even_ : io_req_pad_addr_23                   : Measured Value: 0.666728  V
+cont_row_odd_col_even_ : io_req_pad_addr_28                   : Measured Value: 0.66663  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_9             : Measured Value: 0.666787  V
+cont_row_odd_col_even_ : io_req_pad_data_31                   : Measured Value: 0.666899  V
+cont_row_odd_col_even_ : io_rsp_pad_data_6                    : Measured Value: 0.233086  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_9            : Measured Value: 0.232412  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_1            : Measured Value: 0.231073  V
+cont_row_odd_col_even_ : dft_pmbist_pmda_rst_pad_i            : Measured Value: 0.666887  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_8             : Measured Value: 0.666831  V
+cont_row_odd_col_even_ : io_rsp_pad_data_27                   : Measured Value: 0.23057  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_10            : Measured Value: 0.666643  V
+cont_row_odd_col_even_ : pll_async_reset_n_pad_i              : Measured Value: 0.666762  V
+cont_row_odd_col_even_ : io_rsp_pad_data_15                   : Measured Value: 0.231704  V
+cont_row_odd_col_even_ : io_req_pad_data_24                   : Measured Value: 0.666814  V
+cont_row_odd_col_even_ : machine_init_ctrl_pad_i_1            : Measured Value: 0.666907  V
+cont_row_odd_col_even_ : io_rsp_pad_data_2                    : Measured Value: 0.234833  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_13           : Measured Value: 0.232533  V
+cont_row_odd_col_even_ : tsen_test_o_pad_o                    : Measured Value: 0.235342  V
+cont_row_odd_col_even_ : dft_pmbist_ret_pause_active_pad_o    : Measured Value: 0.232828  V
+
+
+cont_row_odd_col_odd_ : io_rsp_pad_accept0                   : Measured Value: 0.666935  V
+cont_row_odd_col_odd_ : io_req_pad_data_17                   : Measured Value: 0.666943  V
+cont_row_odd_col_odd_ : io_req_pad_data_9                    : Measured Value: 0.666985  V
+cont_row_odd_col_odd_ : io_req_pad_accept0                   : Measured Value: 0.234252  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_0                 : Measured Value: 0.23065  V
+cont_row_odd_col_odd_ : io_req_pad_data_23                   : Measured Value: 0.666916  V
+cont_row_odd_col_odd_ : io_req_pad_addr_17                   : Measured Value: 0.666715  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_1                 : Measured Value: 0.230241  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_10                   : Measured Value: 0.232746  V
+cont_row_odd_col_odd_ : io_req_pad_data_3                    : Measured Value: 0.666774  V
+cont_row_odd_col_odd_ : io_req_pad_data_16                   : Measured Value: 0.666872  V
+cont_row_odd_col_odd_ : io_req_pad_addr_16                   : Measured Value: 0.666715  V
+cont_row_odd_col_odd_ : io_req_pad_data_7                    : Measured Value: 0.667214  V
+cont_row_odd_col_odd_ : io_rsp_pad_size_0                    : Measured Value: 0.230924  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_22                   : Measured Value: 0.230647  V
+cont_row_odd_col_odd_ : io_req_pad_data_22                   : Measured Value: 0.666529  V
+cont_row_odd_col_odd_ : io_req_pad_data_2                    : Measured Value: 0.6668  V
+cont_row_odd_col_odd_ : io_req_pad_addr_7                    : Measured Value: 0.666994  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_1                    : Measured Value: 0.233665  V
+cont_row_odd_col_odd_ : io_req_pad_data_15                   : Measured Value: 0.666694  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_12                   : Measured Value: 0.231156  V
+cont_row_odd_col_odd_ : io_req_pad_data_6                    : Measured Value: 0.667085  V
+cont_row_odd_col_odd_ : pmon_d_clk1_pad_o                    : Measured Value: 0.231156  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_6            : Measured Value: 0.231617  V
+cont_row_odd_col_odd_ : io_req_pad_addr_20                   : Measured Value: 0.666645  V
+cont_row_odd_col_odd_ : io_req_pad_addr_14                   : Measured Value: 0.666759  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_17                   : Measured Value: 0.231609  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_13                   : Measured Value: 0.231503  V
+cont_row_odd_col_odd_ : io_req_pad_addr_10                   : Measured Value: 0.666472  V
+cont_row_odd_col_odd_ : io_req_pad_addr_3                    : Measured Value: 0.667077  V
+cont_row_odd_col_odd_ : io_req_pad_addr_27                   : Measured Value: 0.666757  V
+cont_row_odd_col_odd_ : io_req_pad_data_5                    : Measured Value: 0.666985  V
+cont_row_odd_col_odd_ : dft_1500_updatewr_pad_i              : Measured Value: 0.666857  V
+cont_row_odd_col_odd_ : dft_scan_scan_en_pad_i               : Measured Value: 0.678688  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_6             : Measured Value: 0.666717  V
+cont_row_odd_col_odd_ : dft_scan_elastic_rst_pad_i           : Measured Value: 0.666584  V
+cont_row_odd_col_odd_ : dft_opcg_shift_clk_pad_i             : Measured Value: 0.666622  V
+cont_row_odd_col_odd_ : int_req_pad                          : Measured Value: 0.23156  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_31                   : Measured Value: 0.230849  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_5                    : Measured Value: 0.233514  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_4                    : Measured Value: 0.234514  V
+cont_row_odd_col_odd_ : io_req_pad_addr_29                   : Measured Value: 0.66673  V
+cont_row_odd_col_odd_ : io_req_pad_data_28                   : Measured Value: 0.666844  V
+cont_row_odd_col_odd_ : dft_1500_capturewr_pad_i             : Measured Value: 0.667058  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_15            : Measured Value: 0.66666  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_5             : Measured Value: 0.6668  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_3             : Measured Value: 0.666637  V
+cont_row_odd_col_odd_ : dft_scan_misr_rst_pad_i              : Measured Value: 0.66677  V
+cont_row_odd_col_odd_ : machine_init_ctrl_pad_i_0            : Measured Value: 0.666793  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_5            : Measured Value: 0.230396  V
+cont_row_odd_col_odd_ : dft_pmbist_pmda_fail_pad_o           : Measured Value: 0.233745  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_14            : Measured Value: 0.666514  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_13            : Measured Value: 0.667007  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_2             : Measured Value: 0.666872  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_1                   : Measured Value: 0.667043  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_0                   : Measured Value: 0.666926  V
+cont_row_odd_col_odd_ : pllset_pad_i_0                       : Measured Value: 0.667085  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_29                   : Measured Value: 1.10072  V
+
+ ***** FAIL PIN *****: io_rsp_pad_data_29
+
+cont_row_odd_col_odd_ : dft_1500_wso_ret_pad_o               : Measured Value: 0.233928  V
+cont_row_odd_col_odd_ : pllset_pad_i_2                       : Measured Value: 0.666789  V
+cont_row_odd_col_odd_ : pllset_pad_i_1                       : Measured Value: 0.666288  V
+cont_row_odd_col_odd_ : dft_scan_lpg1_pad_i                  : Measured Value: 0.666702  V
+cont_row_odd_col_odd_ : pll_ref_select_pad_i                 : Measured Value: 0.666808  V
+cont_row_odd_col_odd_ : pll_lock_pad_o                       : Measured Value: 0.233375  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_9                    : Measured Value: 0.231823  V
+cont_row_odd_col_odd_ : int_data_pad_1                       : Measured Value: 0.232444  V
+cont_row_odd_col_odd_ : tsen_iref_o_pad_ao                   : Measured Value: 0.627617  V
+cont_row_odd_col_odd_ : pll_config_select_pad_i              : Measured Value: 0.666417  V
+cont_row_odd_col_odd_ : vsen_test1_pad_o                     : Measured Value: 0.230954  V
+cont_row_odd_col_odd_ : drive_pad_i_1                        : Measured Value: 0.666529  V
+cont_row_odd_col_odd_ : dft_pmbist_ret_pause_continue_pad_i  : Measured Value: 0.666869  V
+
+
+-----------------------------------------------
+TOTAL NUMBER OF FAILING PINS ==== 1
+-----------------------------------------------
+All DPS connected
+All DPS disconnected
+
+
+Continuity_Direct_Pos Datalog : 
+
+cont_row_even_col_even_ : io_req_pad_size_0                    : Measured Value: 0.666935  V
+cont_row_even_col_even_ : io_req_pad_data_30                   : Measured Value: 0.666916  V
+cont_row_even_col_even_ : io_req_pad_data_13                   : Measured Value: 0.666766  V
+cont_row_even_col_even_ : io_req_pad_addr_5                    : Measured Value: 0.667229  V
+cont_row_even_col_even_ : io_req_pad_size_1                    : Measured Value: 0.666503  V
+cont_row_even_col_even_ : io_req_pad_addr_9                    : Measured Value: 0.666601  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_4            : Measured Value: 0.230736  V
+cont_row_even_col_even_ : io_req_pad_data_8                    : Measured Value: 0.6671  V
+cont_row_even_col_even_ : io_req_pad_data_4                    : Measured Value: 0.667042  V
+cont_row_even_col_even_ : io_rsp_pad_data_30                   : Measured Value: 0.231159  V
+cont_row_even_col_even_ : io_rsp_pad_data_26                   : Measured Value: 0.23113  V
+cont_row_even_col_even_ : io_req_pad_data_18                   : Measured Value: 0.666601  V
+cont_row_even_col_even_ : io_req_pad_addr_8                    : Measured Value: 0.666717  V
+cont_row_even_col_even_ : io_req_pad_addr_4                    : Measured Value: 0.66707  V
+cont_row_even_col_even_ : io_rsp_pad_data_21                   : Measured Value: 0.230752  V
+cont_row_even_col_even_ : io_req_pad_data_1                    : Measured Value: 0.666622  V
+cont_row_even_col_even_ : tap_tck_pad_i                        : Measured Value: 0.66658  V
+cont_row_even_col_even_ : io_rsp_pad_size_1                    : Measured Value: 0.230701  V
+cont_row_even_col_even_ : tap_tdi_pad_i                        : Measured Value: 0.666245  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_2            : Measured Value: 0.230601  V
+cont_row_even_col_even_ : io_rsp_pad_addr_valid                : Measured Value: 0.230384  V
+cont_row_even_col_even_ : io_rsp_pad_data_7                    : Measured Value: 0.232304  V
+cont_row_even_col_even_ : io_req_pad_addr_2                    : Measured Value: 0.667154  V
+cont_row_even_col_even_ : io_req_pad_addr_15                   : Measured Value: 0.666816  V
+cont_row_even_col_even_ : pmon_d_clk0_pad_o                    : Measured Value: 0.233857  V
+cont_row_even_col_even_ : io_rsp_pad_data_18                   : Measured Value: 0.231336  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_8            : Measured Value: 0.232518  V
+cont_row_even_col_even_ : io_rsp_pad_data_14                   : Measured Value: 0.232138  V
+cont_row_even_col_even_ : io_req_pad_data_20                   : Measured Value: 0.666596  V
+cont_row_even_col_even_ : tap_rstn_pad_i                       : Measured Value: 0.666785  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_12           : Measured Value: 0.232672  V
+cont_row_even_col_even_ : io_req_pad_addr_24                   : Measured Value: 0.666789  V
+cont_row_even_col_even_ : dft_1500_shiftwr_pad_i               : Measured Value: 0.666971  V
+cont_row_even_col_even_ : dft_1500_wrstn_pad_i                 : Measured Value: 0.669183  V
+cont_row_even_col_even_ : io_req_pad_addr_12                   : Measured Value: 0.667042  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_12            : Measured Value: 0.666721  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_1             : Measured Value: 0.66673  V
+cont_row_even_col_even_ : dft_scan_lpg2_pad_i                  : Measured Value: 0.666672  V
+cont_row_even_col_even_ : io_clk_pad_i                         : Measured Value: 0.666503  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_10           : Measured Value: 0.231216  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_14           : Measured Value: 0.23307  V
+cont_row_even_col_even_ : io_req_pad_data_27                   : Measured Value: 0.666516  V
+cont_row_even_col_even_ : dft_1500_selectwr_pad_i              : Measured Value: 0.666948  V
+cont_row_even_col_even_ : dft_pmbist_pmbist_mode_pad_i         : Measured Value: 0.666914  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_11            : Measured Value: 0.667668  V
+cont_row_even_col_even_ : io_req_pad_addr_21                   : Measured Value: 0.666856  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_0             : Measured Value: 0.666728  V
+cont_row_even_col_even_ : dft_scan_ss1_pad_i                   : Measured Value: 0.666508  V
+cont_row_even_col_even_ : io_ddr_enable_pad_i                  : Measured Value: 0.666785  V
+cont_row_even_col_even_ : io_rsp_pad_data_3                    : Measured Value: 0.234264  V
+cont_row_even_col_even_ : int_data_pad_4                       : Measured Value: 0.233633  V
+cont_row_even_col_even_ : int_data_pad_2                       : Measured Value: 0.232791  V
+cont_row_even_col_even_ : io_rsp_pad_data_19                   : Measured Value: 0.231347  V
+cont_row_even_col_even_ : io_rsp_pad_data_23                   : Measured Value: 0.232227  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tck_pad_i            : Measured Value: 0.667058  V
+cont_row_even_col_even_ : global_chip_reset_pad_i              : Measured Value: 0.666998  V
+cont_row_even_col_even_ : pll_d_clk_pad_o                      : Measured Value: 0.234063  V
+cont_row_even_col_even_ : dft_pmbist_pmda_ovfl_pad_o           : Measured Value: 0.233975  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_7            : Measured Value: 0.232905  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_3            : Measured Value: 0.231078  V
+cont_row_even_col_even_ : dft_pmbist_pmda_tdo_pad_o            : Measured Value: 0.233816  V
+cont_row_even_col_even_ : io_req_pad_data_14                   : Measured Value: 0.666887  V
+cont_row_even_col_even_ : dft_scan_scan_in_pad_i_4             : Measured Value: 0.666586  V
+cont_row_even_col_even_ : dft_scan_cmle_pad_i                  : Measured Value: 0.666758  V
+cont_row_even_col_even_ : reserved_in_pad_i_0                  : Measured Value: 0.667001  V
+cont_row_even_col_even_ : dft_opcg_trigger_pad_i               : Measured Value: 0.666687  V
+cont_row_even_col_even_ : dft_scan_scan_out_pad_o_15           : Measured Value: 0.232869  V
+cont_row_even_col_even_ : machine_init_done_pad_o              : Measured Value: 0.230479  V
+cont_row_even_col_even_ : pll_a_out_pad_ao                     : Measured Value: 0.661581  V
+cont_row_even_col_even_ : io_req_pad_data_valid                : Measured Value: 0.666935  V
+cont_row_even_col_even_ : pllset_pad_i_3                       : Measured Value: 0.66641  V
+cont_row_even_col_even_ : vsen_test0_pad_o                     : Measured Value: 0.23378  V
+cont_row_even_col_even_ : drive_pad_i_0                        : Measured Value: 0.666876  V
+
+
+cont_row_even_col_odd_ : io_rsp_pad_rsp_type                  : Measured Value: 0.229962  V
+cont_row_even_col_odd_ : io_req_pad_data_25                   : Measured Value: 0.666489  V
+cont_row_even_col_odd_ : io_req_pad_addr_valid                : Measured Value: 0.666609  V
+cont_row_even_col_odd_ : io_req_pad_addr_18                   : Measured Value: 0.66658  V
+cont_row_even_col_odd_ : io_rsp_pad_data_24                   : Measured Value: 0.230778  V
+cont_row_even_col_odd_ : io_rsp_pad_bus_rd_error              : Measured Value: 0.23007  V
+cont_row_even_col_odd_ : io_rsp_pad_data_20                   : Measured Value: 0.231699  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_0            : Measured Value: 0.231729  V
+cont_row_even_col_odd_ : io_rsp_pad_data_0                    : Measured Value: 0.233027  V
+cont_row_even_col_odd_ : io_req_pad_data_12                   : Measured Value: 0.666529  V
+cont_row_even_col_odd_ : io_req_pad_addr_22                   : Measured Value: 0.666368  V
+cont_row_even_col_odd_ : io_req_pad_data_11                   : Measured Value: 0.666529  V
+cont_row_even_col_odd_ : io_req_pad_addr_1                    : Measured Value: 0.666444  V
+cont_row_even_col_odd_ : io_req_pad_data_10                   : Measured Value: 0.66663  V
+cont_row_even_col_odd_ : io_req_pad_data_21                   : Measured Value: 0.66673  V
+cont_row_even_col_odd_ : io_req_pad_data_19                   : Measured Value: 0.666715  V
+cont_row_even_col_odd_ : dft_1500_wrck_pad_i                  : Measured Value: 0.666793  V
+cont_row_even_col_odd_ : io_req_pad_addr_25                   : Measured Value: 0.666787  V
+cont_row_even_col_odd_ : io_rsp_pad_data_11                   : Measured Value: 0.233021  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_tdi_pad_i            : Measured Value: 0.6667  V
+cont_row_even_col_odd_ : dft_scan_scan_in_pad_i_7             : Measured Value: 0.66678  V
+cont_row_even_col_odd_ : ref_clk_pad_i                        : Measured Value: 0.666601  V
+cont_row_even_col_odd_ : io_rsp_pad_data_8                    : Measured Value: 0.232429  V
+cont_row_even_col_odd_ : pll_fail_pad_o                       : Measured Value: 0.232832  V
+cont_row_even_col_odd_ : dft_scan_scan_out_pad_o_11           : Measured Value: 0.232051  V
+cont_row_even_col_odd_ : dft_scan_cme_pad_i                   : Measured Value: 0.666702  V
+cont_row_even_col_odd_ : dft_opcg_load_en_pad_i               : Measured Value: 0.666778  V
+cont_row_even_col_odd_ : pll_reg_async_reset_n_pad_i          : Measured Value: 0.666744  V
+cont_row_even_col_odd_ : int_data_pad_3                       : Measured Value: 0.231937  V
+cont_row_even_col_odd_ : int_data_pad_0                       : Measured Value: 0.231424  V
+cont_row_even_col_odd_ : dft_scan_rst_n_pad_i                 : Measured Value: 0.666856  V
+cont_row_even_col_odd_ : dft_scan_misr_select_pad_i           : Measured Value: 0.66663  V
+cont_row_even_col_odd_ : tap_tdo_pad_o                        : Measured Value: 0.234551  V
+cont_row_even_col_odd_ : dft_pmbist_pmda_done_pad_o           : Measured Value: 0.232449  V
+cont_row_even_col_odd_ : io_rsp_pad_accept1                   : Measured Value: 0.666922  V
+cont_row_even_col_odd_ : interrupt_req_pad_o_ack              : Measured Value: 0.666815  V
+
+
+cont_row_odd_col_even_ : io_rsp_pad_data_25                   : Measured Value: 0.231322  V
+cont_row_odd_col_even_ : io_req_pad_addr_0                    : Measured Value: 0.666273  V
+cont_row_odd_col_even_ : io_req_pad_addr_19                   : Measured Value: 0.666489  V
+cont_row_odd_col_even_ : io_req_pad_addr_13                   : Measured Value: 0.666857  V
+cont_row_odd_col_even_ : io_req_pad_data_29                   : Measured Value: 0.666432  V
+cont_row_odd_col_even_ : io_req_pad_data_0                    : Measured Value: 0.666558  V
+cont_row_odd_col_even_ : io_rsp_pad_data_16                   : Measured Value: 0.232119  V
+cont_row_odd_col_even_ : io_req_pad_addr_11                   : Measured Value: 0.666871  V
+cont_row_odd_col_even_ : io_rsp_pad_data_28                   : Measured Value: 0.231352  V
+cont_row_odd_col_even_ : io_req_pad_addr_6                    : Measured Value: 0.667115  V
+cont_row_odd_col_even_ : tap_tms_pad_i                        : Measured Value: 0.666565  V
+cont_row_odd_col_even_ : io_rsp_pad_data_valid                : Measured Value: 0.229871  V
+cont_row_odd_col_even_ : io_req_pad_addr_26                   : Measured Value: 0.666617  V
+cont_row_odd_col_even_ : dft_1500_ws_pad_i                    : Measured Value: 0.666856  V
+cont_row_odd_col_even_ : io_req_pad_data_26                   : Measured Value: 0.666757  V
+cont_row_odd_col_even_ : io_req_pad_addr_23                   : Measured Value: 0.666728  V
+cont_row_odd_col_even_ : io_req_pad_addr_28                   : Measured Value: 0.666687  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_9             : Measured Value: 0.666787  V
+cont_row_odd_col_even_ : io_req_pad_data_31                   : Measured Value: 0.666899  V
+cont_row_odd_col_even_ : io_rsp_pad_data_6                    : Measured Value: 0.233086  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_9            : Measured Value: 0.232412  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_1            : Measured Value: 0.23113  V
+cont_row_odd_col_even_ : dft_pmbist_pmda_rst_pad_i            : Measured Value: 0.666831  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_8             : Measured Value: 0.666831  V
+cont_row_odd_col_even_ : io_rsp_pad_data_27                   : Measured Value: 0.23057  V
+cont_row_odd_col_even_ : dft_scan_scan_in_pad_i_10            : Measured Value: 0.6667  V
+cont_row_odd_col_even_ : pll_async_reset_n_pad_i              : Measured Value: 0.666819  V
+cont_row_odd_col_even_ : io_rsp_pad_data_15                   : Measured Value: 0.231704  V
+cont_row_odd_col_even_ : io_req_pad_data_24                   : Measured Value: 0.666814  V
+cont_row_odd_col_even_ : machine_init_ctrl_pad_i_1            : Measured Value: 0.666964  V
+cont_row_odd_col_even_ : io_rsp_pad_data_2                    : Measured Value: 0.234776  V
+cont_row_odd_col_even_ : dft_scan_scan_out_pad_o_13           : Measured Value: 0.232476  V
+cont_row_odd_col_even_ : tsen_test_o_pad_o                    : Measured Value: 0.235342  V
+cont_row_odd_col_even_ : dft_pmbist_ret_pause_active_pad_o    : Measured Value: 0.232885  V
+
+
+cont_row_odd_col_odd_ : io_rsp_pad_accept0                   : Measured Value: 0.666935  V
+cont_row_odd_col_odd_ : io_req_pad_data_17                   : Measured Value: 0.666943  V
+cont_row_odd_col_odd_ : io_req_pad_data_9                    : Measured Value: 0.666985  V
+cont_row_odd_col_odd_ : io_req_pad_accept0                   : Measured Value: 0.234252  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_0                 : Measured Value: 0.23065  V
+cont_row_odd_col_odd_ : io_req_pad_data_23                   : Measured Value: 0.666973  V
+cont_row_odd_col_odd_ : io_req_pad_addr_17                   : Measured Value: 0.666772  V
+cont_row_odd_col_odd_ : reserved_out_pad_o_1                 : Measured Value: 0.230241  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_10                   : Measured Value: 0.232803  V
+cont_row_odd_col_odd_ : io_req_pad_data_3                    : Measured Value: 0.666831  V
+cont_row_odd_col_odd_ : io_req_pad_data_16                   : Measured Value: 0.666816  V
+cont_row_odd_col_odd_ : io_req_pad_addr_16                   : Measured Value: 0.666715  V
+cont_row_odd_col_odd_ : io_req_pad_data_7                    : Measured Value: 0.667214  V
+cont_row_odd_col_odd_ : io_rsp_pad_size_0                    : Measured Value: 0.230924  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_22                   : Measured Value: 0.230647  V
+cont_row_odd_col_odd_ : io_req_pad_data_22                   : Measured Value: 0.666529  V
+cont_row_odd_col_odd_ : io_req_pad_data_2                    : Measured Value: 0.6668  V
+cont_row_odd_col_odd_ : io_req_pad_addr_7                    : Measured Value: 0.667051  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_1                    : Measured Value: 0.233665  V
+cont_row_odd_col_odd_ : io_req_pad_data_15                   : Measured Value: 0.666694  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_12                   : Measured Value: 0.231156  V
+cont_row_odd_col_odd_ : io_req_pad_data_6                    : Measured Value: 0.667085  V
+cont_row_odd_col_odd_ : pmon_d_clk1_pad_o                    : Measured Value: 0.231156  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_6            : Measured Value: 0.231617  V
+cont_row_odd_col_odd_ : io_req_pad_addr_20                   : Measured Value: 0.666702  V
+cont_row_odd_col_odd_ : io_req_pad_addr_14                   : Measured Value: 0.666816  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_17                   : Measured Value: 0.231666  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_13                   : Measured Value: 0.23156  V
+cont_row_odd_col_odd_ : io_req_pad_addr_10                   : Measured Value: 0.666529  V
+cont_row_odd_col_odd_ : io_req_pad_addr_3                    : Measured Value: 0.667077  V
+cont_row_odd_col_odd_ : io_req_pad_addr_27                   : Measured Value: 0.666757  V
+cont_row_odd_col_odd_ : io_req_pad_data_5                    : Measured Value: 0.667042  V
+cont_row_odd_col_odd_ : dft_1500_updatewr_pad_i              : Measured Value: 0.666914  V
+cont_row_odd_col_odd_ : dft_scan_scan_en_pad_i               : Measured Value: 0.678972  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_6             : Measured Value: 0.666717  V
+cont_row_odd_col_odd_ : dft_scan_elastic_rst_pad_i           : Measured Value: 0.666584  V
+cont_row_odd_col_odd_ : dft_opcg_shift_clk_pad_i             : Measured Value: 0.666622  V
+cont_row_odd_col_odd_ : int_req_pad                          : Measured Value: 0.23156  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_31                   : Measured Value: 0.230906  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_5                    : Measured Value: 0.233514  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_4                    : Measured Value: 0.234514  V
+cont_row_odd_col_odd_ : io_req_pad_addr_29                   : Measured Value: 0.666787  V
+cont_row_odd_col_odd_ : io_req_pad_data_28                   : Measured Value: 0.666844  V
+cont_row_odd_col_odd_ : dft_1500_capturewr_pad_i             : Measured Value: 0.667115  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_15            : Measured Value: 0.666717  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_5             : Measured Value: 0.6668  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_3             : Measured Value: 0.666694  V
+cont_row_odd_col_odd_ : dft_scan_misr_rst_pad_i              : Measured Value: 0.66677  V
+cont_row_odd_col_odd_ : machine_init_ctrl_pad_i_0            : Measured Value: 0.66685  V
+cont_row_odd_col_odd_ : dft_scan_scan_out_pad_o_5            : Measured Value: 0.230396  V
+cont_row_odd_col_odd_ : dft_pmbist_pmda_fail_pad_o           : Measured Value: 0.233745  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_14            : Measured Value: 0.666571  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_13            : Measured Value: 0.667007  V
+cont_row_odd_col_odd_ : dft_scan_scan_in_pad_i_2             : Measured Value: 0.666872  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_1                   : Measured Value: 0.667043  V
+cont_row_odd_col_odd_ : rxtx_width_pad_i_0                   : Measured Value: 0.666926  V
+cont_row_odd_col_odd_ : pllset_pad_i_0                       : Measured Value: 0.667085  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_29                   : Measured Value: 1.10066  V
+
+ ***** FAIL PIN *****: io_rsp_pad_data_29
+
+cont_row_odd_col_odd_ : dft_1500_wso_ret_pad_o               : Measured Value: 0.233985  V
+cont_row_odd_col_odd_ : pllset_pad_i_2                       : Measured Value: 0.666789  V
+cont_row_odd_col_odd_ : pllset_pad_i_1                       : Measured Value: 0.666288  V
+cont_row_odd_col_odd_ : dft_scan_lpg1_pad_i                  : Measured Value: 0.666702  V
+cont_row_odd_col_odd_ : pll_ref_select_pad_i                 : Measured Value: 0.666865  V
+cont_row_odd_col_odd_ : pll_lock_pad_o                       : Measured Value: 0.233432  V
+cont_row_odd_col_odd_ : io_rsp_pad_data_9                    : Measured Value: 0.231823  V
+cont_row_odd_col_odd_ : int_data_pad_1                       : Measured Value: 0.232444  V
+cont_row_odd_col_odd_ : tsen_iref_o_pad_ao                   : Measured Value: 0.627617  V
+cont_row_odd_col_odd_ : pll_config_select_pad_i              : Measured Value: 0.666474  V
+cont_row_odd_col_odd_ : vsen_test1_pad_o                     : Measured Value: 0.230897  V
+cont_row_odd_col_odd_ : drive_pad_i_1                        : Measured Value: 0.666529  V
+cont_row_odd_col_odd_ : dft_pmbist_ret_pause_continue_pad_i  : Measured Value: 0.666869  V
+
+
+-----------------------------------------------
+TOTAL NUMBER OF FAILING PINS ==== 1
+-----------------------------------------------
+INFO: (dataformatter) Completed Detailed STDF file per Lot:  /home/ibm93k/stdf/manual/main_Lot_1_Jul_30_11h36m47s_STDF
+  Ended at: 20250730 113650
+******** end testflow report data  *******
