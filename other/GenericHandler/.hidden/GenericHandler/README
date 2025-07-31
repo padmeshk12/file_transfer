@@ -1,0 +1,16 @@
+####################
+# Build the Driver #
+####################
+
+1. cd .hidden
+2. decompress the tar ball
+3. cd the decompressed driver directory
+5. /opt/hp93000/testcell/phcontrol/bin/run make
+
+
+#####################
+# Use the simulator #
+#####################
+
+1. cd the simulator directory, e.g., Advantest/bin
+2. /opt/hp93000/testcell/phcontrol/bin/run ./simulator

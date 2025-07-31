@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="recipe.xsd" enableProfiling="true">
+  <Libraries>
+    <!-- <Library name="GUILib" path="/tmp/libpartIDIncrement.so" /> -->
+    <Library name="PartIDLib" path="${ENV.XOC_SYSTEM}/lib/libpartIDIncrement.so" />
+  </Libraries>
+  
+  <EquipmentControl function="START_PHCONTROL">
+    <In>GENERIC_93K_DRIVER</In>
+    <In>${ENV.WORKSPACE}/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/DLH</In>
+    <In>${ENV.WORKSPACE}/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/DLH/test/config/DLH-LAN-4-site-16-bin.cfg</In>
+  </EquipmentControl>
+
+  <!-- Active, Load, Bind, and Start the test program -->
+  <!-- <TestProgram action="RUN" name="default_test/src/exampleTests/Example.prog" workspace="/home/runqiucao/Test/workspaces/default_test" lotType="PACKAGE_TEST" forceActivate="false"/> -->
+
+  <TestProgram action="ACTIVATE" name="sampleproject4/src/exampleTests/Example.prog"  workspace="${ENV.WORKSPACE}/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/test/testbed/workspace/" forceActivate="true"/>
+  <TestProgram action="LOAD"/>
+  <TestProgram action="BIND"/>
+  <TestProgram action="START" lotType="PACKAGE_TEST"/> 
+ 
+  <!-- Execute a subrecipe file which specifies detailed lot information -->
+  <SubRecipe path="sub.xml" />
+ 
+  <!-- Execute a shell command or a script file -->
+  <Executable command="echo this is a test"/>
+ 
+  <Level name="LOT">
+    <LoopCount>2</LoopCount>
+    <!-- Send the command to PH for LOAD_LOT -->
+    <EquipmentControl function="LOAD_LOT" />
+    
+    <!-- Open the text, EDL, and STDF data log files -->
+    <Datalog action="OPEN" type="ASCII" path="${TC.datalogPath}.txt" />
+    <Datalog action="OPEN" type="EDL" path="${TC.datalogPath}.edl" />
+    <Datalog action="OPEN" type="STDF" path="${TC.datalogPath}.stdf" />
+    
+    <Level name="DEVICE">
+      <LoopCount>5</LoopCount>
+      <!-- Send the command to PH for LOAD_DEVICE -->
+      <EquipmentControl function="LOAD_DEVICE" />
+    
+      <!-- Use the default library to automatically increment the STDF.PART_ID. You can define your own algorithm -->
+      <LibraryCall function="PartIDLib.autoIncrementPartID"/>
+      <Testflow action="ExecuteMainflow"/>
+      <!-- After the testing is done, send the command to PH for BIN_DEVICE  -->
+      <EquipmentControl function="BIN_DEVICE" />
+    </Level>
+
+<!--     <Level name="WAFER">
+      <LoopCount>1</LoopCount>
+      
+      <EquipmentControl function="LOAD_WAFER" />
+      
+      <Datalog action="OPEN" type="ASCII" path="${TC.datalogPath}${STDF.WAFER_ID}.txt" />  
+      <Level name="DEVICE">
+        <LoopCount>1</LoopCount>
+        <EquipmentControl function="LOAD_DEVICE" />
+        
+        <Testflow action="ExecuteMainflow"/>
+        
+        <EquipmentControl function="BIN_DEVICE" />
+      </Level>
+      <Datalog action="CLOSE" type="ASCII" path="${TC.datalogPath}${STDF.WAFER_ID}.txt" />      
+      <EquipmentControl function="UNLOAD_WAFER" />
+    
+    </Level> -->
+ 
+    <!-- Close all the opened data log files -->
+    <Datalog action="CLOSE" type="ASCII" path="${TC.datalogPath}.txt" />
+    <Datalog action="CLOSE" type="EDL" path="${TC.datalogPath}.edl" />
+    <Datalog action="CLOSE" type="STDF" path="${TC.datalogPath}.stdf" />
+    
+    <!-- After the lot testing is done, send the command to PH for UNLOAD_LOT -->
+    <EquipmentControl function="UNLOAD_LOT" />
+  </Level>
+  
+  <!-- Stop the PH session when the recipe execution is done -->
+  <EquipmentControl function="STOP_PHCONTROL" />
+</Recipe>

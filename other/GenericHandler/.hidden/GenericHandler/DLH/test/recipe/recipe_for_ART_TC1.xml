@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="recipe.xsd" enableProfiling="true">
+
+<!--   <Smartest forceRestart="true">
+    <ModelFile>${ENV.WORKSPACE}/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/test/testbed/device/sampleproject/model</ModelFile>
+    <StartMode>OFFLINE</StartMode>
+    <ShowSWC>true</ShowSWC>
+    <Workspace>${ENV.WORKSPACE}/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/test/testbed/workspace/</Workspace>
+    <Assignment>
+      <Set name="ENV.DRIVER_IS_VERIFIED_WITH_REAL_HANDLER" value="true" />
+    </Assignment>
+  </Smartest> -->
+
+  <Libraries>
+    <!-- <Library name="GUILib" path="/tmp/libpartIDIncrement.so" /> -->
+    <Library name="PartIDLib" path="${ENV.XOC_SYSTEM}/lib/libpartIDIncrement.so" />
+  </Libraries>
+  
+  <EquipmentControl function="START_PHCONTROL">
+    <In>GENERIC_93K_DRIVER</In>
+    <In>${ENV.WORKSPACE}/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/DLH</In>
+    <In>${ENV.WORKSPACE}/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/DLH/test/config/DLH-LAN-4-site-16-bin.cfg</In>
+  </EquipmentControl>
+
+ <!--  <EquipmentControl function="START_PHCONTROL">
+    <In>GENERIC_93K_DRIVER</In>
+    <In>/workspaces/atslxws605/runqiucao/ws-tcct-runqiu-863-0810/workspace/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/DLH</In>
+    <In>/workspaces/atslxws605/runqiucao/ws-tcct-runqiu-863-0810/workspace/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/DLH/test/config/DLH-LAN-4-site-16-bin.cfg</In>
+  </EquipmentControl> -->
+
+  <!-- Active, Load, Bind, and Start the test program -->
+  <!-- <TestProgram action="RUN" name="default_test/src/exampleTests/Example.prog" workspace="/home/runqiucao/Test/workspaces/default_test" lotType="PACKAGE_TEST" forceActivate="false"/> -->
+
+  <!-- <TestProgram action="ACTIVATE" name="sampleproject3/src/exampleTests/Example.prog"  workspace="${ENV.WORKSPACE}/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericHandler/test/testbed/workspace/" forceActivate="true"/> -->
+  <TestProgram action="ACTIVATE" name="sampleproject3/src/exampleTests/Example.prog" forceActivate="true"/>
+  <TestProgram action="LOAD"/>
+  <TestProgram action="BIND"/>
+  <TestProgram action="START" lotType="PACKAGE_TEST"/>
+ 
+  <!-- Execute a subrecipe file which specifies detailed lot information -->
+  <SubRecipe path="sub.xml" />
+ 
+  <!-- Execute a shell command or a script file -->
+  <Executable command="echo this is a test"/>
+
+
+  <!-- Version? -->
+  <EquipmentControl function="GET_ID">
+    <In>equipment</In>
+    <Out>TEST_VERSION</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.1  TEMPLOGCYCLE write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>TEMPLOGCYCLE Parameter=10</In>
+    <Out>TEST_TEMPLOGCYCLE</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.2  TEMPLOGCYCLE? read -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_get_status</In>
+    <In>TEMPLOGCYCLE?</In>
+    <Out>TEST_TEMPLOGCYCLE</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.3  TEMPLOGLENGTH write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>TEMPLOGLENGTH Parameter=100</In>
+    <Out>TEST_TEMPLOGLENGTH</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.4  TEMPLOGLENGTH? read -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_get_status</In>
+    <In>TEMPLOGLENGTH?</In>
+    <Out>TEST_TEMPLOGLENGTH</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.5  TEMPLOGSTART write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>TEMPLOGSTART</In>
+    <Out>TEST_TEMPLOGSTART</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.6  TEMPLOGSTOP write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>TEMPLOGSTOP</In>
+    <Out>TEST_TEMPLOGSTOP</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.7  TEMPLOGSTS read -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_get_status</In>
+    <In>TEMPLOGSTS</In>
+    <Out>TEST_TEMPLOGSTS</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.8  TEMPLOGSEND write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>TEMPLOGSEND</In>
+    <Out>TEST_TEMPLOGSEND</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.9  PRETRGINI write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGINI</In>
+    <Out>TEST_PRETRGINI</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.10 PRETRGENABLE write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGENABLE Parameter=3,1</In>
+    <Out>TEST_PRETRGENABLE</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.11 PRETRGSIGTYPE write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGSIGTYPE Parameter=3,3</In>
+    <Out>TEST_PRETRGSIGTYPE</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.12 PRETRGWAITTIME write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGWAITTIME Parameter=3,500</In>
+    <Out>TEST_PRETRGWAITTIME</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.13 PRETRGOUTTIME write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGOUTTIME Parameter=4,421</In>
+    <Out>TEST_PRETRGOUTTIME</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.14 PRETRGOUTVALUE write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGOUTVALUE Parameter=5,+125</In>
+    <Out>TEST_PRETRGOUTVALUE</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.15 PRETRGRETMETHOD write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGRETMETHOD Parameter=6,1</In>
+    <Out>TEST_PRETRGRETMETHOD</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.16 PRETRGRETVALUE write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGRETVALUE Parameter=2,-60.0</In>
+    <Out>TEST_PRETRGRETVALUE</Out>
+  </EquipmentControl>
+
+  <!-- 8.3.17 PRETRGTESTEND write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>PRETRGTESTEND</In>
+    <Out>TEST_PRETRGTESTEND</Out>
+  </EquipmentControl>
+
+  <!-- unsupported command write -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_set_status</In>
+    <In>set_invalid_cmd Parameter=111</In>
+    <Out>TEST_set_invalid_cmd</Out>
+  </EquipmentControl>
+
+  <!-- unsupported command read -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_get_status</In>
+    <In>get_invalid_cmd</In>
+    <Out>TEST_get_invalid_cmd</Out>
+  </EquipmentControl>
+
+  <!-- unsupported command for simulator -->
+  <EquipmentControl function="EXECUTE_DRIVERFUNCTION">
+    <In>ph_exec_gpib_cmd</In>
+    <In>invalid_cmd</In>
+    <Out>TEST_invalid_cmd</Out>
+  </EquipmentControl>
+ 
+  <Level name="LOT">
+    <LoopCount>2</LoopCount>
+    <!-- Send the command to PH for LOAD_LOT -->
+    <EquipmentControl function="LOAD_LOT" />
+    
+    <!-- Open the text, EDL, and STDF data log files -->
+    <Datalog action="OPEN" type="ASCII" path="${TC.datalogPath}.txt" />
+    <Datalog action="OPEN" type="EDL" path="${TC.datalogPath}.edl" />
+    <Datalog action="OPEN" type="STDF" path="${TC.datalogPath}.stdf" />
+    
+    <Level name="DEVICE">
+      <LoopCount>5</LoopCount>
+      <!-- Send the command to PH for LOAD_DEVICE -->
+      <EquipmentControl function="LOAD_DEVICE" />
+    
+      <!-- Use the default library to automatically increment the STDF.PART_ID. You can define your own algorithm -->
+      <LibraryCall function="PartIDLib.autoIncrementPartID"/>
+      <Testflow action="ExecuteMainflow"/>
+      <!-- After the testing is done, send the command to PH for BIN_DEVICE  -->
+      <EquipmentControl function="BIN_DEVICE" />
+    </Level>
+
+<!--     <Level name="WAFER">
+      <LoopCount>1</LoopCount>
+      
+      <EquipmentControl function="LOAD_WAFER" />
+      
+      <Datalog action="OPEN" type="ASCII" path="${TC.datalogPath}${STDF.WAFER_ID}.txt" />  
+      <Level name="DEVICE">
+        <LoopCount>1</LoopCount>
+        <EquipmentControl function="LOAD_DEVICE" />
+        
+        <Testflow action="ExecuteMainflow"/>
+        
+        <EquipmentControl function="BIN_DEVICE" />
+      </Level>
+      <Datalog action="CLOSE" type="ASCII" path="${TC.datalogPath}${STDF.WAFER_ID}.txt" />      
+      <EquipmentControl function="UNLOAD_WAFER" />
+    
+    </Level> -->
+ 
+    <!-- Close all the opened data log files -->
+    <Datalog action="CLOSE" type="ASCII" path="${TC.datalogPath}.txt" />
+    <Datalog action="CLOSE" type="EDL" path="${TC.datalogPath}.edl" />
+    <Datalog action="CLOSE" type="STDF" path="${TC.datalogPath}.stdf" />
+    
+    <!-- After the lot testing is done, send the command to PH for UNLOAD_LOT -->
+    <EquipmentControl function="UNLOAD_LOT" />
+  </Level>
+  
+  <!-- Stop the PH session when the recipe execution is done -->
+  <EquipmentControl function="STOP_PHCONTROL" />
+</Recipe>

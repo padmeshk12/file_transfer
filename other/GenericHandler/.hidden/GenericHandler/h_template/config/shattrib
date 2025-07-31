@@ -1,0 +1,158 @@
+# -----------------------------------------------------------------------------
+#      This is a handler specific attributes file for handler drivers
+#         (c) Copyright Advantest 2015
+# -----------------------------------------------------------------------------
+# The general syntax of this file is:
+#
+#       file           = definitionlist
+#
+#       definitionlist = definition [definitionlist]
+#
+#       definition     = key data
+#
+#       key            = string ':'
+#
+#       data           = array | simple_data
+#
+#       simple_data    = number_choice | string_choice
+#
+#       number_choice  = '(' number : number precision ')'
+#
+#       precision      = 'i' | 'I' | 'f' | 'F'
+#
+#       string_choice  = quoted_string [ '|' string_choice ]
+#
+#       quoted_string  = '"' string '"' | ''' string '''
+#
+#       array          = '[' data ']'
+#
+#       string         = alphanumeric string
+#
+#       number         = any floating point number
+#
+# Everything following a '#' character up to the end of the line, is
+# treated as a comment. A '#' within a string is handled correctly
+# as part of the string.
+#
+#           For a detailed description please refer to the document
+#                     "Prober/Handler Drivers"
+# -----------------------------------------------------------------------------
+
+
+
+# Parameters for Equipment Identification -------------------------------------
+
+
+handler_family: 			            "*"
+
+model:                                  "*"
+
+
+# Parameters for Log File Generation ------------------------------------------
+
+
+driver_message_log:		             	"*"
+
+debug_level:			            	(-1:4 i)
+
+driver_error_log:		            	"*"
+
+enable_diagnose_window:                 "no" | "yes"
+
+log_files_to_keep:		            	(0:99 i)
+
+log_configuration: 		            	"no" | "yes"
+
+trace_driver_calls:		            	"no" | "yes"
+
+
+# Parameters for Driver Mode --------------------------------------------------
+
+
+communication_mode:		            	"on-line" | "off-line"
+
+hand_test_mode:			            	"off" | "on"
+
+single_step_mode:		            	"off" | "on"
+
+
+# Parameters for Operator interventions ---------------------------------------
+
+
+ask_for_configuration_confirmation:     "no" | "yes"
+
+waiting_for_parts_timeout_action:	    "continue" | "operator-help"
+
+waiting_for_parts_timeout:		        (1:3600 i)
+
+
+# Parameters for Interface Identification -------------------------------------
+
+
+interface_type:			            	"gpib"
+
+symbolic_interface_name:	        	"*"
+
+
+# Parameters for Site Management ----------------------------------------------
+
+
+handler_site_ids:		            	[ "*" ]
+
+handler_site_mask:		            	[ (0:1 i) ]
+
+smartest_site_to_handler_site_map:  	[ (1:32 i) ]
+
+
+# Bin management --------------------------------------------------------------
+
+
+bin_mapping:			            	"default" |	"mapped-hardbins" | "mapped-softbins"
+
+handler_bin_ids:		            	[ "*" ]
+
+handler_retest_bins:		        	[ (1:999 i) ]
+
+hardbin_to_handler_bin_map:	        	[ [ (-1:999 i) ] ]
+
+softbin_to_handler_bin_map:	        	[ [ "*" ] ]
+
+
+# Parameters for Reprobe Activation -------------------------------------------
+
+
+automatic_reprobe_mode:                 "off" | "all" | "per-site"
+
+
+# Parameters for Temperature Setup --------------------------------------------
+
+
+
+# Parameters for GPIO Waveform Setup ------------------------------------------
+
+
+
+# Plugin specific parameters --------------------------------------------------
+
+
+# Equipment setup specific parameters --------------------------------------------------
+
+
+
+# Parameters for Driver Internals ---------------------------------------------
+
+
+flag_check_interval:		        	(0:60000 i)
+
+busy_wait_delay_threshold: 	        	(0:1E7 f)
+
+waiting_for_parts_method: 	        	"polling"
+
+polling_interval: 		            	(0:1E7 f)
+
+smartest_simulation: 	        		"no" | "yes"
+
+plugin_simulation:                      "no" | "yes"
+
+
+# End of File -----------------------------------------------------------------

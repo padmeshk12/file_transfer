@@ -1,0 +1,60 @@
+
+# Example for a tester.model file, see detailed syntax description in the TDC
+
+GLOBAL
+  testhead = TH_8CC                          # TH_1CC | TH_2CC | TH_4CC | TH_8CC | TH_9Slot | TH_18Slot | TH_27Slot
+  dut_interface = SOC_8GROUP                 # SOC_4GROUP | SOC_8GROUP | WSMM
+  hpib_interface = vxi11/e5810a/192.168.0.100/gpib0
+#  utility_lines = 64, type=static, pogo_size=16
+#  mux_boards = 8, type=PMUX01, pogoblocks=866,868,870,872,881,883,885,887
+#  dut_interface_factory_data = NONE
+
+CARD_CONFIGURATION
+  slot = 301, HW = PS1600, pogoblocks = 111-118
+  slot = 310, HW = DPS128, pogoblocks = HV:(201-208)
+
+#  slot = 101, HW = PS5000,     pogoblocks = 101-116
+#  slot = 102, HW = PS1600B,    pogoblocks = 125-132
+#  slot = 103, HW = WSRF,       pogoblocks = 901-902
+#  slot = 108, HW = PureClock,  pogoblocks = 304
+#  slot = 112, HW = PS9G,       pogoblocks = 517-520
+#  slot = 115, HW = AVI64,      pogoblocks = 417-420
+#  slot = 401, HW = WSPS,       pogoblocks = 933  
+#  slot = 303, HW = WSMX,       pogoblocks = HS:(231 431 229 429)
+#  slot = 304, HW = WSMX,       pogoblocks = HS:(232 632) HR:(230 630), type=HD2x32
+#  slot = 310, HW = DPS128,     pogoblocks = HC:(201-208)
+#  slot = 303, HW = DPS64,      pogoblocks = HC:(201-204),                            type=REDIRECT, subtype=E8023PF, config=  1:(201 202)   2:(203 204)
+#  slot = 304, HW = DPS128,     pogoblocks = HC:(225 657 425 857 229 661 429 861),    type=REDIRECT, subtype=E8023PC, config=225:(225 657) 425:(425 857) 229:(229 661) 429:(429 861)
+#  slot = 306, HW = DPS64,      pogoblocks = HC:(211 643 212 644),                    type=REDIRECT, subtype=E8023PD, config=211:(211 643) 212:(212 644)
+#  slot = 307, HW = XPS256,     pogoblocks = 301-316
+
+# For WSMM dutboards use the redirectpogoblocks and rmmconfiguration keyword:
+# slot = 102, HW = WSRF,        pogoblocks = 901 902, redirectpogoblocks = 9901 9902, type = RFMIX,  subtype = N2660B, rmmconfiguration = (RMM72 x1) (RMM72 x8)
+
+
+
+ETC
+#  REFERENCECLOCK : input = INTERNAL, output_at_rf_connector = ON
+
+DMM
+#  1: cardcage=1, type=HP3458A, address=18
+#  2: cardcage=2, type=HP3458A, address=19
+#  3: cardcage=3, type=HP3458A, address=24
+#  4: cardcage=4, type=HP3458A, address=25
+#  5: cardcage=5, type=HP3458A, address=26
+#  6: cardcage=6, type=HP3458A, address=27
+#  7: cardcage=7, type=HP3458A, address=28
+#  8: cardcage=8, type=HP3458A, address=29
+
+
+
+#EXTERNAL_INSTRUMENTS
+#TracecalPsu1 : type = PowerSupply,       model = 6624A, ifName = Gio,       networkAddress = 192.168.0.100, portAddress = 3 
+#TracecalPsu2 : type = PowerSupply,       model = 6654A, ifName = Gio,       networkAddress = 192.168.0.100, portAddress = 4 
+#TracecalDmm1 : type = DigitalMultiMeter, model = 3458A, ifName = GioLegacy, networkAddress = 192.168.0.100, portAddress = 6 
+#TracecalDmm2 : type = DigitalMultiMeter, model = 3458A, ifName = GioLegacy, networkAddress = 192.168.0.100, portAddress = 7 
+
+
+#End of example model file
+
+

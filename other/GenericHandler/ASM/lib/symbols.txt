@@ -1,0 +1,148 @@
+000000000020cdd8 d _DYNAMIC
+000000000020d000 d _GLOBAL_OFFSET_TABLE_
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+                 w _Jv_RegisterClasses
+0000000000006f69 T privateInit(phFuncStruct*)
+                 U phComLanSend(phComStruct*, char*, int, long)
+0000000000007c17 T phFuncTaInit(phFuncStruct*)
+00000000000081ba T phFuncTaSend(phFuncStruct*, char const*, ...)
+0000000000007dcb T phFuncTaStop(phFuncStruct*)
+                 U phComGpibSend(phComStruct*, char*, int, long)
+0000000000007d78 T phFuncTaStart(phFuncStruct*)
+0000000000008e3d T callSRQHandler(phFuncStruct*, int, phFuncError_t*)
+                 U phComGpibClear(phComStruct*)
+                 U phComRs232Send(phComStruct*, char*, int, long)
+                 U phConfConfType(phConfConfStruct*, char const*, int, int*, phConfType_t*, int*)
+0000000000008ece T phFuncTaGetSRQ(phFuncStruct*, int*, int, ...)
+0000000000007720 T privateLotDone(phFuncStruct*, int)
+000000000000762a T privateReprobe(phFuncStruct*)
+                 U phComLanReceive(phComStruct*, char const**, int*, long)
+                 U phConfConfIfDef(phConfConfStruct*, char const*)
+0000000000007f0b T phFuncTaDoAbort(phFuncStruct*)
+0000000000007f4c T phFuncTaDoReset(phFuncStruct*)
+000000000000859e T phFuncTaReceive(phFuncStruct*, int, char const*, ...)
+0000000000007c61 T phFuncTaSetCall(phFuncStruct*, phFuncAvailability_t)
+0000000000009300 T phFuncTaTestSRQ(phFuncStruct*, int*, int*, int)
+00000000000071fd T privateGetStart(phFuncStruct*)
+00000000000076a8 T privateLotStart(phFuncStruct*, int)
+                 U phComGpibReceive(phComStruct*, char const**, int*, long)
+                 U phConfConfNumber(phConfConfStruct*, char const*, int, int*, double*)
+                 U phConfConfString(phConfConfStruct*, char const*, int, int*, char const**)
+000000000000313a T phFuncSimResults(phFuncError_t*, int)
+0000000000007e30 T phFuncTaAskAbort(phFuncStruct*)
+0000000000008008 T phFuncTaMarkStep(phFuncStruct*)
+                 U phLogFuncMessage(phLogStruct*, phLogType_t, char const*, ...)
+0000000000007485 T privateBinDevice(phFuncStruct*, long*)
+000000000000782f T privateGetStatus(phFuncStruct*, char const*, char const*, char**)
+0000000000007761 T privateSetStatus(phFuncStruct*, char const*, char const*)
+000000000000718a T privateStripDone(phFuncStruct*, int)
+                 U phComGpibGetEvent(phComStruct*, gpibEvent**, int*, long)
+                 U phComRs232Receive(phComStruct*, char const**, int*, long)
+0000000000008d26 T phFuncTaClearGpib(phFuncStruct*)
+0000000000007665 T privateBinReprobe(phFuncStruct*, long*, long*)
+0000000000007108 T privateStripStart(phFuncStruct*, int)
+00000000000030d5 T phFuncPredefModels(char**, modelDef**)
+0000000000007fb1 T phFuncTaRemoveStep(phFuncStruct*)
+00000000000070a2 T privateReconfigure(phFuncStruct*)
+0000000000007d57 T phFuncTaGetLastCall(phFuncStruct*, phFuncAvailability_t*)
+                 U phEstateAGetSiteInfo(phEstateStruct*, phEstateSiteUsage_t**, int*)
+                 U phEstateASetSiteInfo(phEstateStruct*, phEstateSiteUsage_t*, int)
+00000000000080e0 T phFuncTaRemoveToMark(phFuncStruct*)
+00000000000030ff T phFuncGpibReconfigure(phFuncStruct*)
+0000000000008147 T phFuncTaAddSRQHandler(phFuncStruct*, int, phFuncError_t (*)(phFuncStruct*, int))
+0000000000007d25 T phFuncTaSetSpecialCall(phFuncStruct*, phFuncAvailability_t)
+                 U phTrimLeadingTrailingDelimiter(char*, char const*)
+0000000000003165 t RememberCall(phFuncStruct*, phFuncAvailability_t)
+0000000000007b1f t phFuncTaPush(phFuncStruct*)
+0000000000006a7f t setupBinCode(phFuncStruct*, long, char*)
+00000000000069c6 t waitForParts(phFuncStruct*)
+0000000000006ba1 t binAndReprobe(phFuncStruct*, phEstateSiteUsage_t*, long*, long*)
+0000000000005bf3 t doReconfigure(phFuncStruct*)
+0000000000005b15 t localDelay_us(long)
+0000000000005c02 t parseSiteInfo(phFuncStruct*, char const*, int*, int*, int*)
+00000000000031ad t writeLongList(int, long*)
+000000000020ef20 b handlerSiteName
+000000000020d6f0 b dummyReturnCount
+000000000020d6f4 b dummyReturnIndex
+000000000020d6e8 b dummyReturnValues
+00000000000077cc t getAllCoordinates(char*)
+0000000000003357 t reconfigureGlobal(phFuncStruct*)
+0000000000005fdb t getDeviceContactInfo(phFuncStruct*, char const*)
+000000000020d240 d GPIB_ERROR_DESCRIPTION
+000000000020d340 d GPIB_ERROR_DESCRIPTION
+000000000020d420 d GPIB_ERROR_DESCRIPTION
+000000000020d500 d GPIB_ERROR_DESCRIPTION
+000000000020d5e0 d GPIB_ERROR_DESCRIPTION
+000000000000331d t phFuncRS232Reconfigure(phFuncStruct*)
+000000000020d6e0 b myLogger
+00000000000067e7 t pollParts(phFuncStruct*)
+000000000020df04 b phFuncInit::isConfigured
+000000000020df08 b phFuncInit::tmpId
+000000000020df20 b phFuncGetStatus::response
+000000000000b760 r privateGetStart(phFuncStruct*)::__FUNCTION__
+000000000021ef20 b privateGetStatus(phFuncStruct*, char const*, char const*, char**)::handlerAnswer
+000000000020d220 d phFuncPredefModels(char**, modelDef**)::myFamily
+000000000020d320 d phFuncPredefModels(char**, modelDef**)::myModels
+000000000000b74f r waitForParts(phFuncStruct*)::__FUNCTION__
+000000000020d418 d writeLongList(int, long*)::useListOne
+000000000020d700 b writeLongList(int, long*)::listOne
+000000000020db00 b writeLongList(int, long*)::listTwo
+000000000020df00 b reconfigureGlobal(phFuncStruct*)::emptyString
+000000000000b730 r getDeviceContactInfo(phFuncStruct*, char const*)::__FUNCTION__
+000000000000b745 r pollParts(phFuncStruct*)::__FUNCTION__
+000000000000cd58 r __FRAME_END__
+000000000000c344 r __GNU_EH_FRAME_HDR
+000000000020cdc8 d __JCR_END__
+000000000020cdc8 d __JCR_LIST__
+000000000020d6b8 d __TMC_END__
+000000000020d6b8 B __bss_start
+                 w __cxa_finalize@@GLIBC_2.2.5
+0000000000003060 t __do_global_dtors_aux
+000000000020cdc0 t __do_global_dtors_aux_fini_array_entry
+000000000020cdd0 d __dso_handle
+                 U __errno_location@@GLIBC_2.2.5
+000000000020cdb8 t __frame_dummy_init_array_entry
+                 w __gmon_start__
+000000000020d6b8 D _edata
+0000000000220f20 B _end
+000000000000960c T _fini
+0000000000002bb8 T _init
+                 U atoi@@GLIBC_2.2.5
+000000000020d6c0 b completed.6355
+0000000000002ff0 t deregister_tm_clones
+00000000000030a0 t frame_dummy
+                 U free@@GLIBC_2.2.5
+                 U isgraph@@GLIBC_2.2.5
+                 U malloc@@GLIBC_2.2.5
+                 U memset@@GLIBC_2.2.5
+00000000000039f4 T phFuncAvailable
+00000000000054de T phFuncBinDevice
+0000000000005857 T phFuncBinReprobe
+00000000000052ce T phFuncGetStart
+000000000000421b T phFuncGetStatus
+0000000000003a3e T phFuncInit
+0000000000004eb2 T phFuncLotDone
+0000000000004d38 T phFuncLotStart
+00000000000040a2 T phFuncReconfigure
+000000000000571d T phFuncReprobe
+00000000000047b1 T phFuncSetStatus
+000000000000517d T phFuncStripDone
+0000000000005003 T phFuncStripStart
+0000000000003020 t register_tm_clones
+                 U select@@GLIBC_2.2.5
+                 U sleep@@GLIBC_2.2.5
+                 U sprintf@@GLIBC_2.2.5
+                 U strcasecmp@@GLIBC_2.2.5
+                 U strcat@@GLIBC_2.2.5
+                 U strcmp@@GLIBC_2.2.5
+                 U strcpy@@GLIBC_2.2.5
+                 U strdup@@GLIBC_2.2.5
+                 U strlen@@GLIBC_2.2.5
+                 U strncmp@@GLIBC_2.2.5
+                 U strncpy@@GLIBC_2.2.5
+                 U strstr@@GLIBC_2.2.5
+                 U strtok@@GLIBC_2.2.5
+                 U strtol@@GLIBC_2.2.5
+                 U vsprintf@@GLIBC_2.2.5
+                 U vsscanf@@GLIBC_2.2.5

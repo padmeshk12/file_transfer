@@ -1,0 +1,8 @@
+plese follow the below step to make *.so
+
+1. tar -zxvf  secstwo-1.0.1.tar.gz
+2. cd secstwo-1.0.1
+3. run ./configure (step 1 from 3 just needed  first time only )
+4. run " g++ -fPIC  -DHAVE_CONFIG_H -I.  -I/usr/include -I/usr/include/libxml2 -I.   -I/usr/include/libxml2 -MT secstwomsg.o -MD -MP -MF .deps/secstwomsg.Tpo -c -o secstwomsg.o secstwomsg.cxx"
+5. run " g++ -fPIC -DHAVE_CONFIG_H -I.  -I/usr/include -I/usr/include/libxml2 -I.   -I/usr/include/libxml2 -MT secstwo_serialize.o -MD -MP -MF .deps/secstwo_serialize.Tpo -c -o secstwo_serialize.o secstwo_serialize.cxx"
+6.  g++ -fPIC -shared secstwomsg.o secstwo_serialize.o -o libsecstwo.so

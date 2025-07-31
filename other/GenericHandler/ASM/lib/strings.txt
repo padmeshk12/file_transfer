@@ -1,0 +1,631 @@
+Eg/T
+t`2l?
+v aO
+tq1`
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+libdriver_dev_kits.so
+_Z18phFuncPredefModelsPPcPP8modelDef
+_Z21phFuncGpibReconfigureP12phFuncStruct
+_Z16phLogFuncMessageP11phLogStruct11phLogType_tPKcz
+_Z16phFuncSimResultsP13phFuncError_ti
+_Z15phFuncTaSetCallP12phFuncStruct20phFuncAvailability_t
+strcat
+_Z20phEstateAGetSiteInfoP14phEstateStructPP19phEstateSiteUsage_tPi
+_Z16phConfConfStringP16phConfConfStructPKciPiPS2_
+_Z15phConfConfIfDefP16phConfConfStructPKc
+strcasecmp
+_Z14phConfConfTypeP16phConfConfStructPKciPiP12phConfType_tS3_
+free
+malloc
+_Z16phConfConfNumberP16phConfConfStructPKciPiPd
+phFuncAvailable
+phFuncInit
+_Z12phFuncTaInitP12phFuncStruct
+strcmp
+strdup
+_Z11privateInitP12phFuncStruct
+phFuncReconfigure
+_Z18privateReconfigureP12phFuncStruct
+phFuncGetStatus
+strncpy
+strtok
+strcpy
+strstr
+strlen
+_Z16privateGetStatusP12phFuncStructPKcS2_PPc
+phFuncSetStatus
+_Z13phFuncTaStartP12phFuncStruct
+_Z30phTrimLeadingTrailingDelimiterPcPKc
+_Z16privateSetStatusP12phFuncStructPKcS2_
+_Z12phFuncTaStopP12phFuncStruct
+phFuncLotStart
+_Z15privateLotStartP12phFuncStructi
+phFuncLotDone
+_Z14privateLotDoneP12phFuncStructi
+phFuncStripStart
+_Z17privateStripStartP12phFuncStructi
+phFuncStripDone
+_Z16privateStripDoneP12phFuncStructi
+phFuncGetStart
+_Z20phEstateASetSiteInfoP14phEstateStructP19phEstateSiteUsage_ti
+_Z15privateGetStartP12phFuncStruct
+phFuncBinDevice
+_Z16privateBinDeviceP12phFuncStructPl
+phFuncReprobe
+_Z14privateReprobeP12phFuncStruct
+phFuncBinReprobe
+_Z17privateBinReprobeP12phFuncStructPlS1_
+select
+__errno_location
+atoi
+memset
+strncmp
+_Z12phFuncTaSendP12phFuncStructPKcz
+_Z15phFuncTaReceiveP12phFuncStructiPKcz
+strtol
+_Z16phFuncTaAskAbortP12phFuncStruct
+sleep
+_Z16phFuncTaMarkStepP12phFuncStruct
+_Z20phFuncTaRemoveToMarkP12phFuncStruct
+_Z22phFuncTaSetSpecialCallP12phFuncStruct20phFuncAvailability_t
+_Z19phFuncTaGetLastCallP12phFuncStructP20phFuncAvailability_t
+_Z15phFuncTaDoAbortP12phFuncStruct
+_Z15phFuncTaDoResetP12phFuncStruct
+_Z18phFuncTaRemoveStepP12phFuncStruct
+_Z21phFuncTaAddSRQHandlerP12phFuncStructiPF13phFuncError_tS0_iE
+vsprintf
+_Z13phComGpibSendP11phComStructPcil
+_Z12phComLanSendP11phComStructPcil
+_Z14phComRs232SendP11phComStructPcil
+_Z16phComGpibReceiveP11phComStructPPKcPil
+_Z15phComLanReceiveP11phComStructPPKcPil
+_Z17phComRs232ReceiveP11phComStructPPKcPil
+isgraph
+vsscanf
+_Z17phFuncTaClearGpibP12phFuncStruct
+_Z14phComGpibClearP11phComStruct
+_Z14callSRQHandlerP12phFuncStructiP13phFuncError_t
+_Z14phFuncTaGetSRQP12phFuncStructPiiz
+_Z17phComGpibGetEventP11phComStructPP9gpibEventPil
+_Z15phFuncTaTestSRQP12phFuncStructPiS1_i
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+NULL
+@H@KL
+ASM HandH
+ler DrivH
+er PlugiH
+n 8.6.4.H
+@P;E
+@P;E
+@P;E
+ATSH
+[A\]
+<"u,
+@P;E
+RESULT 
+@P;E
+@P;E
+@P;E
+=%v!
+=}u!
+=Et!
+=9t!
+0s#H
+0s#H
+0s#H
+No error.
+Interface device is unknown.
+The GPIB communication times out.
+Failed to close the GPIB interface.
+Failed to lock the interface.
+Failed to unlock the interface.
+Failed to get the system time.
+Failed to allocate memory.
+Syntax error in GPIB address.
+Version error.
+Faile to Connect to the prober/handler.
+The session ID does not belong to a GPIB session
+Invalid port address.
+Invalid instrument.
+Failed to reset the interface.
+Failed to set SRQ callbacks.
+Failed to set interruption callbacks.
+Failed to enable the interrupt events.
+Failed to define the termination character.
+Failed to set the length of timing out.
+Failed to control the state of the ATN signal on the bus.
+Incomplete message.
+The session ID does not belong to a rs232 session.
+Invalid port address in rs232 communication mode.
+Failed to set communication parameters to rs232 interface.
+Failed to set timeout in rs232 mode.
+Unexpected GPIB error.
+No error.
+Interface device is unknown.
+The GPIB communication times out.
+Failed to close the GPIB interface.
+Failed to lock the interface.
+Failed to unlock the interface.
+Failed to get the system time.
+Failed to allocate memory.
+Syntax error in GPIB address.
+Version error.
+Faile to Connect to the prober/handler.
+The session ID does not belong to a GPIB session
+Invalid port address.
+Invalid instrument.
+Failed to reset the interface.
+Failed to set SRQ callbacks.
+Failed to set interruption callbacks.
+Failed to enable the interrupt events.
+Failed to define the termination character.
+Failed to set the length of timing out.
+Failed to control the state of the ATN signal on the bus.
+Incomplete message.
+The session ID does not belong to a rs232 session.
+Invalid port address in rs232 communication mode.
+Failed to set communication parameters to rs232 interface.
+Failed to set timeout in rs232 mode.
+Unexpected GPIB error.
+phFuncGpibReconfigureGpib(P%p)
+No error.
+Interface device is unknown.
+The GPIB communication times out.
+Failed to close the GPIB interface.
+Failed to lock the interface.
+Failed to unlock the interface.
+Failed to get the system time.
+Failed to allocate memory.
+Syntax error in GPIB address.
+Version error.
+Faile to Connect to the prober/handler.
+The session ID does not belong to a GPIB session
+Invalid port address.
+Invalid instrument.
+Failed to reset the interface.
+Failed to set SRQ callbacks.
+Failed to set interruption callbacks.
+Failed to enable the interrupt events.
+Failed to define the termination character.
+Failed to set the length of timing out.
+Failed to control the state of the ATN signal on the bus.
+Incomplete message.
+The session ID does not belong to a rs232 session.
+Invalid port address in rs232 communication mode.
+Failed to set communication parameters to rs232 interface.
+Failed to set timeout in rs232 mode.
+Unexpected GPIB error.
+reconfigureRS232(P%p)
+reconfigureGlobal(P%p)
+handler_site_ids
+waiting_for_reply_of_cmd
+configuration "%s" is set off
+configuration "%s" couldn't be found, will set it as default value "yes"
+handler_bin_ids
+configuration "%s" of wrong type,
+must be a list of handler bin names
+flag_check_interval
+interface_type
+gpib
+lan-server
+rs232
+gpio|gpib|lan|rs232|lan-server
+this driver plugin accepts the following interface type configurations only:
+%s: "%s"
+Ensure that this parameter is set in the driver configuration
+plugin_simulation
+communication_mode
+off-line
+phFuncInit(P%p, P%p, P%p, P%p)
+not enough memory during call to phFuncInit()
+handler_family
+model
+bin_mapping
+Tue Aug 6 05:20:59 CEST 2024
+Handler driver identification: "%s" compiled at %s
+%s: "%s", %s: "%s" (from configuration)
+default
+mapped-hardbins
+mapped-softbins
+The given handler family "%s" is not
+valid for this handler driver plugin. Expected: "%s"
+The given handler model "%s" is not
+supported by this handler driver plugin
+driver plugin could not be initialized
+due to errors in configuration
+simulated operation: initialize handler driver plugin
+offline operation: initialize handler driver plugin
+phFuncReconfigure(P%p)
+driver plugin could not be fully (re)configured
+due to errors in configuration
+Driver plugin currently in inconsistent state !!!
+simulated operation: reconfigure handler driver plugin
+offline operation: reconfigure handler driver plugin
+phFuncGetStatus(P%p, P%p)
+phFuncGetStatus(P%p, %s)
+simulated operation: get handler status
+offline operation: get handler status
+phFuncGetStatus, token = ->%s<-
+phFuncGetStatus, key ->%s<-, param ->%s<-
+phFuncGetStatus, key ->%s<-, No Param
+temperature_
+phFuncGetStatus, %s is defined as ->%s<-
+phFuncGetStatus, answer ->%s<-, length = %d
+phFuncGetStatus, response ->%s<-, length = %d
+phFuncSetStatus(P%p, P%p)
+phFuncSetStatus(P%p, %s)
+simulated operation: set handler status
+offline operation: set handler status
+phFuncSetStatus, token = ->%s<-
+phFuncSetStatus, key ->%s<-, param ->%s<-
+phFuncSetStatus, key ->%s<-, No Param
+phFuncLotStart(P%p, %s)
+simulated operation: get lot start
+offline operation: get lot start
+NOTIMEOUT
+phFuncLotDone(P%p, %s)
+simulated operation: get lot done
+offline operation: get lot done
+phFuncStripStart(P%p, %s)
+simulated operation: get strip start
+offline operation: get strip start
+phFuncStripDone(P%p, %s)
+simulated operation: get strip done
+offline operation: get strip done
+phFuncGetStart(P%p)
+simulated operation: get devices
+offline operation: get devices
+phFuncBinDevice(P%p, %s)
+simulated operation: bin devices
+offline operation: bin devices
+phFuncReprobe(P%p)
+simulated operation: reprobe all
+offline operation: reprobe all
+phFuncBinReprobe(P%p, %s, %s)
+simulated operation: bin or reprobe
+offline operation: bin or reprobe
+@No error.
+Interface device is unknown.
+The GPIB communication times out.
+Failed to close the GPIB interface.
+Failed to lock the interface.
+Failed to unlock the interface.
+Failed to get the system time.
+Failed to allocate memory.
+Syntax error in GPIB address.
+Version error.
+Faile to Connect to the prober/handler.
+The session ID does not belong to a GPIB session
+Invalid port address.
+Invalid instrument.
+Failed to reset the interface.
+Failed to set SRQ callbacks.
+Failed to set interruption callbacks.
+Failed to enable the interrupt events.
+Failed to define the termination character.
+Failed to set the length of timing out.
+Failed to control the state of the ATN signal on the bus.
+Incomplete message.
+The session ID does not belong to a rs232 session.
+Invalid port address in rs232 communication mode.
+Failed to set communication parameters to rs232 interface.
+Failed to set timeout in rs232 mode.
+Unexpected GPIB error.
+sites info is:%s
+the length of device info should be 3,current length is 0 !!!
+the length of device info should be 3,current length is %d!
+Entering %s...
+Receive message is:%s
+START
+START RANGE
+RANGE
+the strip id  is:%s
+START EXPLICIT
+Entering START EXPLICIT 
+RESTART
+RESTART RANGE
+RESTART EXPLICIT
+The handler seems to present more devices than configured
+The driver configuration must be changed to support more sites,current enableSites:%d,max support sites:%d
+device present at site "%s" (polled)
+Exit %s...
+Entering %s ...
+RUN%s
+END_OF_LOT
+Lot end from handler detected...
+handler_bin_ids
+invalid binning data
+could not bin to bin index %ld 
+maximum number of bins %d set by configuration %s
+using default bin map,handler bi id is:%d
+will bin device at site "%s" to %s
+unable to send binning at site "%s"
+%s%s
+TRUE
+FALSE
+Entering privateStripStart, timeoutFlag = %s
+Exit privateStripStart... 
+Entering privateStripDone, timeoutFlag = %s
+Exit privateStripDone... 
+device has got 
+received device for deactivated site "%s"
+privateReprobe
+%s not yet implemented (ignored)
+privateBinReprobe
+Entering privateLotStart, %s
+Exiting privateLotStart, retVal = %d
+Exiting privateLotDone, retVal = %d
+privateSetStatus, token = ->%s<-, param = ->%s<-
+privateGetStatus, token = ->%s<-, param = ->%s<-
+stripId
+xy_coordinate
+site index is beginning with 1,change index 0 to 1
+x_coordinate_int
+y_coordinate
+privateGetStatus, answer ->%s<-, length = %d
+getDeviceContactInfo
+pollParts
+waitForParts
+privateGetStart
+No error.
+Interface device is unknown.
+The GPIB communication times out.
+Failed to close the GPIB interface.
+Failed to lock the interface.
+Failed to unlock the interface.
+Failed to get the system time.
+Failed to allocate memory.
+Syntax error in GPIB address.
+Version error.
+Faile to Connect to the prober/handler.
+The session ID does not belong to a GPIB session
+Invalid port address.
+Invalid instrument.
+Failed to reset the interface.
+Failed to set SRQ callbacks.
+Failed to set interruption callbacks.
+Failed to enable the interrupt events.
+Failed to define the termination character.
+Failed to set the length of timing out.
+Failed to control the state of the ATN signal on the bus.
+Incomplete message.
+The session ID does not belong to a rs232 session.
+Invalid port address in rs232 communication mode.
+Failed to set communication parameters to rs232 interface.
+Failed to set timeout in rs232 mode.
+Unexpected GPIB error.
+transaction control initialized
+transaction control reset for new call
+transaction control reset for repeated call
+transaction control recognized special call
+transaction started
+transaction stopped
+entering phFuncTaAskAbort, doAbort = %x, lastCall = %x, currentCall = %x
+transaction control perform abort
+transaction control schedule abort
+transaction control reset
+transaction control removed last step
+NOT marking current step again, already marked
+transaction control marked current step
+transaction control removed steps up to marked position
+NOT sending message, was already sent: "%s"
+trying to send message to handler: "%s", timeout = %ld
+message sent
+sending message "%s" to handler timed out
+unexpected GPIB error
+unexpected LAN error
+unexpected RS232 error, transaction is reset
+NOT trying to receive message from handler, already received
+trying to receive message from handler, timeout = %ld
+received from handler: "%s"
+received blank message from handler "%s", timing out
+message from handler not understood
+expected format "%s", got answer "%s"
+vsscanf returned %d, expected %d
+receiving message from handler timed out
+NOT trying to clear device, already cleared
+Ready to clear the GPIB interface
+Successfully clear GPIB interface
+Failed to clear GPIB interface, retry...
+NOT trying to receive SRQ from handler, already received
+trying to receive SRQ from handler, timeout = %l
+received from handler: SRQ 0x%02x
+0x%02x 
+SRQ from handler not understood, got 0x%02x, expected one of [ %s]
+event from handler not understood
+receiving SRQ from handler timed out
+calling phComGpibGetEvent to receive SRQ, timeout = %d, fast = %d
+after phComGpibGetEvent, returned = PHCOM_ERR_OK, event = %d, pending = %d
+no additional SRQ received from handler
+after phComGpibGetEvent, returned = PHCOM_ERR_TIMEOUT, event = %d, pending = %d
+after phComGpibGetEvent, returned = %d, event = %d, pending = %d
+;*3$"
+GCC: (GNU) 4.8.5 20150623 (Red Hat 4.8.5-44)
+crtstuff.c
+__JCR_LIST__
+deregister_tm_clones
+__do_global_dtors_aux
+completed.6355
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+driver_defaults.c
+_ZL22GPIB_ERROR_DESCRIPTION
+_ZZ18phFuncPredefModelsPPcPP8modelDefE8myFamily
+_ZZ18phFuncPredefModelsPPcPP8modelDefE8myModels
+gpib_conf.c
+ph_hfunc.c
+_ZL8myLogger
+_ZL17dummyReturnValues
+_ZL16dummyReturnCount
+_ZL16dummyReturnIndex
+_ZL12RememberCallP12phFuncStruct20phFuncAvailability_t
+_ZL13writeLongListiPl
+_ZZL13writeLongListiPlE10useListOne
+_ZZL13writeLongListiPlE7listOne
+_ZZL13writeLongListiPlE7listTwo
+_ZL22phFuncRS232ReconfigureP12phFuncStruct
+_ZL17reconfigureGlobalP12phFuncStruct
+_ZZL17reconfigureGlobalP12phFuncStructE11emptyString
+_ZZ10phFuncInitE12isConfigured
+_ZZ10phFuncInitE5tmpId
+_ZZ15phFuncGetStatusE8response
+private.c
+_ZL15handlerSiteName
+_ZL13localDelay_usl
+_ZL13doReconfigureP12phFuncStruct
+_ZL13parseSiteInfoP12phFuncStructPKcPiS3_S3_
+_ZL20getDeviceContactInfoP12phFuncStructPKc
+_ZZL20getDeviceContactInfoP12phFuncStructPKcE12__FUNCTION__
+_ZL9pollPartsP12phFuncStruct
+_ZZL9pollPartsP12phFuncStructE12__FUNCTION__
+_ZL12waitForPartsP12phFuncStruct
+_ZZL12waitForPartsP12phFuncStructE12__FUNCTION__
+_ZL12setupBinCodeP12phFuncStructlPc
+_ZL13binAndReprobeP12phFuncStructP19phEstateSiteUsage_tPlS3_
+_ZZ15privateGetStartP12phFuncStructE12__FUNCTION__
+_ZL17getAllCoordinatesPc
+_ZZ16privateGetStatusP12phFuncStructPKcS2_PPcE13handlerAnswer
+transaction.c
+_ZL12phFuncTaPushP12phFuncStruct
+__FRAME_END__
+__JCR_END__
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+__TMC_END__
+__dso_handle
+_DYNAMIC
+phFuncReprobe
+_Z16phLogFuncMessageP11phLogStruct11phLogType_tPKcz
+_Z16privateStripDoneP12phFuncStructi
+memset@@GLIBC_2.2.5
+_Z15phConfConfIfDefP16phConfConfStructPKc
+vsscanf@@GLIBC_2.2.5
+_Z16phConfConfStringP16phConfConfStructPKciPiPS2_
+__gmon_start__
+_Jv_RegisterClasses
+phFuncLotDone
+phFuncAvailable
+select@@GLIBC_2.2.5
+phFuncReconfigure
+strcasecmp@@GLIBC_2.2.5
+_Z14privateLotDoneP12phFuncStructi
+_fini
+strncmp@@GLIBC_2.2.5
+malloc@@GLIBC_2.2.5
+isgraph@@GLIBC_2.2.5
+phFuncBinReprobe
+phFuncInit
+_Z17phComRs232ReceiveP11phComStructPPKcPil
+_Z16privateSetStatusP12phFuncStructPKcS2_
+_Z14phComGpibClearP11phComStruct
+_ITM_deregisterTMCloneTable
+_Z16phConfConfNumberP16phConfConfStructPKciPiPd
+phFuncGetStatus
+_Z16phFuncTaMarkStepP12phFuncStruct
+free@@GLIBC_2.2.5
+strlen@@GLIBC_2.2.5
+_ITM_registerTMCloneTable
+_Z13phComGpibSendP11phComStructPcil
+vsprintf@@GLIBC_2.2.5
+_Z16phComGpibReceiveP11phComStructPPKcPil
+_Z11privateInitP12phFuncStruct
+_Z18privateReconfigureP12phFuncStruct
+phFuncLotStart
+__cxa_finalize@@GLIBC_2.2.5
+_Z17phFuncTaClearGpibP12phFuncStruct
+_Z15privateLotStartP12phFuncStructi
+phFuncBinDevice
+sleep@@GLIBC_2.2.5
+_Z14phComRs232SendP11phComStructPcil
+phFuncStripStart
+_Z21phFuncGpibReconfigureP12phFuncStruct
+strstr@@GLIBC_2.2.5
+_Z17privateStripStartP12phFuncStructi
+_Z30phTrimLeadingTrailingDelimiterPcPKc
+_Z20phEstateASetSiteInfoP14phEstateStructP19phEstateSiteUsage_ti
+strcat@@GLIBC_2.2.5
+_Z13phFuncTaStartP12phFuncStruct
+strtol@@GLIBC_2.2.5
+atoi@@GLIBC_2.2.5
+_Z16privateGetStatusP12phFuncStructPKcS2_PPc
+_Z14privateReprobeP12phFuncStruct
+_Z15privateGetStartP12phFuncStruct
+_Z17privateBinReprobeP12phFuncStructPlS1_
+_Z14phConfConfTypeP16phConfConfStructPKciPiP12phConfType_tS3_
+phFuncGetStart
+_Z12phFuncTaInitP12phFuncStruct
+_Z16privateBinDeviceP12phFuncStructPl
+_Z20phEstateAGetSiteInfoP14phEstateStructPP19phEstateSiteUsage_tPi
+__errno_location@@GLIBC_2.2.5
+strdup@@GLIBC_2.2.5
+__bss_start
+_Z12phFuncTaStopP12phFuncStruct
+phFuncSetStatus
+strcmp@@GLIBC_2.2.5
+_Z16phFuncSimResultsP13phFuncError_ti
+_Z22phFuncTaSetSpecialCallP12phFuncStruct20phFuncAvailability_t
+strcpy@@GLIBC_2.2.5
+_Z15phComLanReceiveP11phComStructPPKcPil
+strtok@@GLIBC_2.2.5
+_Z18phFuncTaRemoveStepP12phFuncStruct
+_Z15phFuncTaDoAbortP12phFuncStruct
+_end
+_Z14phFuncTaGetSRQP12phFuncStructPiiz
+strncpy@@GLIBC_2.2.5
+_Z15phFuncTaReceiveP12phFuncStructiPKcz
+_Z15phFuncTaTestSRQP12phFuncStructPiS1_i
+_Z16phFuncTaAskAbortP12phFuncStruct
+_edata
+_Z21phFuncTaAddSRQHandlerP12phFuncStructiPF13phFuncError_tS0_iE
+_Z15phFuncTaDoResetP12phFuncStruct
+_Z20phFuncTaRemoveToMarkP12phFuncStruct
+_Z12phFuncTaSendP12phFuncStructPKcz
+_Z18phFuncPredefModelsPPcPP8modelDef
+_Z15phFuncTaSetCallP12phFuncStruct20phFuncAvailability_t
+_Z12phComLanSendP11phComStructPcil
+phFuncStripDone
+_Z19phFuncTaGetLastCallP12phFuncStructP20phFuncAvailability_t
+_Z14callSRQHandlerP12phFuncStructiP13phFuncError_t
+_init
+_Z17phComGpibGetEventP11phComStructPP9gpibEventPil
+.symtab
+.strtab
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
