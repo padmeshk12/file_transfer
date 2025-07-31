@@ -1,0 +1,10 @@
+# This is a projects map file for SmarTest 8 workspace.
+# The format is 'key=value'
+# Key is always Eclipse project name (please use only alphanumerical characters)
+# Value is always a path string which can be written in 3 different ways:
+# 1) For directories physically located *inside* workspace: relative path, like 'MyProject=my/project/path'
+# 2) For directories physically located *outside* workspace:
+# 2.1) $(environment_variable)/path, like 'MyProject=$(SRC_ROOT)/my/project/path' 
+# 2.2) full absolute path (not recommended!)
+
+sampleproject=sampleproject

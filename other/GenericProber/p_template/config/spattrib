@@ -1,0 +1,180 @@
+# -----------------------------------------------------------------------------
+#      This is a prober specific attributes file for prober drivers
+#         (c) Copyright Advantest 2015
+# -----------------------------------------------------------------------------
+# The general syntax of this file is:
+#
+#       file           = definitionlist
+#
+#       definitionlist = definition [definitionlist]
+#
+#       definition     = key data
+#
+#       key            = string ':'
+#
+#       data           = array | simple_data
+#
+#       simple_data    = number_choice | string_choice
+#
+#       number_choice  = '(' number : number precision ')'
+#
+#       precision      = 'i' | 'I' | 'f' | 'F'
+#
+#       string_choice  = quoted_string [ '|' string_choice ]
+#
+#       quoted_string  = '"' string '"' | ''' string '''
+#
+#       array          = '[' data [ size ] ']'
+#
+#       size           = natural | range
+#
+#       range          = natural'-'natural | natural'-?' | '?-'natural
+#
+#       string         = alphanumeric string
+#
+#       number         = any floating point number
+#
+#       natural        = any positive integer number (without sign)
+#
+# Everything following a '#' character up to the end of the line, is 
+# treated as a comment. A '#' within a string is handled correctly
+# as part of the string.
+#
+#           For a detailed description please refer to the document
+#                     "Prober/Handler Drivers"
+# -----------------------------------------------------------------------------
+
+
+
+# Parameters for Equipment Identification -------------------------------------
+
+
+prober_family:	 			"*"
+
+model: 					"*"
+
+
+# Parameters for Log File Generation ------------------------------------------
+
+
+driver_message_log:			"*"
+
+debug_level:                            (-1:4 i)
+
+driver_error_log:                       "*"
+
+log_files_to_keep:                      (0:99 i)
+
+log_configuration:                      "no" | "yes"
+
+trace_driver_calls:                     "no" | "yes"
+
+
+# Parameters for Driver Mode --------------------------------------------------
+
+
+communication_mode:                     "on-line" | "off-line"
+
+single_step_mode:                       "off" | "on"
+
+
+# Parameters for Operator interventions ---------------------------------------
+
+
+ask_for_configuration_confirmation:     "no" | "yes"
+
+waiting_for_parts_timeout_action:       "continue" | "operator-help"
+
+waiting_for_parts_timeout:              (1:3600 i)
+
+waiting_for_wafer_timeout_action:       "continue" | "operator-help"
+
+waiting_for_wafer_timeout:              (1:3600 i)
+
+waiting_for_cassette_timeout_action:    "continue" | "operator-help"
+
+waiting_for_cassette_timeout:           (1:3600 i)
+
+general_timeout_action:                 "continue" | "operator-help"
+
+general_timeout:                        (1:3600 i)
+
+stop_prober_on_smartest_pause:          "no" | "yes"
+
+
+# Parameters for Interface Identification -------------------------------------
+
+
+interface_type:                         "gpib"
+
+symbolic_interface_name:                "*"
+
+gpib_port:                              (0:31 i)
+
+
+# Parameters for Site Management ----------------------------------------------
+
+
+prober_site_ids:                        [ "*" 1-? ]
+
+prober_site_mask:                       [ (0:1 i) 1-? ]
+
+smartest_site_to_prober_site_map:       [ (1:32 i) 1-? ]
+
+
+# Bin management --------------------------------------------------------------
+
+
+bin_mapping:                            "default" | "mapped-hardbins" | "mapped-softbins"
+
+prober_bin_ids:                         [ "*" 1-? ]
+
+prober_retest_bins:                     [ (0:999 i) 0-? ]
+
+hardbin_to_prober_bin_map:              [ [ (-1:999 i) 1-? ] 1-? ]
+
+softbin_to_prober_bin_map:              [ [ "*" 1-? ] 1-? ]
+
+
+# Parameters for Reprobe Activation -------------------------------------------
+
+
+
+# Parameters for specific prober functionality --------------------------------
+
+
+stepping_controlled_by:                 "prober" | "learnlist" | "smartest"
+
+multi_site_die_offsets:                 [ [ (-1000:1000 i) 2 ] 1-? ]
+
+perform_subdie_probing:                 "no" | "yes"
+
+subdie_step_pattern:                    [ [ (-100:100 i) 2 ] 1-? ]
+
+ink_bad_dies:                           "no" | "yes"
+
+
+# Plugin specific parameters --------------------------------------------------
+
+
+electroglas_recipe_file:                "*"
+
+
+# Parameters for Driver Internals ---------------------------------------------
+
+
+flag_check_interval:                    (0:60000 i)
+
+busy_wait_delay_threshold:              (0:1E7 f)
+
+waiting_for_parts_method:               "polling"
+
+polling_interval:                       (0:1E7 f)
+
+smartest_simulation:                    "no" | "yes"
+
+plugin_simulation:                      "no" | "yes"
+
+enable_diagnose_window:                  "no" | "yes"
+
+# End of File -----------------------------------------------------------------

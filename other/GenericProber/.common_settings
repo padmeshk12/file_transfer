@@ -1,0 +1,5 @@
+#Define the location of the PHControl software
+PHCONTROL_ROOT=$(XOC_SYSTEM)
+
+#Define the revision of the current PH driver
+REVISION= $(shell grep ^DISPLAYED_VERSION_STRING= $(XOC_SYSTEM)/etc/properties | cut -d "=" -f 2 )

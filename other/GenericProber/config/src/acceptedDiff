@@ -1,0 +1,22 @@
+33,34c33,34
+< #ifndef YY_PHCONFATTRYY_Y_TAB_H_INCLUDED
+< # define YY_PHCONFATTRYY_Y_TAB_H_INCLUDED
+---
+> #ifndef YY_PHCONFCONFYY_Y_TAB_H_INCLUDED
+> # define YY_PHCONFCONFYY_Y_TAB_H_INCLUDED
+40c40
+< extern int phConfAttrYydebug;
+---
+> extern int phConfConfYydebug;
+83c83
+< extern YYSTYPE phConfAttrYylval;
+---
+> extern YYSTYPE phConfConfYylval;
+85c85
+< int phConfAttrYyparse (void);
+---
+> int phConfConfYyparse (void);
+87c87
+< #endif /* !YY_PHCONFATTRYY_Y_TAB_H_INCLUDED  */
+---
+> #endif /* !YY_PHCONFCONFYY_Y_TAB_H_INCLUDED  */

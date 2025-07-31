@@ -1,0 +1,35 @@
+Unrecognized option: - h
+usage: /workspaces/atslxws248/jonjin/ws-tcct-unittest-overall/workspace/ph-development/phcontrol/drivers/Generic_93K_Driver/GenericProber/TEL/bin/simulator [<options>]
+ -d <debug-level         -1 to 4, default 0
+ -D                      perform interactive stepping
+ -i <gpib-interface>     GPIB interface device, default hpib
+ -t <timeout>            GPIB timeout to be used [msec], default 5000
+ -m <prober model>       prober model, one of:
+                         P8, P12, F12, 78S, 20S, default 20S
+ -M <binning method>     binning method (only valid for P12/F12 model), one of :
+                         parity, binary
+ -p [<x>,<y>]+           probe coordinate list in detail like [0,0] or only provide site number 
+ -s <x>,<y>              probe step size, default 1,1
+ -w <xmin>,<ymin>,<xmax>,<ymax>,<xref>,<yref>
+                         wafer layout, default 0,0,4,4,0,0
+ -q <query-command>      ignore <query-command> 
+                         may set to "?V" or "VF" 
+ -r                      use reverse binning
+ -a                      use ASCII style 'O' command
+ -f                      send first wafer SRQ
+ -x                      corrupt 1st and every 11th (selected) message or event
+ -o <record file>        record GUI states
+ -P <playback file>      play back GUI states
+ -S <seconds>            auto start lot this time after lot end
+ -n                      no GUI
+ -Z                      convert <playback file> into <record file> with 
+                         new format 
+ -z                      set z up limit, default is 1000 
+ -C <wafer count>         set wafer count, default 5
+ -A                       enable auto start
+ -F                       specify the prefix of wafer ID
+ 
+Sample command with probe coordinate list in detail : 
+./simulator -d 1 -w 2,2,8,8,5,5 -m P8 -S 20 -p [0,0][1,1][2,2][3,3] -s 1,1 
+Sample command with site number and simulator will generate probe coordinate list automatically: 
+./simulator -d 1 -w 2,2,8,8,5,5 -m P8 -S 20 -p 4 -s 1,1 
