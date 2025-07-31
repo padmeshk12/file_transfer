@@ -1,0 +1,15 @@
+Device ID    : W_10_5
+Tsens_Offset : 67176555
+Tsens_Slope  : 67109995
+Device ID    : W_10_5
+Tsens_Offset : 67176604
+Tsens_Slope  : 67110015
+Device ID    : W_10_5
+Tsens_Offset : 67176583
+Tsens_Slope  : 67110006
+Device ID    : W_10_5
+Tsens_Offset : 67176625
+Tsens_Slope  : 67110024
+Device ID    : W_10_5
+Tsens_Offset : 67176647
+Tsens_Slope  : 67110033
