@@ -1,0 +1,58 @@
+hp93000,timing,0.1
+EQSP TIM,SPS,#9000001158
+SPECIFICATION "tdf4_ext_if_opcg0_logic"
+{
+
+CHECK all
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+Freq_f1          20                                                 [ ns] 
+
+EQNSET 106 "tim_eqn_6_Free_run_io_clk"
+WAVETBL "Free_Run_IO_CLK"
+PORT pIOCLK
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+
+EQNSET 105 "tim_eqn_5_Free_run_ref_clk"
+WAVETBL "Free_Run_REF_CLK"
+PORT pREFCLK
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+
+EQNSET 107 "tim_eqn_7_Rest_all_pins"
+WAVETBL "REST_Pins"
+PORT p_Rest_all_pins
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+
+EQNSET 73 "tim_eqn_73_tdf4_ext_if_lpg0_logic_X1_para"
+WAVETBL "tdf4_ext_if_logic_X1_para"
+PORT ppara_LOGIC_Port
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+
+EQNSET 74 "tim_eqn_74_tdf4_ext_if_lpg0_logic_X1_scan"
+WAVETBL "tdf4_ext_if_logic_X1_scan"
+PORT pscan_LOGIC_Port
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+}
+@
+
+NOOP "7.10.6",,,

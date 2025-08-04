@@ -1,0 +1,23 @@
+hp93000,timing,0.1
+EQSP TIM,WVT,#900003780
+WAVETBL "saf4_ext_if_lpg0_logic_X1_scan"
+
+DEFINES pscan_LOGIC_Port
+
+PINS dft_scan_cme_pad_i dft_scan_scan_in_pad_i_0 dft_scan_scan_in_pad_i_1 dft_scan_scan_in_pad_i_10 dft_scan_scan_in_pad_i_11 dft_scan_scan_in_pad_i_12 dft_scan_scan_in_pad_i_13 dft_scan_scan_in_pad_i_14 dft_scan_scan_in_pad_i_15 dft_scan_scan_in_pad_i_2 dft_scan_scan_in_pad_i_3 dft_scan_scan_in_pad_i_4 dft_scan_scan_in_pad_i_5 dft_scan_scan_in_pad_i_6 dft_scan_scan_in_pad_i_7 dft_scan_scan_in_pad_i_8 dft_scan_scan_in_pad_i_9
+0 "" .
+1 "d1:0" 0
+2 "d1:1" 1
+3 "d1:Z" Z
+PINS dft_scan_scan_out_pad_o_0 dft_scan_scan_out_pad_o_10 dft_scan_scan_out_pad_o_14 dft_scan_scan_out_pad_o_15 dft_scan_scan_out_pad_o_3 dft_scan_scan_out_pad_o_6 dft_scan_scan_out_pad_o_7 dft_scan_scan_out_pad_o_9
+0 "" .
+1 "d1:0" 0
+2 "d1:Z r1:E1" H
+3 "d1:Z r1:E0" L
+4 "d1:Z" Z
+PINS dft_scan_scan_out_pad_o_1 dft_scan_scan_out_pad_o_11 dft_scan_scan_out_pad_o_12 dft_scan_scan_out_pad_o_13 dft_scan_scan_out_pad_o_2 dft_scan_scan_out_pad_o_4 dft_scan_scan_out_pad_o_5 dft_scan_scan_out_pad_o_8
+0 "" .
+1 "d1:Z r1:E1" H
+2 "d1:Z r1:E0" L
+3 "d1:Z" Z
+@
