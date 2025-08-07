@@ -1,0 +1,5 @@
+This is generated using the original shell script, with everything else same 
+as pat0. 
+Using d865ed5f commit on Jan 28 2025, we use the following command:
+ ./run_gen_matrix.sh -l -j gen.prof -m /share/npShare1/hardware/dft/ATPG/ATPG_v4.1
+ gen.prof specifies ext_if, with ELASTIC and ELASTIC_OPCG only, with mini_prod and full_prod as the production levels.
