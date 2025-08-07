@@ -1,0 +1,20 @@
+hp93000,pattern_master_file,0.1
+
+path:
+  ../vectors/SAF4/pat123_vec
+files:
+
+
+chip_saf4_ext_if_xor_lpg_logic_1_para_p1.binl.gz
+chip_saf4_ext_if_xor_lpg_logic_1_para_p3.binl.gz
+chip_saf4_ext_if_xor_lpg_logic_1_scan_para_p1.binl.gz
+chip_saf4_ext_if_xor_lpg_logic_1_scan_para_p3.binl.gz
+chip_saf4_ext_if_xor_lpg0_logic_1_para_p2.binl.gz
+chip_saf4_ext_if_xor_lpg0_logic_1_scan_para_p2.binl.gz
+chip_saf4_ext_if_xor_lpg1_logic_1_para_p2.binl.gz
+chip_saf4_ext_if_xor_lpg1_logic_1_scan_para_p2.binl.gz
+
+chip_saf4_ext_if_lpg_p1
+chip_saf4_ext_if_lpg_p3
+chip_saf4_ext_if_lpg0_p2
+chip_saf4_ext_if_lpg1_p2
