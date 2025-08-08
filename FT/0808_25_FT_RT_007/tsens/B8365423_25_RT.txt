@@ -1,0 +1,14 @@
+Device ID                 : B8365423
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 945
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 3932
+fpref_reg_0x1D            : 4212
+temp_read_reg_0xA         : 350
+anthr_temp_read_reg_0x22  : 505
+temp_range                : 2.2938e+07
+
+Target Temp               : 25
+Read out dec              : 350
+tempC                     : -6.25

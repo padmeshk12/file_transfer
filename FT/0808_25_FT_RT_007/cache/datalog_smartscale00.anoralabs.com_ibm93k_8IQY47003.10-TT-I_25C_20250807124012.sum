@@ -1,0 +1,61 @@
+FINAL LOT SUMMARY            Report run: Thu Aug 07 12:41:55 2025
+
+Lot:                	8IQY47003.10-TT-I
+Sublot:             	
+Program:            	IBM_NP_Master_Rev007_RT.ttf
+Version:            	
+Part Type:          	12
+Product ID:         	12
+Package Type:       	B6811850
+Operator:           	NICHOLAS
+Station Number:     	V93000_1
+Station Mode:       	Production
+Tester Type:        	V93000 SOC
+Node Name:          	smartscale00.anoralabs.com
+Tester:             	smartscale00.anoralabs.com
+Test Code:          	FT
+Retest Code:        	
+Test Temperature:   	25C
+Handler or Prober:  	handtest (Offline)
+Device Name:        	B6811850
+Device Revision:    	
+User Description:   	IBM-NP
+Site Count:         	1
+Active Sites:       	1
+DIB Type:           	
+DIB ID:             	
+Executive Name:     	TCCT
+Executive Version:  	1.9.8
+Executive Release Date:	20200617
+SmarTest Version:   	7.10.6.0
+SmarTest Release Date:	Thu, 04 Aug 2022 08:14:36 +0200
+
+USER_TXT:           	SmarTest
+SITE_MASK:          	0
+
+
+_________________________________________________________________________________________________
+
+
+                      SOFTWARE  BIN  TOTALS 
+               Bin           Bin Name             Total      %
+              ------   --------------------      -------   -----
+
+
+                      HARDWARE  BIN  TOTALS 
+               Bin           Bin Name             Total      %
+              ------   --------------------      -------   -----
+
+
+Total Number of devices binned      (all sites) = 0
+
+
+Minimum total number of tests executed for Passed device: 0
+Maximum total number of tests executed for Passed device: 0
+
+
+--------  Test  ----------------------                 Total  ---------- Failures ---------       Site
+Number          Name                                   Execs     Total     %/Part   %/Exec        Num
+-------------------------------------------------------------------------------------------------------
+
+*****No test records found*****
