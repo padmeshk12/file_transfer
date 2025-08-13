@@ -1,0 +1,14 @@
+Device ID                 : B8365498
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 945
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 3872
+fpref_reg_0x1D            : 4213
+temp_read_reg_0xA         : 310
+anthr_temp_read_reg_0x22  : 500
+temp_range                : 2.03165e+07
+
+Target Temp               : 25
+Read out dec              : 310
+tempC                     : -11.25

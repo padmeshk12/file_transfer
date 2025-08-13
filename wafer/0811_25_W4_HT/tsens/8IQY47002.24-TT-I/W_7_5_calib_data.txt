@@ -1,0 +1,3 @@
+Device ID    : W_7_5
+Tsens_Offset : 67176282
+Tsens_Slope  : 67109901

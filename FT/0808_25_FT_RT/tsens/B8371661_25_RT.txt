@@ -1,0 +1,14 @@
+Device ID                 : B8371661
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 945
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 3913
+fpref_reg_0x1D            : 4180
+temp_read_reg_0xA         : 354
+anthr_temp_read_reg_0x22  : 506
+temp_range                : 2.32001e+07
+
+Target Temp               : 25
+Read out dec              : 354
+tempC                     : -5.75

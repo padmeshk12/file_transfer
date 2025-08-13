@@ -1,0 +1,3 @@
+Device ID    : W_8_4
+Tsens_Offset : 67176620
+Tsens_Slope  : 67109992
