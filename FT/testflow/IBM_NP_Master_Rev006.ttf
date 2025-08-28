@@ -1,0 +1,2803 @@
+hp93000,testflow,0.1
+language_revision = 1;
+
+information
+
+   description = "IBM-NP";
+
+   device_name = "B6811850";
+
+end
+-----------------------------------------------------------------
+declarations
+
+@BIN_ASSIGNED = 0;
+@HT_Temp = 85;
+@PART_NUMBER = "B6841010_feb28";
+@PLL_Freq_Index = 10;
+@RDI_CONFIGURE_FILE = "Rdi_Configure_FT";
+@RT_Temp = 25;
+@R_Time = 80;
+@S_Time = 300;
+@Str_Test_Temp = "RT";
+@TDF_Binout = 0;
+@TF_PDF_BOT = 0;
+@TF_PDF_TOP = 0;
+@TF_TDF_BOT = 0;
+@TF_TDF_TOP = 0;
+@T_Time = 10;
+@Test_Temp = 25;
+@Tsens_final_Offset = "1";
+@Tsens_final_Slope = "0";
+@Tsens_init_Offset = "0x40106fd";
+@Tsens_init_Slope = "0x40003b1";
+@W_Time = 10;
+end
+-----------------------------------------------------------------
+implicit_declarations
+
+end
+-----------------------------------------------------------------
+flags
+
+datalog_formatter = 0;
+datalog_sample_size = 1;
+graphic_result_displa = 1;
+state_display = 0;
+print_wafermap = 0;
+ink_wafer = 0;
+max_reprobes = 32;
+temp_monitor = 1;
+calib_age_monitor = 1;
+diag_monitor = 1;
+current_monitor = 1;
+log_events_enable = 1;
+set_pass_level = 0;
+set_fail_level = 0;
+set_bypass_level = 0;
+hold_on_fail = 0;
+global_hold = 0;
+debug_mode = 0;
+debug_analog = 1;
+parallel_mode = 1;
+site_match_mode = 2;
+global_overon = 1;
+limits_enable = 1;
+test_number_enable = 1;
+test_number_inc = 1;
+log_cycles_before = 0;
+log_cycles_after = 0;
+unburst_mode = 0;
+sqst_mode = 0;
+warn_as_fail = 1;
+use_hw_dsp = 0;
+dsp_file_enable = 0;
+buffer_testflow_log = 0;
+check_testmethod_api = 0;
+tm_crash_as_fatal = 1;
+hidden_datalog_mode = 0;
+multibin_mode = 0;
+user	MEM_REPAIR = 0;
+user	PF_PMBIST_BWE = 0;
+user	PF_PMBIST_NOBWE = 0;
+user	PF_PMBIST_PB = 0;
+user	RDI_INFO_LEVEL = 0;
+user	REPAIRED = 1;
+user	Serail_ID_Read = 1;
+user	TCCT_Mode = 1;
+user	result_reporting = 1;
+end
+-----------------------------------------------------------------
+testmethodparameters
+tm_10:
+  "Test_number" = "121001";
+  "configFile" = "lookup_mux_config.csv";
+  "curforce_uA" = "100";
+  "pin_list" = "MUX_OUT";
+tm_100:
+  "DPS_SUP_SHO" = "vcs_pll,vcs_pm_1,vcs_pm_2,vdd_io_clk,vdd_pll,vcsio_pll,vcsio_ts,vcsio_vs_1,vcsio_vs_2,vddio_io_clk,vddio_pll,vddio_rx,vddio_tx";
+  "test_number" = "211001";
+tm_101:
+  "DPS_SUP_SHO" = "vcs_pll,vcs_pm_1,vcs_pm_2,vdd_io_clk,vdd_pll,vcsio_pll,vcsio_ts,vcsio_vs_1,vcsio_vs_2,vddio_io_clk,vddio_pll,vddio_rx,vddio_tx";
+  "test_number" = "211001";
+tm_11:
+  "Pattern" = "leak_meas_25byp_modeinit";
+  "PortName" = "pLeak_Port";
+tm_12:
+  "Pattern" = "cold_boot_400_modeinit";
+  "PortName" = "pCOLD_BOOT_Port";
+tm_13:
+  "RowEven_ColEven" = "ROW_EVEN_COL_EVEN_IN";
+  "RowEven_ColOdd" = "ROW_EVEN_COL_ODD_IN";
+  "RowOdd_ColEven" = "ROW_ODD_COL_EVEN_IN";
+  "RowOdd_ColOdd" = "ROW_ODD_COL_ODD_IN";
+  "VForce_High" = "1.8";
+  "VForce_Low" = "0";
+tm_14:
+  "RowEven_ColEven" = "ROW_EVEN_COL_EVEN_IN";
+  "RowEven_ColOdd" = "ROW_EVEN_COL_ODD_IN";
+  "RowOdd_ColEven" = "ROW_ODD_COL_EVEN_IN";
+  "RowOdd_ColOdd" = "ROW_ODD_COL_ODD_IN";
+  "VForce_High" = "1.8";
+  "VForce_Low" = "0";
+tm_15:
+  "Test_number" = "318001";
+  "VForce_High" = "1.8";
+  "VForce_Low" = "0";
+  "configFile" = "mux_input_pins.csv";
+  "pin_list" = "MUX_OUT";
+tm_16:
+  "Test_number" = "319001";
+  "VForce_High" = "1.8";
+  "VForce_Low" = "0";
+  "configFile" = "mux_input_pins.csv";
+  "pin_list" = "MUX_OUT";
+tm_17:
+  "Pattern_CSV" = "COLD_BOOT.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_18:
+  "Pattern_CSV" = "COLD_BOOT_TSENS.csv";
+  "Pattern_Type" = "pmbist";
+tm_19:
+  "Pattern_CSV" = "COLD_BOOT_TSENS.csv";
+  "Pattern_Type" = "pmbist";
+tm_20:
+  "DPS_SUP_SHO" = "vcs_pll,vcs_pm_1,vcs_pm_2,vdd_io_clk,vdd_pll,vcsio_pll,vcsio_ts,vcsio_vs_1,vcsio_vs_2,vddio_io_clk,vddio_pll,vddio_rx,vddio_tx";
+  "test_number" = "211001";
+tm_22:
+  "Pattern_CSV" = "PMBIST_NoBWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_23:
+  "Pattern_CSV" = "COLD_BOOT_MACHINE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_24:
+  "Pattern_CSV" = "JTAG_READ.csv";
+  "Pattern_Type" = "jtag";
+tm_25:
+  "Pattern_CSV" = "COLD_BOOT.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_26:
+  "Pattern_CSV" = "PMBIST_REPAIR.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_27:
+  "Pattern_CSV" = "PMBIST_NoBWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_28:
+  "Pattern_CSV" = "COLD_BOOT.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_29:
+  "Pattern_CSV" = "PMBIST_REPAIR.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_30:
+  "Pattern_CSV" = "PMBIST_NoBWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_31:
+  "Pattern_CSV" = "COLD_BOOT.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_32:
+  "Pattern_CSV" = "PMBIST_REPAIR.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_33:
+  "Pattern_CSV" = "PMBIST_NoBWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_34:
+  "Pattern_CSV" = "COLD_BOOT.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_35:
+  "Pattern_CSV" = "PMBIST_REPAIR.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_36:
+  "Pattern_CSV" = "PMBIST_NoBWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_37:
+  "Pattern_CSV" = "COLD_BOOT.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_38:
+  "Pattern_CSV" = "PMBIST_REPAIR.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_39:
+  "Pattern_CSV" = "PMBIST_NoBWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_40:
+  "Pattern_CSV" = "CHIP_EFUSE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_41:
+  "Pattern_CSV" = "COLD_BOOT_MACHINE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_42:
+  "Pattern_CSV" = "PMBIST_NoBWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_43:
+  "Pattern_CSV" = "JTAG_READ.csv";
+  "Pattern_Type" = "jtag";
+tm_44:
+  "Pattern_CSV" = "COLD_BOOT_MACHINE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_45:
+  "Pattern_CSV" = "COLD_BOOT_MACHINE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "pCOLD_BOOT_Port";
+tm_46:
+  "Pattern_CSV" = "PMBIST_NoBWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_47:
+  "Pattern_CSV" = "PMBIST_BWE.csv";
+  "Pattern_Type" = "pmbist";
+  "Port_Name" = "p_PMBIST_Port";
+tm_48:
+  "Pattern_CSV" = "SAF4_SCAN_CDT.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "yes";
+tm_49:
+  "Pattern_CSV" = "SAF4_LOGIC_CDT.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_50:
+  "Pattern_CSV" = "SAF4_SCAN_COL0.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_51:
+  "Pattern_CSV" = "SAF4_LOGIC_COL0.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_52:
+  "Pattern_CSV" = "SAF4_SCAN_EXT_IF.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_53:
+  "Pattern_CSV" = "SAF4_LOGIC_EXT_IF.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_54:
+  "Pattern_CSV" = "SAF4_SCAN_COL_ROW.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_55:
+  "Pattern_CSV" = "SAF4_LOGIC_COL_ROW.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_56:
+  "Pattern_CSV" = "SAF4_SCAN_EXTEST_1.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_57:
+  "Pattern_CSV" = "SAF4_LOGIC_EXTEST_0000fce.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_58:
+  "Pattern_CSV" = "SAF4_LOGIC_EXTEST_1.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_59:
+  "Pattern_CSV" = "SAF4_SCAN_CORE_ROW_0_7.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_6:
+  "DPS_SUP_SHO" = "vcs_pll,vcs_pm_1,vcs_pm_2,vdd_io_clk,vdd_pll,vcsio_pll,vcsio_ts,vcsio_vs_1,vcsio_vs_2,vddio_io_clk,vddio_pll,vddio_rx,vddio_tx";
+  "test_number" = "211001";
+tm_60:
+  "Pattern_CSV" = "SAF4_LOGIC_CORE_ROW_0_7.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "TOP";
+  "MeasureVDD?" = "no";
+tm_61:
+  "Pattern_CSV" = "PDF4_CDT.csv";
+  "Pattern_Type" = "PDF";
+  "PortName_TMU" = "ppara_PDF_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_62:
+  "Pattern_CSV" = "PDF4_COL0.csv";
+  "Pattern_Type" = "PDF";
+  "PortName_TMU" = "ppara_PDF_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_63:
+  "Pattern_CSV" = "PDF4_COL_ROW.csv";
+  "Pattern_Type" = "PDF";
+  "PortName_TMU" = "ppara_PDF_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_64:
+  "Pattern_CSV" = "PDF4_CORE_ROW_0_7.csv";
+  "Pattern_Type" = "PDF";
+  "PortName_TMU" = "ppara_PDF_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_65:
+  "Pattern_CSV" = "TDF4_OPCG2P_SCAN_CDT.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_66:
+  "Pattern_CSV" = "TDF4_OPCG2P_LOGIC_CDT.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_67:
+  "Pattern_CSV" = "TDF4_OPCG3P_SCAN_CDT.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_68:
+  "Pattern_CSV" = "TDF4_OPCG3P_LOGIC_CDT.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_69:
+  "Pattern_CSV" = "TDF4_OPCG2P_SCAN_COL0.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_7:
+  "RowEven_ColEven" = "ROW_EVEN_COL_EVEN";
+  "RowEven_ColOdd" = "ROW_EVEN_COL_ODD";
+  "RowOdd_ColEven" = "ROW_ODD_COL_EVEN";
+  "RowOdd_ColOdd" = "ROW_ODD_COL_ODD";
+  "cur_Force_uA" = "100";
+tm_70:
+  "Pattern_CSV" = "TDF4_OPCG2P_LOGIC_COL0.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_71:
+  "Pattern_CSV" = "TDF4_OPCG3P_SCAN_COL0.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_72:
+  "Pattern_CSV" = "TDF4_OPCG3P_LOGIC_COL0.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_73:
+  "Pattern_CSV" = "TDF4_OPCG_SCAN_EXT_IF.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_74:
+  "Pattern_CSV" = "TDF4_OPCG_LOGIC_EXT_IF.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_75:
+  "Pattern_CSV" = "TDF4_OPCG2P_SCAN_COL_ROW.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_76:
+  "Pattern_CSV" = "TDF4_OPCG2P_LOGIC_COL_ROW.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_77:
+  "Pattern_CSV" = "TDF4_OPCG3P_SCAN_COL_ROW.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_78:
+  "Pattern_CSV" = "TDF4_OPCG3P_LOGIC_COL_ROW.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_79:
+  "Pattern_CSV" = "TDF4_OPCG_SCAN_EXTEST_1.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_EXTEST_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_8:
+  "RowEven_ColEven" = "ROW_EVEN_COL_EVEN";
+  "RowEven_ColOdd" = "ROW_EVEN_COL_ODD";
+  "RowOdd_ColEven" = "ROW_ODD_COL_EVEN";
+  "RowOdd_ColOdd" = "ROW_ODD_COL_ODD";
+  "cur_Force_uA" = "-100";
+tm_80:
+  "Pattern_CSV" = "TDF4_OPCG_LOGIC_EXTEST_1.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_EXTEST_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_81:
+  "Pattern_CSV" = "TDF4_OPCG2P_SCAN_CORE_ROW_0_7.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_82:
+  "Pattern_CSV" = "TDF4_OPCG2P_LOGIC_CORE_ROW_0_7.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_83:
+  "Pattern_CSV" = "TDF4_OPCG3P_SCAN_CORE_ROW_0_7.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_84:
+  "Pattern_CSV" = "TDF4_OPCG3P_LOGIC_CORE_ROW_0_7.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "TOP";
+tm_85:
+  "Pattern_CSV" = "SAF4_SCAN_EXTEST_2.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "BOT";
+  "MeasureVDD?" = "yes";
+tm_86:
+  "Pattern_CSV" = "SAF4_LOGIC_EXTEST_2.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "BOT";
+  "MeasureVDD?" = "no";
+tm_87:
+  "Pattern_CSV" = "SAF4_SCAN_CORE_ROW_8_15.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "BOT";
+  "MeasureVDD?" = "no";
+tm_88:
+  "Pattern_CSV" = "SAF4_LOGIC_CORE_ROW_8_15.csv";
+  "Pattern_Type" = "scan";
+  "Core(TOP/BOT)" = "BOT";
+  "MeasureVDD?" = "no";
+tm_89:
+  "Pattern_CSV" = "PDF4_CORE_ROW_8_15.csv";
+  "Pattern_Type" = "PDF";
+  "PortName_TMU" = "ppara_PDF_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "BOT";
+tm_9:
+  "Test_number" = "120001";
+  "configFile" = "lookup_mux_config.csv";
+  "curforce_uA" = "100";
+  "pin_list" = "MUX_OUT";
+tm_90:
+  "Pattern_CSV" = "TDF4_OPCG_SCAN_EXTEST_2.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_EXTEST_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "BOT";
+tm_91:
+  "Pattern_CSV" = "TDF4_OPCG_LOGIC_EXTEST_2.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_EXTEST_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "BOT";
+tm_92:
+  "Pattern_CSV" = "TDF4_OPCG2P_SCAN_CORE_ROW_8_15.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "BOT";
+tm_93:
+  "Pattern_CSV" = "TDF4_OPCG2P_LOGIC_CORE_ROW_8_15.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "BOT";
+tm_94:
+  "Pattern_CSV" = "TDF4_OPCG3P_SCAN_CORE_ROW_8_15.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_SCAN_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "BOT";
+tm_95:
+  "Pattern_CSV" = "TDF4_OPCG3P_LOGIC_CORE_ROW_8_15.csv";
+  "Pattern_Type" = "TDF";
+  "PortName_TMU" = "ppara_LOGIC_Port";
+  "LowFreq" = "25";
+  "Core(TOP/BOT)" = "BOT";
+tm_99:
+  "Pattern_CSV" = "COLD_BOOT_TSENS.csv";
+  "Pattern_Type" = "pmbist";
+end
+-----------------------------------------------------------------
+testmethodlimits
+end
+-----------------------------------------------------------------
+testmethods
+tm_1:
+  testmethod_class = "TM.Bin_Disconnect";
+tm_10:
+  testmethod_class = "TM.Continuity_mux_pins";
+tm_100:
+  testmethod_class = "TM.Supply_short";
+tm_101:
+  testmethod_class = "TM.Supply_short";
+tm_102:
+  testmethod_class = "TM.Vsen";
+tm_103:
+  testmethod_class = "TM.Serail_ID_read";
+tm_11:
+  testmethod_class = "TM.IDD_static";
+tm_12:
+  testmethod_class = "TM.IDD_dynamic";
+tm_13:
+  testmethod_class = "TM.Leakage_dir_pins";
+tm_14:
+  testmethod_class = "TM.Leakage_dir_pins";
+tm_15:
+  testmethod_class = "TM.Leakage_mux_pins";
+tm_16:
+  testmethod_class = "TM.Leakage_mux_pins";
+tm_17:
+  testmethod_class = "TM.Functional_Pattern";
+tm_18:
+  testmethod_class = "TM.TSENS_Measure_Temp_runtimeval";
+tm_19:
+  testmethod_class = "TM.TSENS_Measure_Temp_runtimeval";
+tm_2:
+  testmethod_class = "TM.Thermostream_Set_Temp_25";
+tm_20:
+  testmethod_class = "TM.Supply_short";
+tm_21:
+  testmethod_class = "TM.TSENS_Calibration_NEW";
+tm_22:
+  testmethod_class = "TM.Functional_Pattern";
+tm_23:
+  testmethod_class = "TM.Functional_Pattern";
+tm_24:
+  testmethod_class = "TM.Functional_JTAG_Read";
+tm_25:
+  testmethod_class = "TM.Functional_Pattern";
+tm_26:
+  testmethod_class = "TM.Functional_Pattern";
+tm_27:
+  testmethod_class = "TM.Functional_Pattern";
+tm_28:
+  testmethod_class = "TM.Functional_Pattern";
+tm_29:
+  testmethod_class = "TM.Functional_Pattern";
+tm_3:
+  testmethod_class = "TM.Thermostream_Set_Temp_85";
+tm_30:
+  testmethod_class = "TM.Functional_Pattern";
+tm_31:
+  testmethod_class = "TM.Functional_Pattern";
+tm_32:
+  testmethod_class = "TM.Functional_Pattern";
+tm_33:
+  testmethod_class = "TM.Functional_Pattern";
+tm_34:
+  testmethod_class = "TM.Functional_Pattern";
+tm_35:
+  testmethod_class = "TM.Functional_Pattern";
+tm_36:
+  testmethod_class = "TM.Functional_Pattern";
+tm_37:
+  testmethod_class = "TM.Functional_Pattern";
+tm_38:
+  testmethod_class = "TM.Functional_Pattern";
+tm_39:
+  testmethod_class = "TM.Functional_Pattern";
+tm_4:
+  testmethod_class = "TM.Device_power_up";
+tm_40:
+  testmethod_class = "TM.Functional_Pattern";
+tm_41:
+  testmethod_class = "TM.Functional_Pattern";
+tm_42:
+  testmethod_class = "TM.Functional_Pattern";
+tm_43:
+  testmethod_class = "TM.Functional_JTAG_Read";
+tm_44:
+  testmethod_class = "TM.Functional_Pattern";
+tm_45:
+  testmethod_class = "TM.Functional_Pattern";
+tm_46:
+  testmethod_class = "TM.Functional_Pattern";
+tm_47:
+  testmethod_class = "TM.Functional_Pattern";
+tm_48:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_49:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_5:
+  testmethod_class = "TM.bdid_check";
+tm_50:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_51:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_52:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_53:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_54:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_55:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_56:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_57:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_58:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_59:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_6:
+  testmethod_class = "TM.Supply_short";
+tm_60:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_61:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_62:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_63:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_64:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_65:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_66:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_67:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_68:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_69:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_7:
+  testmethod_class = "TM.Continuity_dir_pins";
+tm_70:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_71:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_72:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_73:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_74:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_75:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_76:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_77:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_78:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_79:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_8:
+  testmethod_class = "TM.Continuity_dir_pins";
+tm_80:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_81:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_82:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_83:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_84:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_85:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_86:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_87:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_88:
+  testmethod_class = "TM.Functional_Pattern_Scan";
+tm_89:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_9:
+  testmethod_class = "TM.Continuity_mux_pins";
+tm_90:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_91:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_92:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_93:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_94:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_95:
+  testmethod_class = "TM.Functional_Pattern_TDF_SB";
+tm_96:
+  testmethod_class = "TM.Device_power_down";
+tm_97:
+  testmethod_class = "TM.Binning_Plan_bkp";
+tm_98:
+  testmethod_class = "TM.Thermostream_Set_Temp_25";
+tm_99:
+  testmethod_class = "TM.TSENS_Measure_Temp_runtimeval";
+end
+-----------------------------------------------------------------
+test_suites
+BOARD_ID_READ:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 11;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_5;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Binning_Plan:
+  override = 1;
+  override_testf = tm_97;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+COLD_BOOT_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_17;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+COLD_BOOT_FUNC_PM1:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 5;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_25;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+COLD_BOOT_FUNC_PM2:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 5;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_28;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+COLD_BOOT_FUNC_PM3:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 5;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_31;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+COLD_BOOT_FUNC_PM4:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 5;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_34;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+COLD_BOOT_FUNC_PM5:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 5;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_37;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Continuity_Direct_Neg:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 1;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_8;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Continuity_Direct_Pos:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 1;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_7;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Continuity_Mux_Neg:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 2;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_10;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Continuity_Mux_Pos:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 2;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_9;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Device_Power_Down:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 11;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_96;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Device_Power_Up:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 10;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_4;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+IDD_Dynamic:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_12;
+  comment = "Dynamic current for all DPS pins";
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+IDD_Static:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 6;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_11;
+  comment = "Standby_current for all DPS pins";
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Leakage_High_Dir:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 4;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_13;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Leakage_High_Mux:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 5;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_15;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Leakage_Low_Dir:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 4;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_14;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Leakage_Low_Mux:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 5;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_16;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+MACHINE_INIT_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_41;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+MACHINE_INIT_FUNC_HT:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_45;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+MACHINE_INIT_FUNC_Post_JTAG:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_44;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+MACHINE_INIT_FUNC_Repaired_0p75V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_23;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PDF4_COL0_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "PDF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_62;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PDF4_COL_ROW_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "PDF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_63;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PDF4_CORE_ROW_0_7_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "PDF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_64;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PDF4_CORE_ROW_8_15_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "PDF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_89;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PDF4_CTRL_DATA_TOP_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "PDF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_61;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_CHIP_EFUSE:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 4;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_40;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_JTAG_Read_Repaired:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_24;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_POST_BURN:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_42;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_POST_BURN_HT:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_46;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_POST_REPAIR_0p72V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_27;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_POST_REPAIR_0p74V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_30;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_POST_REPAIR_0p76V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_33;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_POST_REPAIR_0p78V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_36;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_POST_REPAIR_0p80V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_39;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_PRE_FUNC_BWE_0p80V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_47;
+  comment = "PMBIST function with  BWE only";
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_PRE_FUNC_NoBWE_0p75V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_22;
+  comment = "Pre func without BWE";
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_Post_Burn_JTAG_Read:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_JTAG_READ_spec";
+  override_lev_spec_set = 3;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_43;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_SOFT_REPAIR_0p70V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 2;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_26;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_SOFT_REPAIR_0p72V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 2;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_29;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_SOFT_REPAIR_0p74V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 2;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_32;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_SOFT_REPAIR_0p76V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 2;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_35;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+PMBIST_SOFT_REPAIR_0p78V:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TM_PMBIST_spec";
+  override_lev_spec_set = 2;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_38;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_COL0_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_LOGIC_CTRL_FBUF_COL0_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_51;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_COL0_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_SCAN_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_50;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_COL_ROW_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_LOGIC_FBUF_COL_ROW_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_55;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_COL_ROW_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_SCAN_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_54;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_CORE_ROW_0_7_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_LOGIC_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_60;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_CORE_ROW_0_7_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_SCAN_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_59;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_CORE_ROW_8_15_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_LOGIC_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_88;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_CORE_ROW_8_15_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_SCAN_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_87;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_CTRL_DATA_TOP_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_LOGIC_CTRL_FBUF_COL0_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_49;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_CTRL_DATA_TOP_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_SCAN_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_48;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_EXTEST_LOGIC_0000fce_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_EXTEST_LOGIC_0000fce_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_57;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_EXTEST_LOGIC_1_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_EXTEST_LOGIC_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_58;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_EXTEST_LOGIC_2_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_EXTEST_LOGIC_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_86;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_EXTEST_SCAN_1_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_EXTEST_SCAN_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_56;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_EXTEST_SCAN_2_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_EXTEST_SCAN_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_85;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_EXT_IF_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_EXT_IF_LOGIC_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_53;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+SAF4_EXT_IF_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "SAF4_EXT_IF_SCAN_X4";
+  override_lev_spec_set = 6;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_52;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Serial_ID_Read:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_spec";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_103;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_COL0_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_LOGIC_CTRL_FBUF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_70;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_COL0_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_69;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_COL_ROW_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_LOGIC_CTRL_FBUF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_76;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_COL_ROW_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_75;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_CORE_ROW_0_7_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_LOGIC_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_82;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_CORE_ROW_0_7_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_81;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_CORE_ROW_8_15_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_LOGIC_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_93;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_CORE_ROW_8_15_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_92;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_CTRL_DATA_TOP_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_LOGIC_CTRL_FBUF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_66;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG2P_CTRL_DATA_TOP_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_2P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_65;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_COL0_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_LOGIC_CTRL_FBUF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_72;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_COL0_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_71;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_COL_ROW_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_LOGIC_CTRL_FBUF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_78;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_COL_ROW_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_77;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_CORE_ROW_0_7_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_LOGIC_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_84;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_CORE_ROW_0_7_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_83;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_CORE_ROW_8_15_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_LOGIC_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_95;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_CORE_ROW_8_15_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_94;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_CTRL_DATA_TOP_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_LOGIC_CTRL_FBUF_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_68;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG3P_CTRL_DATA_TOP_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_3P_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_67;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG_EXTEST_LOGIC_1_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_EXTEST_LOGIC_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_80;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG_EXTEST_LOGIC_2_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_EXTEST_LOGIC_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_91;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG_EXTEST_SCAN_1_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_EXTEST_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_79;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG_EXTEST_SCAN_2_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_EXTEST_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_90;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG_EXT_IF_LOGIC_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_EXT_IF_LOGIC_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_74;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TDF4_OPCG_EXT_IF_SCAN_FUNC:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "TDF4_EXT_IF_SCAN_X4";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1,1,1";
+  override_levset = 1;
+  override_testf = tm_73;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TSENS_Calibration:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_TSENS";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1";
+  override_levset = 1;
+  override_testf = tm_21;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TSENS_Temp_Measure_HT:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_TSENS";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1";
+  override_levset = 1;
+  override_testf = tm_18;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TSENS_Temp_Measure_Post_Cal:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_TSENS";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1";
+  override_levset = 1;
+  override_testf = tm_19;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+TSENS_Temp_Measure_RT:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_TSENS";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1";
+  override_levset = 1;
+  override_testf = tm_99;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Thermostream_Setup_HT:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_TSENS";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1";
+  override_levset = 1;
+  override_testf = tm_3;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Thermostream_Setup_RT:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_TSENS";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1";
+  override_levset = 1;
+  override_testf = tm_2;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+Thermostream_Setup_RT_OFF:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_TSENS";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1";
+  override_levset = 1;
+  override_testf = tm_98;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+VSENS:
+  override = 1;
+  override_lev_equ_set = 8;
+  override_tim_spec_set = "COLD_BOOT_TSENS";
+  override_lev_spec_set = 1;
+  override_timset = "1,1,1";
+  override_levset = 1;
+  override_testf = tm_102;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+post_supply_short:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 3;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_100;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+post_supply_short_HT:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 15;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_101;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+supply_short:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 3;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_6;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+supply_short_HT:
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 15;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_20;
+  local_flags  = output_on_pass, output_on_fail, value_on_pass, value_on_fail, per_pin_on_pass, per_pin_on_fail;
+  site_match = 2;
+  site_control = "parallel:";
+end
+-----------------------------------------------------------------
+bin_disconnect
+  override = 1;
+  override_tim_equ_set = 12;
+  override_lev_equ_set = 11;
+  override_tim_spec_set = 1;
+  override_lev_spec_set = 1;
+  override_timset = 1;
+  override_levset = 1;
+  override_testf = tm_1;
+    site_match = 2;
+  site_control = "parallel:";
+end
+-----------------------------------------------------------------
+test_flow
+
+ {
+    if @Str_Test_Temp == "RT" then
+    {
+       run(Thermostream_Setup_RT);
+    }
+    else
+    {
+       if @Str_Test_Temp == "HT" then
+       {
+          run(Thermostream_Setup_HT);
+       }
+       else
+       {
+       }
+    }
+ }, groupbypass, open,"THERM_Temp_Setup", ""
+ {
+    run_and_branch(Device_Power_Up)
+    then
+    {
+    }
+    else
+    {
+    }
+    run(BOARD_ID_READ);
+    @PF_PMBIST_BWE = 0;
+    @PF_PMBIST_NOBWE = 0;
+    @PF_PMBIST_PB = 0;
+ }, open,"POWER_UP", ""
+ {
+    if @Str_Test_Temp == "RT" then
+    {
+       run_and_branch(supply_short)
+       then
+       {
+       }
+       else
+       {
+          multi_bin;
+       }
+    }
+    else
+    {
+       run_and_branch(supply_short_HT)
+       then
+       {
+       }
+       else
+       {
+          multi_bin;
+       }
+    }
+ }, open,"supply_short", ""
+ {
+    run_and_branch(Continuity_Direct_Pos)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(Continuity_Direct_Neg)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(Continuity_Mux_Pos)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(Continuity_Mux_Neg)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"Continuity", ""
+ {
+    run_and_branch(IDD_Static)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(IDD_Dynamic)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"Supply_Current", ""
+ {
+    run_and_branch(Leakage_High_Dir)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(Leakage_Low_Dir)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(Leakage_High_Mux)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(Leakage_Low_Mux)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"DC_Pins_Leakage", ""
+ {
+    run_and_branch(COLD_BOOT_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"COLD_BOOT", ""
+ {
+    if @Serail_ID_Read then
+    {
+       run_and_branch(Serial_ID_Read)
+       then
+       {
+       }
+       else
+       {
+          multi_bin;
+       }
+    }
+    else
+    {
+    }
+ }, open,"Efuse", ""
+ {
+    if @Str_Test_Temp == "RT" then
+    {
+       run(TSENS_Temp_Measure_RT);
+    }
+    else
+    {
+       if @Str_Test_Temp == "HT" then
+       {
+          run_and_branch(TSENS_Temp_Measure_HT)
+          then
+          {
+          }
+          else
+          {
+             multi_bin;
+          }
+          run_and_branch(TSENS_Calibration)
+          then
+          {
+          }
+          else
+          {
+             multi_bin;
+          }
+          run_and_branch(TSENS_Temp_Measure_Post_Cal)
+          then
+          {
+          }
+          else
+          {
+             multi_bin;
+          }
+       }
+       else
+       {
+       }
+    }
+ }, open,"TSENS_Temp_Meas_and_Calib", ""
+ {
+    run_and_branch(PMBIST_PRE_FUNC_NoBWE_0p75V)
+    then
+    {
+       @PF_PMBIST_NOBWE = 1;
+    }
+    else
+    {
+       run_and_branch(MACHINE_INIT_FUNC_Repaired_0p75V)
+       then
+       {
+       }
+       else
+       {
+          multi_bin;
+       }
+       run_and_branch(PMBIST_JTAG_Read_Repaired)
+       then
+       {
+          @REPAIRED = 0;
+       }
+       else
+       {
+          @REPAIRED = 1;
+       }
+       run_and_branch(COLD_BOOT_FUNC_PM1)
+       then
+       {
+          svlr_level_command(8,2,"vdd_core",0.7);
+          run(PMBIST_SOFT_REPAIR_0p70V);
+          svlr_level_command(8,3,"vdd_core",0.72);
+          run_and_branch(PMBIST_POST_REPAIR_0p72V)
+          then
+          {
+             @MEM_REPAIR = 1;
+          }
+          else
+          {
+             run_and_branch(COLD_BOOT_FUNC_PM2)
+             then
+             {
+                svlr_level_command(8,2,"vdd_core",0.72);
+                run(PMBIST_SOFT_REPAIR_0p72V);
+                svlr_level_command(8,3,"vdd_core",0.74);
+                run_and_branch(PMBIST_POST_REPAIR_0p74V)
+                then
+                {
+                   @MEM_REPAIR = 1;
+                }
+                else
+                {
+                   run_and_branch(COLD_BOOT_FUNC_PM3)
+                   then
+                   {
+                      svlr_level_command(8,2,"vdd_core",0.74);
+                      run(PMBIST_SOFT_REPAIR_0p74V);
+                      svlr_level_command(8,3,"vdd_core",0.76);
+                      run_and_branch(PMBIST_POST_REPAIR_0p76V)
+                      then
+                      {
+                         @MEM_REPAIR = 1;
+                      }
+                      else
+                      {
+                         run_and_branch(COLD_BOOT_FUNC_PM4)
+                         then
+                         {
+                            svlr_level_command(8,2,"vdd_core",0.76);
+                            run(PMBIST_SOFT_REPAIR_0p76V);
+                            svlr_level_command(8,3,"vdd_core",0.78);
+                            run_and_branch(PMBIST_POST_REPAIR_0p78V)
+                            then
+                            {
+                               @MEM_REPAIR = 1;
+                            }
+                            else
+                            {
+                               run_and_branch(COLD_BOOT_FUNC_PM5)
+                               then
+                               {
+                                  svlr_level_command(8,2,"vdd_core",0.78);
+                                  run(PMBIST_SOFT_REPAIR_0p78V);
+                                  svlr_level_command(8,3,"vdd_core",0.8);
+                                  run_and_branch(PMBIST_POST_REPAIR_0p80V)
+                                  then
+                                  {
+                                     @MEM_REPAIR = 1;
+                                  }
+                                  else
+                                  {
+                                     @MEM_REPAIR = 0;
+                                     multi_bin;
+                                  }
+                               }
+                               else
+                               {
+                                  multi_bin;
+                               }
+                            }
+                         }
+                         else
+                         {
+                            multi_bin;
+                         }
+                      }
+                   }
+                   else
+                   {
+                      multi_bin;
+                   }
+                }
+             }
+             else
+             {
+                multi_bin;
+             }
+          }
+          if @Test_Temp == 25 then
+          {
+             if @MEM_REPAIR and  not @REPAIRED then
+             {
+                run_and_branch(PMBIST_CHIP_EFUSE)
+                then
+                {
+                }
+                else
+                {
+                   multi_bin;
+                }
+             }
+             else
+             {
+             }
+             {
+                svlr_level_command(8,3,"vdd_core",0.75);
+                run_and_branch(MACHINE_INIT_FUNC)
+                then
+                {
+                }
+                else
+                {
+                   multi_bin;
+                }
+                run_and_branch(PMBIST_POST_BURN)
+                then
+                {
+                   @PF_PMBIST_PB = 1;
+                }
+                else
+                {
+                   multi_bin;
+                }
+             }, open,"POST_Repair", ""
+             if @MEM_REPAIR and  not @REPAIRED then
+             {
+                run(PMBIST_Post_Burn_JTAG_Read);
+                run(MACHINE_INIT_FUNC_Post_JTAG);
+             }
+             else
+             {
+             }
+          }
+          else
+          {
+             svlr_level_command(8,3,"vdd_core",0.75);
+             run_and_branch(MACHINE_INIT_FUNC_HT)
+             then
+             {
+             }
+             else
+             {
+                multi_bin;
+             }
+             run_and_branch(PMBIST_POST_BURN_HT)
+             then
+             {
+                @PF_PMBIST_PB = 1;
+             }
+             else
+             {
+                multi_bin;
+             }
+          }
+       }
+       else
+       {
+          multi_bin;
+       }
+    }
+    run_and_branch(PMBIST_PRE_FUNC_BWE_0p80V)
+    then
+    {
+       @PF_PMBIST_BWE = 1;
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"PMBIST", ""
+ {
+    run_and_branch(SAF4_CTRL_DATA_TOP_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_CTRL_DATA_TOP_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_COL0_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_COL0_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_EXT_IF_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_EXT_IF_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_COL_ROW_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_COL_ROW_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_EXTEST_SCAN_1_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_EXTEST_LOGIC_0000fce_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_EXTEST_LOGIC_1_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_CORE_ROW_0_7_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_CORE_ROW_0_7_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"SAF4_TOP", ""
+ {
+    run_and_branch(VSENS)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"VSEN", ""
+ {
+    run_and_branch(PDF4_CTRL_DATA_TOP_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(PDF4_COL0_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(PDF4_COL_ROW_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(PDF4_CORE_ROW_0_7_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"PDF4_TOP", ""
+ {
+    run_and_branch(TDF4_OPCG2P_CTRL_DATA_TOP_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_CTRL_DATA_TOP_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_CTRL_DATA_TOP_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_CTRL_DATA_TOP_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_COL0_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_COL0_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_COL0_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_COL0_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG_EXT_IF_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG_EXT_IF_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_COL_ROW_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_COL_ROW_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_COL_ROW_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_COL_ROW_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG_EXTEST_SCAN_1_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG_EXTEST_LOGIC_1_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_CORE_ROW_0_7_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_CORE_ROW_0_7_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_CORE_ROW_0_7_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_CORE_ROW_0_7_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"TDF4_TOP", ""
+ {
+    run_and_branch(SAF4_EXTEST_SCAN_2_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_EXTEST_LOGIC_2_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_CORE_ROW_8_15_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(SAF4_CORE_ROW_8_15_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"SAF4_BOTTOM", ""
+ {
+    run_and_branch(PDF4_CORE_ROW_8_15_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"PDF4_BOTTOM", ""
+ {
+    run_and_branch(TDF4_OPCG_EXTEST_SCAN_2_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG_EXTEST_LOGIC_2_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_CORE_ROW_8_15_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG2P_CORE_ROW_8_15_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_CORE_ROW_8_15_SCAN_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+    run_and_branch(TDF4_OPCG3P_CORE_ROW_8_15_LOGIC_FUNC)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"TDF4_BOTTOM", ""
+ {
+    if @Str_Test_Temp == "RT" then
+    {
+       run_and_branch(post_supply_short)
+       then
+       {
+       }
+       else
+       {
+          multi_bin;
+       }
+    }
+    else
+    {
+       run_and_branch(post_supply_short_HT)
+       then
+       {
+       }
+       else
+       {
+          multi_bin;
+       }
+    }
+ }, open,"supply_short_1", ""
+ {
+    run_and_branch(Device_Power_Down)
+    then
+    {
+    }
+    else
+    {
+       multi_bin;
+    }
+ }, open,"POWER_DOWN", ""
+ {
+    run(Binning_Plan);
+    if @BIN_ASSIGNED == 1 then
+    {
+       stop_bin "1", "Fast", , good, noreprobe, green, 1, over_on;
+    }
+    else
+    {
+       if @BIN_ASSIGNED == 2 then
+       {
+          stop_bin "2", "Medium", , good, noreprobe, green, 2, over_on;
+       }
+       else
+       {
+          if @BIN_ASSIGNED == 3 then
+          {
+             stop_bin "3", "Slow", , good, noreprobe, green, 3, over_on;
+          }
+          else
+          {
+          }
+       }
+    }
+ }, open,"Binning", ""
+ {
+    run(Thermostream_Setup_RT_OFF);
+ }, groupbypass, open,"Thermostream_set_to_RT", ""
+end
+-----------------------------------------------------------------
+binning
+otherwise bin = "db", "", , bad, noreprobe, red, , not_over_on;
+end
+-----------------------------------------------------------------
+context
+
+context_config_file = "Pin_Config_june_24_2024";
+context_levels_file = "IBM_Level";
+context_timing_file = "Timing_merge_X4_tdf_sb2.tim";
+context_vector_file = "IBM_NP_Vectors.mfh";
+context_channel_attrib_file = "IBN_NP_FT_REV2_LB_061324003_TDR";
+context_testtable_file = "IBM_NP_ttbl_may10.csv";
+end
+-----------------------------------------------------------------
+hardware_bin_descriptions
+  1 = "BIN1";
+  2 = "BIN2";
+  3 = "BIN3";
+end
