@@ -1,0 +1,6 @@
+SW Bin,Desc,Site,Site%,Device#,Bin%,Good Bin,Reprobe Bin
+"2","Medium",1,31.6,6,31.6,1,0
+"4","TOP ONLY",1,15.8,3,15.8,1,0
+"1113","Continuity_Mux_Pos",1,36.8,7,36.8,1,0
+"1111","Continuity_DIr_Pos",1,5.3,1,5.3,1,0
+"1580","PMBIST_Post_repair_Func_fail",1,10.5,2,10.5,1,0
