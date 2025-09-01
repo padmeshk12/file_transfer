@@ -1,0 +1,39 @@
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Cadence(R) Modus(TM) DFT Software Solution, Version 21.12-s001_1, built Jul 07 2022 (linux26_64) 
+// This file was created on..............August 27, 2025 at 09:56:29
+// The date time stamp for the TBDbin file TBDbin.ELASTIC;  20250827145535 
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//   Total    Relative   Relative     Test      CPP       Pattern                    Event                                          Cycle    Scan      Relative   Measure
+//   Cycle    Cycle      Simulation   Sequence  Test      Odometer                   Type                                           Offset   Length    Scan       Event  
+//   Count    Count      Time (ns)    Number    Number                                                                                                 Number            
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// The vector file output name:  chip_saf4_ext_if_xor_lpg_scan.1.stil
+     10092     10092      1009100         -         1    1.1.1.1.1.13               Measure_PO                                          0        1         0        Y 
+     11093     11093      1109200         -         1    1.1.1.1.1.16               Measure_PO                                          0        1         0        Y 
+     46217     46217      4621600         1         2    1.1.1.2.1.1                Compressed_Input_Stream - Shift                     0       75         1        N 
+     46291     46291      4629100         1         2    1.1.1.2.1.1                end_of_Compressed_Input_Stream                     74        0         1        N 
+     46295     46295      4629400         1         2    1.1.1.2.1.2                Compressed_Output_Stream - Shift - Overlap          0       75         2        Y 
+     46295     46295      4629400         2         3    1.1.1.3.1.1                Compressed_Input_Stream - Shift - Overlap           0       75         2        N 
+     46369     46369      4636900         2         3    1.1.1.3.1.1                end_of_Compressed_Input_Stream - Overlap           74        0         2        Y 
+     46386     46386      4638500         2         3    1.1.1.3.1.2                Compressed_Output_Stream - Shift - Overlap          0       75         3        Y 
+     46386     46386      4638500         3         4    1.1.1.3.2.1                Compressed_Input_Stream - Shift - Overlap           0       75         3        N 
+     46460     46460      4646000         3         4    1.1.1.3.2.1                end_of_Compressed_Input_Stream - Overlap           74        0         3        Y 
+     46477     46477      4647600         3         4    1.1.1.3.2.2                Compressed_Output_Stream - Shift - Overlap          0       75         4        Y 
+     46477     46477      4647600         4         5    1.1.1.4.1.1                Compressed_Input_Stream - Shift - Overlap           0       75         4        N 
+     46551     46551      4655100         4         5    1.1.1.4.1.1                end_of_Compressed_Input_Stream - Overlap           74        0         4        Y 
+     46568     46568      4656700         4         5    1.1.1.4.1.2                Compressed_Output_Stream - Shift - Overlap          0       75         5        Y 
+     46568     46568      4656700         5         6    1.1.1.4.2.1                Compressed_Input_Stream - Shift - Overlap           0       75         5        N 
+     46642     46642      4664200         5         6    1.1.1.4.2.1                end_of_Compressed_Input_Stream - Overlap           74        0         5        Y 
+     46659     46659      4665800         5         6    1.1.1.4.2.2                Compressed_Output_Stream - Shift - Overlap          0       75         6        Y 
+     46659     46659      4665800         6         7    1.1.1.5.1.1                Compressed_Input_Stream - Shift - Overlap           0       75         6        N 
+     46733     46733      4673300         6         7    1.1.1.5.1.1                end_of_Compressed_Input_Stream - Overlap           74        0         6        Y 
+     46750     46750      4674900         6         7    1.1.1.5.1.2                Compressed_Output_Stream - Shift - Overlap          0       75         7        Y 
+     46750     46750      4674900         7         8    1.1.1.5.2.1                Compressed_Input_Stream - Shift - Overlap           0       75         7        N 
+     46824     46824      4682400         7         8    1.1.1.5.2.1                end_of_Compressed_Input_Stream - Overlap           74        0         7        Y 
+     46841     46841      4684000         7         8    1.1.1.5.2.2                Compressed_Output_Stream - Shift - Overlap          0       75         8        Y 
+     46841     46841      4684000         8         9    1.1.1.5.3.1                Compressed_Input_Stream - Shift - Overlap           0       75         8        N 
+     46915     46915      4691500         8         9    1.1.1.5.3.1                end_of_Compressed_Input_Stream - Overlap           74        0         8        Y 
+     46932     46932      4693100         8         9    1.1.1.5.3.2                Compressed_Output_Stream - Shift                    0       75         9        N 
+     47006     47006      4700600         8         9    1.1.1.5.3.2                end_of_Compressed_Output_Stream                    74        0         9        Y 
