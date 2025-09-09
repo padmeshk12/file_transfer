@@ -1,0 +1,9 @@
+after fixing netlist
+regenerate using python code from the following source code
+commit ab9023d658434269fa2014627c2bd2056b42955b
+Merge: 1d1f3895 808dee84
+Author: Jun Sawada <sawada@us.ibm.com>
+Date:   Mon Apr 28 10:00:22 2025 -0500
+
+    Merge branch 'dev' of github.ibm.com:northpole/np-dft into dev
+

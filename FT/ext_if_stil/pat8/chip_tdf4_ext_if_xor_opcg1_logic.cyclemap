@@ -1,0 +1,249 @@
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Cadence(R) Modus(TM) DFT Software Solution, Version 21.12-s001_1, built Jul 07 2022 (linux26_64) 
+// This file was created on..............September 05, 2025 at 16:28:13
+// The date time stamp for the TBDbin file TBDbin.ELASTIC_OPCG1;  20250905212611 
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//   Total    Relative   Relative     Test      CPP       Pattern                    Event                                          Cycle    Scan      Relative   Measure
+//   Cycle    Cycle      Simulation   Sequence  Test      Odometer                   Type                                           Offset   Length    Scan       Event  
+//   Count    Count      Time (ns)    Number    Number                                                                                                 Number            
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// The vector file output name:  chip_tdf4_ext_if_xor_opcg1_logic.1.stil
+     10092     10092      1009100         -         1    1.2.1.1.1.13               Measure_PO                                          0        1         0        Y 
+     11093     11093      1109200         -         1    1.2.1.1.1.16               Measure_PO                                          0        1         0        Y 
+     46235     46235      4623400         9         3    1.2.1.2.2.1                Compressed_Input_Stream - Shift                     0       75         2        N 
+     46309     46309      4630900         9         3    1.2.1.2.2.1                end_of_Compressed_Input_Stream                     74        0         2        N 
+     46692     46692      4669100         9         3    1.2.1.2.2.8                Compressed_Output_Stream - Shift - Overlap          0       75         3        Y 
+     46692     46692      4669100        10         4    1.2.1.2.3.1                Compressed_Input_Stream - Shift - Overlap           0       75         3        N 
+     46766     46766      4676600        10         4    1.2.1.2.3.1                end_of_Compressed_Input_Stream - Overlap           74        0         3        Y 
+     47149     47149      4714800        10         4    1.2.1.2.3.8                Compressed_Output_Stream - Shift - Overlap          0       75         4        Y 
+     47149     47149      4714800        11         5    1.2.1.2.4.1                Compressed_Input_Stream - Shift - Overlap           0       75         4        N 
+     47223     47223      4722300        11         5    1.2.1.2.4.1                end_of_Compressed_Input_Stream - Overlap           74        0         4        Y 
+     47606     47606      4760500        11         5    1.2.1.2.4.8                Compressed_Output_Stream - Shift - Overlap          0       75         5        Y 
+     47606     47606      4760500        12         6    1.2.1.2.5.1                Compressed_Input_Stream - Shift - Overlap           0       75         5        N 
+     47680     47680      4768000        12         6    1.2.1.2.5.1                end_of_Compressed_Input_Stream - Overlap           74        0         5        Y 
+     48050     48050      4804900        12         6    1.2.1.2.5.8                Compressed_Output_Stream - Shift - Overlap          0       75         6        Y 
+     48050     48050      4804900        13         7    1.2.1.2.6.1                Compressed_Input_Stream - Shift - Overlap           0       75         6        N 
+     48124     48124      4812400        13         7    1.2.1.2.6.1                end_of_Compressed_Input_Stream - Overlap           74        0         6        Y 
+     48507     48507      4850600        13         7    1.2.1.2.6.8                Compressed_Output_Stream - Shift - Overlap          0       75         7        Y 
+     48507     48507      4850600        14         8    1.2.1.2.7.1                Compressed_Input_Stream - Shift - Overlap           0       75         7        N 
+     48581     48581      4858100        14         8    1.2.1.2.7.1                end_of_Compressed_Input_Stream - Overlap           74        0         7        Y 
+     48951     48951      4895000        14         8    1.2.1.2.7.8                Compressed_Output_Stream - Shift - Overlap          0       75         8        Y 
+     48951     48951      4895000        15         9    1.2.1.2.8.1                Compressed_Input_Stream - Shift - Overlap           0       75         8        N 
+     49025     49025      4902500        15         9    1.2.1.2.8.1                end_of_Compressed_Input_Stream - Overlap           74        0         8        Y 
+     49395     49395      4939400        15         9    1.2.1.2.8.8                Compressed_Output_Stream - Shift - Overlap          0       75         9        Y 
+     49395     49395      4939400        16        10    1.2.1.2.9.1                Compressed_Input_Stream - Shift - Overlap           0       75         9        N 
+     49469     49469      4946900        16        10    1.2.1.2.9.1                end_of_Compressed_Input_Stream - Overlap           74        0         9        Y 
+     49852     49852      4985100        16        10    1.2.1.2.9.8                Compressed_Output_Stream - Shift - Overlap          0       75        10        Y 
+     49852     49852      4985100        17        11    1.2.1.2.10.1               Compressed_Input_Stream - Shift - Overlap           0       75        10        N 
+     49926     49926      4992600        17        11    1.2.1.2.10.1               end_of_Compressed_Input_Stream - Overlap           74        0        10        Y 
+     50309     50309      5030800        17        11    1.2.1.2.10.8               Compressed_Output_Stream - Shift - Overlap          0       75        11        Y 
+     50309     50309      5030800        18        12    1.2.1.2.11.1               Compressed_Input_Stream - Shift - Overlap           0       75        11        N 
+     50383     50383      5038300        18        12    1.2.1.2.11.1               end_of_Compressed_Input_Stream - Overlap           74        0        11        Y 
+     50766     50766      5076500        18        12    1.2.1.2.11.8               Compressed_Output_Stream - Shift - Overlap          0       75        12        Y 
+     50766     50766      5076500        19        13    1.2.1.2.12.1               Compressed_Input_Stream - Shift - Overlap           0       75        12        N 
+     50840     50840      5084000        19        13    1.2.1.2.12.1               end_of_Compressed_Input_Stream - Overlap           74        0        12        Y 
+     51223     51223      5122200        19        13    1.2.1.2.12.8               Compressed_Output_Stream - Shift - Overlap          0       75        13        Y 
+     51223     51223      5122200        20        14    1.2.1.2.13.1               Compressed_Input_Stream - Shift - Overlap           0       75        13        N 
+     51297     51297      5129700        20        14    1.2.1.2.13.1               end_of_Compressed_Input_Stream - Overlap           74        0        13        Y 
+     51680     51680      5167900        20        14    1.2.1.2.13.8               Compressed_Output_Stream - Shift - Overlap          0       75        14        Y 
+     51680     51680      5167900        21        15    1.2.1.2.14.1               Compressed_Input_Stream - Shift - Overlap           0       75        14        N 
+     51754     51754      5175400        21        15    1.2.1.2.14.1               end_of_Compressed_Input_Stream - Overlap           74        0        14        Y 
+     52137     52137      5213600        21        15    1.2.1.2.14.8               Compressed_Output_Stream - Shift - Overlap          0       75        15        Y 
+     52137     52137      5213600        22        16    1.2.1.2.15.1               Compressed_Input_Stream - Shift - Overlap           0       75        15        N 
+     52211     52211      5221100        22        16    1.2.1.2.15.1               end_of_Compressed_Input_Stream - Overlap           74        0        15        Y 
+     52594     52594      5259300        22        16    1.2.1.2.15.8               Compressed_Output_Stream - Shift - Overlap          0       75        16        Y 
+     52594     52594      5259300        23        17    1.2.1.2.16.1               Compressed_Input_Stream - Shift - Overlap           0       75        16        N 
+     52668     52668      5266800        23        17    1.2.1.2.16.1               end_of_Compressed_Input_Stream - Overlap           74        0        16        Y 
+     53051     53051      5305000        23        17    1.2.1.2.16.8               Compressed_Output_Stream - Shift - Overlap          0       75        17        Y 
+     53051     53051      5305000        24        18    1.2.1.2.17.1               Compressed_Input_Stream - Shift - Overlap           0       75        17        N 
+     53125     53125      5312500        24        18    1.2.1.2.17.1               end_of_Compressed_Input_Stream - Overlap           74        0        17        Y 
+     53508     53508      5350700        24        18    1.2.1.2.17.8               Compressed_Output_Stream - Shift - Overlap          0       75        18        Y 
+     53508     53508      5350700        25        20    1.2.1.3.2.1                Compressed_Input_Stream - Shift - Overlap           0       75        18        N 
+     53582     53582      5358200        25        20    1.2.1.3.2.1                end_of_Compressed_Input_Stream - Overlap           74        0        18        Y 
+     53965     53965      5396400        25        20    1.2.1.3.2.8                Compressed_Output_Stream - Shift - Overlap          0       75        19        Y 
+     53965     53965      5396400        26        21    1.2.1.3.3.1                Compressed_Input_Stream - Shift - Overlap           0       75        19        N 
+     54039     54039      5403900        26        21    1.2.1.3.3.1                end_of_Compressed_Input_Stream - Overlap           74        0        19        Y 
+     54422     54422      5442100        26        21    1.2.1.3.3.8                Compressed_Output_Stream - Shift - Overlap          0       75        20        Y 
+     54422     54422      5442100        27        22    1.2.1.3.4.1                Compressed_Input_Stream - Shift - Overlap           0       75        20        N 
+     54496     54496      5449600        27        22    1.2.1.3.4.1                end_of_Compressed_Input_Stream - Overlap           74        0        20        Y 
+     54866     54866      5486500        27        22    1.2.1.3.4.8                Compressed_Output_Stream - Shift - Overlap          0       75        21        Y 
+     54866     54866      5486500        28        23    1.2.1.3.5.1                Compressed_Input_Stream - Shift - Overlap           0       75        21        N 
+     54940     54940      5494000        28        23    1.2.1.3.5.1                end_of_Compressed_Input_Stream - Overlap           74        0        21        Y 
+     55323     55323      5532200        28        23    1.2.1.3.5.8                Compressed_Output_Stream - Shift - Overlap          0       75        22        Y 
+     55323     55323      5532200        29        24    1.2.1.3.6.1                Compressed_Input_Stream - Shift - Overlap           0       75        22        N 
+     55397     55397      5539700        29        24    1.2.1.3.6.1                end_of_Compressed_Input_Stream - Overlap           74        0        22        Y 
+     55767     55767      5576600        29        24    1.2.1.3.6.8                Compressed_Output_Stream - Shift - Overlap          0       75        23        Y 
+     55767     55767      5576600        30        25    1.2.1.3.7.1                Compressed_Input_Stream - Shift - Overlap           0       75        23        N 
+     55841     55841      5584100        30        25    1.2.1.3.7.1                end_of_Compressed_Input_Stream - Overlap           74        0        23        Y 
+     56211     56211      5621000        30        25    1.2.1.3.7.8                Compressed_Output_Stream - Shift - Overlap          0       75        24        Y 
+     56211     56211      5621000        31        26    1.2.1.3.8.1                Compressed_Input_Stream - Shift - Overlap           0       75        24        N 
+     56285     56285      5628500        31        26    1.2.1.3.8.1                end_of_Compressed_Input_Stream - Overlap           74        0        24        Y 
+     56668     56668      5666700        31        26    1.2.1.3.8.8                Compressed_Output_Stream - Shift - Overlap          0       75        25        Y 
+     56668     56668      5666700        32        27    1.2.1.3.9.1                Compressed_Input_Stream - Shift - Overlap           0       75        25        N 
+     56742     56742      5674200        32        27    1.2.1.3.9.1                end_of_Compressed_Input_Stream - Overlap           74        0        25        Y 
+     57125     57125      5712400        32        27    1.2.1.3.9.8                Compressed_Output_Stream - Shift - Overlap          0       75        26        Y 
+     57125     57125      5712400        33        28    1.2.1.3.10.1               Compressed_Input_Stream - Shift - Overlap           0       75        26        N 
+     57199     57199      5719900        33        28    1.2.1.3.10.1               end_of_Compressed_Input_Stream - Overlap           74        0        26        Y 
+     57569     57569      5756800        33        28    1.2.1.3.10.8               Compressed_Output_Stream - Shift - Overlap          0       75        27        Y 
+     57569     57569      5756800        34        29    1.2.1.3.11.1               Compressed_Input_Stream - Shift - Overlap           0       75        27        N 
+     57643     57643      5764300        34        29    1.2.1.3.11.1               end_of_Compressed_Input_Stream - Overlap           74        0        27        Y 
+     58013     58013      5801200        34        29    1.2.1.3.11.8               Compressed_Output_Stream - Shift - Overlap          0       75        28        Y 
+     58013     58013      5801200        35        30    1.2.1.3.12.1               Compressed_Input_Stream - Shift - Overlap           0       75        28        N 
+     58087     58087      5808700        35        30    1.2.1.3.12.1               end_of_Compressed_Input_Stream - Overlap           74        0        28        Y 
+     58470     58470      5846900        35        30    1.2.1.3.12.8               Compressed_Output_Stream - Shift - Overlap          0       75        29        Y 
+     58470     58470      5846900        36        31    1.2.1.3.13.1               Compressed_Input_Stream - Shift - Overlap           0       75        29        N 
+     58544     58544      5854400        36        31    1.2.1.3.13.1               end_of_Compressed_Input_Stream - Overlap           74        0        29        Y 
+     58914     58914      5891300        36        31    1.2.1.3.13.8               Compressed_Output_Stream - Shift - Overlap          0       75        30        Y 
+     58914     58914      5891300        37        32    1.2.1.3.14.1               Compressed_Input_Stream - Shift - Overlap           0       75        30        N 
+     58988     58988      5898800        37        32    1.2.1.3.14.1               end_of_Compressed_Input_Stream - Overlap           74        0        30        Y 
+     59358     59358      5935700        37        32    1.2.1.3.14.8               Compressed_Output_Stream - Shift - Overlap          0       75        31        Y 
+     59358     59358      5935700        38        33    1.2.1.3.15.1               Compressed_Input_Stream - Shift - Overlap           0       75        31        N 
+     59432     59432      5943200        38        33    1.2.1.3.15.1               end_of_Compressed_Input_Stream - Overlap           74        0        31        Y 
+     59815     59815      5981400        38        33    1.2.1.3.15.8               Compressed_Output_Stream - Shift - Overlap          0       75        32        Y 
+     59815     59815      5981400        39        34    1.2.1.3.16.1               Compressed_Input_Stream - Shift - Overlap           0       75        32        N 
+     59889     59889      5988900        39        34    1.2.1.3.16.1               end_of_Compressed_Input_Stream - Overlap           74        0        32        Y 
+     60259     60259      6025800        39        34    1.2.1.3.16.8               Compressed_Output_Stream - Shift - Overlap          0       75        33        Y 
+     60259     60259      6025800        40        36    1.2.1.4.2.1                Compressed_Input_Stream - Shift - Overlap           0       75        33        N 
+     60333     60333      6033300        40        36    1.2.1.4.2.1                end_of_Compressed_Input_Stream - Overlap           74        0        33        Y 
+     60703     60703      6070200        40        36    1.2.1.4.2.8                Compressed_Output_Stream - Shift - Overlap          0       75        34        Y 
+     60703     60703      6070200        41        37    1.2.1.4.3.1                Compressed_Input_Stream - Shift - Overlap           0       75        34        N 
+     60777     60777      6077700        41        37    1.2.1.4.3.1                end_of_Compressed_Input_Stream - Overlap           74        0        34        Y 
+     61147     61147      6114600        41        37    1.2.1.4.3.8                Compressed_Output_Stream - Shift - Overlap          0       75        35        Y 
+     61147     61147      6114600        42        38    1.2.1.4.4.1                Compressed_Input_Stream - Shift - Overlap           0       75        35        N 
+     61221     61221      6122100        42        38    1.2.1.4.4.1                end_of_Compressed_Input_Stream - Overlap           74        0        35        Y 
+     61604     61604      6160300        42        38    1.2.1.4.4.8                Compressed_Output_Stream - Shift - Overlap          0       75        36        Y 
+     61604     61604      6160300        43        39    1.2.1.4.5.1                Compressed_Input_Stream - Shift - Overlap           0       75        36        N 
+     61678     61678      6167800        43        39    1.2.1.4.5.1                end_of_Compressed_Input_Stream - Overlap           74        0        36        Y 
+     62061     62061      6206000        43        39    1.2.1.4.5.8                Compressed_Output_Stream - Shift - Overlap          0       75        37        Y 
+     62061     62061      6206000        44        40    1.2.1.4.6.1                Compressed_Input_Stream - Shift - Overlap           0       75        37        N 
+     62135     62135      6213500        44        40    1.2.1.4.6.1                end_of_Compressed_Input_Stream - Overlap           74        0        37        Y 
+     62518     62518      6251700        44        40    1.2.1.4.6.8                Compressed_Output_Stream - Shift - Overlap          0       75        38        Y 
+     62518     62518      6251700        45        41    1.2.1.4.7.1                Compressed_Input_Stream - Shift - Overlap           0       75        38        N 
+     62592     62592      6259200        45        41    1.2.1.4.7.1                end_of_Compressed_Input_Stream - Overlap           74        0        38        Y 
+     62962     62962      6296100        45        41    1.2.1.4.7.8                Compressed_Output_Stream - Shift - Overlap          0       75        39        Y 
+     62962     62962      6296100        46        42    1.2.1.4.8.1                Compressed_Input_Stream - Shift - Overlap           0       75        39        N 
+     63036     63036      6303600        46        42    1.2.1.4.8.1                end_of_Compressed_Input_Stream - Overlap           74        0        39        Y 
+     63406     63406      6340500        46        42    1.2.1.4.8.8                Compressed_Output_Stream - Shift - Overlap          0       75        40        Y 
+     63406     63406      6340500        47        43    1.2.1.4.9.1                Compressed_Input_Stream - Shift - Overlap           0       75        40        N 
+     63480     63480      6348000        47        43    1.2.1.4.9.1                end_of_Compressed_Input_Stream - Overlap           74        0        40        Y 
+     63850     63850      6384900        47        43    1.2.1.4.9.8                Compressed_Output_Stream - Shift - Overlap          0       75        41        Y 
+     63850     63850      6384900        48        44    1.2.1.4.10.1               Compressed_Input_Stream - Shift - Overlap           0       75        41        N 
+     63924     63924      6392400        48        44    1.2.1.4.10.1               end_of_Compressed_Input_Stream - Overlap           74        0        41        Y 
+     64307     64307      6430600        48        44    1.2.1.4.10.8               Compressed_Output_Stream - Shift - Overlap          0       75        42        Y 
+     64307     64307      6430600        49        45    1.2.1.4.11.1               Compressed_Input_Stream - Shift - Overlap           0       75        42        N 
+     64381     64381      6438100        49        45    1.2.1.4.11.1               end_of_Compressed_Input_Stream - Overlap           74        0        42        Y 
+     64751     64751      6475000        49        45    1.2.1.4.11.8               Compressed_Output_Stream - Shift - Overlap          0       75        43        Y 
+     64751     64751      6475000        50        46    1.2.1.4.12.1               Compressed_Input_Stream - Shift - Overlap           0       75        43        N 
+     64825     64825      6482500        50        46    1.2.1.4.12.1               end_of_Compressed_Input_Stream - Overlap           74        0        43        Y 
+     65195     65195      6519400        50        46    1.2.1.4.12.8               Compressed_Output_Stream - Shift - Overlap          0       75        44        Y 
+     65195     65195      6519400        51        47    1.2.1.4.13.1               Compressed_Input_Stream - Shift - Overlap           0       75        44        N 
+     65269     65269      6526900        51        47    1.2.1.4.13.1               end_of_Compressed_Input_Stream - Overlap           74        0        44        Y 
+     65639     65639      6563800        51        47    1.2.1.4.13.8               Compressed_Output_Stream - Shift - Overlap          0       75        45        Y 
+     65639     65639      6563800        52        48    1.2.1.4.14.1               Compressed_Input_Stream - Shift - Overlap           0       75        45        N 
+     65713     65713      6571300        52        48    1.2.1.4.14.1               end_of_Compressed_Input_Stream - Overlap           74        0        45        Y 
+     66083     66083      6608200        52        48    1.2.1.4.14.8               Compressed_Output_Stream - Shift - Overlap          0       75        46        Y 
+     66083     66083      6608200        53        49    1.2.1.4.15.1               Compressed_Input_Stream - Shift - Overlap           0       75        46        N 
+     66157     66157      6615700        53        49    1.2.1.4.15.1               end_of_Compressed_Input_Stream - Overlap           74        0        46        Y 
+     66527     66527      6652600        53        49    1.2.1.4.15.8               Compressed_Output_Stream - Shift - Overlap          0       75        47        Y 
+     66527     66527      6652600        54        51    1.2.1.5.2.1                Compressed_Input_Stream - Shift - Overlap           0       75        47        N 
+     66601     66601      6660100        54        51    1.2.1.5.2.1                end_of_Compressed_Input_Stream - Overlap           74        0        47        Y 
+     66984     66984      6698300        54        51    1.2.1.5.2.8                Compressed_Output_Stream - Shift - Overlap          0       75        48        Y 
+     66984     66984      6698300        55        52    1.2.1.5.3.1                Compressed_Input_Stream - Shift - Overlap           0       75        48        N 
+     67058     67058      6705800        55        52    1.2.1.5.3.1                end_of_Compressed_Input_Stream - Overlap           74        0        48        Y 
+     67428     67428      6742700        55        52    1.2.1.5.3.8                Compressed_Output_Stream - Shift - Overlap          0       75        49        Y 
+     67428     67428      6742700        56        53    1.2.1.5.4.1                Compressed_Input_Stream - Shift - Overlap           0       75        49        N 
+     67502     67502      6750200        56        53    1.2.1.5.4.1                end_of_Compressed_Input_Stream - Overlap           74        0        49        Y 
+     67872     67872      6787100        56        53    1.2.1.5.4.8                Compressed_Output_Stream - Shift - Overlap          0       75        50        Y 
+     67872     67872      6787100        57        54    1.2.1.5.5.1                Compressed_Input_Stream - Shift - Overlap           0       75        50        N 
+     67946     67946      6794600        57        54    1.2.1.5.5.1                end_of_Compressed_Input_Stream - Overlap           74        0        50        Y 
+     68329     68329      6832800        57        54    1.2.1.5.5.8                Compressed_Output_Stream - Shift - Overlap          0       75        51        Y 
+     68329     68329      6832800        58        55    1.2.1.5.6.1                Compressed_Input_Stream - Shift - Overlap           0       75        51        N 
+     68403     68403      6840300        58        55    1.2.1.5.6.1                end_of_Compressed_Input_Stream - Overlap           74        0        51        Y 
+     68773     68773      6877200        58        55    1.2.1.5.6.8                Compressed_Output_Stream - Shift - Overlap          0       75        52        Y 
+     68773     68773      6877200        59        56    1.2.1.5.7.1                Compressed_Input_Stream - Shift - Overlap           0       75        52        N 
+     68847     68847      6884700        59        56    1.2.1.5.7.1                end_of_Compressed_Input_Stream - Overlap           74        0        52        Y 
+     69230     69230      6922900        59        56    1.2.1.5.7.8                Compressed_Output_Stream - Shift - Overlap          0       75        53        Y 
+     69230     69230      6922900        60        57    1.2.1.5.8.1                Compressed_Input_Stream - Shift - Overlap           0       75        53        N 
+     69304     69304      6930400        60        57    1.2.1.5.8.1                end_of_Compressed_Input_Stream - Overlap           74        0        53        Y 
+     69687     69687      6968600        60        57    1.2.1.5.8.8                Compressed_Output_Stream - Shift - Overlap          0       75        54        Y 
+     69687     69687      6968600        61        58    1.2.1.5.9.1                Compressed_Input_Stream - Shift - Overlap           0       75        54        N 
+     69761     69761      6976100        61        58    1.2.1.5.9.1                end_of_Compressed_Input_Stream - Overlap           74        0        54        Y 
+     70131     70131      7013000        61        58    1.2.1.5.9.8                Compressed_Output_Stream - Shift - Overlap          0       75        55        Y 
+     70131     70131      7013000        62        59    1.2.1.5.10.1               Compressed_Input_Stream - Shift - Overlap           0       75        55        N 
+     70205     70205      7020500        62        59    1.2.1.5.10.1               end_of_Compressed_Input_Stream - Overlap           74        0        55        Y 
+     70575     70575      7057400        62        59    1.2.1.5.10.8               Compressed_Output_Stream - Shift - Overlap          0       75        56        Y 
+     70575     70575      7057400        63        60    1.2.1.5.11.1               Compressed_Input_Stream - Shift - Overlap           0       75        56        N 
+     70649     70649      7064900        63        60    1.2.1.5.11.1               end_of_Compressed_Input_Stream - Overlap           74        0        56        Y 
+     71019     71019      7101800        63        60    1.2.1.5.11.8               Compressed_Output_Stream - Shift - Overlap          0       75        57        Y 
+     71019     71019      7101800        64        61    1.2.1.5.12.1               Compressed_Input_Stream - Shift - Overlap           0       75        57        N 
+     71093     71093      7109300        64        61    1.2.1.5.12.1               end_of_Compressed_Input_Stream - Overlap           74        0        57        Y 
+     71463     71463      7146200        64        61    1.2.1.5.12.8               Compressed_Output_Stream - Shift - Overlap          0       75        58        Y 
+     71463     71463      7146200        65        62    1.2.1.5.13.1               Compressed_Input_Stream - Shift - Overlap           0       75        58        N 
+     71537     71537      7153700        65        62    1.2.1.5.13.1               end_of_Compressed_Input_Stream - Overlap           74        0        58        Y 
+     71907     71907      7190600        65        62    1.2.1.5.13.8               Compressed_Output_Stream - Shift - Overlap          0       75        59        Y 
+     71907     71907      7190600        66        63    1.2.1.5.14.1               Compressed_Input_Stream - Shift - Overlap           0       75        59        N 
+     71981     71981      7198100        66        63    1.2.1.5.14.1               end_of_Compressed_Input_Stream - Overlap           74        0        59        Y 
+     72351     72351      7235000        66        63    1.2.1.5.14.8               Compressed_Output_Stream - Shift - Overlap          0       75        60        Y 
+     72351     72351      7235000        67        65    1.2.1.6.2.1                Compressed_Input_Stream - Shift - Overlap           0       75        60        N 
+     72425     72425      7242500        67        65    1.2.1.6.2.1                end_of_Compressed_Input_Stream - Overlap           74        0        60        Y 
+     72808     72808      7280700        67        65    1.2.1.6.2.8                Compressed_Output_Stream - Shift - Overlap          0       75        61        Y 
+     72808     72808      7280700        68        66    1.2.1.6.3.1                Compressed_Input_Stream - Shift - Overlap           0       75        61        N 
+     72882     72882      7288200        68        66    1.2.1.6.3.1                end_of_Compressed_Input_Stream - Overlap           74        0        61        Y 
+     73265     73265      7326400        68        66    1.2.1.6.3.8                Compressed_Output_Stream - Shift - Overlap          0       75        62        Y 
+     73265     73265      7326400        69        67    1.2.1.6.4.1                Compressed_Input_Stream - Shift - Overlap           0       75        62        N 
+     73339     73339      7333900        69        67    1.2.1.6.4.1                end_of_Compressed_Input_Stream - Overlap           74        0        62        Y 
+     73722     73722      7372100        69        67    1.2.1.6.4.8                Compressed_Output_Stream - Shift - Overlap          0       75        63        Y 
+     73722     73722      7372100        70        68    1.2.1.6.5.1                Compressed_Input_Stream - Shift - Overlap           0       75        63        N 
+     73796     73796      7379600        70        68    1.2.1.6.5.1                end_of_Compressed_Input_Stream - Overlap           74        0        63        Y 
+     74179     74179      7417800        70        68    1.2.1.6.5.8                Compressed_Output_Stream - Shift - Overlap          0       75        64        Y 
+     74179     74179      7417800        71        69    1.2.1.6.6.1                Compressed_Input_Stream - Shift - Overlap           0       75        64        N 
+     74253     74253      7425300        71        69    1.2.1.6.6.1                end_of_Compressed_Input_Stream - Overlap           74        0        64        Y 
+     74623     74623      7462200        71        69    1.2.1.6.6.8                Compressed_Output_Stream - Shift - Overlap          0       75        65        Y 
+     74623     74623      7462200        72        70    1.2.1.6.7.1                Compressed_Input_Stream - Shift - Overlap           0       75        65        N 
+     74697     74697      7469700        72        70    1.2.1.6.7.1                end_of_Compressed_Input_Stream - Overlap           74        0        65        Y 
+     75067     75067      7506600        72        70    1.2.1.6.7.8                Compressed_Output_Stream - Shift - Overlap          0       75        66        Y 
+     75067     75067      7506600        73        71    1.2.1.6.8.1                Compressed_Input_Stream - Shift - Overlap           0       75        66        N 
+     75141     75141      7514100        73        71    1.2.1.6.8.1                end_of_Compressed_Input_Stream - Overlap           74        0        66        Y 
+     75511     75511      7551000        73        71    1.2.1.6.8.8                Compressed_Output_Stream - Shift - Overlap          0       75        67        Y 
+     75511     75511      7551000        74        72    1.2.1.6.9.1                Compressed_Input_Stream - Shift - Overlap           0       75        67        N 
+     75585     75585      7558500        74        72    1.2.1.6.9.1                end_of_Compressed_Input_Stream - Overlap           74        0        67        Y 
+     75955     75955      7595400        74        72    1.2.1.6.9.8                Compressed_Output_Stream - Shift - Overlap          0       75        68        Y 
+     75955     75955      7595400        75        73    1.2.1.6.10.1               Compressed_Input_Stream - Shift - Overlap           0       75        68        N 
+     76029     76029      7602900        75        73    1.2.1.6.10.1               end_of_Compressed_Input_Stream - Overlap           74        0        68        Y 
+     76399     76399      7639800        75        73    1.2.1.6.10.8               Compressed_Output_Stream - Shift - Overlap          0       75        69        Y 
+     76399     76399      7639800        76        74    1.2.1.6.11.1               Compressed_Input_Stream - Shift - Overlap           0       75        69        N 
+     76473     76473      7647300        76        74    1.2.1.6.11.1               end_of_Compressed_Input_Stream - Overlap           74        0        69        Y 
+     76843     76843      7684200        76        74    1.2.1.6.11.8               Compressed_Output_Stream - Shift - Overlap          0       75        70        Y 
+     76843     76843      7684200        77        75    1.2.1.6.12.1               Compressed_Input_Stream - Shift - Overlap           0       75        70        N 
+     76917     76917      7691700        77        75    1.2.1.6.12.1               end_of_Compressed_Input_Stream - Overlap           74        0        70        Y 
+     77287     77287      7728600        77        75    1.2.1.6.12.8               Compressed_Output_Stream - Shift - Overlap          0       75        71        Y 
+     77287     77287      7728600        78        77    1.2.1.7.2.1                Compressed_Input_Stream - Shift - Overlap           0       75        71        N 
+     77361     77361      7736100        78        77    1.2.1.7.2.1                end_of_Compressed_Input_Stream - Overlap           74        0        71        Y 
+     77744     77744      7774300        78        77    1.2.1.7.2.8                Compressed_Output_Stream - Shift - Overlap          0       75        72        Y 
+     77744     77744      7774300        79        78    1.2.1.7.3.1                Compressed_Input_Stream - Shift - Overlap           0       75        72        N 
+     77818     77818      7781800        79        78    1.2.1.7.3.1                end_of_Compressed_Input_Stream - Overlap           74        0        72        Y 
+     78188     78188      7818700        79        78    1.2.1.7.3.8                Compressed_Output_Stream - Shift - Overlap          0       75        73        Y 
+     78188     78188      7818700        80        79    1.2.1.7.4.1                Compressed_Input_Stream - Shift - Overlap           0       75        73        N 
+     78262     78262      7826200        80        79    1.2.1.7.4.1                end_of_Compressed_Input_Stream - Overlap           74        0        73        Y 
+     78645     78645      7864400        80        79    1.2.1.7.4.8                Compressed_Output_Stream - Shift - Overlap          0       75        74        Y 
+     78645     78645      7864400        81        80    1.2.1.7.5.1                Compressed_Input_Stream - Shift - Overlap           0       75        74        N 
+     78719     78719      7871900        81        80    1.2.1.7.5.1                end_of_Compressed_Input_Stream - Overlap           74        0        74        Y 
+     79102     79102      7910100        81        80    1.2.1.7.5.8                Compressed_Output_Stream - Shift - Overlap          0       75        75        Y 
+     79102     79102      7910100        82        81    1.2.1.7.6.1                Compressed_Input_Stream - Shift - Overlap           0       75        75        N 
+     79176     79176      7917600        82        81    1.2.1.7.6.1                end_of_Compressed_Input_Stream - Overlap           74        0        75        Y 
+     79546     79546      7954500        82        81    1.2.1.7.6.8                Compressed_Output_Stream - Shift - Overlap          0       75        76        Y 
+     79546     79546      7954500        83        83    1.2.1.8.2.1                Compressed_Input_Stream - Shift - Overlap           0       75        76        N 
+     79620     79620      7962000        83        83    1.2.1.8.2.1                end_of_Compressed_Input_Stream - Overlap           74        0        76        Y 
+     79990     79990      7998900        83        83    1.2.1.8.2.8                Compressed_Output_Stream - Shift - Overlap          0       75        77        Y 
+     79990     79990      7998900        84        84    1.2.1.8.3.1                Compressed_Input_Stream - Shift - Overlap           0       75        77        N 
+     80064     80064      8006400        84        84    1.2.1.8.3.1                end_of_Compressed_Input_Stream - Overlap           74        0        77        Y 
+     80434     80434      8043300        84        84    1.2.1.8.3.8                Compressed_Output_Stream - Shift - Overlap          0       75        78        Y 
+     80434     80434      8043300        85        86    1.2.1.9.2.1                Compressed_Input_Stream - Shift - Overlap           0       75        78        N 
+     80508     80508      8050800        85        86    1.2.1.9.2.1                end_of_Compressed_Input_Stream - Overlap           74        0        78        Y 
+     80909     80909      8090800        85        86    1.2.1.9.2.8                Compressed_Output_Stream - Shift - Overlap          0       75        81        Y 
+     80909     80909      8090800        86        87    1.2.1.9.3.1                Compressed_Input_Stream - Shift - Overlap           0       75        81        N 
+     80983     80983      8098300        86        87    1.2.1.9.3.1                end_of_Compressed_Input_Stream - Overlap           74        0        81        Y 
+     81353     81353      8135200        86        87    1.2.1.9.3.8                Compressed_Output_Stream - Shift                    0       75        82        N 
+     81427     81427      8142700        86        87    1.2.1.9.3.8                end_of_Compressed_Output_Stream                    74        0        82        Y 
