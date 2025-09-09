@@ -1,0 +1,10 @@
+SW Bin,Desc,Site,Site%,Device#,Bin%,Good Bin,Reprobe Bin
+"1113","Continuity_Mux_Pos",1,8.6,6,8.6,1,0
+"1580","PMBIST_Post_repair_Func_fail",1,61.4,43,61.4,1,0
+"4","TOP ONLY",1,5.7,4,5.7,1,0
+"2","Medium",1,11.4,8,11.4,1,0
+"1412","TOP_SAF4_CORE_ROW_0_7_LOGIC_Fail",1,2.9,2,2.9,1,0
+"1408","PMBIST_BWE_Func_fail",1,1.4,1,1.4,1,0
+"1416","TOP_SAF4_EXTEST_LOGIC_1_Fail",1,4.3,3,4.3,1,0
+"1001","supply_short_fail",1,2.9,2,2.9,1,0
+"1414","TOP_SAF4_EXTEST_SCAN_1_Fail",1,1.4,1,1.4,1,0
