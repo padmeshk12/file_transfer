@@ -1,0 +1,1771 @@
+hp93000,timing,0.1
+EQSP TIM,WVT,#900003780
+WAVETBL "wvt_saf_logic_scan"
+DEFINES pscan_LOGIC_Port
+PINS dft_scan_scan_in_pad_i_13
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                   "d1:Z d4:0" ZZZ0
+5                                                   "d1:0 d2:1" 0111
+6                                                        "d1:1" 1111
+7                                              "d1:0 d3:1 d4:0" 0010
+8                                                   "d1:1 d2:0" 1000
+9                                         "d1:1 d2:0 d3:1 d4:0" 1010
+a                                                        "d1:Z" ZZZZ
+b                                              "d1:Z d3:1 d4:0" ZZ10
+c                                              "d1:1 d3:0 d4:1" 1101
+d                                                   "d1:0 d4:Z" 000Z
+e                                              "d1:0 d2:1 d4:0" 0110
+f                                                   "d1:0 d3:1" 0011
+10                                             "d1:1 d2:0 d4:1" 1001
+11                                                  "d1:0 d4:1" 0001
+12                                             "d1:0 d2:1 d3:0" 0100
+13                                                  "d1:1 d4:0" 1110
+14                                                  "d1:1 d3:0" 1100
+15                                                  "d1:Z d3:1" ZZ11
+PINS dft_scan_scan_out_pad_o_7
+0                                                            "" ....
+1                                "d1:Z r1:E1 r2:E0 r3:E1 r4:E0" HLHL
+2                                            "d2:Z r3:E1 r4:E0" ..HL
+3                                "d1:Z r1:E1 r2:E0 r3:E0 r4:E1" HLLH
+4                                                   "d1:Z d3:0" Z000
+5                                      "d3:Z r2:E1 r3:E1 r4:E0" .HHL
+6                                "d1:Z r1:E1 r2:E1 r3:E0 r4:E1" HHLH
+7                                                  "d1:Z r4:E0" Z..L
+8                                      "d3:Z r2:E1 r3:E1 r4:E1" .HHH
+9                                "d1:Z r1:E1 r2:E1 r3:E1 r4:E0" HHHL
+a                                             "d1:0 d3:Z r4:E1" 0Z.H
+b                                                  "d1:Z r4:E1" Z..H
+c                                "d1:Z r1:E0 r2:E0 r3:E0 r4:E0" LLLL
+d                                                  "d1:Z r4:E1" ZZ.H
+e                                "d1:Z r1:E0 r2:E0 r3:E0 r4:E1" LLLH
+f                                                   "d1:0 d4:Z" 000Z
+10                                     "d3:Z r2:E0 r3:E1 r4:E1" .LHH
+11                                     "d3:Z r2:E0 r3:E1 r4:E0" .LHL
+12                                                       "d1:Z" ZZ..
+13                               "d1:Z r1:E0 r2:E0 r3:E1 r4:E1" LLHH
+14                                           "d1:Z r3:E0 r4:E0" Z.LL
+15                               "d1:Z r1:E1 r2:E0 r3:E1 r4:E1" HLHH
+16                               "d1:Z r1:E0 r2:E0 r3:E1 r4:E0" LLHL
+17                                           "d1:Z r3:E0 r4:E1" Z.LH
+18                               "d1:Z r1:E1 r2:E0 r3:E0 r4:E0" HLLL
+19                                                       "d3:Z" .ZZZ
+1a                               "d1:Z r1:E0 r2:E1 r3:E1 r4:E0" LHHL
+1b                                                  "d1:0 d2:Z" 00Z.
+1c                               "d1:Z r1:E0 r2:E1 r3:E1 r4:E1" LHHH
+1d                                     "d3:Z r2:E1 r3:E0 r4:E1" .HLH
+1e                                           "d1:Z r1:E0 r2:E1" LHZZ
+1f                                                       "d1:0" 0000
+20                                     "d3:Z r2:E1 r3:E0 r4:E0" .HLL
+21                                                  "d1:Z d4:0" ZZZ0
+22                               "d1:Z r1:E0 r2:E1 r3:E0 r4:E1" LHLH
+23                                                 "d1:Z r1:E0" LZZZ
+24                               "d1:Z r1:E0 r2:E1 r3:E0 r4:E0" LHLL
+25                                     "d1:Z r1:E0 r2:E0 r3:E0" LLLZ
+26                                           "d2:Z r3:E0 r4:E0" ..LL
+27                                                       "d1:Z" ZZZZ
+28                                                       "d1:Z" ZZZ.
+29                                                  "d1:Z d2:0" ZZ00
+2a                                           "d1:Z r3:E1 r4:E1" Z.HH
+2b                                           "d1:Z r3:E1 r4:E0" Z.HL
+2c                               "d1:Z r1:E1 r2:E1 r3:E0 r4:E0" HHLL
+2d                                            "d1:0 d3:Z r4:E0" 0Z.L
+2e                               "d1:Z r1:E1 r2:E1 r3:E1 r4:E1" HHHH
+2f                                     "d3:Z r2:E0 r3:E0 r4:E0" .LLL
+30                                     "d3:Z r2:E0 r3:E0 r4:E1" .LLH
+31                                           "d1:Z r1:E0 r2:E0" LLZZ
+32                                     "d1:Z r1:E0 r2:E0 r3:E1" LLHZ
+33                                                 "d1:Z r1:E1" HZZZ
+34                                           "d2:Z r3:E1 r4:E1" ..HH
+35                                                 "d1:Z r4:E0" ZZ.L
+36                                           "d2:Z r3:E0 r4:E1" ..LH
+PINS dft_scan_scan_out_pad_o_10
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                            "d1:Z r1:E0 r2:E1" .LH.
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                            "d2:Z r3:E1 r1:E0" HL..
+d                                                  "d3:Z r2:E0" ..L.
+e                                            "d2:Z r3:E0 r4:E1" L..H
+f                                      "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+10                                                       "d2:Z" ZZ..
+11                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+12                                           "d1:Z r1:E1 r2:E0" .HL.
+13                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+14                                           "d2:Z r3:E1 r4:E0" H..L
+15                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+16                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+19                                                 "d2:Z r2:E0" Z.L.
+1a                                           "d2:Z r3:E0 r1:E1" LHZZ
+1b                                                       "d2:0" 0000
+1c                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1d                                           "d2:Z r3:E0 r1:E0" LL..
+1e                                                  "d2:Z d4:0" ZZZ0
+1f                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+20                                           "d1:Z r1:E0 r4:E0" .L.L
+21                                                 "d2:Z r2:E1" Z.H.
+22                                                 "d2:Z r3:E0" LZZZ
+23                                           "d1:Z r1:E0 r4:E1" .L.H
+24                                                       "d2:Z" ZZZZ
+25                                                       "d2:Z" ZZZ.
+26                                                 "d1:Z r1:E1" .H..
+27                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+28                                                 "d2:Z r3:E0" L...
+29                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+2a                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+2b                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+2c                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+2d                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+2e                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+2f                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+30                                                           "" ....
+31                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+32                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+33                                                  "d2:Z d1:0" Z000
+34                                           "d2:Z r3:E1 r4:E1" H..H
+35                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+36                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+37                                                 "d2:Z r4:E0" Z..L
+38                                            "d2:0 d1:Z r4:E1" 0Z.H
+39                                                 "d2:Z r4:E1" Z..H
+3a                                           "d2:Z r3:E1 r2:E1" H.H.
+3b                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+3c                                           "d2:Z r3:E1 r2:E0" H.L.
+3d                                                 "d1:Z r1:E0" .L..
+3e                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+3f                                                  "d2:0 d4:Z" 000Z
+40                                                  "d2:0 d1:Z" 0Z..
+41                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+42                                           "d1:Z r1:E1 r2:E1" .HH.
+43                                           "d1:Z r1:E1 r4:E1" .H.H
+44                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+45                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+46                                           "d1:Z r1:E1 r4:E0" .H.L
+47                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+48                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+49                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+4a                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+4b                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+4c                                                       "d1:Z" .ZZZ
+4d                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+4e                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+4f                                                  "d2:0 d3:Z" 00Z.
+50                                                 "d3:Z r2:E1" ..H.
+51                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+52                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+53                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+54                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+55                                           "d2:Z r3:E0 r2:E0" L.L.
+56                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+57                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+58                                           "d3:Z r2:E0 r4:E0" ..LL
+59                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+5a                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+5b                                           "d3:Z r2:E0 r4:E1" ..LH
+5c                                           "d2:Z r3:E0 r2:E1" L.H.
+5d                                                       "d2:Z" Z...
+5e                                                  "d2:Z d3:0" ZZ00
+5f                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+60                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+61                                                 "d2:Z r3:E1" H...
+62                                            "d2:0 d1:Z r4:E0" 0Z.L
+63                                                 "d4:Z r4:E0" ...L
+64                                                 "d4:Z r4:E1" ...H
+65                                           "d2:Z r3:E1 r1:E1" HH..
+66                                           "d2:Z r3:E0 r1:E0" LLZZ
+67                                           "d2:Z r3:E0 r1:E1" LH..
+68                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_9
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                            "d2:Z r3:E0 r1:E1" LH..
+9                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+a                                            "d1:Z r1:E0 r2:E1" .LH.
+b                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+c                                            "d2:Z r3:E0 r4:E0" L..L
+d                                      "d2:Z r3:E0 r1:E1 r2:E0" LHLZ
+e                                            "d2:Z r3:E1 r1:E0" HL..
+f                                                  "d3:Z r2:E0" ..L.
+10                                           "d2:Z r3:E0 r4:E1" L..H
+11                                     "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+12                                                       "d2:Z" ZZ..
+13                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+14                                           "d1:Z r1:E1 r2:E0" .HL.
+15                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+16                                           "d2:Z r3:E1 r4:E0" H..L
+17                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+18                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+19                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+1a                                           "d2:Z r3:E1 r1:E1" HHZZ
+1b                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+1c                                                 "d2:Z r2:E0" Z.L.
+1d                                           "d2:Z r3:E0 r1:E1" LHZZ
+1e                                                       "d2:0" 0000
+1f                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+20                                           "d2:Z r3:E0 r1:E0" LL..
+21                                                  "d2:Z d4:0" ZZZ0
+22                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+23                                     "d2:Z r3:E0 r1:E0 r2:E0" LLLZ
+24                                           "d1:Z r1:E0 r4:E0" .L.L
+25                                                 "d2:Z r3:E0" LZZZ
+26                                           "d1:Z r1:E0 r4:E1" .L.H
+27                                                       "d2:Z" ZZZZ
+28                                     "d2:Z r3:E1 r1:E1 r2:E1" HHHZ
+29                                                       "d2:Z" ZZZ.
+2a                                                 "d1:Z r1:E1" .H..
+2b                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+2c                                                 "d2:Z r3:E0" L...
+2d                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+2e                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+2f                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+30                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+31                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+32                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+33                                     "d2:Z r3:E0 r1:E1 r2:E1" LHHZ
+34                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+35                                                           "" ....
+36                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+37                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+38                                                  "d2:Z d1:0" Z000
+39                                           "d2:Z r3:E1 r4:E1" H..H
+3a                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+3b                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+3c                                                 "d2:Z r4:E0" Z..L
+3d                                            "d2:0 d1:Z r4:E1" 0Z.H
+3e                                                 "d2:Z r4:E1" Z..H
+3f                                           "d2:Z r3:E1 r2:E1" H.H.
+40                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+41                                           "d2:Z r3:E1 r2:E0" H.L.
+42                                                 "d1:Z r1:E0" .L..
+43                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+44                                     "d2:Z r3:E1 r1:E1 r2:E0" HHLZ
+45                                                  "d2:0 d4:Z" 000Z
+46                                                  "d2:0 d1:Z" 0Z..
+47                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+48                                           "d1:Z r1:E1 r2:E1" .HH.
+49                                           "d1:Z r1:E1 r4:E1" .H.H
+4a                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+4b                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+4c                                           "d1:Z r1:E1 r4:E0" .H.L
+4d                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+4e                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+4f                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+50                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+51                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+52                                                       "d1:Z" .ZZZ
+53                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+54                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+55                                                  "d2:0 d3:Z" 00Z.
+56                                                 "d3:Z r2:E1" ..H.
+57                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+58                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+59                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+5a                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+5b                                           "d2:Z r3:E0 r2:E0" L.L.
+5c                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+5d                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+5e                                           "d3:Z r2:E0 r4:E0" ..LL
+5f                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+60                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+61                                           "d2:Z r3:E1 r1:E0" HLZZ
+62                                           "d3:Z r2:E0 r4:E1" ..LH
+63                                           "d2:Z r3:E0 r2:E1" L.H.
+64                                                       "d2:Z" Z...
+65                                                  "d2:Z d3:0" ZZ00
+66                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+67                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+68                                                 "d2:Z r3:E1" H...
+69                                            "d2:0 d1:Z r4:E0" 0Z.L
+6a                                                 "d4:Z r4:E0" ...L
+6b                                                 "d4:Z r4:E1" ...H
+6c                                           "d2:Z r3:E1 r1:E1" HH..
+6d                                           "d2:Z r3:E0 r1:E0" LLZZ
+6e                                     "d2:Z r3:E0 r1:E0 r2:E1" LLHZ
+6f                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_in_pad_i_8 dft_scan_scan_in_pad_i_5
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                        "d1:1" 1111
+5                                                   "d1:0 d2:1" 0111
+6                                              "d1:0 d3:1 d4:0" 0010
+7                                                   "d1:1 d2:0" 1000
+8                                         "d1:1 d2:0 d3:1 d4:0" 1010
+9                                                        "d1:Z" ZZZZ
+a                                              "d1:Z d3:1 d4:0" ZZ10
+b                                              "d1:1 d3:0 d4:1" 1101
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+13                                                  "d1:Z d3:0" ZZ00
+PINS dft_scan_scan_in_pad_i_14
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                        "d1:1" 1111
+5                                                   "d1:0 d2:1" 0111
+6                                              "d1:0 d3:1 d4:0" 0010
+7                                                   "d1:1 d2:0" 1000
+8                                         "d1:1 d2:0 d3:1 d4:0" 1010
+9                                                        "d1:Z" ZZZZ
+a                                              "d1:1 d3:0 d4:1" 1101
+b                                                   "d1:Z d3:0" ZZ00
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+13                                             "d1:Z d3:0 d4:1" ZZ01
+PINS dft_scan_scan_in_pad_i_6 dft_scan_scan_in_pad_i_12
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                        "d1:1" 1111
+5                                                   "d1:0 d2:1" 0111
+6                                              "d1:0 d3:1 d4:0" 0010
+7                                                   "d1:1 d2:0" 1000
+8                                         "d1:1 d2:0 d3:1 d4:0" 1010
+9                                                        "d1:Z" ZZZZ
+a                                              "d1:1 d3:0 d4:1" 1101
+b                                                   "d1:Z d3:0" ZZ00
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+PINS dft_scan_scan_out_pad_o_0
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                            "d2:Z r3:E0 r1:E1" LH..
+9                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+a                                            "d1:Z r1:E0 r2:E1" .LH.
+b                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+c                                            "d2:Z r3:E0 r4:E0" L..L
+d                                      "d2:Z r3:E0 r1:E1 r2:E0" LHLZ
+e                                            "d2:Z r3:E1 r1:E0" HL..
+f                                                  "d3:Z r2:E0" ..L.
+10                                           "d2:Z r3:E0 r4:E1" L..H
+11                                     "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+12                                                       "d2:Z" ZZ..
+13                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+14                                           "d1:Z r1:E1 r2:E0" .HL.
+15                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+16                                           "d2:Z r3:E1 r4:E0" H..L
+17                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+18                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+19                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+1a                                           "d2:Z r3:E1 r1:E1" HHZZ
+1b                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+1c                                                 "d2:Z r2:E0" Z.L.
+1d                                           "d2:Z r3:E0 r1:E1" LHZZ
+1e                                                       "d2:0" 0000
+1f                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+20                                           "d2:Z r3:E0 r1:E0" LL..
+21                                                  "d2:Z d4:0" ZZZ0
+22                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+23                                           "d1:Z r1:E0 r4:E0" .L.L
+24                                     "d2:Z r3:E0 r1:E0 r2:E0" LLLZ
+25                                                 "d2:Z r3:E0" LZZZ
+26                                           "d1:Z r1:E0 r4:E1" .L.H
+27                                                       "d2:Z" ZZZZ
+28                                     "d2:Z r3:E1 r1:E1 r2:E1" HHHZ
+29                                                       "d2:Z" ZZZ.
+2a                                                 "d1:Z r1:E1" .H..
+2b                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+2c                                                 "d2:Z r3:E0" L...
+2d                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+2e                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+2f                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+30                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+31                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+32                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+33                                     "d2:Z r3:E0 r1:E1 r2:E1" LHHZ
+34                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+35                                                           "" ....
+36                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+37                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+38                                                  "d2:Z d1:0" Z000
+39                                           "d2:Z r3:E1 r4:E1" H..H
+3a                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+3b                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+3c                                            "d2:0 d1:Z r4:E1" 0Z.H
+3d                                           "d2:Z r3:E1 r2:E1" H.H.
+3e                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+3f                                           "d2:Z r3:E1 r2:E0" H.L.
+40                                                 "d1:Z r1:E0" .L..
+41                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+42                                     "d2:Z r3:E1 r1:E1 r2:E0" HHLZ
+43                                                  "d2:0 d4:Z" 000Z
+44                                                  "d2:0 d1:Z" 0Z..
+45                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+46                                           "d1:Z r1:E1 r2:E1" .HH.
+47                                           "d1:Z r1:E1 r4:E1" .H.H
+48                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+49                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+4a                                           "d1:Z r1:E1 r4:E0" .H.L
+4b                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+4c                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+4d                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+4e                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+4f                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+50                                                       "d1:Z" .ZZZ
+51                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+52                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+53                                                  "d2:0 d3:Z" 00Z.
+54                                                 "d3:Z r2:E1" ..H.
+55                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+56                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+57                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+58                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+59                                           "d2:Z r3:E0 r2:E0" L.L.
+5a                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+5b                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+5c                                           "d3:Z r2:E0 r4:E0" ..LL
+5d                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+5e                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+5f                                           "d2:Z r3:E1 r1:E0" HLZZ
+60                                           "d3:Z r2:E0 r4:E1" ..LH
+61                                           "d2:Z r3:E0 r2:E1" L.H.
+62                                                       "d2:Z" Z...
+63                                                  "d2:Z d3:0" ZZ00
+64                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+65                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+66                                                 "d2:Z r3:E1" H...
+67                                            "d2:0 d1:Z r4:E0" 0Z.L
+68                                                 "d4:Z r4:E0" ...L
+69                                                 "d4:Z r4:E1" ...H
+6a                                           "d2:Z r3:E1 r1:E1" HH..
+6b                                           "d2:Z r3:E0 r1:E0" LLZZ
+6c                                     "d2:Z r3:E0 r1:E0 r2:E1" LLHZ
+6d                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_3
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                            "d1:Z r1:E0 r2:E1" .LH.
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                            "d2:Z r3:E1 r1:E0" HL..
+d                                                  "d3:Z r2:E0" ..L.
+e                                            "d2:Z r3:E0 r4:E1" L..H
+f                                      "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+10                                                       "d2:Z" ZZ..
+11                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+12                                           "d1:Z r1:E1 r2:E0" .HL.
+13                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+14                                           "d2:Z r3:E1 r4:E0" H..L
+15                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+16                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+19                                           "d2:Z r3:E0 r1:E1" LHZZ
+1a                                                       "d2:0" 0000
+1b                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1c                                           "d2:Z r3:E0 r1:E0" LL..
+1d                                                  "d2:Z d4:0" ZZZ0
+1e                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+1f                                           "d1:Z r1:E0 r4:E0" .L.L
+20                                                 "d2:Z r2:E1" Z.H.
+21                                                 "d2:Z r3:E0" LZZZ
+22                                           "d1:Z r1:E0 r4:E1" .L.H
+23                                                       "d2:Z" ZZZZ
+24                                                       "d2:Z" ZZZ.
+25                                                 "d1:Z r1:E1" .H..
+26                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+27                                                 "d2:Z r3:E0" L...
+28                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+29                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+2a                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+2b                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+2c                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+2d                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+2e                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+2f                                                           "" ....
+30                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+31                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+32                                           "d2:Z r3:E1 r4:E1" H..H
+33                                                  "d2:Z d1:0" Z000
+34                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+35                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+36                                                 "d2:Z r4:E0" Z..L
+37                                            "d2:0 d1:Z r4:E1" 0Z.H
+38                                                 "d2:Z r4:E0" ZZ.L
+39                                                 "d2:Z r4:E1" Z..H
+3a                                           "d2:Z r3:E1 r2:E1" H.H.
+3b                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+3c                                           "d2:Z r3:E1 r2:E0" H.L.
+3d                                                 "d1:Z r1:E0" .L..
+3e                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+3f                                                  "d2:0 d4:Z" 000Z
+40                                                  "d2:0 d1:Z" 0Z..
+41                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+42                                           "d1:Z r1:E1 r2:E1" .HH.
+43                                           "d1:Z r1:E1 r4:E1" .H.H
+44                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+45                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+46                                           "d1:Z r1:E1 r4:E0" .H.L
+47                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+48                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+49                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+4a                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+4b                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+4c                                                       "d1:Z" .ZZZ
+4d                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+4e                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+4f                                                  "d2:0 d3:Z" 00Z.
+50                                                 "d3:Z r2:E1" ..H.
+51                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+52                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+53                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+54                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+55                                           "d2:Z r3:E0 r2:E0" L.L.
+56                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+57                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+58                                           "d3:Z r2:E0 r4:E0" ..LL
+59                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+5a                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+5b                                           "d3:Z r2:E0 r4:E1" ..LH
+5c                                           "d2:Z r3:E0 r2:E1" L.H.
+5d                                                       "d2:Z" Z...
+5e                                                  "d2:Z d3:0" ZZ00
+5f                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+60                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+61                                                 "d2:Z r3:E1" H...
+62                                            "d2:0 d1:Z r4:E0" 0Z.L
+63                                                 "d4:Z r4:E0" ...L
+64                                                 "d4:Z r4:E1" ...H
+65                                           "d2:Z r3:E1 r1:E1" HH..
+66                                           "d2:Z r3:E0 r1:E0" LLZZ
+67                                           "d2:Z r3:E0 r1:E1" LH..
+68                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_14
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                            "d1:Z r1:E0 r2:E1" .LH.
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                            "d2:Z r3:E1 r1:E0" HL..
+d                                                  "d3:Z r2:E0" ..L.
+e                                            "d2:Z r3:E0 r4:E1" L..H
+f                                      "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+10                                                       "d2:Z" ZZ..
+11                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+12                                           "d1:Z r1:E1 r2:E0" .HL.
+13                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+14                                           "d2:Z r3:E1 r4:E0" H..L
+15                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+16                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+19                                                 "d2:Z r2:E0" Z.L.
+1a                                           "d2:Z r3:E0 r1:E1" LHZZ
+1b                                                       "d2:0" 0000
+1c                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1d                                           "d2:Z r3:E0 r1:E0" LL..
+1e                                                  "d2:Z d4:0" ZZZ0
+1f                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+20                                           "d1:Z r1:E0 r4:E0" .L.L
+21                                                 "d2:Z r2:E1" Z.H.
+22                                                 "d2:Z r3:E0" LZZZ
+23                                           "d1:Z r1:E0 r4:E1" .L.H
+24                                                       "d2:Z" ZZZZ
+25                                                       "d2:Z" ZZZ.
+26                                                 "d1:Z r1:E1" .H..
+27                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+28                                                 "d2:Z r3:E0" L...
+29                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+2a                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+2b                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+2c                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+2d                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+2e                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+2f                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+30                                                           "" ....
+31                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+32                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+33                                                  "d2:Z d1:0" Z000
+34                                           "d2:Z r3:E1 r4:E1" H..H
+35                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+36                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+37                                            "d2:0 d1:Z r4:E1" 0Z.H
+38                                                 "d2:Z r4:E0" ZZ.L
+39                                           "d2:Z r3:E1 r2:E1" H.H.
+3a                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+3b                                           "d2:Z r3:E1 r2:E0" H.L.
+3c                                                 "d1:Z r1:E0" .L..
+3d                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+3e                                                  "d2:0 d4:Z" 000Z
+3f                                                  "d2:0 d1:Z" 0Z..
+40                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+41                                           "d1:Z r1:E1 r2:E1" .HH.
+42                                           "d1:Z r1:E1 r4:E1" .H.H
+43                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+44                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+45                                           "d1:Z r1:E1 r4:E0" .H.L
+46                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+47                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+48                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+49                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+4a                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+4b                                                       "d1:Z" .ZZZ
+4c                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+4d                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+4e                                                  "d2:0 d3:Z" 00Z.
+4f                                                 "d3:Z r2:E1" ..H.
+50                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+51                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+52                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+53                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+54                                           "d2:Z r3:E0 r2:E0" L.L.
+55                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+56                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+57                                           "d3:Z r2:E0 r4:E0" ..LL
+58                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+59                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+5a                                           "d3:Z r2:E0 r4:E1" ..LH
+5b                                           "d2:Z r3:E0 r2:E1" L.H.
+5c                                                       "d2:Z" Z...
+5d                                                  "d2:Z d3:0" ZZ00
+5e                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+5f                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+60                                                 "d2:Z r3:E1" H...
+61                                            "d2:0 d1:Z r4:E0" 0Z.L
+62                                                 "d4:Z r4:E0" ...L
+63                                                 "d4:Z r4:E1" ...H
+64                                           "d2:Z r3:E1 r1:E1" HH..
+65                                           "d2:Z r3:E0 r1:E0" LLZZ
+66                                           "d2:Z r3:E0 r1:E1" LH..
+67                                                 "d2:Z r3:E1" HZZZ
+68                                                 "d2:Z r4:E1" ZZ.H
+PINS dft_scan_scan_out_pad_o_6
+0                                                            "" ....
+1                                "d1:Z r1:E1 r2:E0 r3:E1 r4:E0" HLHL
+2                                            "d2:Z r3:E1 r4:E0" ..HL
+3                                "d1:Z r1:E1 r2:E0 r3:E0 r4:E1" HLLH
+4                                                   "d1:Z d3:0" Z000
+5                                      "d3:Z r2:E1 r3:E1 r4:E0" .HHL
+6                                "d1:Z r1:E1 r2:E1 r3:E0 r4:E1" HHLH
+7                                                  "d1:Z r4:E0" Z..L
+8                                      "d3:Z r2:E1 r3:E1 r4:E1" .HHH
+9                                "d1:Z r1:E1 r2:E1 r3:E1 r4:E0" HHHL
+a                                             "d1:0 d3:Z r4:E1" 0Z.H
+b                                                  "d1:Z r4:E1" Z..H
+c                                "d1:Z r1:E0 r2:E0 r3:E0 r4:E0" LLLL
+d                                      "d1:Z r1:E0 r2:E1 r3:E0" LHLZ
+e                                                  "d1:Z r4:E1" ZZ.H
+f                                "d1:Z r1:E0 r2:E0 r3:E0 r4:E1" LLLH
+10                                                  "d1:0 d4:Z" 000Z
+11                                     "d3:Z r2:E0 r3:E1 r4:E1" .LHH
+12                                     "d3:Z r2:E0 r3:E1 r4:E0" .LHL
+13                                                       "d1:Z" ZZ..
+14                               "d1:Z r1:E0 r2:E0 r3:E1 r4:E1" LLHH
+15                                           "d1:Z r3:E0 r4:E0" Z.LL
+16                               "d1:Z r1:E1 r2:E0 r3:E1 r4:E1" HLHH
+17                               "d1:Z r1:E0 r2:E0 r3:E1 r4:E0" LLHL
+18                                           "d1:Z r3:E0 r4:E1" Z.LH
+19                               "d1:Z r1:E1 r2:E0 r3:E0 r4:E0" HLLL
+1a                                                       "d3:Z" .ZZZ
+1b                               "d1:Z r1:E0 r2:E1 r3:E1 r4:E0" LHHL
+1c                                                  "d1:0 d2:Z" 00Z.
+1d                               "d1:Z r1:E0 r2:E1 r3:E1 r4:E1" LHHH
+1e                                     "d3:Z r2:E1 r3:E0 r4:E1" .HLH
+1f                                                       "d1:0" 0000
+20                                     "d3:Z r2:E1 r3:E0 r4:E0" .HLL
+21                                                  "d1:Z d4:0" ZZZ0
+22                               "d1:Z r1:E0 r2:E1 r3:E0 r4:E1" LHLH
+23                                                 "d1:Z r1:E0" LZZZ
+24                               "d1:Z r1:E0 r2:E1 r3:E0 r4:E0" LHLL
+25                                           "d1:Z r1:E1 r2:E0" HLZZ
+26                                           "d2:Z r3:E0 r4:E1" ..LH
+27                                                       "d1:Z" ZZZZ
+28                                                       "d1:Z" ZZZ.
+29                                                  "d1:Z d2:0" ZZ00
+2a                                           "d1:Z r3:E1 r4:E1" Z.HH
+2b                                           "d1:Z r3:E1 r4:E0" Z.HL
+2c                               "d1:Z r1:E1 r2:E1 r3:E0 r4:E0" HHLL
+2d                               "d1:Z r1:E1 r2:E1 r3:E1 r4:E1" HHHH
+2e                                            "d1:0 d3:Z r4:E0" 0Z.L
+2f                                     "d3:Z r2:E0 r3:E0 r4:E0" .LLL
+30                                     "d1:Z r1:E0 r2:E1 r3:E1" LHHZ
+31                                     "d3:Z r2:E0 r3:E0 r4:E1" .LLH
+32                                           "d1:Z r1:E1 r2:E1" HHZZ
+33                                                 "d1:Z r1:E1" HZZZ
+34                                                 "d1:Z r4:E0" ZZ.L
+35                                           "d2:Z r3:E0 r4:E0" ..LL
+PINS dft_scan_scan_in_pad_i_15
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                        "d1:1" 1111
+5                                                   "d1:0 d2:1" 0111
+6                                              "d1:0 d3:1 d4:0" 0010
+7                                                   "d1:1 d2:0" 1000
+8                                         "d1:1 d2:0 d3:1 d4:0" 1010
+9                                                        "d1:Z" ZZZZ
+a                                              "d1:Z d3:1 d4:0" ZZ10
+b                                              "d1:1 d3:0 d4:1" 1101
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+PINS dft_scan_scan_in_pad_i_2 dft_scan_scan_in_pad_i_9
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                        "d1:1" 1111
+5                                                   "d1:0 d2:1" 0111
+6                                              "d1:0 d3:1 d4:0" 0010
+7                                                   "d1:1 d2:0" 1000
+8                                                   "d1:Z d3:1" ZZ11
+9                                         "d1:1 d2:0 d3:1 d4:0" 1010
+a                                                        "d1:Z" ZZZZ
+b                                              "d1:1 d3:0 d4:1" 1101
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+13                                                  "d1:Z d3:0" ZZ00
+PINS dft_scan_scan_in_pad_i_4
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                        "d1:1" 1111
+5                                                   "d1:0 d2:1" 0111
+6                                              "d1:0 d3:1 d4:0" 0010
+7                                                   "d1:1 d2:0" 1000
+8                                         "d1:1 d2:0 d3:1 d4:0" 1010
+9                                                        "d1:Z" ZZZZ
+a                                              "d1:1 d3:0 d4:1" 1101
+b                                                   "d1:Z d3:0" ZZ00
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+13                                                  "d1:Z d3:1" ZZ11
+PINS dft_scan_scan_out_pad_o_15
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                            "d1:Z r1:E0 r2:E1" .LH.
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                            "d2:Z r3:E1 r1:E0" HL..
+d                                                  "d3:Z r2:E0" ..L.
+e                                            "d2:Z r3:E0 r4:E1" L..H
+f                                      "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+10                                                       "d2:Z" ZZ..
+11                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+12                                           "d1:Z r1:E1 r2:E0" .HL.
+13                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+14                                           "d2:Z r3:E1 r4:E0" H..L
+15                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+16                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+19                                                 "d2:Z r2:E0" Z.L.
+1a                                           "d2:Z r3:E0 r1:E1" LHZZ
+1b                                                       "d2:0" 0000
+1c                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1d                                           "d2:Z r3:E0 r1:E0" LL..
+1e                                                  "d2:Z d4:0" ZZZ0
+1f                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+20                                           "d1:Z r1:E0 r4:E0" .L.L
+21                                                 "d2:Z r2:E1" Z.H.
+22                                                 "d2:Z r3:E0" LZZZ
+23                                           "d1:Z r1:E0 r4:E1" .L.H
+24                                                       "d2:Z" ZZZZ
+25                                                       "d2:Z" ZZZ.
+26                                                 "d1:Z r1:E1" .H..
+27                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+28                                                 "d2:Z r3:E0" L...
+29                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+2a                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+2b                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+2c                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+2d                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+2e                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+2f                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+30                                                           "" ....
+31                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+32                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+33                                           "d2:Z r3:E1 r4:E1" H..H
+34                                                  "d2:Z d1:0" Z000
+35                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+36                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+37                                                 "d2:Z r4:E0" Z..L
+38                                            "d2:0 d1:Z r4:E1" 0Z.H
+39                                                 "d2:Z r4:E1" Z..H
+3a                                           "d2:Z r3:E1 r2:E1" H.H.
+3b                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+3c                                                 "d2:Z r4:E1" ZZ.H
+3d                                           "d2:Z r3:E1 r2:E0" H.L.
+3e                                                 "d1:Z r1:E0" .L..
+3f                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+40                                                  "d2:0 d4:Z" 000Z
+41                                                  "d2:0 d1:Z" 0Z..
+42                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+43                                           "d1:Z r1:E1 r2:E1" .HH.
+44                                           "d1:Z r1:E1 r4:E1" .H.H
+45                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+46                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+47                                           "d1:Z r1:E1 r4:E0" .H.L
+48                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+49                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+4a                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+4b                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+4c                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+4d                                                       "d1:Z" .ZZZ
+4e                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+4f                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+50                                                  "d2:0 d3:Z" 00Z.
+51                                                 "d3:Z r2:E1" ..H.
+52                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+53                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+54                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+55                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+56                                           "d2:Z r3:E0 r2:E0" L.L.
+57                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+58                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+59                                           "d3:Z r2:E0 r4:E0" ..LL
+5a                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+5b                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+5c                                           "d3:Z r2:E0 r4:E1" ..LH
+5d                                           "d2:Z r3:E0 r2:E1" L.H.
+5e                                                       "d2:Z" Z...
+5f                                                  "d2:Z d3:0" ZZ00
+60                                           "d2:Z r2:E1 r4:E1" Z.HH
+61                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+62                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+63                                                 "d2:Z r3:E1" H...
+64                                            "d2:0 d1:Z r4:E0" 0Z.L
+65                                                 "d4:Z r4:E0" ...L
+66                                                 "d4:Z r4:E1" ...H
+67                                           "d2:Z r3:E1 r1:E1" HH..
+68                                           "d2:Z r3:E0 r1:E0" LLZZ
+69                                           "d2:Z r3:E0 r1:E1" LH..
+6a                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_in_pad_i_3 dft_scan_scan_in_pad_i_10
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                              "d1:Z d3:0 d4:1" ZZ01
+4                                         "d1:0 d2:1 d3:0 d4:1" 0101
+5                                                        "d1:1" 1111
+6                                                   "d1:0 d2:1" 0111
+7                                              "d1:0 d3:1 d4:0" 0010
+8                                                   "d1:1 d2:0" 1000
+9                                         "d1:1 d2:0 d3:1 d4:0" 1010
+a                                                        "d1:Z" ZZZZ
+b                                              "d1:1 d3:0 d4:1" 1101
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+13                                                  "d1:Z d3:1" ZZ11
+PINS dft_scan_scan_in_pad_i_0
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                   "d1:Z d4:0" ZZZ0
+5                                                   "d1:0 d2:1" 0111
+6                                                        "d1:1" 1111
+7                                              "d1:0 d3:1 d4:0" 0010
+8                                                   "d1:1 d2:0" 1000
+9                                         "d1:1 d2:0 d3:1 d4:0" 1010
+a                                                        "d1:Z" ZZZZ
+b                                              "d1:1 d3:0 d4:1" 1101
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+PINS dft_scan_scan_out_pad_o_11
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                            "d1:Z r1:E0 r2:E1" .LH.
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                      "d2:Z r3:E0 r1:E1 r2:E0" LHLZ
+d                                            "d2:Z r3:E1 r1:E0" HL..
+e                                                  "d3:Z r2:E0" ..L.
+f                                            "d2:Z r3:E0 r4:E1" L..H
+10                                     "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+11                                                       "d2:Z" ZZ..
+12                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+13                                           "d1:Z r1:E1 r2:E0" .HL.
+14                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+15                                           "d2:Z r3:E1 r4:E0" H..L
+16                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+19                                           "d2:Z r3:E0 r1:E0" LL..
+1a                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+1b                                           "d1:Z r1:E0 r4:E0" .L.L
+1c                                                 "d2:Z r3:E0" LZZZ
+1d                                           "d1:Z r1:E0 r4:E1" .L.H
+1e                                                       "d2:Z" ZZZZ
+1f                                                       "d2:Z" ZZZ.
+20                                                 "d1:Z r1:E1" .H..
+21                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+22                                                 "d2:Z r3:E0" L...
+23                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+24                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+25                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+26                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+27                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+28                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+29                                     "d2:Z r3:E0 r1:E1 r2:E1" LHHZ
+2a                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+2b                                           "d2:Z r3:E1 r1:E1" HH..
+2c                                                           "" ....
+2d                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+2e                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+2f                                           "d2:Z r3:E1 r4:E1" H..H
+30                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+31                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+32                                                 "d2:Z r4:E0" Z..L
+33                                                 "d2:Z r4:E0" ZZ.L
+34                                                 "d2:Z r4:E1" Z..H
+35                                           "d2:Z r3:E1 r2:E1" H.H.
+36                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+37                                                 "d2:Z r4:E1" ZZ.H
+38                                           "d2:Z r3:E1 r2:E0" H.L.
+39                                                 "d1:Z r1:E0" .L..
+3a                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+3b                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+3c                                           "d1:Z r1:E1 r2:E1" .HH.
+3d                                           "d1:Z r1:E1 r4:E1" .H.H
+3e                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+3f                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+40                                           "d1:Z r1:E1 r4:E0" .H.L
+41                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+42                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+43                                           "d2:Z r2:E0 r4:E0" Z.LL
+44                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+45                                           "d2:Z r2:E0 r4:E1" Z.LH
+46                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+47                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+48                                                       "d1:Z" .ZZZ
+49                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+4a                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+4b                                                 "d3:Z r2:E1" ..H.
+4c                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+4d                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+4e                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+4f                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+50                                           "d2:Z r3:E0 r2:E0" L.L.
+51                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+52                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+53                                           "d3:Z r2:E0 r4:E0" ..LL
+54                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+55                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+56                                           "d2:Z r3:E1 r1:E0" HLZZ
+57                                           "d3:Z r2:E0 r4:E1" ..LH
+58                                           "d2:Z r3:E0 r2:E1" L.H.
+59                                           "d2:Z r2:E1 r4:E1" Z.HH
+5a                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+5b                                           "d2:Z r2:E1 r4:E0" Z.HL
+5c                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+5d                                                 "d2:Z r3:E1" H...
+5e                                                 "d4:Z r4:E0" ...L
+5f                                                 "d4:Z r4:E1" ...H
+60                                           "d2:Z r3:E1 r1:E1" HHZZ
+61                                           "d2:Z r3:E0 r1:E1" LH..
+62                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_12
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                            "d1:Z r1:E0 r2:E1" .LH.
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                      "d2:Z r3:E0 r1:E1 r2:E0" LHLZ
+d                                            "d2:Z r3:E1 r1:E0" HL..
+e                                                  "d3:Z r2:E0" ..L.
+f                                            "d2:Z r3:E0 r4:E1" L..H
+10                                     "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+11                                                       "d2:Z" ZZ..
+12                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+13                                           "d1:Z r1:E1 r2:E0" .HL.
+14                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+15                                           "d2:Z r3:E1 r4:E0" H..L
+16                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                           "d2:Z r3:E1 r1:E1" HHZZ
+19                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1a                                           "d2:Z r3:E0 r1:E0" LL..
+1b                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+1c                                           "d1:Z r1:E0 r4:E0" .L.L
+1d                                                 "d2:Z r3:E0" LZZZ
+1e                                           "d1:Z r1:E0 r4:E1" .L.H
+1f                                                       "d2:Z" ZZZZ
+20                                                       "d2:Z" ZZZ.
+21                                                 "d1:Z r1:E1" .H..
+22                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+23                                                 "d2:Z r3:E0" L...
+24                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+25                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+26                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+27                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+28                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+29                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+2a                                     "d2:Z r3:E0 r1:E1 r2:E1" LHHZ
+2b                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+2c                                                           "" ....
+2d                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+2e                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+2f                                           "d2:Z r3:E1 r4:E1" H..H
+30                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+31                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+32                                                 "d2:Z r4:E0" Z..L
+33                                                 "d2:Z r4:E0" ZZ.L
+34                                                 "d2:Z r4:E1" Z..H
+35                                           "d2:Z r3:E1 r2:E1" H.H.
+36                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+37                                                 "d2:Z r4:E1" ZZ.H
+38                                           "d2:Z r3:E1 r2:E0" H.L.
+39                                                 "d1:Z r1:E0" .L..
+3a                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+3b                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+3c                                           "d1:Z r1:E1 r2:E1" .HH.
+3d                                           "d1:Z r1:E1 r4:E1" .H.H
+3e                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+3f                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+40                                           "d1:Z r1:E1 r4:E0" .H.L
+41                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+42                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+43                                           "d2:Z r2:E0 r4:E0" Z.LL
+44                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+45                                           "d2:Z r2:E0 r4:E1" Z.LH
+46                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+47                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+48                                                       "d1:Z" .ZZZ
+49                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+4a                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+4b                                                 "d3:Z r2:E1" ..H.
+4c                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+4d                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+4e                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+4f                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+50                                           "d2:Z r3:E0 r2:E0" L.L.
+51                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+52                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+53                                           "d3:Z r2:E0 r4:E0" ..LL
+54                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+55                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+56                                           "d2:Z r3:E1 r1:E0" HLZZ
+57                                           "d3:Z r2:E0 r4:E1" ..LH
+58                                           "d2:Z r3:E0 r2:E1" L.H.
+59                                           "d2:Z r2:E1 r4:E1" Z.HH
+5a                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+5b                                           "d2:Z r2:E1 r4:E0" Z.HL
+5c                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+5d                                                 "d2:Z r3:E1" H...
+5e                                                 "d4:Z r4:E0" ...L
+5f                                                 "d4:Z r4:E1" ...H
+60                                           "d2:Z r3:E1 r1:E1" HH..
+61                                           "d2:Z r3:E0 r1:E1" LH..
+62                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_2
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                            "d1:Z r1:E0 r2:E1" .LH.
+9                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                      "d2:Z r3:E0 r1:E1 r2:E0" LHLZ
+d                                            "d2:Z r3:E1 r1:E0" HL..
+e                                                  "d3:Z r2:E0" ..L.
+f                                            "d2:Z r3:E0 r4:E1" L..H
+10                                     "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+11                                                       "d2:Z" ZZ..
+12                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+13                                           "d1:Z r1:E1 r2:E0" .HL.
+14                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+15                                           "d2:Z r3:E1 r4:E0" H..L
+16                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                                 "d2:Z r2:E0" Z.L.
+19                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1a                                           "d2:Z r3:E0 r1:E0" LL..
+1b                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+1c                                           "d1:Z r1:E0 r4:E0" .L.L
+1d                                                 "d2:Z r3:E0" LZZZ
+1e                                           "d1:Z r1:E0 r4:E1" .L.H
+1f                                                       "d2:Z" ZZZZ
+20                                                       "d2:Z" ZZZ.
+21                                                 "d1:Z r1:E1" .H..
+22                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+23                                                 "d2:Z r3:E0" L...
+24                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+25                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+26                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+27                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+28                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+29                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+2a                                     "d2:Z r3:E0 r1:E1 r2:E1" LHHZ
+2b                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+2c                                           "d2:Z r3:E1 r1:E1" HH..
+2d                                                           "" ....
+2e                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+2f                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+30                                           "d2:Z r3:E1 r4:E1" H..H
+31                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+32                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+33                                                 "d2:Z r4:E0" Z..L
+34                                                 "d2:Z r4:E0" ZZ.L
+35                                                 "d2:Z r4:E1" Z..H
+36                                           "d2:Z r3:E1 r2:E1" H.H.
+37                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+38                                                 "d2:Z r4:E1" ZZ.H
+39                                           "d2:Z r3:E1 r2:E0" H.L.
+3a                                                 "d1:Z r1:E0" .L..
+3b                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+3c                                           "d1:Z r1:E1 r2:E1" .HH.
+3d                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+3e                                           "d1:Z r1:E1 r4:E1" .H.H
+3f                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+40                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+41                                           "d1:Z r1:E1 r4:E0" .H.L
+42                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+43                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+44                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+45                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+46                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+47                                                       "d1:Z" .ZZZ
+48                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+49                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+4a                                                 "d3:Z r2:E1" ..H.
+4b                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+4c                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+4d                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+4e                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+4f                                           "d2:Z r3:E0 r2:E0" L.L.
+50                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+51                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+52                                           "d3:Z r2:E0 r4:E0" ..LL
+53                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+54                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+55                                           "d2:Z r3:E1 r1:E0" HLZZ
+56                                           "d3:Z r2:E0 r4:E1" ..LH
+57                                           "d2:Z r3:E0 r2:E1" L.H.
+58                                                       "d2:Z" Z...
+59                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+5a                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+5b                                                 "d2:Z r3:E1" H...
+5c                                                 "d4:Z r4:E0" ...L
+5d                                                 "d4:Z r4:E1" ...H
+5e                                           "d2:Z r3:E1 r1:E1" HHZZ
+5f                                           "d2:Z r3:E0 r1:E1" LH..
+60                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_in_pad_i_11
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                        "d1:1" 1111
+5                                                   "d1:0 d2:1" 0111
+6                                              "d1:0 d3:1 d4:0" 0010
+7                                                   "d1:1 d2:0" 1000
+8                                                   "d1:Z d3:1" ZZ11
+9                                         "d1:1 d2:0 d3:1 d4:0" 1010
+a                                                        "d1:Z" ZZZZ
+b                                              "d1:1 d3:0 d4:1" 1101
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+13                                             "d1:Z d3:0 d4:1" ZZ01
+PINS dft_scan_scan_in_pad_i_1
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                        "d1:1" 1111
+5                                                   "d1:0 d2:1" 0111
+6                                              "d1:0 d3:1 d4:0" 0010
+7                                                   "d1:1 d2:0" 1000
+8                                         "d1:1 d2:0 d3:1 d4:0" 1010
+9                                                        "d1:Z" ZZZZ
+a                                              "d1:1 d3:0 d4:1" 1101
+b                                              "d1:0 d2:1 d4:0" 0110
+c                                                   "d1:0 d3:1" 0011
+d                                              "d1:1 d2:0 d4:1" 1001
+e                                                   "d1:0 d4:1" 0001
+f                                              "d1:0 d2:1 d3:0" 0100
+10                                                  "d1:Z d4:1" ZZZ1
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+PINS dft_scan_scan_out_pad_o_8
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                            "d2:Z r3:E0 r1:E1" LH..
+9                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+a                                            "d1:Z r1:E0 r2:E1" .LH.
+b                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+c                                            "d2:Z r3:E0 r4:E0" L..L
+d                                      "d2:Z r3:E0 r1:E1 r2:E0" LHLZ
+e                                            "d2:Z r3:E1 r1:E0" HL..
+f                                                  "d3:Z r2:E0" ..L.
+10                                           "d2:Z r3:E0 r4:E1" L..H
+11                                     "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+12                                                       "d2:Z" ZZ..
+13                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+14                                           "d1:Z r1:E1 r2:E0" .HL.
+15                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+16                                           "d2:Z r3:E1 r4:E0" H..L
+17                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+18                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+19                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+1a                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+1b                                                 "d2:Z r2:E0" Z.L.
+1c                                           "d2:Z r3:E0 r1:E1" LHZZ
+1d                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1e                                           "d2:Z r3:E0 r1:E0" LL..
+1f                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+20                                     "d2:Z r3:E0 r1:E0 r2:E0" LLLZ
+21                                           "d1:Z r1:E0 r4:E0" .L.L
+22                                                 "d2:Z r3:E0" LZZZ
+23                                           "d1:Z r1:E0 r4:E1" .L.H
+24                                                       "d2:Z" ZZZZ
+25                                     "d2:Z r3:E1 r1:E1 r2:E1" HHHZ
+26                                                       "d2:Z" ZZZ.
+27                                                 "d1:Z r1:E1" .H..
+28                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+29                                                 "d2:Z r3:E0" L...
+2a                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+2b                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+2c                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+2d                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+2e                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+2f                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+30                                     "d2:Z r3:E0 r1:E1 r2:E1" LHHZ
+31                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+32                                           "d2:Z r3:E1 r1:E1" HH..
+33                                                           "" ....
+34                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+35                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+36                                           "d2:Z r3:E1 r4:E1" H..H
+37                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+38                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+39                                                 "d2:Z r4:E0" Z..L
+3a                                                 "d2:Z r4:E0" ZZ.L
+3b                                                 "d2:Z r4:E1" Z..H
+3c                                           "d2:Z r3:E1 r2:E1" H.H.
+3d                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+3e                                                 "d2:Z r4:E1" ZZ.H
+3f                                           "d2:Z r3:E1 r2:E0" H.L.
+40                                                 "d1:Z r1:E0" .L..
+41                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+42                                     "d2:Z r3:E1 r1:E1 r2:E0" HHLZ
+43                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+44                                           "d1:Z r1:E1 r2:E1" .HH.
+45                                           "d1:Z r1:E1 r4:E1" .H.H
+46                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+47                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+48                                           "d1:Z r1:E1 r4:E0" .H.L
+49                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+4a                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+4b                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+4c                                           "d2:Z r2:E0 r4:E1" Z.LH
+4d                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+4e                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+4f                                                       "d1:Z" .ZZZ
+50                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+51                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+52                                                 "d3:Z r2:E1" ..H.
+53                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+54                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+55                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+56                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+57                                           "d2:Z r3:E0 r2:E0" L.L.
+58                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+59                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+5a                                           "d3:Z r2:E0 r4:E0" ..LL
+5b                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+5c                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+5d                                           "d2:Z r3:E1 r1:E0" HLZZ
+5e                                           "d3:Z r2:E0 r4:E1" ..LH
+5f                                                       "d2:Z" Z...
+60                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+61                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+62                                                 "d2:Z r3:E1" H...
+63                                                 "d4:Z r4:E0" ...L
+64                                                 "d4:Z r4:E1" ...H
+65                                           "d2:Z r3:E1 r1:E1" HHZZ
+66                                           "d2:Z r3:E0 r1:E0" LLZZ
+67                                     "d2:Z r3:E0 r1:E0 r2:E1" LLHZ
+68                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_1
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+3                                            "d3:Z r2:E1 r4:E1" ..HH
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+a                                            "d2:Z r3:E1 r1:E0" HL..
+b                                      "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+c                                                        "d2:Z" ZZ..
+d                                "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+e                                      "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+f                                      "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+10                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+11                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+12                                           "d2:Z r3:E0 r1:E0" LL..
+13                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+14                                                 "d2:Z r3:E0" LZZZ
+15                                                       "d2:Z" ZZZZ
+16                                     "d2:Z r3:E1 r1:E1 r2:E1" HHHZ
+17                                                       "d2:Z" ZZZ.
+18                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+19                                                 "d2:Z r3:E0" L...
+1a                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+1b                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+1c                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+1d                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+1e                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+1f                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+20                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+21                                           "d2:Z r3:E1 r1:E1" HH..
+22                                                           "" ....
+23                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+24                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+25                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+26                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+27                                                 "d2:Z r4:E0" Z..L
+28                                                 "d2:Z r4:E0" ZZ.L
+29                                                 "d2:Z r4:E1" Z..H
+2a                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+2b                                                 "d2:Z r4:E1" ZZ.H
+2c                                           "d2:Z r3:E1 r2:E0" H.L.
+2d                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+2e                                     "d2:Z r3:E1 r1:E1 r2:E0" HHLZ
+2f                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+30                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+31                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+32                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+33                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+34                                           "d2:Z r2:E0 r4:E0" Z.LL
+35                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+36                                           "d2:Z r2:E0 r4:E1" Z.LH
+37                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+38                                                       "d1:Z" .ZZZ
+39                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+3a                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+3b                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+3c                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+3d                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+3e                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+3f                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+40                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+41                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+42                                           "d3:Z r2:E0 r4:E0" ..LL
+43                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+44                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+45                                           "d2:Z r3:E1 r1:E0" HLZZ
+46                                           "d3:Z r2:E0 r4:E1" ..LH
+47                                           "d2:Z r2:E1 r4:E1" Z.HH
+48                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+49                                           "d2:Z r2:E1 r4:E0" Z.HL
+4a                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+4b                                                 "d2:Z r3:E1" H...
+4c                                                 "d4:Z r4:E0" ...L
+4d                                                 "d4:Z r4:E1" ...H
+4e                                           "d2:Z r3:E1 r1:E1" HHZZ
+4f                                           "d2:Z r3:E0 r1:E1" LH..
+50                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_4
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                            "d1:Z r1:E0 r2:E1" .LH.
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                            "d2:Z r3:E1 r1:E0" HL..
+d                                                  "d3:Z r2:E0" ..L.
+e                                            "d2:Z r3:E0 r4:E1" L..H
+f                                      "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+10                                                       "d2:Z" ZZ..
+11                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+12                                           "d1:Z r1:E1 r2:E0" .HL.
+13                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+14                                           "d2:Z r3:E1 r4:E0" H..L
+15                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+16                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+19                                           "d2:Z r3:E0 r1:E1" LHZZ
+1a                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1b                                           "d2:Z r3:E0 r1:E0" LL..
+1c                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+1d                                           "d1:Z r1:E0 r4:E0" .L.L
+1e                                                 "d2:Z r3:E0" LZZZ
+1f                                           "d1:Z r1:E0 r4:E1" .L.H
+20                                                       "d2:Z" ZZZZ
+21                                                       "d2:Z" ZZZ.
+22                                                 "d1:Z r1:E1" .H..
+23                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+24                                                 "d2:Z r3:E0" L...
+25                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+26                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+27                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+28                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+29                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+2a                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+2b                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+2c                                                           "" ....
+2d                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+2e                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+2f                                           "d2:Z r3:E1 r4:E1" H..H
+30                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+31                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+32                                                 "d2:Z r4:E0" Z..L
+33                                                 "d2:Z r4:E0" ZZ.L
+34                                                 "d2:Z r4:E1" Z..H
+35                                           "d2:Z r3:E1 r2:E1" H.H.
+36                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+37                                                 "d2:Z r4:E1" ZZ.H
+38                                           "d2:Z r3:E1 r2:E0" H.L.
+39                                                 "d1:Z r1:E0" .L..
+3a                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+3b                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+3c                                           "d1:Z r1:E1 r2:E1" .HH.
+3d                                           "d1:Z r1:E1 r4:E1" .H.H
+3e                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+3f                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+40                                           "d1:Z r1:E1 r4:E0" .H.L
+41                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+42                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+43                                           "d2:Z r2:E0 r4:E0" Z.LL
+44                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+45                                           "d2:Z r2:E0 r4:E1" Z.LH
+46                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+47                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+48                                                       "d1:Z" .ZZZ
+49                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+4a                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+4b                                                 "d3:Z r2:E1" ..H.
+4c                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+4d                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+4e                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+4f                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+50                                           "d2:Z r3:E0 r2:E0" L.L.
+51                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+52                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+53                                           "d3:Z r2:E0 r4:E0" ..LL
+54                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+55                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+56                                           "d3:Z r2:E0 r4:E1" ..LH
+57                                           "d2:Z r3:E0 r2:E1" L.H.
+58                                           "d2:Z r2:E1 r4:E1" Z.HH
+59                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+5a                                           "d2:Z r2:E1 r4:E0" Z.HL
+5b                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+5c                                                 "d2:Z r3:E1" H...
+5d                                                 "d4:Z r4:E0" ...L
+5e                                                 "d4:Z r4:E1" ...H
+5f                                           "d2:Z r3:E1 r1:E1" HH..
+60                                           "d2:Z r3:E0 r1:E0" LLZZ
+61                                           "d2:Z r3:E0 r1:E1" LH..
+62                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_13
+0                                            "d1:Z r1:E0 r2:E0" .LL.
+1                                      "d2:Z r3:E1 r2:E1 r4:E0" H.HL
+2                                            "d3:Z r2:E1 r4:E1" ..HH
+3                                      "d2:Z r3:E0 r1:E1 r2:E1" LHH.
+4                                            "d3:Z r2:E1 r4:E0" ..HL
+5                                "d2:Z r3:E1 r1:E0 r2:E0 r4:E1" HLLH
+6                                      "d2:Z r3:E1 r1:E1 r4:E1" HH.H
+7                                      "d1:Z r1:E1 r2:E1 r4:E0" .HHL
+8                                      "d1:Z r1:E1 r2:E1 r4:E1" .HHH
+9                                            "d1:Z r1:E0 r2:E1" .LH.
+a                                "d2:Z r3:E1 r1:E1 r2:E1 r4:E0" HHHL
+b                                            "d2:Z r3:E0 r4:E0" L..L
+c                                            "d2:Z r3:E1 r1:E0" HL..
+d                                                  "d3:Z r2:E0" ..L.
+e                                            "d2:Z r3:E0 r4:E1" L..H
+f                                      "d2:Z r3:E1 r1:E0 r4:E1" HL.H
+10                                                       "d2:Z" ZZ..
+11                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E1" HLHH
+12                                           "d1:Z r1:E1 r2:E0" .HL.
+13                                     "d2:Z r3:E1 r1:E1 r2:E0" HHL.
+14                                           "d2:Z r3:E1 r4:E0" H..L
+15                                     "d2:Z r3:E0 r2:E0 r4:E0" L.LL
+16                                     "d2:Z r3:E1 r1:E0 r2:E0" HLLZ
+17                                     "d2:Z r3:E0 r2:E0 r4:E1" L.LH
+18                                     "d2:Z r3:E1 r1:E0 r2:E1" HLHZ
+19                                                 "d2:Z r2:E0" Z.L.
+1a                                           "d2:Z r3:E0 r1:E1" LHZZ
+1b                                     "d2:Z r3:E0 r1:E0 r2:E1" LLH.
+1c                                           "d2:Z r3:E0 r1:E0" LL..
+1d                                     "d2:Z r3:E1 r2:E0 r4:E0" H.LL
+1e                                           "d1:Z r1:E0 r4:E0" .L.L
+1f                                                 "d2:Z r2:E1" Z.H.
+20                                                 "d2:Z r3:E0" LZZZ
+21                                           "d1:Z r1:E0 r4:E1" .L.H
+22                                                       "d2:Z" ZZZZ
+23                                                       "d2:Z" ZZZ.
+24                                                 "d1:Z r1:E1" .H..
+25                                     "d2:Z r3:E1 r1:E1 r4:E0" HH.L
+26                                                 "d2:Z r3:E0" L...
+27                                     "d2:Z r3:E0 r1:E1 r2:E0" LHL.
+28                                     "d2:Z r3:E1 r1:E0 r2:E0" HLL.
+29                                     "d2:Z r3:E0 r2:E1 r4:E1" L.HH
+2a                               "d2:Z r3:E1 r1:E1 r2:E1 r4:E1" HHHH
+2b                                     "d1:Z r1:E0 r2:E0 r4:E0" .LLL
+2c                                     "d2:Z r3:E0 r2:E1 r4:E0" L.HL
+2d                                     "d1:Z r1:E0 r2:E0 r4:E1" .LLH
+2e                                                           "" ....
+2f                               "d2:Z r3:E1 r1:E0 r2:E1 r4:E0" HLHL
+30                                     "d2:Z r3:E0 r1:E1 r4:E1" LH.H
+31                                           "d2:Z r3:E1 r4:E1" H..H
+32                                     "d2:Z r3:E0 r1:E1 r4:E0" LH.L
+33                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E1" HHLH
+34                                                 "d2:Z r4:E0" Z..L
+35                                                 "d2:Z r4:E0" ZZ.L
+36                                                 "d2:Z r4:E1" Z..H
+37                                           "d2:Z r3:E1 r2:E1" H.H.
+38                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E0" LLLL
+39                                                 "d2:Z r4:E1" ZZ.H
+3a                                           "d2:Z r3:E1 r2:E0" H.L.
+3b                                                 "d1:Z r1:E0" .L..
+3c                               "d2:Z r3:E0 r1:E0 r2:E0 r4:E1" LLLH
+3d                                     "d1:Z r1:E0 r2:E1 r4:E1" .LHH
+3e                                           "d1:Z r1:E1 r2:E1" .HH.
+3f                                           "d1:Z r1:E1 r4:E1" .H.H
+40                                     "d1:Z r1:E0 r2:E1 r4:E0" .LHL
+41                                     "d2:Z r3:E1 r2:E0 r4:E1" H.LH
+42                                           "d1:Z r1:E1 r4:E0" .H.L
+43                                     "d2:Z r3:E1 r2:E1 r4:E1" H.HH
+44                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E1" LLHH
+45                                           "d2:Z r2:E0 r4:E0" Z.LL
+46                               "d2:Z r3:E0 r1:E0 r2:E1 r4:E0" LLHL
+47                               "d2:Z r3:E1 r1:E0 r2:E0 r4:E0" HLLL
+48                                     "d2:Z r3:E0 r1:E0 r4:E0" LL.L
+49                                                       "d1:Z" .ZZZ
+4a                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E0" LHHL
+4b                                     "d2:Z r3:E0 r1:E0 r4:E1" LL.H
+4c                                                 "d3:Z r2:E1" ..H.
+4d                               "d2:Z r3:E0 r1:E1 r2:E1 r4:E1" LHHH
+4e                                     "d1:Z r1:E1 r2:E0 r4:E1" .HLH
+4f                                     "d1:Z r1:E1 r2:E0 r4:E0" .HLL
+50                                     "d2:Z r3:E1 r1:E1 r2:E1" HHH.
+51                                           "d2:Z r3:E0 r2:E0" L.L.
+52                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E1" LHLH
+53                                     "d2:Z r3:E1 r1:E0 r4:E0" HL.L
+54                                           "d3:Z r2:E0 r4:E0" ..LL
+55                               "d2:Z r3:E0 r1:E1 r2:E0 r4:E0" LHLL
+56                                     "d2:Z r3:E1 r1:E0 r2:E1" HLH.
+57                                           "d3:Z r2:E0 r4:E1" ..LH
+58                                           "d2:Z r3:E0 r2:E1" L.H.
+59                                                       "d2:Z" Z...
+5a                                           "d2:Z r2:E1 r4:E1" Z.HH
+5b                                     "d2:Z r3:E0 r1:E0 r2:E0" LLL.
+5c                               "d2:Z r3:E1 r1:E1 r2:E0 r4:E0" HHLL
+5d                                                 "d2:Z r3:E1" H...
+5e                                                 "d4:Z r4:E0" ...L
+5f                                                 "d4:Z r4:E1" ...H
+60                                           "d2:Z r3:E1 r1:E1" HH..
+61                                           "d2:Z r3:E0 r1:E0" LLZZ
+62                                           "d2:Z r3:E0 r1:E1" LH..
+63                                                 "d2:Z r3:E1" HZZZ
+PINS dft_scan_scan_out_pad_o_5
+0                                                            "" ....
+1                                            "d1:Z r1:E1 r2:E1" ..HH
+2                                "d2:Z r3:E1 r4:E0 r1:E1 r2:E0" HLHL
+3                                            "d1:Z r1:E1 r2:E0" ..HL
+4                                "d2:Z r3:E1 r4:E0 r1:E0 r2:E1" HLLH
+5                                      "d3:Z r4:E1 r1:E1 r2:E0" .HHL
+6                                "d2:Z r3:E1 r4:E1 r1:E0 r2:E1" HHLH
+7                                                  "d2:Z r2:E0" Z..L
+8                                      "d3:Z r4:E1 r1:E1 r2:E1" .HHH
+9                                "d2:Z r3:E1 r4:E1 r1:E1 r2:E0" HHHL
+a                                                  "d2:Z r2:E0" ZZ.L
+b                                                  "d2:Z r2:E1" Z..H
+c                                "d2:Z r3:E0 r4:E0 r1:E0 r2:E0" LLLL
+d                                                  "d2:Z r2:E1" ZZ.H
+e                                "d2:Z r3:E0 r4:E0 r1:E0 r2:E1" LLLH
+f                                      "d3:Z r4:E0 r1:E1 r2:E1" .LHH
+10                                     "d3:Z r4:E0 r1:E1 r2:E0" .LHL
+11                                                       "d2:Z" ZZ..
+12                               "d2:Z r3:E0 r4:E0 r1:E1 r2:E1" LLHH
+13                                           "d2:Z r1:E0 r2:E0" Z.LL
+14                               "d2:Z r3:E1 r4:E0 r1:E1 r2:E1" HLHH
+15                               "d2:Z r3:E0 r4:E0 r1:E1 r2:E0" LLHL
+16                                           "d2:Z r1:E0 r2:E1" Z.LH
+17                               "d2:Z r3:E1 r4:E0 r1:E0 r2:E0" HLLL
+18                                                       "d3:Z" .ZZZ
+19                               "d2:Z r3:E0 r4:E1 r1:E1 r2:E0" LHHL
+1a                               "d2:Z r3:E0 r4:E1 r1:E1 r2:E1" LHHH
+1b                                     "d2:Z r3:E1 r4:E0 r1:E1" HLHZ
+1c                                     "d3:Z r4:E1 r1:E0 r2:E1" .HLH
+1d                                           "d2:Z r3:E0 r4:E1" LHZZ
+1e                                     "d3:Z r4:E1 r1:E0 r2:E0" .HLL
+1f                               "d2:Z r3:E0 r4:E1 r1:E0 r2:E1" LHLH
+20                                                 "d2:Z r3:E0" LZZZ
+21                               "d2:Z r3:E0 r4:E1 r1:E0 r2:E0" LHLL
+22                                           "d1:Z r1:E0 r2:E0" ..LL
+23                                                       "d2:Z" ZZZZ
+24                                                 "d2:Z r3:E1" HZZZ
+25                                                       "d2:Z" ZZZ.
+26                                           "d2:Z r1:E1 r2:E1" Z.HH
+27                                           "d2:Z r1:E1 r2:E0" Z.HL
+28                               "d2:Z r3:E1 r4:E1 r1:E0 r2:E0" HHLL
+29                               "d2:Z r3:E1 r4:E1 r1:E1 r2:E1" HHHH
+2a                                     "d3:Z r4:E0 r1:E0 r2:E0" .LLL
+2b                                     "d3:Z r4:E0 r1:E0 r2:E1" .LLH
+2c                                           "d2:Z r3:E0 r4:E0" LLZZ
+2d                                     "d2:Z r3:E1 r4:E0 r1:E0" HLLZ
+PINS dft_scan_cme_pad_i
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                         "d1:0 d2:1 d3:0 d4:1" 0101
+4                                                   "d1:Z d4:0" ZZZ0
+5                                                   "d1:0 d2:1" 0111
+6                                                        "d1:1" 1111
+7                                              "d1:0 d3:1 d4:0" 0010
+8                                                   "d1:1 d2:0" 1000
+9                                         "d1:1 d2:0 d3:1 d4:0" 1010
+a                                                        "d1:Z" ZZZZ
+b                                              "d1:1 d3:0 d4:1" 1101
+c                                                   "d1:0 d4:Z" 000Z
+d                                              "d1:0 d2:1 d4:0" 0110
+e                                                   "d1:0 d3:1" 0011
+f                                              "d1:1 d2:0 d4:1" 1001
+10                                                  "d1:0 d4:1" 0001
+11                                             "d1:0 d2:1 d3:0" 0100
+12                                                  "d1:1 d4:0" 1110
+13                                                  "d1:1 d3:0" 1100
+PINS dft_scan_scan_in_pad_i_7
+0                                              "d1:1 d2:0 d3:1" 1011
+1                                                            "" ....
+2                                                        "d1:0" 0000
+3                                              "d1:Z d3:0 d4:1" ZZ01
+4                                         "d1:0 d2:1 d3:0 d4:1" 0101
+5                                                        "d1:1" 1111
+6                                                   "d1:0 d2:1" 0111
+7                                              "d1:0 d3:1 d4:0" 0010
+8                                                   "d1:1 d2:0" 1000
+9                                         "d1:1 d2:0 d3:1 d4:0" 1010
+a                                                        "d1:Z" ZZZZ
+b                                              "d1:1 d3:0 d4:1" 1101
+c                                              "d1:0 d2:1 d4:0" 0110
+d                                                   "d1:0 d3:1" 0011
+e                                              "d1:1 d2:0 d4:1" 1001
+f                                                   "d1:0 d4:1" 0001
+10                                             "d1:0 d2:1 d3:0" 0100
+11                                                  "d1:1 d4:0" 1110
+12                                                  "d1:1 d3:0" 1100
+13                                                  "d1:Z d3:0" ZZ00
+@
