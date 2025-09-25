@@ -1,0 +1,69 @@
+PH lib: message from framework: looking for global configuration file "/tmp/Global-config-file.dCSUAe"
+PH lib:   (environment variable GLOBAL_HANDLER_CONFIGURATION is set)
+PH lib: message from configuration manager: reading configuration file "/tmp/Global-config-file.dCSUAe"
+PH lib: message from framework: looking for specific configuration file "/etc/opt/hp93000/soc_7.6.4.1/PH_libs/GenericHandler/Anora/athena.cfg"
+PH lib: message from configuration manager: reading configuration file "/etc/opt/hp93000/soc_7.6.4.1/PH_libs/GenericHandler/Anora/athena.cfg"
+PH lib: message from framework: looking for specific attributes file "/opt/hp93000/soc64_7.6.4.1/PH_libs/GenericHandler/Anora/config/shattrib"
+PH lib: message from configuration manager: reading attributes file "/opt/hp93000/soc64_7.6.4.1/PH_libs/GenericHandler/Anora/config/shattrib"
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3375 phConfConfIfDef(P0x1558440, "log_prefix_text")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3375 phConfConfIfDef(P0x1558440, "driver_message_log")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3375 phConfConfString(P0x1558440, "driver_message_log", 0, [], P0x7ffc42c70fc8)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3375 phConfConfIfDef(P0x1558440, "driver_error_log")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3375 phConfConfString(P0x1558440, "driver_error_log", 0, [], P0x7ffc42c713d0)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3376 phConfConfIfDef(P0x1558440, "log_files_to_keep")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3376 phConfConfNumber(P0x1558440, "log_files_to_keep", 0, [], P0x7ffc42c713e0)
+PH lib: error from logger: could not open log file '/opt/hp93000/testcell/phcontrol/log/messages' for writing: No such file or directory
+PH lib: error from logger: could not open log file '/opt/hp93000/testcell/phcontrol/log/errors' for writing: No such file or directory
+PH lib: message from framework: 2025/09/25 16:13:06.3377 ID request: "driver ID: "General Handler Driver 7.6.4.1 (T)" compiled at Wed Jun 7 18:19:43 CEST 2023"
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3377 phConfConfIfDef(P0x1558440, "smartest_simulation")
+PH lib: trace from tester interface: 2025/09/25 16:13:06.3378 phTcomInit(P0x154fac8, P0x1557be0, ONLINE)
+PH lib: debug-4 from tester interface: 2025/09/25 16:13:06.3379 going to load static struct ci_cpi_system_flag
+PH lib: trace from tester interface: 2025/09/25 16:13:06.3611 phTcomGetSystemFlag(P0x155ca20, 0, P0x7ffc42c73ae8)
+PH lib: debug-4 from tester interface: 2025/09/25 16:13:06.3612 flag 0 converted to abort
+PH lib: debug-2 from tester interface: 2025/09/25 16:13:06.3614 GetSystemFlag abort return 0
+PH lib: debug-3 from tester interface: 2025/09/25 16:13:06.3614 GetSystemFlag abort final return 0
+PH lib: trace from state control: 2025/09/25 16:13:06.3615 phStateInit(P0x154fad0, P0x1557be0)
+PH lib: trace from state control: 2025/09/25 16:13:06.3615 phEstateInit(P0x154fad8, P0x1557be0)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3615 phConfConfIfDef(P0x1558440, "hand_test_mode")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3615 phConfConfString(P0x1558440, "hand_test_mode", 0, [], P0x7ffc42c713e8)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3616 phConfConfIfDef(P0x1558440, "single_step_mode")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3616 phConfConfString(P0x1558440, "single_step_mode", 0, [], P0x7ffc42c713e0)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3616 phConfConfType(P0x1558440, "handler_site_ids", 0, [], P0x7ffc42c713cc, P0x7ffc42c713c8)
+PH lib: trace from state control: 2025/09/25 16:13:06.3617 phEstateAGetSiteInfo(P0x15608b0, P0x7ffc42c703a8, P0x7ffc42c703a4)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3617 phConfConfIfDef(P0x1558440, "handler_site_mask")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3617 phConfConfType(P0x1558440, "handler_site_mask", 0, [], P0x7ffc42c713cc, P0x7ffc42c713c8)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3618 phConfConfNumber(P0x1558440, "handler_site_mask", 1, [0], P0x7ffc42c713b0)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3618 phConfConfNumber(P0x1558440, "handler_site_mask", 1, [1], P0x7ffc42c713b0)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3618 phConfConfNumber(P0x1558440, "handler_site_mask", 1, [2], P0x7ffc42c713b0)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3618 phConfConfNumber(P0x1558440, "handler_site_mask", 1, [3], P0x7ffc42c713b0)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3619 phConfConfIfDef(P0x1558440, "smartest_site_to_handler_site_map")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3619 phConfConfType(P0x1558440, "smartest_site_to_handler_site_map", 0, [], P0x7ffc42c713cc, P0x7ffc42c713c8)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3619 phConfConfNumber(P0x1558440, "smartest_site_to_handler_site_map", 1, [0], P0x7ffc42c713b8)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3619 phConfConfNumber(P0x1558440, "smartest_site_to_handler_site_map", 1, [1], P0x7ffc42c713b8)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3620 phConfConfNumber(P0x1558440, "smartest_site_to_handler_site_map", 1, [2], P0x7ffc42c713b8)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3620 phConfConfNumber(P0x1558440, "smartest_site_to_handler_site_map", 1, [3], P0x7ffc42c713b8)
+PH lib: trace from state control: 2025/09/25 16:13:06.3620 phEstateASetSiteInfo(P0x15608b0, [EEEE], 4)
+PH lib: debug-2 from state control: 2025/09/25 16:13:06.3620 site usage set to [EEEE]
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3621 phConfConfIfDef(P0x1558440, "communication_mode")
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3621 phConfConfString(P0x1558440, "communication_mode", 0, [], P0x7ffc42c71430)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3621 phConfConfString(P0x1558440, "interface_type", 0, [], P0x7ffc42c71438)
+PH lib: trace from configuration manager: 2025/09/25 16:13:06.3621 phConfConfString(P0x1558440, "symbolic_interface_name", 0, [], P0x7ffc42c71440)
+PH lib: debug-1 from framework: 2025/09/25 16:13:06.3621 initializing LAN interface "tcp/192.168.2.10/9000"
+PH lib: trace from hw interface: phComLanOpen(P0x154fae0, 1, "tcp/192.168.2.10/9000", P0x1557be0)
+PH lib: debug-4 from hw interface: Socket created...
+PH lib: fatal from hw interface: Failed to connect to the server at address: 192.168.2.10:9000 due to "Connection timed out", give up
+PH lib: fatal from framework: 2025/09/25 16:15:13.5668 could not open LAN interface, giving up (error 23)
+PH lib: fatal from framework: 2025/09/25 16:15:13.5670 handler driver will not work
+PH lib:   
+PH lib:    ######    ##     #####    ##    #      
+PH lib:    #        #  #      #     #  #   #      
+PH lib:    #####   #    #     #    #    #  #      
+PH lib:    #       ######     #    ######  #      
+PH lib:    #       #    #     #    #    #  #      
+PH lib:    #       #    #     #    #    #  ###### 
+PH lib:   
+PH lib:   
+PH lib:   All further calls to the handler driver are ignored
+PH lib:   
+PH lib:   Please ensure, that all configuration files are set up correctly
+PH lib:   
