@@ -1,0 +1,4 @@
+Test Suite,Test,Test#,Pattern,Wafer,Site,Pin,Device,Device ID,Value,Unit,P/F,Time,TS Time,Print To Data Log
+"Continuity_Direct_Pos","cont_row_even_col_even_io_req_pad_data_13",110003,"",0,1,"io_req_pad_data_13",1,"8365508",0.669319,"V","P",0.230973,***,""
+"Continuity_Direct_Pos","cont_row_even_col_even_io_req_pad_data_13",110003,"",0,1,"io_req_pad_data_13",2,"8365515",0.668806,"V","P",0.230973,***,""
+"Continuity_Direct_Pos","cont_row_even_col_even_io_req_pad_data_13",110003,"",0,1,"io_req_pad_data_13",3,"8365523",0.669091,"V","P",0.230973,***,""
