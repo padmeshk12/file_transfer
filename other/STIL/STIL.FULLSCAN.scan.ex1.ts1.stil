@@ -1,0 +1,251 @@
+STIL 1.0; 
+
+//***************************************************************************//
+//                             STIL VECTOR FILE                              //
+//Cadence(R) Modus(TM) DFT Software Solution, Version 22.12-s028_1, built Jul//
+//***************************************************************************//
+//                                                                           //
+//  FILE CREATED..............September 28, 2025 at 22:02:05                 //
+//                                                                           //
+//  PROJECT NAME..............atpg                                           //
+//                                                                           //
+//  TESTMODE..................FULLSCAN                                       //
+//                                                                           //
+//  TDR.......................dummy.tdr                                      //
+//                                                                           //
+//  LIMIT TIME PLATES.........yes                                            //
+//                                     SCAN OVERLAP..............yes         //
+//  SCAN PERIOD...............100.000  SCAN TIME UNITS...........ns          //
+//  SCAN PULSE WIDTH..........20.000                                         //
+//  SCAN STROBE OFFSET........20.000   SCAN STROBE TYPE..........edge        //
+//  SCAN BIDI OFFSET..........0.000                                          //
+//  SCAN PI OFFSET............0.000    X VALUE...................Z           //
+//                                                                           //
+//                                                                           //
+//   Individually set PIs                                                    //
+//  "M_RESET" (PI # 35)                                                      //
+//  SCAN OFFSET...............40.000   PULSE WIDTH...............20.000      //
+//                                                                           //
+//  "SERIAL_CLK" (PI # 38)                                                   //
+//  SCAN OFFSET...............40.000   PULSE WIDTH...............20.000      //
+//                                                                           //
+//  Active TESTMODEs TM = 1 ..FULLSCAN                                       //
+//                                                                           //
+//  EXPERIMENT................1  Name = monza_digital_core_atpg              //
+//  DATA FORMAT...............binary                                         //
+//                                                                           //
+//  TEST SECTION..............1        TEST SECTION TYPE.........scan        //
+//                                                                           //
+//  The range of Tests in this Test Section......................1:1         //
+//                                                                           //
+//  TESTER TERMINATION........none     TERMINATION DOMINATION....tester      //
+//                                                                           //
+//***************************************************************************//
+
+// Command Line: write_vectors -WORKDIR /btv/data/IBM/CRN65LP/Monza/jlaframb/Monza/atpg -TESTMODE FULLSCAN -EXPORTDIR /btv/data/IBM/CRN65LP/Monza/jlaframb/Monza/atpg/patterns.RITB/STIL -STDOUT summary -capturebidioffset 0 -captureperiod 100 -capturepioffset 0 -capturepioffsetlist scclk=40 -capturepulsewidth 20 -capturestrobeoffset 80 -capturestrobetype edge -capturetimeunits ns -language stil -limittimeplates yes -releasebidioffset 0 -releaseperiod 100 -releasepioffset 0 -releasepioffsetlist scclk=40 -releasepulsewidth 20 -releasetimeunits ns -scanbidioffset 0 -scanperiod 100 -scanpioffset 0 -scanpioffsetlist scclk=40 -scanpulsewidth 20 -scanstrobeoffset 20 -scanstrobetype edge -scantimeunits ns
+
+  Include "STIL.FULLSCAN.signals.stil"; 
+
+//***************************************************************************//
+//                            TIMING DEFINITIONS                             //
+//***************************************************************************//
+
+  Timing { 
+
+    WaveformTable "scan_cycle" { Period '100.000000ns' ; 
+      Waveforms { 
+        "HDS_LLWR_0" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "HDS_LLWR_1" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_00" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_01" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_02" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_03" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_04" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_05" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_06" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_07" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_08" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_09" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_10" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_11" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_12" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_13" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_14" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_15" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_16" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_17" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_18" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_19" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_20" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_21" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_22" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_23" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_24" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_25" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_26" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_27" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_28" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_29" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_30" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "LLWR_31" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "M_RESET" { 01ZP { '0ns' P/P/P/P;  '40.000000ns' D/U/Z/D; '60.000000ns' D/U/Z/U; } } 
+        "P_SERIAL_DATA" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "P_SERIAL_ENABLE" { 01Z  { '0.000000ns' D/U/Z; } } 
+        "SERIAL_CLK" { 01ZP { '0ns' P/P/P/P;  '40.000000ns' D/U/Z/U; '60.000000ns' D/U/Z/D; } } 
+        "TBS_LLWR_0" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "TBS_LLWR_1" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "TBS_LLWR_2" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "TBS_LLWR_3" { 01Z  { '0.000000ns' D/U/Z; }  LHTX { '0ns' X/X/X/X; '20.000000ns' L/H/T/X; } } 
+        "TEST_MODE_0" { 01Z  { '0.000000ns' D/U/Z; } } 
+        "TEST_MODE_1" { 01Z  { '0.000000ns' D/U/Z; } } 
+        "TEST_MODE_2" { 01Z  { '0.000000ns' D/U/Z; } } 
+    } } 
+} 
+
+//***************************************************************************//
+//                               TEST VECTORS                                //
+//***************************************************************************//
+
+PatternBurst 
+  MAIN_BRST { PatList { MAIN_TEST; } } 
+
+PatternExec 
+  MAIN_EXEC { PatternBurst MAIN_BRST; } 
+
+Pattern 
+  MAIN_TEST { 
+
+Ann {* BEGIN Define Sequence 
+  [ Define_Sequence TBphantomLogicSeq1 20250929013351 1 (test);
+   [ Timing_Data  ( automatic, number_of_cycles = 2, early = ( 0.000000, 0.000000, 1.000000) , late = ( 0.000000, 0.000000, 1.000000) )   ;
+    [ Pin_Timing: 
+     tester_cycle 0.000000 ps cycle 0;
+     leading_edge_of_pulse rising 25.000000 ps cycle 0 event 1 PI "SERIAL_CLK";
+     trailing_edge_of_pulse falling 1225.000000 ps cycle 0 event 1 PI "SERIAL_CLK";
+     tester_cycle 8900.000000 ps cycle 1;
+     leading_edge_of_pulse rising 8925.000000 ps cycle 1 event 2 PI "SERIAL_CLK";
+     trailing_edge_of_pulse falling 10125.000000 ps cycle 1 event 2 PI "SERIAL_CLK";
+     tester_cycle 11400.000000 ps cycle 2;
+    ] Pin_Timing; 
+   ] Timing_Data 1.1 ;
+   [ Pattern 1.1 (pattern_type = static);
+      Event 1.1.1   Scan_Load ():;
+      Event 1.1.2   Scan_Load ():;
+   ] Pattern 1.1;
+   [ Pattern 1.2 (pattern_type = static);
+      Event 1.2.1   Stim_PI_Plus_Random ():;
+   ] Pattern 1.2;
+   [ Pattern 1.3 (pattern_type = dynamic);
+      Event 1.3.1   Pulse (timed_type = release):
+"SERIAL_CLK"=+ ;
+      Event 1.3.2   Pulse (timed_type = capture):
+"SERIAL_CLK"=+ ;
+   ] Pattern 1.3;
+   [ Pattern 1.4 (pattern_type = static);
+      Event 1.4.1   Dummy_Scan_Unload ();
+   ] Pattern 1.4;
+  ] Define_Sequence TBphantomLogicSeq1 1;
+END Define Sequence *}
+
+//***************************************************************************//
+//  TESTER LOOP...............1        PROCEDURES HAVE MEMORY....no          //
+//                                                                           //
+//  The range of Tests in this Tester Loop.......................1:1         //
+//                                                                           //
+//  TEST PROCEDURE............1        TYPE......................init        //
+//  SLOW TO TURN OFF..........false    SEQUENCES HAVE MEMORY.....no          //
+//  TEST SEQUENCE.............         TYPE......................init        //
+//***************************************************************************//
+
+Ann {* Experiment monza_digital_core_atpg (datetime = 1759109561) *}
+
+Ann {* Test_Section (tester_termination = none, test_section_type = scan, test_type = dynamic, simulated, simplified ) *}
+
+Ann {* Test_Sequence (type = init) *}
+
+Ann {* Pattern (pattern_type = static) *}
+
+Ann {* Event Stim_PI  ( ) *}
+
+//  Processing the Static: EVENT 1.1.1.1.1.1.1;  Stim_PI; 
+  Macro "SCAN_CYCLE_TM_1" { 
+    "ALLPIs" = 110111; 
+    "ALLCIOs" = \r39 Z ; } 
+
+//***************************************************************************//
+//  TEST PROCEDURE............2        TYPE......................normal      //
+//                                                                           //
+//  The range of Tests in this Test Procedure....................1:1         //
+//                                                                           //
+//  SLOW TO TURN OFF..........false    SEQUENCES HAVE MEMORY.....no          //
+//  STATIC FAULTS.............59185    PERCENT STATIC FAULTS.....26.992575   //
+//  DYNAMIC FAULTS............45606    PERCENT DYNAMIC FAULTS....20.799585   //
+//  TEST SEQUENCE.............1        TYPE......................normal      //
+//***************************************************************************//
+
+Ann {* Test_Sequence () *}
+
+Ann {* Pattern (pattern_type = static) *}
+
+Ann {* Event Scan_Load  ( ) *}
+
+//  Processing the Static: EVENT 1.1.1.2.1.1.1;  Scan_Load;  (no_overlap) 
+// Inserted the Scan Sequence:  Scan_Preconditioning_Sequence  
+Ann {* Define_Sequence (scanprecond) *}
+
+  Macro "SCAN_CYCLE_TM_1" { 
+    "ALLPIs" = 110111; 
+    "ALLCIOs" = \r39 Z ; } 
+// Inserted the Scan Sequence # 1;  Scan_Sequence  
+Ann {* Define_Sequence (scansequence, repeat = 689) *}
+
+Ann {* Define_Sequence (scansequence, repeat = 689) *}
+
+Ann {* Define_Sequence (scansequence, repeat = 689) *}
+
+  Macro "SCAN_TM_1" { 
+    "CR_1_TM_1" = \r172 0110 0; 
+    "CR_2_TM_1" = \r172 0110 0; 
+    "CR_3_TM_1" = \r172 0110 0; 
+    "CR_4_TM_1" = \r172 0110 0; 
+    "CR_5_TM_1" = \r172 1100 ; 
+    "CR_6_TM_1" = \r172 1100 ; 
+    "CR_7_TM_1" = \r172 1100 ; 
+    "CR_8_TM_1" = \r172 1100 ; 
+    "CR_9_TM_1" = \r172 1100 ; 
+    "CR_10_TM_1" = \r172 1100 ; } 
+Ann {* Test_Sequence () *}
+
+
+Ann {* Pattern (pattern_type = static) *}
+
+Ann {* Event Scan_Unload  ( ) *}
+
+//  Processing the Static: EVENT 1.1.1.2.1.2.1;  Scan_Unload;  (no_overlap) 
+  Ann {* 1.1.1.2.1.2 *} 
+// Inserted the Scan Sequence:  Scan_Preconditioning_Sequence  
+  Macro "SCAN_CYCLE_TM_1" { 
+    "ALLPIs" = 110111; 
+    "ALLCIOs" = \r17 Z \r10 0 \r12 Z ; } 
+// Inserted the Scan Sequence # 2;  Scan_Sequence  
+Ann {* Define_Sequence (scansequence, repeat = 689) *}
+
+  Macro "SCAN_TM_1" { 
+    "OR_1_TM_1" = \r172 HLLH H; 
+    "OR_2_TM_1" = \r172 LHHL L; 
+    "OR_3_TM_1" = \r172 HLLH H; 
+    "OR_4_TM_1" = \r172 LHHL L; 
+    "OR_5_TM_1" = \r172 LLHH ; 
+    "OR_6_TM_1" = \r172 HHLL ; 
+    "OR_7_TM_1" = \r172 HHLL ; 
+    "OR_8_TM_1" = \r172 HHLL ; 
+    "OR_9_TM_1" = \r172 HHLL ; 
+    "OR_10_TM_1" = \r172 LLHH ; } 
+Ann {* Test_Sequence () *}
+
+
+// Inserted final non-scan Pattern
+  Macro "SCAN_CYCLE_TM_1" { 
+    "ALLPIs" = 110111; 
+    "ALLCIOs" = \r17 Z \r10 0 \r12 Z ; } 
+  } 

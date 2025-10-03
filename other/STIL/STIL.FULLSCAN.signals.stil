@@ -1,0 +1,167 @@
+STIL 1.0; 
+
+//***************************************************************************//
+//                             STIL SIGNALS FILE                             //
+//Cadence(R) Modus(TM) DFT Software Solution, Version 22.12-s028_1, built Jul//
+//***************************************************************************//
+//                                                                           //
+//  FILE CREATED..............September 28, 2025 at 22:02:46                 //
+//                                                                           //
+//  PROJECT NAME..............atpg                                           //
+//                                                                           //
+//  TESTMODE..................FULLSCAN                                       //
+//                                                                           //
+//  TDR.......................dummy.tdr                                      //
+//                                                                           //
+//  LIMIT TIME PLATES.........yes                                            //
+//                                     SCAN OVERLAP..............yes         //
+//  SCAN PERIOD...............100.000  SCAN TIME UNITS...........ns          //
+//  SCAN PULSE WIDTH..........20.000                                         //
+//  SCAN STROBE OFFSET........20.000   SCAN STROBE TYPE..........edge        //
+//  SCAN BIDI OFFSET..........0.000                                          //
+//  SCAN PI OFFSET............0.000    X VALUE...................Z           //
+//                                                                           //
+//                                                                           //
+//   Individually set PIs                                                    //
+//  "M_RESET" (PI # 35)                                                      //
+//  SCAN OFFSET...............40.000   PULSE WIDTH...............20.000      //
+//                                                                           //
+//  "SERIAL_CLK" (PI # 38)                                                   //
+//  SCAN OFFSET...............40.000   PULSE WIDTH...............20.000      //
+//                                                                           //
+//  Active TESTMODEs TM = 1 ..FULLSCAN                                       //
+//                                                                           //
+//***************************************************************************//
+
+//***************************************************************************//
+//                              DEFINE SIGNALS                               //
+//***************************************************************************//
+
+  Signals { 
+    "HDS_LLWR_0" InOut;      // pinName = HDS_LLWR_0;  tf = BIDI ; scanOffset = 0.000000;  
+    "HDS_LLWR_1" InOut;      // pinName = HDS_LLWR_1;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_00" InOut;      // pinName = LLWR_00;  tf = ZSE   SO  BIDI ; scanOffset = 0.000000;  
+    "LLWR_01" InOut;      // pinName = LLWR_01;  tf = ZSE   SO1 BIDI ; scanOffset = 0.000000;  
+    "LLWR_02" InOut;      // pinName = LLWR_02;  tf = ZSE   SO2 BIDI ; scanOffset = 0.000000;  
+    "LLWR_03" InOut;      // pinName = LLWR_03;  tf = ZSE   SO3 BIDI ; scanOffset = 0.000000;  
+    "LLWR_04" InOut;      // pinName = LLWR_04;  tf = ZSE   SO4 BIDI ; scanOffset = 0.000000;  
+    "LLWR_05" InOut;      // pinName = LLWR_05;  tf = ZSE   SO5 BIDI ; scanOffset = 0.000000;  
+    "LLWR_06" InOut;      // pinName = LLWR_06;  tf = ZSE   SO6 BIDI ; scanOffset = 0.000000;  
+    "LLWR_07" InOut;      // pinName = LLWR_07;  tf = ZSE   SO7 BIDI ; scanOffset = 0.000000;  
+    "LLWR_08" InOut;      // pinName = LLWR_08;  tf = ZSE   SO8 BIDI ; scanOffset = 0.000000;  
+    "LLWR_09" InOut;      // pinName = LLWR_09;  tf = ZSE   SO9 BIDI ; scanOffset = 0.000000;  
+    "LLWR_10" InOut;      // pinName = LLWR_10;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_11" InOut;      // pinName = LLWR_11;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_12" InOut;      // pinName = LLWR_12;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_13" InOut;      // pinName = LLWR_13;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_14" InOut;      // pinName = LLWR_14;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_15" InOut;      // pinName = LLWR_15;  tf =  SI  BIDI ; scanOffset = 0.000000;  
+    "LLWR_16" InOut;      // pinName = LLWR_16;  tf =  SI1 BIDI ; scanOffset = 0.000000;  
+    "LLWR_17" InOut;      // pinName = LLWR_17;  tf =  SI2 BIDI ; scanOffset = 0.000000;  
+    "LLWR_18" InOut;      // pinName = LLWR_18;  tf =  SI3 BIDI ; scanOffset = 0.000000;  
+    "LLWR_19" InOut;      // pinName = LLWR_19;  tf =  SI4 BIDI ; scanOffset = 0.000000;  
+    "LLWR_20" InOut;      // pinName = LLWR_20;  tf =  SI5 BIDI ; scanOffset = 0.000000;  
+    "LLWR_21" InOut;      // pinName = LLWR_21;  tf =  SI6 BIDI ; scanOffset = 0.000000;  
+    "LLWR_22" InOut;      // pinName = LLWR_22;  tf =  SI7 BIDI ; scanOffset = 0.000000;  
+    "LLWR_23" InOut;      // pinName = LLWR_23;  tf =  SI8 BIDI ; scanOffset = 0.000000;  
+    "LLWR_24" InOut;      // pinName = LLWR_24;  tf =  SI9 BIDI ; scanOffset = 0.000000;  
+    "LLWR_25" InOut;      // pinName = LLWR_25;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_26" InOut;      // pinName = LLWR_26;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_27" InOut;      // pinName = LLWR_27;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_28" InOut;      // pinName = LLWR_28;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_29" InOut;      // pinName = LLWR_29;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_30" InOut;      // pinName = LLWR_30;  tf = BIDI ; scanOffset = 0.000000;  
+    "LLWR_31" InOut;      // pinName = LLWR_31;  tf = BIDI ; scanOffset = 0.000000;  
+    "M_RESET" In;      // pinName = M_RESET;  tf = +SC  ; scanOffset = 40.000000;  
+    "P_SERIAL_DATA" InOut;      // pinName = P_SERIAL_DATA;  tf = BIDI ; scanOffset = 0.000000;  
+    "P_SERIAL_ENABLE" In;      // pinName = P_SERIAL_ENABLE;  tf = +SE  ; scanOffset = 0.000000;  
+    "SERIAL_CLK" In;      // pinName = SERIAL_CLK;  tf = -ES  ; scanOffset = 40.000000;  
+    "TBS_LLWR_0" InOut;      // pinName = TBS_LLWR_0;  tf = BIDI ; scanOffset = 0.000000;  
+    "TBS_LLWR_1" InOut;      // pinName = TBS_LLWR_1;  tf = BIDI ; scanOffset = 0.000000;  
+    "TBS_LLWR_2" InOut;      // pinName = TBS_LLWR_2;  tf = BIDI ; scanOffset = 0.000000;  
+    "TBS_LLWR_3" InOut;      // pinName = TBS_LLWR_3;  tf = BIDI ; scanOffset = 0.000000;  
+    "TEST_MODE_0" In;      // pinName = TEST_MODE_0;  tf = +TI  ; scanOffset = 0.000000;  
+    "TEST_MODE_1" In;      // pinName = TEST_MODE_1;  tf = +TI  ; scanOffset = 0.000000;  
+    "TEST_MODE_2" In;      // pinName = TEST_MODE_2;  tf = +TI  ; scanOffset = 0.000000;  
+  } 
+
+//***************************************************************************//
+//                           DEFINE SIGNAL GROUPS                            //
+//***************************************************************************//
+
+  SignalGroups { 
+
+    "ALLPIs" = '"M_RESET"+"P_SERIAL_ENABLE"+"SERIAL_CLK"+"TEST_MODE_0"
+               +"TEST_MODE_1"+"TEST_MODE_2"'; 
+
+    "ALLCIOs" = '"HDS_LLWR_0"+"HDS_LLWR_1"+"LLWR_00"+"LLWR_01"+"LLWR_02"
+                +"LLWR_03"+"LLWR_04"+"LLWR_05"+"LLWR_06"+"LLWR_07"+"LLWR_08"
+                +"LLWR_09"+"LLWR_10"+"LLWR_11"+"LLWR_12"+"LLWR_13"+"LLWR_14"
+                +"LLWR_15"+"LLWR_16"+"LLWR_17"+"LLWR_18"+"LLWR_19"+"LLWR_20"
+                +"LLWR_21"+"LLWR_22"+"LLWR_23"+"LLWR_24"+"LLWR_25"+"LLWR_26"
+                +"LLWR_27"+"LLWR_28"+"LLWR_29"+"LLWR_30"+"LLWR_31"
+                +"P_SERIAL_DATA"+"TBS_LLWR_0"+"TBS_LLWR_1"+"TBS_LLWR_2"
+                +"TBS_LLWR_3"'; 
+
+    "CR_1_TM_1" = '"LLWR_15"' { ScanIn 689; } 
+    "CR_2_TM_1" = '"LLWR_16"' { ScanIn 689; } 
+    "CR_3_TM_1" = '"LLWR_17"' { ScanIn 689; } 
+    "CR_4_TM_1" = '"LLWR_18"' { ScanIn 689; } 
+    "CR_5_TM_1" = '"LLWR_19"' { ScanIn 688; } 
+    "CR_6_TM_1" = '"LLWR_20"' { ScanIn 688; } 
+    "CR_7_TM_1" = '"LLWR_21"' { ScanIn 688; } 
+    "CR_8_TM_1" = '"LLWR_22"' { ScanIn 688; } 
+    "CR_9_TM_1" = '"LLWR_23"' { ScanIn 688; } 
+    "CR_10_TM_1" = '"LLWR_24"' { ScanIn 688; } 
+
+    "OR_1_TM_1" = '"LLWR_00"' { ScanOut 689; } 
+    "OR_2_TM_1" = '"LLWR_01"' { ScanOut 689; } 
+    "OR_3_TM_1" = '"LLWR_02"' { ScanOut 689; } 
+    "OR_4_TM_1" = '"LLWR_03"' { ScanOut 689; } 
+    "OR_5_TM_1" = '"LLWR_04"' { ScanOut 688; } 
+    "OR_6_TM_1" = '"LLWR_05"' { ScanOut 688; } 
+    "OR_7_TM_1" = '"LLWR_06"' { ScanOut 688; } 
+    "OR_8_TM_1" = '"LLWR_07"' { ScanOut 688; } 
+    "OR_9_TM_1" = '"LLWR_08"' { ScanOut 688; } 
+    "OR_10_TM_1" = '"LLWR_09"' { ScanOut 688; } 
+
+    "ALLCLKs_TM_1" = '"M_RESET"+"SERIAL_CLK"'; 
+
+    "ALLECs_TM_1" = '"SERIAL_CLK"'; 
+
+    "ALLSIs_CR_TM_1" = '"CR_1_TM_1"+"CR_2_TM_1"+"CR_3_TM_1"+"CR_4_TM_1"+
+                       "CR_5_TM_1"+"CR_6_TM_1"+"CR_7_TM_1"+"CR_8_TM_1"+
+                       "CR_9_TM_1"+"CR_10_TM_1"'; 
+
+    "ALLSOs_OR_TM_1" = '"OR_1_TM_1"+"OR_2_TM_1"+"OR_3_TM_1"+"OR_4_TM_1"+
+                       "OR_5_TM_1"+"OR_6_TM_1"+"OR_7_TM_1"+"OR_8_TM_1"+
+                       "OR_9_TM_1"+"OR_10_TM_1"'; 
+
+  } 
+
+//***************************************************************************//
+//                               DEFINE MACROS                               //
+//***************************************************************************//
+
+  MacroDefs { 
+
+    "SCAN_CYCLE_TM_1" { WaveformTable "scan_cycle"; 
+      Vector { 
+        "ALLCIOs" = %; 
+        "ALLPIs" = %; } } 
+
+    "SCAN_TM_1" { WaveformTable "scan_cycle"; 
+      Condition { 
+        "ALLSIs_CR_TM_1" = \r10 0 ; 
+        "ALLCLKs_TM_1" = 10; 
+        } 
+      Shift { Vector { 
+        "ALLSOs_OR_TM_1" = #; 
+        "ALLSIs_CR_TM_1" = #; 
+        "ALLECs_TM_1" = P; } } } 
+
+    "CAPTURE" { WaveformTable "CAPTURE"; 
+      Vector { 
+        "ALLCIOs" = %; 
+        "ALLPIs" = %; } } 
+} 
