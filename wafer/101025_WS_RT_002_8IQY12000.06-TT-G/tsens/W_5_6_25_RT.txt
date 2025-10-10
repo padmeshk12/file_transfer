@@ -1,0 +1,14 @@
+Device ID                 : W_5_6
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 945
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 4557
+fpref_reg_0x1D            : 4334
+temp_read_reg_0xA         : 686
+anthr_temp_read_reg_0x22  : 35
+temp_range                : 4.49584e+07
+
+Target Temp               : 25
+Read out dec              : 686
+tempC                     : 35.75
