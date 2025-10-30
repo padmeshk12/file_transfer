@@ -1,0 +1,41 @@
+hp93000,testflow_master_file,0.1
+testerfile:           TestFlow_Temporary.tfl
+# MAIN TF SETUPS
+information:          			setups/information.tfl
+flags:                			setups/flags.tfl
+bins:                 			setups/bins.tfl
+setup:                			setups/setup.tfl
+var_default:          			setups/var_default.tfl
+# FIRST RUN AND EVERY RUN
+GROUP INIT_UB [open] : 			groups/group_INIT_UB.tfl
+GROUP INIT [open] : 			groups/group_INIT.tfl
+# ONLY FIRST RUN
+GROUP LB_CHECK:      			groups/group_LB_CHECK.tfl
+# ONLY EVERY RUN
+if @EveryRun
+	GROUP CONTACT [open] : 			groups/group_CONTACT.tfl
+	GROUP BASIC_FUNC [open] : 		groups/group_BASIC_FUNC.tfl
+	GROUP LEAKAGE [open] : 			groups/group_LEAKAGE.tfl
+	GROUP PULL [open] : 			groups/group_PULL.tfl
+	GROUP LEVEL [open] :	 		groups/group_LEVEL.tfl
+	GROUP SCAN [open] : 			groups/group_SCAN.tfl
+	GROUP RAM [open] : 			groups/group_RAM.tfl
+	GROUP ROM [open] : 			groups/group_ROM.tfl
+	GROUP PM [open] : 			groups/group_PM.tfl
+	GROUP XTAL [open] : 			groups/group_XTAL.tfl
+	GROUP PLL [open] : 			groups/group_PLL.tfl
+	GROUP WUCTRL [open] : 			groups/group_WUCTRL.tfl
+	GROUP GNSS_LDO [open] : 		groups/group_GNSS_LDO.tfl
+	GROUP GNSS_DCO [open] : 		groups/group_GNSS_DCO.tfl
+	GROUP GNSS_SYNTH [open] : 		groups/group_GNSS_SYNTH.tfl
+	GROUP GNSS_RCCAL [open] : 		groups/group_GNSS_RCCAL.tfl
+	GROUP GNSS_RX [open] : 			groups/group_GNSS_RX.tfl
+	GROUP NBIOT_TX [open] : 		groups/group_NBIOT_TX.tfl
+	GROUP NBIOT_RX [open] : 		groups/group_NBIOT_RX.tfl
+	GROUP NBIOT_AUX [open] : 		groups/group_NBIOT_AUX.tfl
+	GROUP NBIOT_DCXO [open] : 		groups/group_NBIOT_DCXO.tfl
+	GROUP NBIOT_TEMP [open] : 		groups/group_NBIOT_TEMP.tfl
+	GROUP END_OF_FLOW [open] :	 	groups/group_END_OF_FLOW.tfl
+endif
+# FIRST RUN AND EVERY RUN
+GROUP BINNING [open] :       		groups/group_BINNING.tfl
