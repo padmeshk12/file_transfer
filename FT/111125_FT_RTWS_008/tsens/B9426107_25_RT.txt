@@ -1,0 +1,14 @@
+Device ID                 : B9426107
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 945
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 4472
+fpref_reg_0x1D            : 4296
+temp_read_reg_0xA         : 655
+anthr_temp_read_reg_0x22  : 31
+temp_range                : 4.29267e+07
+
+Target Temp               : 25
+Read out dec              : 655
+tempC                     : 31.875
