@@ -1,191 +1,193 @@
-Register Address,Register Name:,Type,Default value
-0x00,PM_BUCK_CTRL_REG,rw,0x000209C0
-,,6,pm_buck_trim_en
-,,11:07,pm_buck_trim_zcross
-,,13:12,pm_buck_trim_freq
-,,17:14,pm_buck_trim
-,,18,buck_bypass
-Register Address,Register Name:,Type,Default value
-0x04,PM_LDO_CTRL_REG,rw,0x0000088A
-,,1,pm_hvldo_en
-,,3,pm_ioldo_en
-,,5,pm_ioldo_trim
-,,6,pm_simldo_en
-,,7,pm_sldo_trim
-,,8,pm_simldo_trim
-,,9,usim_vcc_en_force_regmap
-,,10,usim_vcc_volt_force_regmap
-,,11,pm_dldo_en
-,,13,pm_rtc_amp_rep_en_n
-Register Address,Register Name:,Type,Default value
-0x08,CONFIG_PD_REG,rw,0xC008DFFF
-,,0,arm_coderam0_pd
-,,1,arm_coderam1_pd
-,,2,arm_dataram0_pd
-,,3,arm_dataram1_pd
-,,4,ext_dataram0_pd
-,,5,ext_dataram1_pd
-,,6,ext_dataram2_pd
-,,7,ext_dataram3_pd
-,,8,ret_dataram_pd
-,,9,ceva_ptcm_pd
-,,10,ceva_dtcm_pd
-,,11,ceva_pcache_tag_pd
-,,12,ceva_pcache_set_pd
-,,13,arm_rom_pd
-,,14,pll_dsmpd
-,,15,pll_foutvcopd
-,,16,arm_mem_retention
-,,17,ceva_mem_retention
-,,18,ext_mem_retention
-,,19,ret_mem_retention
-,,30,pll_foutpostdivpd
-,,31,pll_pd
-Register Address,Register Name:,Type,Default value
-0x0C,CONFIG_CLK_CTRL_REG,rw,0x000001A0
-,,0,main_clk_sel
-,,1,ref_clk_sel
-,,5,ceva_ocmrstn
-,,6,ceva_cxrstn
-,,7,ceva_globrstn
-,,8,ceva_pon_rst_n
-,,10,arm_pmuenable
-,,11,arm_regmap_d11vd_reset_sel
-,,16,gen_clk_switch1_switch_done_flag
-,,17,gen_clk_switch2_switch_done_flag
-,,18,gen_clk_switch3_switch_done_flag
-,,19,gen_clk_switch4_switch_done_flag
-Register Address,Register Name:,Type,Default value
-0x10,TST_MODE_REG,rw,0x00000000
-,,6:00,debug_mux_0_sel
-,,14:08,debug_mux_1_sel
-,,22:16,debug_mux_2_sel
-,,30:24:00,debug_mux_3_sel
-Register Address,Register Name:,Type,Default value
-0x14,CONFIG_IOMUX_REG,rw,0x00000000
-,,3:00,iomux_sel_group_a
-,,7:04,iomux_sel_group_b
-Register Address,Register Name:,Type,Default value
-0x18,CONFIG_GPIO_PULL_UP_REG,rw,0x0001FFF8
-,,19:00,gpio_pull_up_disable
-Register Address,Register Name:,Type,Default value
-0x1C,CONFIG_GPIO_PULL_DWN_REG,rw,0x000FFFFF
-,,19:00,gpio_pull_dwn_disable
-Register Address,Register Name:,Type,Default value
-0x20,CONFIG_WAKEUP_REG,rw,0x00000700
-,,5:00,ceva_pwr_up_delay
-,,10:08,nbiot_spi_bytes_to_be_sent
-,,16,ext_int_wakeup_arm_or_ceva
-,,24,psm_eint_active
-,,25,arm_watchdog_active
-,,26,arm_rxev_active
-,,27,arm_edbgrq_active
-,,29,force_d11vd_pwr_on
-,,30,force_ceva_pwr_on
-,,31,force_arm_pwr_on
-Register Address,Register Name:,Type,Default value
-0x24,CONFIG_SPI_INIT0_REG,rw,0x00000000
-,,30:00:00,nbiot_spi_init_byte0
-Register Address,Register Name:,Type,Default value
-0x28,CONFIG_SPI_INIT1_REG,rw,0x00000004
-,,30:00:00,nbiot_spi_init_byte1
-Register Address,Register Name:,Type,Default value
-0x2C,CONFIG_SPI_INIT2_REG,rw,0x00000003
-,,30:00:00,nbiot_spi_init_byte2
-Register Address,Register Name:,Type,Default value
-0x30,CONFIG_SPI_INIT3_REG,rw,0x5301A040
-,,30:00:00,nbiot_spi_init_byte3
-Register Address,Register Name:,Type,Default value
-0x34,CONFIG_SPI_INIT4_REG,rw,0x1101E277
-,,30:00:00,nbiot_spi_init_byte4
-,,31,nbiot_spi_busy
-Register Address,Register Name:,Type,Default value
-0x38,TST_MODE2_REG,rw,0x00000000
-,,6:00,debug_mux_4_sel
-,,14:08,debug_mux_5_sel
-,,22:16,debug_mux_6_sel
-,,30:24:00,debug_mux_7_sel
-Register Address,Register Name:,Type,Default value
-0x3C,TST_MODE3_REG,rw,0x00000000
-,,6:00,debug_mux_8_sel
-,,14:08,debug_mux_9_sel
-,,22:16,debug_mux_10_sel
-,,30:24:00,debug_mux_11_sel
-Register Address,Register Name:,Type,Default value
-0x40,TST_MODE4_REG,rw,0x00000000
-,,6:00,debug_mux_12_sel
-,,14:08,debug_mux_13_sel
-Register Address,Register Name:,Type,Default value
-0x44,CONFIG_CEVA0_REG,rw,0x00000000
-,,0,ceva_boot
-Register Address,Register Name:,Type,Default value
-0x48,CONFIG_CEVA1_REG,rw,0x00000000
-,,31:00:00,ceva_ext_vector
-Register Address,Register Name:,Type,Default value
-0x4C,CONFIG_SFC0_REG,rw,0x00000000
-,,15:00,sfc_boot_sts_data
-,,17:16,sfc_boot_sts_cnt
-,,19:18,sfc_boot_sts_mode
-,,20,sfc_boot_sts_busy_bit0_bit7_valid
-,,21,sfc_boot_spi_en_cpha
-,,22,sfc_boot_spi_en_cpol
-,,23,sfc_boot_spi_en_lsbf
-,,24,sfc_boot_wp
-,,25,sfc_boot_hold
-,,27:26:00,sfc_boot_spi_type_cmd
-,,29:28:00,sfc_boot_spi_type_addr
-,,31:30:00,sfc_boot_spi_type_mode
-Register Address,Register Name:,Type,Default value
-0x50,CONFIG_SFC1_REG,rw,0x00000000
-,,10:00,sfc_boot_spi_clk_freq_sel
-,,12:11,sfc_boot_spi_type_dummy
-,,14:13,sfc_boot_spi_type_data
-,,16:15,sfc_boot_spi_type_init1
-,,18:17,sfc_boot_spi_type_init2
-,,21:19,sfc_boot_read_addr_cyc
-,,24:22:00,sfc_boot_dummy_bytes
-,,26:25:00,sfc_boot_mode_bytes
-,,27,sfc_boot_spi_nand
-,,29:28:00,sfc_boot_spi_plane
-,,31:30:00,sfc_boot_spi_init1_cnt
-Register Address,Register Name:,Type,Default value
-0x54,CONFIG_SFC2_REG,rw,0x00000000
-,,7:00,sfc_boot_spi_read_opcode
-,,15:08,sfc_boot_spi_read_cache_opcode
-,,23:16,sfc_boot_spi_mode_code
-,,31:24:00,sfc_boot_spi_init1_code1
-Register Address,Register Name:,Type,Default value
-0x58,CONFIG_SFC3_REG,rw,0x00000000
-,,7:00,sfc_boot_spi_init1_code2
-,,15:08,sfc_boot_spi_init1_code3
-,,16,sfc_boot_spi_init1_sts_chk
-,,18:17,sfc_boot_spi_init2_cnt
-,,26:19:00,sfc_boot_spi_init2_code1
-,,27,sfc_boot_spi_init2_sts_chk
-,,28,sfc_boot_spi_en
-,,30:29:00,sfc_boot_spi_lanes
-,,31,sfc_boot_ecc_on_off
-Register Address,Register Name:,Type,Default value
-0x5C,CONFIG_SFC4_REG,rw,0x00000000
-,,7:00,sfc_boot_spi_init2_code2
-,,15:08,sfc_boot_spi_init2_code3
-,,23:16,sfc_boot_spi_cs
-,,27:24:00,sfc_boot_bch_t
-,,31:28:00,sfc_boot_code_word_size
-Register Address,Register Name:,Type,Default value
-0x60,CONFIG_SFC5_REG,rw,0x00000000
-,,15:00,sfc_boot_bch_n
-,,23:16,sfc_boot_ecc_offset
-,,31:24:00,sfc_boot_ecc_spare_cnt
-Register Address,Register Name:,Type,Default value
-0x64,CONFIG_SFC6_REG,rw,0x00000000
-,,15:00,sfc_boot_spi_init1_wait_cnt
-,,18:16,sfc_boot_page_size
-Register Address,Register Name:,Type,Default value
-0x68,PM_BGRBIAS_CTRL_REG,rw,0x00000844
-,,2:00,pm_bgr_trim
-,,6,pm_lvbias_trim_en
-,,11:07,pm_trim_4u
-Register Address,Register Name:,Type,Default value
-0x6C,TST_MODE5_REG,rw,0x00000000
-,,0,select_dft_jtag
+REGISTER WIDTH,32,,,,,,
+,,,,,,,
+Register Address,Register Name:,Type,Default value,Lock Bit support,Register Description,DigRF Register Name:,Nominal Value
+0x00,PM_BUCK_CTRL_REG,rw,0x000209C0,,,,
+,,6,pm_buck_trim_en,,,,
+,,11:07,pm_buck_trim_zcross,,,,
+,,13:12,pm_buck_trim_freq,,,,
+,,17:14,pm_buck_trim,,,,
+,,18,buck_bypass,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x04,PM_LDO_CTRL_REG,rw,0x0000088A,,,,
+,,1,pm_hvldo_en,,,,
+,,3,pm_ioldo_en,,,,
+,,5,pm_ioldo_trim,,,,
+,,6,pm_simldo_en,,,,
+,,7,pm_sldo_trim,,,,
+,,8,pm_simldo_trim,,,,
+,,9,usim_vcc_en_force_regmap,,,,
+,,10,usim_vcc_volt_force_regmap,,,,
+,,11,pm_dldo_en,,,,
+,,13,pm_rtc_amp_rep_en_n,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x08,CONFIG_PD_REG,rw,0xC008DFFF,,,,
+,,0,arm_coderam0_pd,,,,
+,,1,arm_coderam1_pd,,,,
+,,2,arm_dataram0_pd,,,,
+,,3,arm_dataram1_pd,,,,
+,,4,ext_dataram0_pd,,,,
+,,5,ext_dataram1_pd,,,,
+,,6,ext_dataram2_pd,,,,
+,,7,ext_dataram3_pd,,,,
+,,8,ret_dataram_pd,,,,
+,,9,ceva_ptcm_pd,,,,
+,,10,ceva_dtcm_pd,,,,
+,,11,ceva_pcache_tag_pd,,,,
+,,12,ceva_pcache_set_pd,,,,
+,,13,arm_rom_pd,,,,
+,,14,pll_dsmpd,,,,
+,,15,pll_foutvcopd,,,,
+,,16,arm_mem_retention,,,,
+,,17,ceva_mem_retention,,,,
+,,18,ext_mem_retention,,,,
+,,19,ret_mem_retention,,,,
+,,30,pll_foutpostdivpd,,,,
+,,31,pll_pd,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x0C,CONFIG_CLK_CTRL_REG,rw,0x000001A0,,,,
+,,0,main_clk_sel,,,,
+,,1,ref_clk_sel,,,,
+,,5,ceva_ocmrstn,,,,
+,,6,ceva_cxrstn,,,,
+,,7,ceva_globrstn,,,,
+,,8,ceva_pon_rst_n,,,,
+,,10,arm_pmuenable,,,,
+,,11,arm_regmap_d11vd_reset_sel,,,,
+,,16,gen_clk_switch1_switch_done_flag,,,,
+,,17,gen_clk_switch2_switch_done_flag,,,,
+,,18,gen_clk_switch3_switch_done_flag,,,,
+,,19,gen_clk_switch4_switch_done_flag,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x10,TST_MODE_REG,rw,0x00000000,,,,
+,,6:00,debug_mux_0_sel,,,,
+,,14:08,debug_mux_1_sel,,,,
+,,22:16,debug_mux_2_sel,,,,
+,,30:24:00,debug_mux_3_sel,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x14,CONFIG_IOMUX_REG,rw,0x00000000,,,,
+,,3:00,iomux_sel_group_a,,,,
+,,7:04,iomux_sel_group_b,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x18,CONFIG_GPIO_PULL_UP_REG,rw,0x0001FFF8,,,,
+,,19:00,gpio_pull_up_disable,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x1C,CONFIG_GPIO_PULL_DWN_REG,rw,0x000FFFFF,,,,
+,,19:00,gpio_pull_dwn_disable,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x20,CONFIG_WAKEUP_REG,rw,0x00000700,,,,
+,,5:00,ceva_pwr_up_delay,,,,
+,,10:08,nbiot_spi_bytes_to_be_sent,,,,
+,,16,ext_int_wakeup_arm_or_ceva,,,,
+,,24,psm_eint_active,,,,
+,,25,arm_watchdog_active,,,,
+,,26,arm_rxev_active,,,,
+,,27,arm_edbgrq_active,,,,
+,,29,force_d11vd_pwr_on,,,,
+,,30,force_ceva_pwr_on,,,,
+,,31,force_arm_pwr_on,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x24,CONFIG_SPI_INIT0_REG,rw,0x00000000,,,,
+,,30:00:00,nbiot_spi_init_byte0,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x28,CONFIG_SPI_INIT1_REG,rw,0x00000004,,,,
+,,30:00:00,nbiot_spi_init_byte1,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x2C,CONFIG_SPI_INIT2_REG,rw,0x00000003,,,,
+,,30:00:00,nbiot_spi_init_byte2,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x30,CONFIG_SPI_INIT3_REG,rw,0x5301A040,,,,
+,,30:00:00,nbiot_spi_init_byte3,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x34,CONFIG_SPI_INIT4_REG,rw,0x1101E277,,,,
+,,30:00:00,nbiot_spi_init_byte4,,,,
+,,31,nbiot_spi_busy,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x38,TST_MODE2_REG,rw,0x00000000,,,,
+,,6:00,debug_mux_4_sel,,,,
+,,14:08,debug_mux_5_sel,,,,
+,,22:16,debug_mux_6_sel,,,,
+,,30:24:00,debug_mux_7_sel,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x3C,TST_MODE3_REG,rw,0x00000000,,,,
+,,6:00,debug_mux_8_sel,,,,
+,,14:08,debug_mux_9_sel,,,,
+,,22:16,debug_mux_10_sel,,,,
+,,30:24:00,debug_mux_11_sel,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x40,TST_MODE4_REG,rw,0x00000000,,,,
+,,6:00,debug_mux_12_sel,,,,
+,,14:08,debug_mux_13_sel,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x44,CONFIG_CEVA0_REG,rw,0x00000000,,,,
+,,0,ceva_boot,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x48,CONFIG_CEVA1_REG,rw,0x00000000,,,,
+,,31:00:00,ceva_ext_vector,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x4C,CONFIG_SFC0_REG,rw,0x00000000,,,,
+,,15:00,sfc_boot_sts_data,,,,
+,,17:16,sfc_boot_sts_cnt,,,,
+,,19:18,sfc_boot_sts_mode,,,,
+,,20,sfc_boot_sts_busy_bit0_bit7_valid,,,,
+,,21,sfc_boot_spi_en_cpha,,,,
+,,22,sfc_boot_spi_en_cpol,,,,
+,,23,sfc_boot_spi_en_lsbf,,,,
+,,24,sfc_boot_wp,,,,
+,,25,sfc_boot_hold,,,,
+,,27:26:00,sfc_boot_spi_type_cmd,,,,
+,,29:28:00,sfc_boot_spi_type_addr,,,,
+,,31:30:00,sfc_boot_spi_type_mode,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x50,CONFIG_SFC1_REG,rw,0x00000000,,,,
+,,10:00,sfc_boot_spi_clk_freq_sel,,,,
+,,12:11,sfc_boot_spi_type_dummy,,,,
+,,14:13,sfc_boot_spi_type_data,,,,
+,,16:15,sfc_boot_spi_type_init1,,,,
+,,18:17,sfc_boot_spi_type_init2,,,,
+,,21:19,sfc_boot_read_addr_cyc,,,,
+,,24:22:00,sfc_boot_dummy_bytes,,,,
+,,26:25:00,sfc_boot_mode_bytes,,,,
+,,27,sfc_boot_spi_nand,,,,
+,,29:28:00,sfc_boot_spi_plane,,,,
+,,31:30:00,sfc_boot_spi_init1_cnt,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x54,CONFIG_SFC2_REG,rw,0x00000000,,,,
+,,7:00,sfc_boot_spi_read_opcode,,,,
+,,15:08,sfc_boot_spi_read_cache_opcode,,,,
+,,23:16,sfc_boot_spi_mode_code,,,,
+,,31:24:00,sfc_boot_spi_init1_code1,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x58,CONFIG_SFC3_REG,rw,0x00000000,,,,
+,,7:00,sfc_boot_spi_init1_code2,,,,
+,,15:08,sfc_boot_spi_init1_code3,,,,
+,,16,sfc_boot_spi_init1_sts_chk,,,,
+,,18:17,sfc_boot_spi_init2_cnt,,,,
+,,26:19:00,sfc_boot_spi_init2_code1,,,,
+,,27,sfc_boot_spi_init2_sts_chk,,,,
+,,28,sfc_boot_spi_en,,,,
+,,30:29:00,sfc_boot_spi_lanes,,,,
+,,31,sfc_boot_ecc_on_off,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x5C,CONFIG_SFC4_REG,rw,0x00000000,,,,
+,,7:00,sfc_boot_spi_init2_code2,,,,
+,,15:08,sfc_boot_spi_init2_code3,,,,
+,,23:16,sfc_boot_spi_cs,,,,
+,,27:24:00,sfc_boot_bch_t,,,,
+,,31:28:00,sfc_boot_code_word_size,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x60,CONFIG_SFC5_REG,rw,0x00000000,,,,
+,,15:00,sfc_boot_bch_n,,,,
+,,23:16,sfc_boot_ecc_offset,,,,
+,,31:24:00,sfc_boot_ecc_spare_cnt,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x64,CONFIG_SFC6_REG,rw,0x00000000,,,,
+,,15:00,sfc_boot_spi_init1_wait_cnt,,,,
+,,18:16,sfc_boot_page_size,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x68,PM_BGRBIAS_CTRL_REG,rw,0x00000844,,,,
+,,2:00,pm_bgr_trim,,,,
+,,6,pm_lvbias_trim_en,,,,
+,,11:07,pm_trim_4u,,,,
+Register Address,Register Name:,Type,Default value,,,,
+0x6C,TST_MODE5_REG,rw,0x00000000,,,,
+,,0,select_dft_jtag,,,,
