@@ -1,0 +1,1270 @@
+Assign Site 1: ADC_Average_Var = "ADC_Average_V1"
+Assign Site 1: ADC_ForceVoltage = -1.200
+Assign Site 1: ADC_Iteration =  0.000
+Assign Site 1: ADC_Median_Var = "ADC_Median_V1"
+Assign Site 1: ADC_VREF =  0.000
+Assign Site 1: ADC_Volt_Channel0 =  0.000
+Assign Site 1: ADC_Volt_Channel1 =  0.000
+Assign Site 1: Device_Number =  0.000
+Assign Site 1: ForceVoltage =  0.000
+Assign Site 1: RXPWR_PER = 7375.000
+Assign Site 1: RX_VOX_RCOM_DCOFFSET =  0.200
+Assign Site 1: TX_VOH =  0.000
+Assign Site 1: TX_VOL =  0.000
+Assign Site 1: VRECT =  3.800
+Assign Site 1: Var_Curr_Measured_A =  0.000
+Assign Site 1: Var_DPSVolt_IO_VDPA_V =  0.000
+Assign Site 1: Var_LoadCurr_Measured_A =  0.000
+Assign Site 1: Var_SinkCurr_VDPA_A =  0.600
+Assign Site 1: Var_Voltage_VDPA_V =  1.700
+
+######## Started Testprogram Testflow ##########################################
+Test program Testflow of device /projects/cyient/padmesh/GIT/wisig/V93K_WISIG_R4/V93K_WISIG_R4_tp started on 12/22/2025 at 07:46:24 PM on anoraadv7srv02.anora.local by padmesh
+Level device started on 12/22/2025 at 07:46:24 PM
+Site 1: P1
+Testflow started on 12/22/2025 at 07:46:24 PM
+
+
+Site  TNum      Test  TestSuite        p/f      Pin  LoLim  Measure  HiLim  
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+TestSuite "UTL_UB_SITE3_EN"  on Site: 1         passed
+
+
+
+Site  TNum      Test  TestSuite  p/f      Pin  LoLim  Measure  HiLim  
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+TestSuite "UTL_DB    "  on Site: 1         passed
+
+
+
+Site  TNum      Test                    TestSuite                  p/f      Pin        LoLim              Measure        HiLim              
+--------------------------------------------------------------------------------------------------------------------------------------------
+1     1000      VDD_diode@ATEST0[1]     Continuity_Parametric_VDD  FAILED   ATEST0      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1001      VDD_diode@ATEST1[1]     Continuity_Parametric_VDD  FAILED   ATEST1      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1002      VDD_diode@ATEST2[1]     Continuity_Parametric_VDD  FAILED   ATEST2      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1003      VDD_diode@ATEST3[1]     Continuity_Parametric_VDD  FAILED   ATEST3      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1004      VDD_diode@GPIO0[1]      Continuity_Parametric_VDD  FAILED   GPIO0       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1005      VDD_diode@GPIO1[1]      Continuity_Parametric_VDD  FAILED   GPIO1       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1006      VDD_diode@GPIO10[1]     Continuity_Parametric_VDD  FAILED   GPIO10      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1007      VDD_diode@GPIO11[1]     Continuity_Parametric_VDD  FAILED   GPIO11      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1008      VDD_diode@GPIO12[1]     Continuity_Parametric_VDD  FAILED   GPIO12      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1009      VDD_diode@GPIO13[1]     Continuity_Parametric_VDD  FAILED   GPIO13      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1010      VDD_diode@GPIO14[1]     Continuity_Parametric_VDD  FAILED   GPIO14      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1011      VDD_diode@GPIO15[1]     Continuity_Parametric_VDD  FAILED   GPIO15      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1012      VDD_diode@GPIO16[1]     Continuity_Parametric_VDD  FAILED   GPIO16      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1013      VDD_diode@GPIO17[1]     Continuity_Parametric_VDD  FAILED   GPIO17      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1014      VDD_diode@GPIO18[1]     Continuity_Parametric_VDD  FAILED   GPIO18      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1015      VDD_diode@GPIO19[1]     Continuity_Parametric_VDD  FAILED   GPIO19      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1016      VDD_diode@GPIO2[1]      Continuity_Parametric_VDD  FAILED   GPIO2       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1017      VDD_diode@GPIO3[1]      Continuity_Parametric_VDD  FAILED   GPIO3       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1018      VDD_diode@GPIO4[1]      Continuity_Parametric_VDD  FAILED   GPIO4       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1019      VDD_diode@GPIO5[1]      Continuity_Parametric_VDD  FAILED   GPIO5       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1020      VDD_diode@GPIO6[1]      Continuity_Parametric_VDD  FAILED   GPIO6       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1021      VDD_diode@GPIO7[1]      Continuity_Parametric_VDD  FAILED   GPIO7       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1022      VDD_diode@GPIO8[1]      Continuity_Parametric_VDD  FAILED   GPIO8       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1023      VDD_diode@GPIO9[1]      Continuity_Parametric_VDD  FAILED   GPIO9       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1024      VDD_diode@HF_XTAL_I[1]  Continuity_Parametric_VDD  FAILED   HF_XTAL_I   0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1025      VDD_diode@HF_XTAL_O[1]  Continuity_Parametric_VDD  FAILED   HF_XTAL_O   0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1026      VDD_diode@LF_XTAL_I[1]  Continuity_Parametric_VDD  FAILED   LF_XTAL_I   0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1027      VDD_diode@LF_XTAL_O[1]  Continuity_Parametric_VDD  FAILED   LF_XTAL_O   0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1028      VDD_diode@PSM_EINT[1]   Continuity_Parametric_VDD  FAILED   PSM_EINT    0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1029      VDD_diode@PWRKY_N[1]    Continuity_Parametric_VDD  FAILED   PWRKY_N     0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1030      VDD_diode@RST_N[1]      Continuity_Parametric_VDD  FAILED   RST_N       0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1031      VDD_diode@SIM_CLK[1]    Continuity_Parametric_VDD  FAILED   SIM_CLK     0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1032      VDD_diode@SIM_IO[1]     Continuity_Parametric_VDD  FAILED   SIM_IO      0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1033      VDD_diode@SIM_RST[1]    Continuity_Parametric_VDD  FAILED   SIM_RST     0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+1     1034      VDD_diode@SW[1]         Continuity_Parametric_VDD  FAILED   SW          0.300000 [V] <=    0.000000 [V]   <=  0.700000 [V]  
+--------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "Continuity_Parametric_VDD"  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 10(5)
+
+
+Site  TNum      Test                    TestSuite                  p/f      Pin        LoLim              Measure        HiLim              
+--------------------------------------------------------------------------------------------------------------------------------------------
+1     2000      GND_diode@ATEST0[1]     Continuity_Parametric_GND  FAILED   ATEST0     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2001      GND_diode@ATEST1[1]     Continuity_Parametric_GND  FAILED   ATEST1     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2002      GND_diode@ATEST2[1]     Continuity_Parametric_GND  FAILED   ATEST2     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2003      GND_diode@ATEST3[1]     Continuity_Parametric_GND  FAILED   ATEST3     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2004      GND_diode@GPIO0[1]      Continuity_Parametric_GND  FAILED   GPIO0      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2005      GND_diode@GPIO1[1]      Continuity_Parametric_GND  FAILED   GPIO1      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2006      GND_diode@GPIO10[1]     Continuity_Parametric_GND  FAILED   GPIO10     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2007      GND_diode@GPIO11[1]     Continuity_Parametric_GND  FAILED   GPIO11     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2008      GND_diode@GPIO12[1]     Continuity_Parametric_GND  FAILED   GPIO12     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2009      GND_diode@GPIO13[1]     Continuity_Parametric_GND  FAILED   GPIO13     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2010      GND_diode@GPIO14[1]     Continuity_Parametric_GND  FAILED   GPIO14     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2011      GND_diode@GPIO15[1]     Continuity_Parametric_GND  FAILED   GPIO15     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2012      GND_diode@GPIO16[1]     Continuity_Parametric_GND  FAILED   GPIO16     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2013      GND_diode@GPIO17[1]     Continuity_Parametric_GND  FAILED   GPIO17     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2014      GND_diode@GPIO18[1]     Continuity_Parametric_GND  FAILED   GPIO18     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2015      GND_diode@GPIO19[1]     Continuity_Parametric_GND  FAILED   GPIO19     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2016      GND_diode@GPIO2[1]      Continuity_Parametric_GND  FAILED   GPIO2      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2017      GND_diode@GPIO3[1]      Continuity_Parametric_GND  FAILED   GPIO3      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2018      GND_diode@GPIO4[1]      Continuity_Parametric_GND  FAILED   GPIO4      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2019      GND_diode@GPIO5[1]      Continuity_Parametric_GND  FAILED   GPIO5      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2020      GND_diode@GPIO6[1]      Continuity_Parametric_GND  FAILED   GPIO6      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2021      GND_diode@GPIO7[1]      Continuity_Parametric_GND  FAILED   GPIO7      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2022      GND_diode@GPIO8[1]      Continuity_Parametric_GND  FAILED   GPIO8      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2023      GND_diode@GPIO9[1]      Continuity_Parametric_GND  FAILED   GPIO9      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2024      GND_diode@HF_XTAL_I[1]  Continuity_Parametric_GND  FAILED   HF_XTAL_I  -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2025      GND_diode@HF_XTAL_O[1]  Continuity_Parametric_GND  FAILED   HF_XTAL_O  -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2026      GND_diode@LF_XTAL_I[1]  Continuity_Parametric_GND  FAILED   LF_XTAL_I  -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2027      GND_diode@LF_XTAL_O[1]  Continuity_Parametric_GND  FAILED   LF_XTAL_O  -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2028      GND_diode@PSM_EINT[1]   Continuity_Parametric_GND  FAILED   PSM_EINT   -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2029      GND_diode@PWRKY_N[1]    Continuity_Parametric_GND  FAILED   PWRKY_N    -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2030      GND_diode@RST_N[1]      Continuity_Parametric_GND  FAILED   RST_N      -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2031      GND_diode@SIM_CLK[1]    Continuity_Parametric_GND  FAILED   SIM_CLK    -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2032      GND_diode@SIM_IO[1]     Continuity_Parametric_GND  FAILED   SIM_IO     -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2033      GND_diode@SIM_RST[1]    Continuity_Parametric_GND  FAILED   SIM_RST    -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+1     2034      GND_diode@SW[1]         Continuity_Parametric_GND  FAILED   SW         -0.700000 [V] <=    0.000000 [V]   <= -0.300000 [V]  
+--------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "Continuity_Parametric_GND"  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 10(5)
+
+
+Site  TNum      Test          TestSuite                  p/f      Pin  LoLim            Measure       HiLim            
+-----------------------------------------------------------------------------------------------------------------------
+1     3000      VDD_diode[1]  Continuity_Functional_VDD  passed   .     1.000000 [] ==   1.000000 []   == 1.000000 []  
+-----------------------------------------------------------------------------------------------------------------------
+TestSuite "Continuity_Functional_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test          TestSuite                  p/f      Pin  LoLim            Measure       HiLim            
+-----------------------------------------------------------------------------------------------------------------------
+1     4000      GND_diode[1]  Continuity_Functional_GND  passed   .     1.000000 [] ==   1.000000 []   == 1.000000 []  
+-----------------------------------------------------------------------------------------------------------------------
+TestSuite "Continuity_Functional_GND"  on Site: 1         passed
+
+
+
+Site  TNum      Test                        TestSuite       p/f      Pin          LoLim               Measure         HiLim               
+------------------------------------------------------------------------------------------------------------------------------------------
+1     5007      D11VD_SENSE@D11VD_SENSE[1]  DPS_SHORT_TEST  passed   D11VD_SENSE  -1.000000 [mA] <=    0.000000 [mA]   <=  1.000000 [mA]  
+1     5005      HV_VD_SENSE@HV_VD_SENSE[1]  DPS_SHORT_TEST  passed   HV_VD_SENSE  -1.000000 [mA] <=    0.000000 [mA]   <=  1.000000 [mA]  
+1     5004      IO_VD_SENSE@IO_VD_SENSE[1]  DPS_SHORT_TEST  passed   IO_VD_SENSE  -1.000000 [mA] <=    0.000000 [mA]   <=  1.000000 [mA]  
+1     5000      NBIOT_HVD@NBIOT_HVD[1]      DPS_SHORT_TEST  passed   NBIOT_HVD    -1.000000 [mA] <=    0.000000 [mA]   <=  1.000000 [mA]  
+1     5001      NBIOT_LVD@NBIOT_LVD[1]      DPS_SHORT_TEST  passed   NBIOT_LVD    -1.000000 [mA] <=    0.000000 [mA]   <=  1.000000 [mA]  
+1     5002      SIM_VD@SIM_VD[1]            DPS_SHORT_TEST  passed   SIM_VD       -1.000000 [mA] <=    0.000000 [mA]   <=  1.000000 [mA]  
+1     5003      VBAT_SENSE@VBAT_SENSE[1]    DPS_SHORT_TEST  passed   VBAT_SENSE   -1.000000 [mA] <=    0.000000 [mA]   <=  1.000000 [mA]  
+1     5006      VSYS_SENSE@VSYS_SENSE[1]    DPS_SHORT_TEST  passed   VSYS_SENSE   -1.000000 [mA] <=    0.000000 [mA]   <=  1.000000 [mA]  
+------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "DPS_SHORT_TEST"  on Site: 1         passed
+
+
+
+Site  TNum      Test                        TestSuite      p/f      Pin          LoLim              Measure        HiLim              
+--------------------------------------------------------------------------------------------------------------------------------------
+1     6007      D11VD_SENSE@D11VD_SENSE[1]  DPS_OPEN_TEST  passed   D11VD_SENSE  -1.000000 [V] <=    0.000000 [V]   <=  1.000000 [V]  
+1     6005      HV_VD_SENSE@HV_VD_SENSE[1]  DPS_OPEN_TEST  passed   HV_VD_SENSE  -1.000000 [V] <=    0.000000 [V]   <=  1.000000 [V]  
+1     6004      IO_VD_SENSE@IO_VD_SENSE[1]  DPS_OPEN_TEST  passed   IO_VD_SENSE  -1.000000 [V] <=    0.000000 [V]   <=  1.000000 [V]  
+1     6000      NBIOT_HVD@NBIOT_HVD[1]      DPS_OPEN_TEST  passed   NBIOT_HVD    -1.000000 [V] <=    0.000000 [V]   <=  1.000000 [V]  
+1     6001      NBIOT_LVD@NBIOT_LVD[1]      DPS_OPEN_TEST  passed   NBIOT_LVD    -1.000000 [V] <=    0.000000 [V]   <=  1.000000 [V]  
+1     6002      SIM_VD@SIM_VD[1]            DPS_OPEN_TEST  passed   SIM_VD       -1.000000 [V] <=    0.000000 [V]   <=  1.000000 [V]  
+1     6003      VBAT_SENSE@VBAT_SENSE[1]    DPS_OPEN_TEST  passed   VBAT_SENSE   -1.000000 [V] <=    0.000000 [V]   <=  1.000000 [V]  
+1     6006      VSYS_SENSE@VSYS_SENSE[1]    DPS_OPEN_TEST  passed   VSYS_SENSE   -1.000000 [V] <=    0.000000 [V]   <=  1.000000 [V]  
+--------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "DPS_OPEN_TEST"  on Site: 1         passed
+
+
+
+Site  TNum      Test                          TestSuite             p/f      Pin  LoLim            Measure       HiLim            
+----------------------------------------------------------------------------------------------------------------------------------
+1     3800      Functional_test_Jtag@JTAG[1]  Jtag_Functional_test  FAILED   .     1.000000 [] ==   0.000000 []   == 1.000000 []  
+----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "Jtag_Functional_test"  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 28(5)
+
+
+Site  TNum      Test              TestSuite     p/f      Pin        LoLim                 Measure         HiLim                
+-------------------------------------------------------------------------------------------------------------------------------
+1     7000      IIH@ATEST0[1]     Leakage_High  passed   ATEST0     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7001      IIH@ATEST1[1]     Leakage_High  passed   ATEST1     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7002      IIH@ATEST2[1]     Leakage_High  passed   ATEST2     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7003      IIH@ATEST3[1]     Leakage_High  passed   ATEST3     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7004      IIH@GPIO0[1]      Leakage_High  passed   GPIO0      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7005      IIH@GPIO1[1]      Leakage_High  passed   GPIO1      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7006      IIH@GPIO10[1]     Leakage_High  passed   GPIO10     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7007      IIH@GPIO11[1]     Leakage_High  passed   GPIO11     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7008      IIH@GPIO12[1]     Leakage_High  passed   GPIO12     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7009      IIH@GPIO13[1]     Leakage_High  passed   GPIO13     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7010      IIH@GPIO14[1]     Leakage_High  passed   GPIO14     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7011      IIH@GPIO15[1]     Leakage_High  passed   GPIO15     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7012      IIH@GPIO16[1]     Leakage_High  passed   GPIO16     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7013      IIH@GPIO17[1]     Leakage_High  passed   GPIO17     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7014      IIH@GPIO18[1]     Leakage_High  passed   GPIO18     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7015      IIH@GPIO19[1]     Leakage_High  passed   GPIO19     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7016      IIH@GPIO2[1]      Leakage_High  passed   GPIO2      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7017      IIH@GPIO3[1]      Leakage_High  passed   GPIO3      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7018      IIH@GPIO4[1]      Leakage_High  passed   GPIO4      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7019      IIH@GPIO5[1]      Leakage_High  passed   GPIO5      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7020      IIH@GPIO6[1]      Leakage_High  passed   GPIO6      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7021      IIH@GPIO7[1]      Leakage_High  passed   GPIO7      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7022      IIH@GPIO8[1]      Leakage_High  passed   GPIO8      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7023      IIH@GPIO9[1]      Leakage_High  passed   GPIO9      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7024      IIH@HF_XTAL_I[1]  Leakage_High  passed   HF_XTAL_I  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7025      IIH@HF_XTAL_O[1]  Leakage_High  passed   HF_XTAL_O  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7026      IIH@LF_XTAL_I[1]  Leakage_High  passed   LF_XTAL_I  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7027      IIH@LF_XTAL_O[1]  Leakage_High  passed   LF_XTAL_O  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7028      IIH@PSM_EINT[1]   Leakage_High  passed   PSM_EINT   -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7029      IIH@PWRKY_N[1]    Leakage_High  passed   PWRKY_N    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7030      IIH@RST_N[1]      Leakage_High  passed   RST_N      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7031      IIH@SIM_CLK[1]    Leakage_High  passed   SIM_CLK    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7032      IIH@SIM_IO[1]     Leakage_High  passed   SIM_IO     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7033      IIH@SIM_RST[1]    Leakage_High  passed   SIM_RST    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     7034      IIH@SW[1]         Leakage_High  passed   SW         -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+-------------------------------------------------------------------------------------------------------------------------------
+TestSuite "Leakage_High"  on Site: 1         passed
+
+
+
+Site  TNum      Test              TestSuite    p/f      Pin        LoLim                 Measure         HiLim                
+------------------------------------------------------------------------------------------------------------------------------
+1     8000      IIL@ATEST0[1]     Leakage_Low  passed   ATEST0     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8001      IIL@ATEST1[1]     Leakage_Low  passed   ATEST1     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8002      IIL@ATEST2[1]     Leakage_Low  passed   ATEST2     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8003      IIL@ATEST3[1]     Leakage_Low  passed   ATEST3     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8004      IIL@GPIO0[1]      Leakage_Low  passed   GPIO0      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8005      IIL@GPIO1[1]      Leakage_Low  passed   GPIO1      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8006      IIL@GPIO10[1]     Leakage_Low  passed   GPIO10     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8007      IIL@GPIO11[1]     Leakage_Low  passed   GPIO11     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8008      IIL@GPIO12[1]     Leakage_Low  passed   GPIO12     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8009      IIL@GPIO13[1]     Leakage_Low  passed   GPIO13     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8010      IIL@GPIO14[1]     Leakage_Low  passed   GPIO14     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8011      IIL@GPIO15[1]     Leakage_Low  passed   GPIO15     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8012      IIL@GPIO16[1]     Leakage_Low  passed   GPIO16     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8013      IIL@GPIO17[1]     Leakage_Low  passed   GPIO17     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8014      IIL@GPIO18[1]     Leakage_Low  passed   GPIO18     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8015      IIL@GPIO19[1]     Leakage_Low  passed   GPIO19     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8016      IIL@GPIO2[1]      Leakage_Low  passed   GPIO2      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8017      IIL@GPIO3[1]      Leakage_Low  passed   GPIO3      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8018      IIL@GPIO4[1]      Leakage_Low  passed   GPIO4      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8019      IIL@GPIO5[1]      Leakage_Low  passed   GPIO5      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8020      IIL@GPIO6[1]      Leakage_Low  passed   GPIO6      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8021      IIL@GPIO7[1]      Leakage_Low  passed   GPIO7      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8022      IIL@GPIO8[1]      Leakage_Low  passed   GPIO8      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8023      IIL@GPIO9[1]      Leakage_Low  passed   GPIO9      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8024      IIL@HF_XTAL_I[1]  Leakage_Low  passed   HF_XTAL_I  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8025      IIL@HF_XTAL_O[1]  Leakage_Low  passed   HF_XTAL_O  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8026      IIL@LF_XTAL_I[1]  Leakage_Low  passed   LF_XTAL_I  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8027      IIL@LF_XTAL_O[1]  Leakage_Low  passed   LF_XTAL_O  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8028      IIL@PSM_EINT[1]   Leakage_Low  passed   PSM_EINT   -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8029      IIL@PWRKY_N[1]    Leakage_Low  passed   PWRKY_N    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8030      IIL@RST_N[1]      Leakage_Low  passed   RST_N      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8031      IIL@SIM_CLK[1]    Leakage_Low  passed   SIM_CLK    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8032      IIL@SIM_IO[1]     Leakage_Low  passed   SIM_IO     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8033      IIL@SIM_RST[1]    Leakage_Low  passed   SIM_RST    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     8034      IIL@SW[1]         Leakage_Low  passed   SW         -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+------------------------------------------------------------------------------------------------------------------------------
+TestSuite "Leakage_Low"  on Site: 1         passed
+
+
+
+Site  TNum      Test                      TestSuite       p/f      Pin        LoLim                 Measure         HiLim                
+-----------------------------------------------------------------------------------------------------------------------------------------
+1     10000     IIL_Pull_UP@ATEST0[1]     Leakage_Low_PU  passed   ATEST0     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10001     IIL_Pull_UP@ATEST1[1]     Leakage_Low_PU  passed   ATEST1     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10002     IIL_Pull_UP@ATEST2[1]     Leakage_Low_PU  passed   ATEST2     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10003     IIL_Pull_UP@ATEST3[1]     Leakage_Low_PU  passed   ATEST3     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10004     IIL_Pull_UP@GPIO0[1]      Leakage_Low_PU  passed   GPIO0      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10005     IIL_Pull_UP@GPIO1[1]      Leakage_Low_PU  passed   GPIO1      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10006     IIL_Pull_UP@GPIO10[1]     Leakage_Low_PU  passed   GPIO10     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10007     IIL_Pull_UP@GPIO11[1]     Leakage_Low_PU  passed   GPIO11     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10008     IIL_Pull_UP@GPIO12[1]     Leakage_Low_PU  passed   GPIO12     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10009     IIL_Pull_UP@GPIO13[1]     Leakage_Low_PU  passed   GPIO13     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10010     IIL_Pull_UP@GPIO14[1]     Leakage_Low_PU  passed   GPIO14     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10011     IIL_Pull_UP@GPIO15[1]     Leakage_Low_PU  passed   GPIO15     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10012     IIL_Pull_UP@GPIO16[1]     Leakage_Low_PU  passed   GPIO16     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10013     IIL_Pull_UP@GPIO17[1]     Leakage_Low_PU  passed   GPIO17     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10014     IIL_Pull_UP@GPIO18[1]     Leakage_Low_PU  passed   GPIO18     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10015     IIL_Pull_UP@GPIO19[1]     Leakage_Low_PU  passed   GPIO19     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10016     IIL_Pull_UP@GPIO2[1]      Leakage_Low_PU  passed   GPIO2      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10017     IIL_Pull_UP@GPIO3[1]      Leakage_Low_PU  passed   GPIO3      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10018     IIL_Pull_UP@GPIO4[1]      Leakage_Low_PU  passed   GPIO4      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10019     IIL_Pull_UP@GPIO5[1]      Leakage_Low_PU  passed   GPIO5      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10020     IIL_Pull_UP@GPIO6[1]      Leakage_Low_PU  passed   GPIO6      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10021     IIL_Pull_UP@GPIO7[1]      Leakage_Low_PU  passed   GPIO7      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10022     IIL_Pull_UP@GPIO8[1]      Leakage_Low_PU  passed   GPIO8      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10023     IIL_Pull_UP@GPIO9[1]      Leakage_Low_PU  passed   GPIO9      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10024     IIL_Pull_UP@HF_XTAL_I[1]  Leakage_Low_PU  passed   HF_XTAL_I  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10025     IIL_Pull_UP@HF_XTAL_O[1]  Leakage_Low_PU  passed   HF_XTAL_O  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10026     IIL_Pull_UP@LF_XTAL_I[1]  Leakage_Low_PU  passed   LF_XTAL_I  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10027     IIL_Pull_UP@LF_XTAL_O[1]  Leakage_Low_PU  passed   LF_XTAL_O  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10028     IIL_Pull_UP@PSM_EINT[1]   Leakage_Low_PU  passed   PSM_EINT   -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10029     IIL_Pull_UP@PWRKY_N[1]    Leakage_Low_PU  passed   PWRKY_N    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10030     IIL_Pull_UP@RST_N[1]      Leakage_Low_PU  passed   RST_N      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10031     IIL_Pull_UP@SIM_CLK[1]    Leakage_Low_PU  passed   SIM_CLK    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10032     IIL_Pull_UP@SIM_IO[1]     Leakage_Low_PU  passed   SIM_IO     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10033     IIL_Pull_UP@SIM_RST[1]    Leakage_Low_PU  passed   SIM_RST    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     10034     IIL_Pull_UP@SW[1]         Leakage_Low_PU  passed   SW         -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+-----------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "Leakage_Low_PU"  on Site: 1         passed
+
+
+
+Site  TNum      Test                        TestSuite        p/f      Pin        LoLim                 Measure         HiLim                
+--------------------------------------------------------------------------------------------------------------------------------------------
+1     11000     IIH_Pull_Down@ATEST0[1]     Leakage_High_PD  passed   ATEST0     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11001     IIH_Pull_Down@ATEST1[1]     Leakage_High_PD  passed   ATEST1     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11002     IIH_Pull_Down@ATEST2[1]     Leakage_High_PD  passed   ATEST2     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11003     IIH_Pull_Down@ATEST3[1]     Leakage_High_PD  passed   ATEST3     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11004     IIH_Pull_Down@GPIO0[1]      Leakage_High_PD  passed   GPIO0      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11005     IIH_Pull_Down@GPIO1[1]      Leakage_High_PD  passed   GPIO1      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11006     IIH_Pull_Down@GPIO10[1]     Leakage_High_PD  passed   GPIO10     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11007     IIH_Pull_Down@GPIO11[1]     Leakage_High_PD  passed   GPIO11     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11008     IIH_Pull_Down@GPIO12[1]     Leakage_High_PD  passed   GPIO12     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11009     IIH_Pull_Down@GPIO13[1]     Leakage_High_PD  passed   GPIO13     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11010     IIH_Pull_Down@GPIO14[1]     Leakage_High_PD  passed   GPIO14     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11011     IIH_Pull_Down@GPIO15[1]     Leakage_High_PD  passed   GPIO15     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11012     IIH_Pull_Down@GPIO16[1]     Leakage_High_PD  passed   GPIO16     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11013     IIH_Pull_Down@GPIO17[1]     Leakage_High_PD  passed   GPIO17     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11014     IIH_Pull_Down@GPIO18[1]     Leakage_High_PD  passed   GPIO18     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11015     IIH_Pull_Down@GPIO19[1]     Leakage_High_PD  passed   GPIO19     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11016     IIH_Pull_Down@GPIO2[1]      Leakage_High_PD  passed   GPIO2      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11017     IIH_Pull_Down@GPIO3[1]      Leakage_High_PD  passed   GPIO3      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11018     IIH_Pull_Down@GPIO4[1]      Leakage_High_PD  passed   GPIO4      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11019     IIH_Pull_Down@GPIO5[1]      Leakage_High_PD  passed   GPIO5      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11020     IIH_Pull_Down@GPIO6[1]      Leakage_High_PD  passed   GPIO6      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11021     IIH_Pull_Down@GPIO7[1]      Leakage_High_PD  passed   GPIO7      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11022     IIH_Pull_Down@GPIO8[1]      Leakage_High_PD  passed   GPIO8      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11023     IIH_Pull_Down@GPIO9[1]      Leakage_High_PD  passed   GPIO9      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11024     IIH_Pull_Down@HF_XTAL_I[1]  Leakage_High_PD  passed   HF_XTAL_I  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11025     IIH_Pull_Down@HF_XTAL_O[1]  Leakage_High_PD  passed   HF_XTAL_O  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11026     IIH_Pull_Down@LF_XTAL_I[1]  Leakage_High_PD  passed   LF_XTAL_I  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11027     IIH_Pull_Down@LF_XTAL_O[1]  Leakage_High_PD  passed   LF_XTAL_O  -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11028     IIH_Pull_Down@PSM_EINT[1]   Leakage_High_PD  passed   PSM_EINT   -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11029     IIH_Pull_Down@PWRKY_N[1]    Leakage_High_PD  passed   PWRKY_N    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11030     IIH_Pull_Down@RST_N[1]      Leakage_High_PD  passed   RST_N      -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11031     IIH_Pull_Down@SIM_CLK[1]    Leakage_High_PD  passed   SIM_CLK    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11032     IIH_Pull_Down@SIM_IO[1]     Leakage_High_PD  passed   SIM_IO     -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11033     IIH_Pull_Down@SIM_RST[1]    Leakage_High_PD  passed   SIM_RST    -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+1     11034     IIH_Pull_Down@SW[1]         Leakage_High_PD  passed   SW         -100.000000 [uA] <=    0.000000 [uA]   <= 100.000000 [uA]  
+--------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "Leakage_High_PD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                         TestSuite                    p/f      Pin       LoLim                Measure         HiLim               
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1     13000     Leakage_current@VBAT_PMU[1]  Leakage_Current_measurement  passed   VBAT_PMU  -10.000000 [mA] <=    0.000000 [mA]   <= 10.000000 [mA]  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "Leakage_Current_measurement"  on Site: 1         passed
+
+
+
+Site  TNum      Test                    TestSuite  p/f      Pin  LoLim            Measure       HiLim            
+-----------------------------------------------------------------------------------------------------------------
+1     2800      Functional_test@ROM[1]  ROM        passed   .     1.000000 [] ==   1.000000 []   == 1.000000 []  
+-----------------------------------------------------------------------------------------------------------------
+TestSuite "ROM       "  on Site: 1         passed
+
+
+
+Site  TNum      Test                       TestSuite               p/f      Pin               LoLim  Measure  HiLim  
+---------------------------------------------------------------------------------------------------------------------
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   ATEST0            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   ATEST1            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   ATEST2            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   ATEST3            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   BUFFER_TEST       .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   D11VD             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   D11VD_SENSE       .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   FLASH_CLK         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   FLASH_CS          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   FLASH_DI          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   FLASH_DO          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   FLASH_HOLD        .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   FLASH_WP          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GNSS_IN_N         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GNSS_IN_P         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO0             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO1             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO10            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO11            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO12            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO13            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO14            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO15            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO16            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO17            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO18            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO19            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO2             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO3             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO3_VIA_BUFFER  .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO4             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO5             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO6             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO7             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO8             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   GPIO9             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   HB_IN_N           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   HB_IN_P           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   HB_OUT_N          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   HB_OUT_P          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   HF_XTAL_I         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   HF_XTAL_O         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   HV_VD             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   HV_VD_SENSE       .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   IO_VD             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   IO_VD_SENSE       .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   LB_IN_N           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   LB_IN_P           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   LB_OUT_N          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   LB_OUT_P          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   LF_XTAL_I         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   LF_XTAL_O         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   MCE_Trigger_AWG   .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   MCE_Trigger_DIG   .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   NBIOT_HVD         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   NBIOT_LVD         .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   PSM_EINT          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   PWRKY_N           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   RST_N             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   S11VD             .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   S11VD_SENSE       .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   SIM_CLK           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   SIM_IO            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   SIM_RST           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   SIM_VD            .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   SIM_VD_SENSE      .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   SW                .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   TRGI_S2           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   TRIG_FE1          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   TRIG_FE2          .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   TRIG_S1           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   TRIG_S3           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   TRIG_S4           .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   VBAT_SENSE        .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   VSYS              .      .        .      
+1     16000     SCAN_COMPRESSION_SHIFT[1]  SCAN_COMPRESSION_SHIFT  passed   VSYS_SENSE        .      .        .      
+---------------------------------------------------------------------------------------------------------------------
+TestSuite "SCAN_COMPRESSION_SHIFT"  on Site: 1         passed
+
+
+
+Site  TNum      Test                     TestSuite             p/f      Pin               LoLim  Measure  HiLim  
+-----------------------------------------------------------------------------------------------------------------
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   ATEST0            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   ATEST1            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   ATEST2            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   ATEST3            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   BUFFER_TEST       .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   D11VD             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   D11VD_SENSE       .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   FLASH_CLK         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   FLASH_CS          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   FLASH_DI          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   FLASH_DO          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   FLASH_HOLD        .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   FLASH_WP          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GNSS_IN_N         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GNSS_IN_P         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO0             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO1             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO10            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO11            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO12            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO13            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO14            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO15            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO16            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO17            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO18            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO19            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO2             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO3             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO3_VIA_BUFFER  .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO4             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO5             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO6             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO7             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO8             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   GPIO9             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   HB_IN_N           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   HB_IN_P           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   HB_OUT_N          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   HB_OUT_P          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   HF_XTAL_I         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   HF_XTAL_O         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   HV_VD             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   HV_VD_SENSE       .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   IO_VD             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   IO_VD_SENSE       .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   LB_IN_N           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   LB_IN_P           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   LB_OUT_N          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   LB_OUT_P          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   LF_XTAL_I         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   LF_XTAL_O         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   MCE_Trigger_AWG   .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   MCE_Trigger_DIG   .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   NBIOT_HVD         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   NBIOT_LVD         .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   PSM_EINT          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   PWRKY_N           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   RST_N             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   S11VD             .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   S11VD_SENSE       .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   SIM_CLK           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   SIM_IO            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   SIM_RST           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   SIM_VD            .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   SIM_VD_SENSE      .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   SW                .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   TRGI_S2           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   TRIG_FE1          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   TRIG_FE2          .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   TRIG_S1           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   TRIG_S3           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   TRIG_S4           .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   VBAT_SENSE        .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   VSYS              .      .        .      
+1     16001     SCAN_COMPRESSION_CAP[1]  SCAN_COMPRESSION_CAP  passed   VSYS_SENSE        .      .        .      
+-----------------------------------------------------------------------------------------------------------------
+TestSuite "SCAN_COMPRESSION_CAP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                            TestSuite                    p/f      Pin               LoLim  Measure  HiLim  
+-------------------------------------------------------------------------------------------------------------------------------
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   ATEST0            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   ATEST1            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   ATEST2            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   ATEST3            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   BUFFER_TEST       .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   D11VD             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   D11VD_SENSE       .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   FLASH_CLK         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   FLASH_CS          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   FLASH_DI          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   FLASH_DO          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   FLASH_HOLD        .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   FLASH_WP          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GNSS_IN_N         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GNSS_IN_P         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO0             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO1             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO10            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO11            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO12            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO13            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO14            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO15            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO16            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO17            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO18            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO19            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO2             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO3             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO3_VIA_BUFFER  .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO4             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO5             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO6             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO7             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO8             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   GPIO9             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   HB_IN_N           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   HB_IN_P           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   HB_OUT_N          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   HB_OUT_P          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   HF_XTAL_I         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   HF_XTAL_O         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   HV_VD             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   HV_VD_SENSE       .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   IO_VD             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   IO_VD_SENSE       .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   LB_IN_N           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   LB_IN_P           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   LB_OUT_N          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   LB_OUT_P          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   LF_XTAL_I         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   LF_XTAL_O         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   MCE_Trigger_AWG   .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   MCE_Trigger_DIG   .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   NBIOT_HVD         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   NBIOT_LVD         .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   PSM_EINT          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   PWRKY_N           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   RST_N             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   S11VD             .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   S11VD_SENSE       .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   SIM_CLK           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   SIM_IO            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   SIM_RST           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   SIM_VD            .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   SIM_VD_SENSE      .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   SW                .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   TRGI_S2           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   TRIG_FE1          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   TRIG_FE2          .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   TRIG_S1           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   TRIG_S3           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   TRIG_S4           .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   VBAT_SENSE        .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   VSYS              .      .        .      
+1     16002     SCAN_COMPRESSION_SHIFT_OPCG[1]  SCAN_COMPRESSION_SHIFT_OPCG  passed   VSYS_SENSE        .      .        .      
+-------------------------------------------------------------------------------------------------------------------------------
+TestSuite "SCAN_COMPRESSION_SHIFT_OPCG"  on Site: 1         passed
+
+
+
+Site  TNum      Test                          TestSuite                  p/f      Pin               LoLim  Measure  HiLim  
+---------------------------------------------------------------------------------------------------------------------------
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   ATEST0            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   ATEST1            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   ATEST2            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   ATEST3            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   BUFFER_TEST       .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   D11VD             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   D11VD_SENSE       .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   FLASH_CLK         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   FLASH_CS          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   FLASH_DI          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   FLASH_DO          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   FLASH_HOLD        .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   FLASH_WP          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GNSS_IN_N         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GNSS_IN_P         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO0             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO1             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO10            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO11            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO12            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO13            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO14            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO15            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO16            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO17            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO18            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO19            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO2             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO3             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO3_VIA_BUFFER  .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO4             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO5             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO6             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO7             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO8             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   GPIO9             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   HB_IN_N           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   HB_IN_P           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   HB_OUT_N          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   HB_OUT_P          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   HF_XTAL_I         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   HF_XTAL_O         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   HV_VD             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   HV_VD_SENSE       .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   IO_VD             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   IO_VD_SENSE       .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   LB_IN_N           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   LB_IN_P           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   LB_OUT_N          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   LB_OUT_P          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   LF_XTAL_I         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   LF_XTAL_O         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   MCE_Trigger_AWG   .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   MCE_Trigger_DIG   .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   NBIOT_HVD         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   NBIOT_LVD         .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   PSM_EINT          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   PWRKY_N           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   RST_N             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   S11VD             .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   S11VD_SENSE       .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   SIM_CLK           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   SIM_IO            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   SIM_RST           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   SIM_VD            .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   SIM_VD_SENSE      .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   SW                .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   TRGI_S2           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   TRIG_FE1          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   TRIG_FE2          .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   TRIG_S1           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   TRIG_S3           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   TRIG_S4           .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   VBAT_SENSE        .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   VSYS              .      .        .      
+1     16003     SCAN_COMPRESSION_CAP_OPCG[1]  SCAN_COMPRESSION_CAP_OPCG  passed   VSYS_SENSE        .      .        .      
+---------------------------------------------------------------------------------------------------------------------------
+TestSuite "SCAN_COMPRESSION_CAP_OPCG"  on Site: 1         passed
+
+
+
+Site  TNum      Test                       TestSuite       p/f      Pin     LoLim              Measure        HiLim              
+---------------------------------------------------------------------------------------------------------------------------------
+1     61324     PM_LVBIAS_VREF@ATEST2[1]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61325     PM_LVBIAS_VREF@ATEST2[2]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61326     PM_LVBIAS_VREF@ATEST2[3]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61327     PM_LVBIAS_VREF@ATEST2[4]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61328     PM_LVBIAS_VREF@ATEST2[5]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61329     PM_LVBIAS_VREF@ATEST2[6]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61330     PM_LVBIAS_VREF@ATEST2[7]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61331     PM_LVBIAS_VREF@ATEST2[8]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61332     PM_LVBIAS_VREF@ATEST2[9]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61333     PM_LVBIAS_VREF@ATEST2[10]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61334     PM_LVBIAS_VREF@ATEST2[11]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61335     PM_LVBIAS_VREF@ATEST2[12]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61336     PM_LVBIAS_VREF@ATEST2[13]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61337     PM_LVBIAS_VREF@ATEST2[14]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61338     PM_LVBIAS_VREF@ATEST2[15]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61339     PM_LVBIAS_VREF@ATEST2[16]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61340     PM_LVBIAS_VREF@ATEST2[17]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61341     PM_LVBIAS_VREF@ATEST2[18]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61342     PM_LVBIAS_VREF@ATEST2[19]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61343     PM_LVBIAS_VREF@ATEST2[20]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61344     PM_LVBIAS_VREF@ATEST2[21]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61345     PM_LVBIAS_VREF@ATEST2[22]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61346     PM_LVBIAS_VREF@ATEST2[23]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61347     PM_LVBIAS_VREF@ATEST2[24]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61348     PM_LVBIAS_VREF@ATEST2[25]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61349     PM_LVBIAS_VREF@ATEST2[26]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61350     PM_LVBIAS_VREF@ATEST2[27]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61351     PM_LVBIAS_VREF@ATEST2[28]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61352     PM_LVBIAS_VREF@ATEST2[29]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61353     PM_LVBIAS_VREF@ATEST2[30]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61354     PM_LVBIAS_VREF@ATEST2[31]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61355     PM_LVBIAS_VREF@ATEST2[32]  PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     71328     BEST_TRIM_VREF@ATEST2[1]   PM_LVBIAS_VREF  FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+---------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_LVBIAS_VREF"  on Site: 1         failed
+
+
+
+Site  TNum      Test                               TestSuite               p/f      Pin     LoLim               Measure         HiLim               
+----------------------------------------------------------------------------------------------------------------------------------------------------
+1     71333     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[1]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71334     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[2]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71335     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[3]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71336     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[4]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71337     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[5]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71338     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[6]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71339     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[7]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71340     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[8]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71341     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[9]   PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71342     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[10]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71343     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[11]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71344     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[12]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71345     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[13]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71346     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[14]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71347     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[15]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71348     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[16]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71349     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[17]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71350     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[18]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71351     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[19]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71352     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[20]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71353     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[21]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71354     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[22]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71355     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[23]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71356     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[24]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71357     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[25]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71358     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[26]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71359     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[27]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71360     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[28]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71361     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[29]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71362     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[30]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71363     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[31]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     71364     PM_LVBIAS_IOUT_TRIM_4U@ATEST3[32]  PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+1     61833     BEST_TRIM@ATEST3[1]                PM_LVBIAS_IOUT_TRIM_4U  FAILED   ATEST3   4.000000 [uA] <=    0.000000 [uA]   <=  4.220000 [uA]  
+----------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_LVBIAS_IOUT_TRIM_4U"  on Site: 1         failed
+
+
+
+Site  TNum      Test                                TestSuite                 p/f      Pin     LoLim               Measure         HiLim               
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+1     61533     PM_LVBIAS_IOUT_TRIM_20uA@ATEST3[1]  PM_LVBIAS_IOUT_TRIM_20uA  FAILED   ATEST3  20.000000 [uA] <=    0.000000 [uA]   <= 20.220000 [uA]  
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_LVBIAS_IOUT_TRIM_20uA"  on Site: 1         failed
+
+
+
+Site  TNum      Test                          TestSuite      p/f      Pin         LoLim              Measure        HiLim              
+---------------------------------------------------------------------------------------------------------------------------------------
+1     61330     PM_BUCK_120mA@VSYS_SENSE[1]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61331     PM_BUCK_120mA@VSYS_SENSE[2]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61332     PM_BUCK_120mA@VSYS_SENSE[3]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61333     PM_BUCK_120mA@VSYS_SENSE[4]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61334     PM_BUCK_120mA@VSYS_SENSE[5]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61335     PM_BUCK_120mA@VSYS_SENSE[6]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61336     PM_BUCK_120mA@VSYS_SENSE[7]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61337     PM_BUCK_120mA@VSYS_SENSE[8]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61338     PM_BUCK_120mA@VSYS_SENSE[9]   PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61339     PM_BUCK_120mA@VSYS_SENSE[10]  PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61340     PM_BUCK_120mA@VSYS_SENSE[11]  PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61341     PM_BUCK_120mA@VSYS_SENSE[12]  PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61342     PM_BUCK_120mA@VSYS_SENSE[13]  PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61343     PM_BUCK_120mA@VSYS_SENSE[14]  PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61344     PM_BUCK_120mA@VSYS_SENSE[15]  PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61345     PM_BUCK_120mA@VSYS_SENSE[16]  PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71350     BEST_BUCK_TRIM@VSYS_SENSE[1]  PM_BUCK_120mA  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+---------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_BUCK_120mA"  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 6(9)
+
+
+Site  TNum      Test                              TestSuite         p/f      Pin         LoLim              Measure        HiLim              
+----------------------------------------------------------------------------------------------------------------------------------------------
+1     71352     PM_BUCK_6mA@VSYS_SENSE[1]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71353     PM_BUCK_6mA@VSYS_SENSE[2]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71354     PM_BUCK_6mA@VSYS_SENSE[3]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71355     PM_BUCK_6mA@VSYS_SENSE[4]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71356     PM_BUCK_6mA@VSYS_SENSE[5]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71357     PM_BUCK_6mA@VSYS_SENSE[6]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71358     PM_BUCK_6mA@VSYS_SENSE[7]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71359     PM_BUCK_6mA@VSYS_SENSE[8]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71360     PM_BUCK_6mA@VSYS_SENSE[9]         PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71361     PM_BUCK_6mA@VSYS_SENSE[10]        PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71362     PM_BUCK_6mA@VSYS_SENSE[11]        PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71363     PM_BUCK_6mA@VSYS_SENSE[12]        PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71364     PM_BUCK_6mA@VSYS_SENSE[13]        PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71365     PM_BUCK_6mA@VSYS_SENSE[14]        PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71366     PM_BUCK_6mA@VSYS_SENSE[15]        PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     71367     PM_BUCK_6mA@VSYS_SENSE[16]        PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61370     BEST_BUCK_TRIM_6mA@VSYS_SENSE[1]  PM_BUCK_6mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+----------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_BUCK_6mA_LOAD"  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 6(9)
+
+
+Site  TNum      Test                                TestSuite           p/f      Pin         LoLim              Measure        HiLim              
+--------------------------------------------------------------------------------------------------------------------------------------------------
+1     61373     PM_BUCK_320mA@VSYS_SENSE[1]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61374     PM_BUCK_320mA@VSYS_SENSE[2]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61375     PM_BUCK_320mA@VSYS_SENSE[3]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61376     PM_BUCK_320mA@VSYS_SENSE[4]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61377     PM_BUCK_320mA@VSYS_SENSE[5]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61378     PM_BUCK_320mA@VSYS_SENSE[6]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61379     PM_BUCK_320mA@VSYS_SENSE[7]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61380     PM_BUCK_320mA@VSYS_SENSE[8]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61381     PM_BUCK_320mA@VSYS_SENSE[9]         PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61382     PM_BUCK_320mA@VSYS_SENSE[10]        PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61383     PM_BUCK_320mA@VSYS_SENSE[11]        PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61384     PM_BUCK_320mA@VSYS_SENSE[12]        PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61385     PM_BUCK_320mA@VSYS_SENSE[13]        PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61386     PM_BUCK_320mA@VSYS_SENSE[14]        PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61387     PM_BUCK_320mA@VSYS_SENSE[15]        PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61388     PM_BUCK_320mA@VSYS_SENSE[16]        PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+1     61380     BEST_BUCK_TRIM_320mA@VSYS_SENSE[1]  PM_BUCK_320mA_LOAD  FAILED   VSYS_SENSE   1.400000 [V] <=    0.000000 [V]   <=  1.500000 [V]  
+--------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_BUCK_320mA_LOAD"  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 6(9)
+
+
+Site  TNum      Test                    TestSuite         p/f      Pin          LoLim              Measure        HiLim              
+-------------------------------------------------------------------------------------------------------------------------------------
+1     1000      No_Load@D11VD_SENSE[1]  PM_DLDO_ILOADMIN  FAILED   D11VD_SENSE   0.990000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     1000      Load@D11VD_SENSE[1]     PM_DLDO_ILOADMIN  FAILED   D11VD_SENSE   0.990000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+-------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_DLDO_ILOADMIN"  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 6(9)
+
+
+Site  TNum      Test                    TestSuite  p/f      Pin          LoLim              Measure        HiLim              
+------------------------------------------------------------------------------------------------------------------------------
+1     1000      vMeas@HV_VD_SENSE[1]    PM_HVLDO   FAILED   HV_VD_SENSE   1.800000 [V] <=    0.000000 [V]   <=  1.840000 [V]  
+1     1000      vMeas_1@HV_VD_SENSE[1]  PM_HVLDO   FAILED   HV_VD_SENSE   2.800000 [V] <=    0.000000 [V]   <=  2.860000 [V]  
+------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_HVLDO  "  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 6(9)
+
+
+Site  TNum      Test                            TestSuite  p/f      Pin          LoLim              Measure        HiLim              
+--------------------------------------------------------------------------------------------------------------------------------------
+1     51316     IOLDO_load_1.8V@IO_VD_SENSE[1]  PM_IOLDO   FAILED   IO_VD_SENSE   1.800000 [V] <=    0.000000 [V]   <=  1.840000 [V]  
+1     51318     IOLDO_1.8V@IO_VD_SENSE[1]       PM_IOLDO   FAILED   IO_VD_SENSE   1.800000 [V] <=    0.000000 [V]   <=  1.840000 [V]  
+1     51317     IOLDO_load_2.8v@IO_VD_SENSE[1]  PM_IOLDO   FAILED   IO_VD_SENSE   2.800000 [V] <=    0.000000 [V]   <=  2.860000 [V]  
+1     51319     IOLDO_2.8v@IO_VD_SENSE[1]       PM_IOLDO   FAILED   IO_VD_SENSE   2.800000 [V] <=    0.000000 [V]   <=  2.860000 [V]  
+--------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_IOLDO  "  on Site: 1         failed
+
+
+
+Site  TNum      Test                 TestSuite  p/f      Pin     LoLim              Measure        HiLim              
+----------------------------------------------------------------------------------------------------------------------
+1     71334     0.85VMode@ATEST2[1]  PM_SLDO    FAILED   ATEST2   0.850000 [V] <=    0.000000 [V]   <=  0.880000 [V]  
+1     71335     1.1VMode@ATEST2[1]   PM_SLDO    FAILED   ATEST2   0.900000 [V] <=    0.000000 [V]   <=  1.140000 [V]  
+----------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_SLDO   "  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 6(9)
+
+
+Site  TNum      Test                              TestSuite  p/f      Pin           LoLim              Measure        HiLim              
+-----------------------------------------------------------------------------------------------------------------------------------------
+1     51320     SIMLDO_load_1.8V@SIM_VD_SENSE[1]  PM_SIMLDO  FAILED   SIM_VD_SENSE   1.800000 [V] <=    0.000000 [V]   <=  1.840000 [V]  
+1     51322     SIMLDO_1.8V@SIM_VD_SENSE[1]       PM_SIMLDO  FAILED   SIM_VD_SENSE   1.800000 [V] <=    0.000000 [V]   <=  1.840000 [V]  
+1     51321     SIMLDO_load_3v@SIM_VD_SENSE[1]    PM_SIMLDO  FAILED   SIM_VD_SENSE   3.000000 [V] <=    0.000000 [V]   <=  2.860000 [V]  
+1     51323     SIMLDO_3v@SIM_VD_SENSE[1]         PM_SIMLDO  FAILED   SIM_VD_SENSE   3.000000 [V] <=    0.000000 [V]   <=  2.860000 [V]  
+-----------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_SIMLDO "  on Site: 1         failed
+
+
+
+Site  TNum      Test                              TestSuite          p/f      Pin       LoLim              Measure        HiLim              
+---------------------------------------------------------------------------------------------------------------------------------------------
+1     62360     PM_WUCTRL_SWEEP_DOWN@VBAT_PMU[1]  PM_WAKEUP_CONTROL  FAILED   VBAT_PMU   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+1     61360     PM_WUCTRL_SWEEP_UP@VBAT_PMU[1]    PM_WAKEUP_CONTROL  FAILED   VBAT_PMU   0.900000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+---------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_WAKEUP_CONTROL"  on Site: 1         failed
+
+
+
+Site  TNum      Test                        TestSuite         p/f      Pin     LoLim                Measure          HiLim                
+------------------------------------------------------------------------------------------------------------------------------------------
+1     71340     PM_XTAL_RTC_FREQ@GPIO16[1]  PM_XTAL_RTC_FREQ  FAILED   GPIO16  32.840000 [kHz] <=    0.000000 [kHz]   <= 32.860000 [kHz]  
+------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PM_XTAL_RTC_FREQ"  on Site: 1         failed
+
+
+
+Site  TNum      Test           TestSuite     p/f      Pin  LoLim              Measure        HiLim              
+----------------------------------------------------------------------------------------------------------------
+1     40000     BG_Voltage[1]  GNSS_Bandgap  passed   .     1.130000 [V] <=    1.200000 [V]   <=  1.260000 [V]  
+----------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_Bandgap"  on Site: 1         passed
+
+
+
+Site  TNum      Test              TestSuite              p/f      Pin  LoLim              Measure        HiLim              
+----------------------------------------------------------------------------------------------------------------------------
+1     40200     LNALDO_VOUT01[1]  GNSS_PM_UNLOADED_VSYS  passed   .     1.130000 [V] <=    1.239224 [V]   <=  1.260000 [V]  
+1     40210     RFLDO_VOUT01[1]   GNSS_PM_UNLOADED_VSYS  passed   .     1.130000 [V] <=    1.181270 [V]   <=  1.260000 [V]  
+1     40220     IFLDO_VOUT01[1]   GNSS_PM_UNLOADED_VSYS  passed   .     1.130000 [V] <=    1.231803 [V]   <=  1.260000 [V]  
+1     40230     ADCLDO_VOUT01[1]  GNSS_PM_UNLOADED_VSYS  passed   .     1.130000 [V] <=    1.233797 [V]   <=  1.260000 [V]  
+----------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_PM_UNLOADED_VSYS"  on Site: 1         passed
+
+
+
+Site  TNum      Test              TestSuite            p/f      Pin  LoLim              Measure        HiLim              
+--------------------------------------------------------------------------------------------------------------------------
+1     40200     LNALDO_VOUT01[1]  GNSS_PM_LOADED_VSYS  passed   .     1.130000 [V] <=    1.248514 [V]   <=  1.260000 [V]  
+1     40210     RFLDO_VOUT01[1]   GNSS_PM_LOADED_VSYS  passed   .     1.130000 [V] <=    1.155682 [V]   <=  1.260000 [V]  
+1     40220     IFLDO_VOUT01[1]   GNSS_PM_LOADED_VSYS  passed   .     1.130000 [V] <=    1.173579 [V]   <=  1.260000 [V]  
+1     40230     ADCLDO_VOUT01[1]  GNSS_PM_LOADED_VSYS  passed   .     1.130000 [V] <=    1.229870 [V]   <=  1.260000 [V]  
+--------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_PM_LOADED_VSYS"  on Site: 1         passed
+
+
+
+Site  TNum      Test                        TestSuite      p/f      Pin  LoLim                Measure          HiLim                
+------------------------------------------------------------------------------------------------------------------------------------
+1     41000     GNSS_DCO_TOOHI_BIASSET[1]   GNSS_DCO_BIAS  passed   .    26.000000 [V] <=     31.277720 [V]     <= 45.000000 [V]    
+1     41010     GNSS_DCO_TOOLOW_BIASSET[1]  GNSS_DCO_BIAS  passed   .    19.000000 [V] <=     30.079399 [V]     <= 39.000000 [V]    
+1     41020     GNSS_DCO_BIASRANGE[1]       GNSS_DCO_BIAS  passed   .     3.000000 [V] <=      6.341779 [V]     <= 10.000000 [V]    
+1     41030     GNSS_DCO_NDIVFREQ[1]        GNSS_DCO_BIAS  passed   .    26.000000 [MHz] <=   26.628871 [MHz]   <= 27.000000 [MHz]  
+------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_DCO_BIAS"  on Site: 1         passed
+
+
+
+Site  TNum      Test                 TestSuite           p/f      Pin  LoLim                Measure          HiLim                
+----------------------------------------------------------------------------------------------------------------------------------
+1     41100     GNSS_DCO_FREQ_C0[1]  GNSS_DCO_COARSTUNE  passed   .    31.000000 [MHz] <=   31.166413 [MHz]   <= 36.000000 [MHz]  
+1     41110     GNSS_DCO_FREQ_C1[1]  GNSS_DCO_COARSTUNE  passed   .    31.000000 [MHz] <=   31.324185 [MHz]   <= 36.000000 [MHz]  
+1     41120     GNSS_DCO_FREQ_C2[1]  GNSS_DCO_COARSTUNE  passed   .    31.000000 [MHz] <=   33.917355 [MHz]   <= 36.000000 [MHz]  
+1     41130     GNSS_DCO_FREQ_C3[1]  GNSS_DCO_COARSTUNE  passed   .    30.000000 [MHz] <=   30.668091 [MHz]   <= 35.000000 [MHz]  
+1     41140     GNSS_DCO_FREQ_C4[1]  GNSS_DCO_COARSTUNE  passed   .    30.000000 [MHz] <=   31.533061 [MHz]   <= 35.000000 [MHz]  
+1     41150     GNSS_DCO_FREQ_C5[1]  GNSS_DCO_COARSTUNE  passed   .    30.000000 [MHz] <=   32.364874 [MHz]   <= 35.000000 [MHz]  
+1     41160     GNSS_DCO_FREQ_C6[1]  GNSS_DCO_COARSTUNE  passed   .    29.000000 [MHz] <=   32.052393 [MHz]   <= 34.000000 [MHz]  
+1     41170     GNSS_DCO_FREQ_C7[1]  GNSS_DCO_COARSTUNE  passed   .    29.000000 [MHz] <=   32.040153 [MHz]   <= 34.000000 [MHz]  
+1     41180     GNSS_DCO_FREQ_C8[1]  GNSS_DCO_COARSTUNE  passed   .    20.000000 [MHz] <=   27.607166 [MHz]   <= 30.000000 [MHz]  
+1     41190     GNSS_DCO_FREQ_C9[1]  GNSS_DCO_COARSTUNE  passed   .    20.000000 [MHz] <=   21.619455 [MHz]   <= 26.000000 [MHz]  
+----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_DCO_COARSTUNE"  on Site: 1         passed
+
+
+
+Site  TNum      Test                 TestSuite          p/f      Pin  LoLim                Measure          HiLim                
+---------------------------------------------------------------------------------------------------------------------------------
+1     41200     GNSS_DCO_FREQ_T0[1]  GNSS_DCO_FINETUNE  passed   .    31.000000 [MHz] <=   34.239164 [MHz]   <= 36.000000 [MHz]  
+1     41210     GNSS_DCO_FREQ_T1[1]  GNSS_DCO_FINETUNE  passed   .    31.000000 [MHz] <=   33.217693 [MHz]   <= 36.000000 [MHz]  
+1     41220     GNSS_DCO_FREQ_T2[1]  GNSS_DCO_FINETUNE  passed   .    31.000000 [MHz] <=   35.353435 [MHz]   <= 36.000000 [MHz]  
+1     41230     GNSS_DCO_FREQ_T3[1]  GNSS_DCO_FINETUNE  passed   .    31.000000 [MHz] <=   31.730287 [MHz]   <= 36.000000 [MHz]  
+1     41240     GNSS_DCO_FREQ_T4[1]  GNSS_DCO_FINETUNE  passed   .    31.000000 [MHz] <=   32.440221 [MHz]   <= 36.000000 [MHz]  
+1     41250     GNSS_DCO_FREQ_T5[1]  GNSS_DCO_FINETUNE  passed   .    31.000000 [MHz] <=   34.963773 [MHz]   <= 36.000000 [MHz]  
+1     41260     GNSS_DCO_FREQ_T6[1]  GNSS_DCO_FINETUNE  passed   .    31.000000 [MHz] <=   35.653315 [MHz]   <= 36.000000 [MHz]  
+---------------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_DCO_FINETUNE"  on Site: 1         passed
+
+
+
+Site  TNum      Test                       TestSuite      p/f      Pin  LoLim                Measure          HiLim                
+-----------------------------------------------------------------------------------------------------------------------------------
+1     41300     GNSS_DCO_NDIV5461_FREQ[1]  GNSS_DCO_NDIV  passed   .     1.000000 [MHz] <=    1.194835 [MHz]   <=  1.300000 [MHz]  
+1     41310     GNSS_DCO_NDIV2730_FREQ[1]  GNSS_DCO_NDIV  passed   .     2.000000 [MHz] <=    2.438109 [MHz]   <=  2.500000 [MHz]  
+-----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_DCO_NDIV"  on Site: 1         passed
+
+
+
+Site  TNum      Test                        TestSuite       p/f      Pin  LoLim                Measure          HiLim                
+-------------------------------------------------------------------------------------------------------------------------------------
+1     41400     GNSS_DCO_FSDIV5461_FREQ[1]  GNSS_DCO_FSDIV  passed   .     1.000000 [MHz] <=    1.067253 [MHz]   <=  1.300000 [MHz]  
+1     41410     GNSS_DCO_FSDIV2730_FREQ[1]  GNSS_DCO_FSDIV  passed   .     2.000000 [MHz] <=    2.184264 [MHz]   <=  2.500000 [MHz]  
+1     41420     GNSS_DCO_FSDIV132_FREQ[1]   GNSS_DCO_FSDIV  passed   .    39.000000 [MHz] <=   49.574755 [MHz]   <= 50.000000 [MHz]  
+-------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_DCO_FSDIV"  on Site: 1         passed
+
+
+
+Site  TNum      Test                     TestSuite        p/f      Pin  LoLim                Measure          HiLim                
+-----------------------------------------------------------------------------------------------------------------------------------
+1     42000     GNSS_DCO_RDIV42_FREQ[1]  GNSS_SYNTH_RDIV  passed   .     0.500000 [MHz] <=    1.640728 [MHz]   <=  2.000000 [MHz]  
+1     42010     GNSS_DCO_RDIV21_FREQ[1]  GNSS_SYNTH_RDIV  passed   .     0.500000 [MHz] <=    1.157398 [MHz]   <=  2.000000 [MHz]  
+-----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_SYNTH_RDIV"  on Site: 1         passed
+
+
+
+Site  TNum      Test                   TestSuite       p/f      Pin  LoLim            Measure       HiLim            
+---------------------------------------------------------------------------------------------------------------------
+1     42100     GNSS_PLL_LDET_LOCK[1]  GNSS_SYNTH_PLL  passed   .     0.000000 [] ==   0.000000 []   == 0.000000 []  
+---------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_SYNTH_PLL"  on Site: 1         passed
+
+
+
+Site  TNum      Test                    TestSuite           p/f      Pin  LoLim                Measure          HiLim                
+-------------------------------------------------------------------------------------------------------------------------------------
+1     43000     GNSS_RCCAL_FREQLOW[1]   GNSS_RCCALIBRATION  passed   .     1.500000 [MHz] <=    2.015965 [MHz]   <=  3.000000 [MHz]  
+1     43010     GNSS_RCCAL_FREQHIGH[1]  GNSS_RCCALIBRATION  passed   .     3.000000 [MHz] <=    3.947472 [MHz]   <=  5.500000 [MHz]  
+-------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_RCCALIBRATION"  on Site: 1         passed
+
+
+
+Site  TNum      Test                     TestSuite       p/f      Pin  LoLim                Measure         HiLim               
+--------------------------------------------------------------------------------------------------------------------------------
+1     44000     GNSS_RX_IFI_CM0[1]       GNSS_RX_OFFSET  passed   .     1.000000 [V] <=      1.905131 [V]    <=  2.000000 [V]   
+1     44010     GNSS_RX_IFI_DMOFFSET[1]  GNSS_RX_OFFSET  passed   .    -40.000000 [mV] <=   12.509134 [mV]   <= 40.000000 [mV]  
+1     44021     GNSS_RX_IFI_CM0[2]       GNSS_RX_OFFSET  passed   .     1.000000 [V] <=      1.905131 [V]    <=  2.000000 [V]   
+1     44030     GNSS_RX_IFQ_DMOFFSET[1]  GNSS_RX_OFFSET  passed   .    -40.000000 [mV] <=   12.509134 [mV]   <= 40.000000 [mV]  
+1     44040     GNSS_RX_VGA_CM0[1]       GNSS_RX_OFFSET  passed   .     1.000000 [V] <=      1.905131 [V]    <=  2.000000 [V]   
+1     44050     GNSS_RX_VGA_DMOFFSET[1]  GNSS_RX_OFFSET  passed   .    -40.000000 [mV] <=   12.509134 [mV]   <= 40.000000 [mV]  
+1     44060     GNSS_RX_ADC_CM0[1]       GNSS_RX_OFFSET  passed   .     1.000000 [V] <=      1.905131 [V]    <=  2.000000 [V]   
+1     44070     GNSS_RX_ADC_DMOFFSET[1]  GNSS_RX_OFFSET  passed   .    -40.000000 [mV] <=   12.509134 [mV]   <= 40.000000 [mV]  
+--------------------------------------------------------------------------------------------------------------------------------
+TestSuite "GNSS_RX_OFFSET"  on Site: 1         passed
+
+
+
+Site  TNum      Test                               TestSuite     p/f      Pin       LoLim               Measure         HiLim               
+--------------------------------------------------------------------------------------------------------------------------------------------
+1     50000     NBIOT_IDD_IDLE@VBAT_PMU[1]         NBIOT_TX_IDD  FAILED   VBAT_PMU   2.000000 [mA] <=    0.000000 [mA]   <=  3.000000 [mA]  
+1     50100     NBIOT_IDD_TX_LB@VBAT_PMU[1]        NBIOT_TX_IDD  FAILED   VBAT_PMU  22.000000 [mA] <=    0.000000 [mA]   <= 24.000000 [mA]  
+1     50200     NBIOT_IDD_TX_HB@VBAT_PMU[1]        NBIOT_TX_IDD  FAILED   VBAT_PMU  26.000000 [mA] <=    0.000000 [mA]   <= 28.000000 [mA]  
+1     50300     NBIOT_IDD_TX_LB_DELTA@VBAT_PMU[1]  NBIOT_TX_IDD  FAILED   VBAT_PMU   2.000000 [mA] <=    0.000000 [mA]   <=  3.000000 [mA]  
+1     50400     NBIOT_IDD_TX_HB_DELTA@VBAT_PMU[1]  NBIOT_TX_IDD  FAILED   VBAT_PMU   2.000000 [mA] <=    0.000000 [mA]   <=  3.000000 [mA]  
+--------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_TX_IDD"  on Site: 1         failed
+
+
+
+Site  TNum      Test              TestSuite  p/f      Pin  LoLim                  Measure           HiLim                  
+---------------------------------------------------------------------------------------------------------------------------
+1     50700     CAPCODE_CHECK[1]  NBIOT_PLL  FAILED   .    145.000000 [CODE] <=    0.000000 [CODE]   <= 146.000000 [CODE]  
+---------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_PLL "  on Site: 1         failed
+
+
+
+Site  TNum      Test                        TestSuite          p/f      Pin  LoLim                Measure          HiLim                
+----------------------------------------------------------------------------------------------------------------------------------------
+1     50500     NBIOT_POUT_HB@HB_OUT_RF[1]  NBIOT_TX_MAX_POUT  FAILED   .     9.990000 [dBm] <=    0.000000 [dBm]   <= 10.010000 [dBm]  
+1     50600     NBIOT_POUT_LB@LB_OUT_RF[1]  NBIOT_TX_MAX_POUT  FAILED   .     9.990000 [dBm] <=    0.000000 [dBm]   <= 10.010000 [dBm]  
+----------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_TX_MAX_POUT"  on Site: 1         failed
+
+
+
+Site  TNum      Test                         TestSuite     p/f      Pin       LoLim               Measure         HiLim               
+--------------------------------------------------------------------------------------------------------------------------------------
+1     51800     NBIOT_IDD_IDLE@VBAT_PMU[1]   NBIOT_RX_IDD  FAILED   VBAT_PMU  22.000000 [mA] <=    0.000000 [mA]   <= 24.000000 [mA]  
+1     51900     NBIOT_IDD_RX_LB@VBAT_PMU[1]  NBIOT_RX_IDD  FAILED   VBAT_PMU  26.000000 [mA] <=    0.000000 [mA]   <= 28.000000 [mA]  
+--------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_RX_IDD"  on Site: 1         failed
+
+
+
+Site  TNum      Test                         TestSuite             p/f      Pin  LoLim              Measure          HiLim              
+----------------------------------------------------------------------------------------------------------------------------------------
+1     51000     NBIOT_INPHASE_VPP_LB[1]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51001     NBIOT_INPHASE_VPP_LB[2]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51002     NBIOT_INPHASE_VPP_LB[3]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51003     NBIOT_INPHASE_VPP_LB[4]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51004     NBIOT_INPHASE_VPP_LB[5]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51005     NBIOT_INPHASE_VPP_LB[6]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51006     NBIOT_INPHASE_VPP_LB[7]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51007     NBIOT_INPHASE_VPP_LB[8]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51008     NBIOT_INPHASE_VPP_LB[9]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51009     NBIOT_INPHASE_VPP_LB[10]     NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51010     NBIOT_INPHASE_VPP_LB[11]     NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51100     NBIOT_INPHASE_VCM_LB[1]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51101     NBIOT_INPHASE_VCM_LB[2]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51102     NBIOT_INPHASE_VCM_LB[3]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51103     NBIOT_INPHASE_VCM_LB[4]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51104     NBIOT_INPHASE_VCM_LB[5]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51105     NBIOT_INPHASE_VCM_LB[6]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51106     NBIOT_INPHASE_VCM_LB[7]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51107     NBIOT_INPHASE_VCM_LB[8]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51108     NBIOT_INPHASE_VCM_LB[9]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51109     NBIOT_INPHASE_VCM_LB[10]     NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51110     NBIOT_INPHASE_VCM_LB[11]     NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51200     NBIOT_QUADRATURE_VPP_LB[1]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51201     NBIOT_QUADRATURE_VPP_LB[2]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51202     NBIOT_QUADRATURE_VPP_LB[3]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51203     NBIOT_QUADRATURE_VPP_LB[4]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51204     NBIOT_QUADRATURE_VPP_LB[5]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51205     NBIOT_QUADRATURE_VPP_LB[6]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51206     NBIOT_QUADRATURE_VPP_LB[7]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51207     NBIOT_QUADRATURE_VPP_LB[8]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51208     NBIOT_QUADRATURE_VPP_LB[9]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51209     NBIOT_QUADRATURE_VPP_LB[10]  NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51210     NBIOT_QUADRATURE_VPP_LB[11]  NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=    0.000000 [V]     <=  3.000000 [V]  
+1     51300     NBIOT_QUADRATURE_VCM_LB[1]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51301     NBIOT_QUADRATURE_VCM_LB[2]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51302     NBIOT_QUADRATURE_VCM_LB[3]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51303     NBIOT_QUADRATURE_VCM_LB[4]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51304     NBIOT_QUADRATURE_VCM_LB[5]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51305     NBIOT_QUADRATURE_VCM_LB[6]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51306     NBIOT_QUADRATURE_VCM_LB[7]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51307     NBIOT_QUADRATURE_VCM_LB[8]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51308     NBIOT_QUADRATURE_VCM_LB[9]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51309     NBIOT_QUADRATURE_VCM_LB[10]  NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51310     NBIOT_QUADRATURE_VCM_LB[11]  NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   -255.000000 [V]   <=  3.000000 [V]  
+1     51400     NBIOT_INPHASE_VPP_HB[1]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51401     NBIOT_INPHASE_VPP_HB[2]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51402     NBIOT_INPHASE_VPP_HB[3]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51403     NBIOT_INPHASE_VPP_HB[4]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51404     NBIOT_INPHASE_VPP_HB[5]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51405     NBIOT_INPHASE_VPP_HB[6]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51406     NBIOT_INPHASE_VPP_HB[7]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51407     NBIOT_INPHASE_VPP_HB[8]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51408     NBIOT_INPHASE_VPP_HB[9]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51409     NBIOT_INPHASE_VPP_HB[10]     NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51410     NBIOT_INPHASE_VPP_HB[11]     NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   1926.000000 [V]   <=  3.000000 [V]  
+1     51500     NBIOT_INPHASE_VCM_HB[1]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51501     NBIOT_INPHASE_VCM_HB[2]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51502     NBIOT_INPHASE_VCM_HB[3]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51503     NBIOT_INPHASE_VCM_HB[4]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51504     NBIOT_INPHASE_VCM_HB[5]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51505     NBIOT_INPHASE_VCM_HB[6]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51506     NBIOT_INPHASE_VCM_HB[7]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51507     NBIOT_INPHASE_VCM_HB[8]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51508     NBIOT_INPHASE_VCM_HB[9]      NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51509     NBIOT_INPHASE_VCM_HB[10]     NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51510     NBIOT_INPHASE_VCM_HB[11]     NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   963.000000 [V]    <=  3.000000 [V]  
+1     51600     NBIOT_QUADRATURE_VPP_HB[1]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51601     NBIOT_QUADRATURE_VPP_HB[2]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51602     NBIOT_QUADRATURE_VPP_HB[3]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51603     NBIOT_QUADRATURE_VPP_HB[4]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51604     NBIOT_QUADRATURE_VPP_HB[5]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51605     NBIOT_QUADRATURE_VPP_HB[6]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51606     NBIOT_QUADRATURE_VPP_HB[7]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51607     NBIOT_QUADRATURE_VPP_HB[8]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51608     NBIOT_QUADRATURE_VPP_HB[9]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51609     NBIOT_QUADRATURE_VPP_HB[10]  NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51610     NBIOT_QUADRATURE_VPP_HB[11]  NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   2181.000000 [V]   <=  3.000000 [V]  
+1     51700     NBIOT_QUADRATURE_VCM_HB[1]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51701     NBIOT_QUADRATURE_VCM_HB[2]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51702     NBIOT_QUADRATURE_VCM_HB[3]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51703     NBIOT_QUADRATURE_VCM_HB[4]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51704     NBIOT_QUADRATURE_VCM_HB[5]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51705     NBIOT_QUADRATURE_VCM_HB[6]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51706     NBIOT_QUADRATURE_VCM_HB[7]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51707     NBIOT_QUADRATURE_VCM_HB[8]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51708     NBIOT_QUADRATURE_VCM_HB[9]   NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51709     NBIOT_QUADRATURE_VCM_HB[10]  NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+1     51710     NBIOT_QUADRATURE_VCM_HB[11]  NBIOT_RX_SENSITIVITY  FAILED   .     2.000000 [V] <=   835.500000 [V]    <=  3.000000 [V]  
+----------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_RX_SENSITIVITY"  on Site: 1         failed
+
+
+
+Site  TNum      Test                               TestSuite      p/f      Pin     LoLim               Measure         HiLim               
+-------------------------------------------------------------------------------------------------------------------------------------------
+1     60000     NBIOT_AUX_DAC_IDD_DELTA@ATEST0[1]  NBIOT_AUX_DAC  FAILED   ATEST0   2.000000 [mA] <=    0.000000 [mA]   <=  3.000000 [mA]  
+-------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_AUX_DAC"  on Site: 1         failed
+
+
+
+Site  TNum      Test                               TestSuite      p/f      Pin     LoLim              Measure        HiLim              
+----------------------------------------------------------------------------------------------------------------------------------------
+1     60100     NBIOT_AUX_ADC_VTG_DELTA@ATEST0[1]  NBIOT_AUX_ADC  FAILED   ATEST0   2.000000 [V] <=    0.000000 [V]   <=  3.000000 [V]  
+----------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_AUX_ADC"  on Site: 1         failed
+
+
+
+Site  TNum      Test                            TestSuite   p/f      Pin     LoLim                  Measure           HiLim                  
+---------------------------------------------------------------------------------------------------------------------------------------------
+1     61000     NBIOT_DCXO_TRIM_CODE[1]         NBIOT_DCXO  FAILED   .    2000.000000 [CODE] ==   0.000000 [CODE]   ==2000.000000 [CODE]  
+1     61100     NBIOT_DCXO_TRIM_FREQ@GPIO16[1]  NBIOT_DCXO  FAILED   GPIO16  38.400000 [MHz] ==      0.000000 [MHz]    ==38.400000 [MHz]     
+---------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_DCXO"  on Site: 1         failed
+
+
+
+Site  TNum      Test                   TestSuite        p/f      Pin  LoLim                   Measure             HiLim                   
+------------------------------------------------------------------------------------------------------------------------------------------
+1     61300     NBIOT_TEMP_SENS_RT[1]  NBIOT_TEMP_SENS  FAILED   .    23.500000 [Celsiu] <=    0.000000 [Celsiu]   <= 23.600000 [Celsiu]  
+------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_TEMP_SENS"  on Site: 1         failed
+
+
+
+Site  TNum      Test                            TestSuite      p/f      Pin        LoLim              Measure        HiLim              
+----------------------------------------------------------------------------------------------------------------------------------------
+1     70000     NBIOT_HVD_VOLTAGE@NBIOT_HVD[1]  NBIOT_HVD_LVD  FAILED   NBIOT_HVD   2.490000 [V] <=    0.000000 [V]   <=  2.510000 [V]  
+1     70100     NBIOT_LVD_VOLTAGE@NBIOT_LVD[1]  NBIOT_HVD_LVD  FAILED   NBIOT_LVD   1.190000 [V] <=    0.000000 [V]   <=  1.210000 [V]  
+----------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "NBIOT_HVD_LVD"  on Site: 1         failed
+
+
+
+Site  TNum      Test  TestSuite        p/f      Pin  LoLim  Measure  HiLim  
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+TestSuite "UTL_DEFAULT_END"  on Site: 1         passed
+
+
+
+Site  TNum      Test  TestSuite  p/f      Pin  LoLim  Measure  HiLim  
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+TestSuite "PWR_DOWN  "  on Site: 1         passed
+
+
+
+Site  TNum      Test  TestSuite       p/f      Pin  LoLim  Measure  HiLim  
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+TestSuite "DISCONNECT_END"  on Site: 1         passed
+
+Site 1 has PASSED. Binned to bin 1(1)
+
+
+Site  TNum      Test  TestSuite  p/f      Pin  LoLim  Measure  HiLim  
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+TestSuite "Jtag      "  on Site: 1         passed
+
+Site 1 has FAILED. Binned to bin 10(5)
+Testflow ended after 247.075 seconds on 12/22/2025 at 07:50:31 PM
+Level ended after 247.129 seconds on 12/22/2025 at 07:50:31 PM
+Test program terminated after 247.130 seconds on 12/22/2025 at 07:50:31 PM
+######## Ended Testprogram Testflow ############################################
+
