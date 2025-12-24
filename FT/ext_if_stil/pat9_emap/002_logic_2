@@ -1,0 +1,3 @@
+pscan_LOGIC_Port:
+Error number|Cycle number|         Pinname|Expected data|Received data
+           1|       46685|dft_scan_scan_out_pad_o_14|            0|            1
