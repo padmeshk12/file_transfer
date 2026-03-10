@@ -1,0 +1,20 @@
+pscan_chip_saf4_ext_if_fullscan_scan:
+Error number|Cycle number|         Pinname|Expected data|Received data
+           1|       82459|dft_scan_scan_out_pad_o_4|            0|            1
+           2|       83036|dft_scan_scan_out_pad_o_4|            0|            1
+           3|       83613|dft_scan_scan_out_pad_o_4|            0|            1
+           4|       84190|dft_scan_scan_out_pad_o_4|            0|            1
+           5|       84767|dft_scan_scan_out_pad_o_4|            0|            1
+           6|       85344|dft_scan_scan_out_pad_o_4|            0|            1
+           7|       85921|dft_scan_scan_out_pad_o_4|            0|            1
+           8|       86498|dft_scan_scan_out_pad_o_4|            0|            1
+           9|       87075|dft_scan_scan_out_pad_o_4|            0|            1
+          10|       87652|dft_scan_scan_out_pad_o_4|            0|            1
+          11|       88229|dft_scan_scan_out_pad_o_4|            0|            1
+          12|       88806|dft_scan_scan_out_pad_o_4|            0|            1
+          13|       89383|dft_scan_scan_out_pad_o_4|            0|            1
+          14|       89960|dft_scan_scan_out_pad_o_4|            0|            1
+          15|       90537|dft_scan_scan_out_pad_o_4|            0|            1
+          16|       91114|dft_scan_scan_out_pad_o_4|            0|            1
+          17|       91691|dft_scan_scan_out_pad_o_4|            0|            1
+          18|       92268|dft_scan_scan_out_pad_o_4|            0|            1

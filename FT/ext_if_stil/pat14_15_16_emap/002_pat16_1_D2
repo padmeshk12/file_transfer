@@ -1,0 +1,30 @@
+pscan_LOGIC_Port:
+Error number|Cycle number|         Pinname|Expected data|Received data
+           1|       46722|dft_scan_scan_out_pad_o_14|            0|            1
+           2|       47172|dft_scan_scan_out_pad_o_14|            1|            0
+           3|       47622|dft_scan_scan_out_pad_o_14|            0|            1
+           4|       48072|dft_scan_scan_out_pad_o_14|            1|            0
+           5|       48522|dft_scan_scan_out_pad_o_14|            1|            0
+           6|       48972|dft_scan_scan_out_pad_o_14|            1|            0
+           7|       50759|dft_scan_scan_out_pad_o_14|            1|            0
+           8|       51209|dft_scan_scan_out_pad_o_14|            1|            0
+           9|       54320|dft_scan_scan_out_pad_o_14|            0|            1
+          10|       56968|dft_scan_scan_out_pad_o_14|            0|            1
+          11|       57842|dft_scan_scan_out_pad_o_14|            1|            0
+          12|       58729|dft_scan_scan_out_pad_o_14|            0|            1
+          13|       59616|dft_scan_scan_out_pad_o_14|            1|            0
+          14|       60927|dft_scan_scan_out_pad_o_14|            0|            1
+          15|       68962|dft_scan_scan_out_pad_o_14|            0|            1
+          16|       69399|dft_scan_scan_out_pad_o_14|            0|            1
+          17|       70736|dft_scan_scan_out_pad_o_14|            0|            1
+          18|       71610|dft_scan_scan_out_pad_o_14|            1|            0
+          19|       73384|dft_scan_scan_out_pad_o_14|            1|            0
+          20|       73821|dft_scan_scan_out_pad_o_14|            1|            0
+          21|       46722|dft_scan_scan_out_pad_o_3|            0|            1
+          22|       47172|dft_scan_scan_out_pad_o_3|            1|            0
+          23|       47622|dft_scan_scan_out_pad_o_3|            1|            0
+          24|       48072|dft_scan_scan_out_pad_o_3|            0|            1
+          25|       48522|dft_scan_scan_out_pad_o_3|            0|            1
+          26|       48972|dft_scan_scan_out_pad_o_3|            0|            1
+          27|       50759|dft_scan_scan_out_pad_o_3|            1|            0
+          28|       51209|dft_scan_scan_out_pad_o_3|            1|            0
