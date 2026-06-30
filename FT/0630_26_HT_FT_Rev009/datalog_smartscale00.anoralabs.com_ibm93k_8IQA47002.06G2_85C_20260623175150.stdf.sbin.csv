@@ -1,0 +1,4 @@
+SW Bin,Desc,Site,Site%,Device#,Bin%,Good Bin,Reprobe Bin
+"1","Fast",1,33.3,3,33.3,1,0
+"2","Medium",1,55.6,5,55.6,1,0
+"1407","PMBIST_POST_BURN_fail",1,11.1,1,11.1,1,0
