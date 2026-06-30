@@ -1,0 +1,14 @@
+Device ID                 : B9760158
+
+offset_val_0x1            : 1789
+slope_val_0x0             : 945
+status_done_0x1A          : 0
+fptat_reg_0x1C            : 4943
+fpref_reg_0x1D            : 4417
+temp_read_reg_0xA         : 887
+anthr_temp_read_reg_0x22  : 60
+temp_range                : 5.81313e+07
+
+Target Temp               : 85
+Read out dec              : 887
+tempC                     : 60.875

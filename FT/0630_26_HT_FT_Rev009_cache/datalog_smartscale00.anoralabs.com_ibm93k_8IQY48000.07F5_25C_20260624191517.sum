@@ -1,0 +1,79 @@
+FINAL LOT SUMMARY            Report run: Wed Jun 24 19:15:57 2026
+
+Lot:                	8IQY48000.07F5
+Sublot:             	
+Started at:         	2026-06-24 19:15:18
+Program:            	IBM_NP_Master_Rev009_RT_WS.ttf
+Version:            	
+Part Type:          	8IQY48000.06G2
+Product ID:         	8IQY48000.06G2
+Package Type:       	B6811850
+Operator:           	Alberto - 0000X03C35
+Station Number:     	V93000_1
+Station Mode:       	Production
+Tester Type:        	V93000 SOC
+Node Name:          	smartscale00.anoralabs.com
+Tester:             	smartscale00.anoralabs.com
+Test Code:          	FT
+Retest Code:        	
+Test Temperature:   	25C
+Handler or Prober:  	handtest (Offline)
+Device Name:        	B6811850
+Device Revision:    	
+User Description:   	IBM-NP
+Site Count:         	1
+Active Sites:       	1
+DIB Type:           	
+DIB ID:             	061324001
+Executive Name:     	TCCT
+Executive Version:  	1.9.8
+Executive Release Date:	20200617
+SmarTest Version:   	7.10.6.0
+SmarTest Release Date:	Thu, 04 Aug 2022 08:14:36 +0200
+
+USER_TXT:           	SmarTest
+SITE_MASK:          	0
+
+
+_________________________________________________________________________________________________
+
+
+                      SOFTWARE  BIN  TOTALS  (site 1)
+               Bin           Bin Name             Total      %
+              ------   --------------------      -------   -----
+              100      Lot ID was entered incorrectly. End the lot and start again      1         100.0
+
+
+                      SOFTWARE  BIN  TOTALS 
+               Bin           Bin Name             Total      %
+              ------   --------------------      -------   -----
+              100      Lot ID was entered incorrectly. End the lot and start again      1         100.0
+
+
+                      HARDWARE  BIN  TOTALS  (site 1)
+               Bin           Bin Name             Total      %
+              ------   --------------------      -------   -----
+              5        Func_Fail                 1         100.0
+
+
+                      HARDWARE  BIN  TOTALS 
+               Bin           Bin Name             Total      %
+              ------   --------------------      -------   -----
+              5        Func_Fail                 1         100.0
+
+
+Total Number of devices binned      (all sites) = 1
+Total Number of devices binned         (site 1) = 1
+
+
+Minimum total number of tests executed for Passed device: 0
+Maximum total number of tests executed for Passed device: 0
+
+
+--------  Test  ----------------------                 Total  ---------- Failures ---------       Site
+Number          Name                                   Execs     Total     %/Part   %/Exec        Num
+-------------------------------------------------------------------------------------------------------
+721101          vdd_core                               1         0         0.0      0.0               1
+721101          vdd_core                               1         0         0.0      0.0             ALL
+1000501         Lot_ID                                 1         1         100.0    100.0             1
+1000501         Lot_ID                                 1         1         100.0    100.0           ALL

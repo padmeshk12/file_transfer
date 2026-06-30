@@ -1,0 +1,3 @@
+Device ID    : B9759560
+Tsens_Offset : 67176377
+Tsens_Slope  : 67109904
