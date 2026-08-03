@@ -1,0 +1,68 @@
+/**
+ * Calculates and datalogs settling times for 1% and 10mV windows.
+ * Works for both Range 0 -> 1 and Range 1 -> 0 transitions.
+ *
+ * @param voltArray     Waveform voltage array (e.g., Volt)
+ * @param targetVal     Target final voltage (e.g., 5.25V or 2.75V)
+ * @param sampleTimeUs  Time per sample in microseconds (e.g., 10.0 us)
+ * @param scenarioName  Label for datalog (e.g., "RANGE_0_to_1" or "RANGE_1_to_0")
+ */
+public void calculateAndLogSettlingTime(double[] voltArray, 
+                                        double targetVal, 
+                                        double sampleTimeUs, 
+                                        String scenarioName) {
+
+    // -------------------------------------------------------------------------
+    // 1% Settling Window
+    // -------------------------------------------------------------------------
+    double upper1Percent = targetVal * 1.01;
+    double lower1Percent = targetVal * 0.99;
+    int lastOutside1Percent = -1;
+
+    for (int i = 0; i < voltArray.length; i++) {
+        if (voltArray[i] < lower1Percent || voltArray[i] > upper1Percent) {
+            lastOutside1Percent = i;
+        }
+    }
+    double settlingTime1PercentUs = (lastOutside1Percent + 1) * sampleTimeUs;
+
+    // -------------------------------------------------------------------------
+    // 10 mV Settling Window
+    // -------------------------------------------------------------------------
+    double upper10mV = targetVal + 0.010;
+    double lower10mV = targetVal - 0.010;
+    int lastOutside10mV = -1;
+
+    for (int i = 0; i < voltArray.length; i++) {
+        if (voltArray[i] < lower10mV || voltArray[i] > upper10mV) {
+            lastOutside10mV = i;
+        }
+    }
+    double settlingTime10mVUs = (lastOutside10mV + 1) * sampleTimeUs;
+
+    // -------------------------------------------------------------------------
+    // Debug Print
+    // -------------------------------------------------------------------------
+    System.out.println("=== Settling Time: " + scenarioName + " (Target = " + targetVal + " V) ===");
+    System.out.println("1% Settling Time  : " + settlingTime1PercentUs + " us");
+    System.out.println("10mV Settling Time: " + settlingTime10mVUs + " us");
+
+    // -------------------------------------------------------------------------
+    // Datalogging (HashMap Format)
+    // -------------------------------------------------------------------------
+    Map<String, MultiSiteDouble> resultData;
+
+    // 1. Datalog 1% Settling Time
+    resultData = new HashMap<>();
+    resultData.put("DACP", new MultiSiteDouble(settlingTime1PercentUs));
+    Ptd_Settling_1Percent.setTestText(scenarioName + "_1percent_us").setTestNumber(testNum1);
+    Ptd_Settling_1Percent.evaluate(resultData, measurement);
+    testNum1 += 10;
+
+    // 2. Datalog 10mV Settling Time
+    resultData = new HashMap<>();
+    resultData.put("DACP", new MultiSiteDouble(settlingTime10mVUs));
+    Ptd_Settling_10mV.setTestText(scenarioName + "_10mV_us").setTestNumber(testNum2);
+    Ptd_Settling_10mV.evaluate(resultData, measurement);
+    testNum2 += 10;
+}
